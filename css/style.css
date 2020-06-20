@@ -1,0 +1,90 @@
+body {
+    background: #ccc;
+    color: #333;
+    font-family: Verdana, Arial, Helvetica, sans-serif;
+    font-size: 12px;
+    margin: 0px 18px;
+    padding: 18px;
+    line-height: 1.6;
+}
+
+body a {
+    color: #ffa;
+}
+
+section h1 {
+    color: #ffa;
+    line-height: .8;
+}
+
+section h2 {
+    background-color: #666;
+    padding-left: 5px;
+    color: #fff;
+}
+
+.containerPrincipal {
+    top: 0px;
+    margin: 0px;
+    width: 100%;
+    height: 100%;
+    display: flex;
+}
+
+.topBarContainer {
+    z-index: 1;
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    width: 100%;
+}
+
+.topBar {
+    height: 28px;
+    background-color: #666;
+    display: flex;
+    margin: 0px 36px;
+}
+
+.topBar div {
+    width: 33%;
+}
+
+.topBarTitle {
+    color: #fff;
+    padding: 4px;
+    text-align: center;
+}
+
+.more {
+    padding: 4px;
+}
+
+.flags {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.flag {
+    height: 14px;
+    padding: 7px 4px;
+}
+
+.icoMore {
+    height: 20px;
+}
+
+.pagina {
+    z-index: 0;
+    background-color: #333;
+    color: #ccc;
+    margin: 0px;
+    padding: 18px;
+    width: 100%;
+}
+
+.txtAmarelo {
+    color: #ffa;
+}
+
+@media screen and (max-width: 700px) {}
