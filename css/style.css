@@ -46,32 +46,34 @@ section h2 {
     margin: 0px 36px;
 }
 
-.topBar div {
-    width: 33%;
-}
-
 .topBarTitle {
+    width: 80%;
     color: #fff;
     padding: 4px;
     text-align: center;
 }
 
 .more {
+    width: 8%;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.icoMore {
     padding: 4px;
+    height: 20px;
 }
 
 .flags {
+    width: 10%;
     display: flex;
+    flex-wrap: wrap;
     justify-content: flex-end;
 }
 
 .flag {
     height: 14px;
     padding: 7px 4px;
-}
-
-.icoMore {
-    height: 20px;
 }
 
 .pagina {
@@ -87,4 +89,31 @@ section h2 {
     color: #ffa;
 }
 
-@media screen and (max-width: 700px) {}
+@media screen and (min-width: 1380px) {
+    .containerPrincipal,
+    .topBar {
+        width: 1280px;
+    }
+    body,
+    .topBarContainer {
+        display: flex;
+        justify-content: center;
+    }
+}
+
+@media screen and (max-width: 775px) {
+    .topBar {
+        height: 64px;
+    }
+    .topBarTitle {
+        padding: 6px 10px;
+    }
+    .pagina {
+        padding: 48px 18px;
+    }
+    .flag,
+    .icoMore {
+        padding: 0px;
+        height: 32px;
+    }
+}
