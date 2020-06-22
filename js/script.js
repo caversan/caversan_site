@@ -47,13 +47,13 @@ try {
         document.getElementsByClassName("opportunity")[0].innerHTML = "<h2>" + loadedJson.sections.opportunity.title + ":</h2><article>" + loadedJson.sections.opportunity.description + "</article>";
         document.getElementsByClassName("profile")[0].innerHTML = "<h2>" + loadedJson.sections.profile.title + ":</h2><article>" + loadedJson.sections.profile.description + "</article>";
         document.getElementsByClassName("skills")[0].innerHTML = "<h2>" + loadedJson.sections.skills.title + ":</h2><article>" + loadedJson.sections.skills.description + "</article>";
-        //for (i = 0; i < loadedJson.sections.skills.grid.lenght; i++) {
-        console.log(loadedJson.sections.skills.grid.item.title)
-        for (i = 0; i < loadedJson.sections.skills.grid.item.lenght; i++) {
-            console.log(i);
-            //document.getElementsByClassName("skillsGrid")[0].innerHTML += "<h2>" + loadedJson.sections.skills.grid.item[i].title + ":</h2><article>" + loadedJson.sections.skills.grid.item[i].description + "</article>";
+        document.getElementsByClassName("skills")[0].innerHTML += "<br/><span class=\"skillsGrid\"></span>"
+
+        for (i in loadedJson.sections.skills.grid) {
+            document.getElementsByClassName("skillsGrid")[0].innerHTML += "<div class=\"gridItem\"><div class=\"gridItemTitle\">" + loadedJson.sections.skills.grid[i].title + "</div><div class=\"gridItemDescription\">" + loadedJson.sections.skills.grid[i].description + "</artidivcle></div>";
         }
 
+        document.getElementsByClassName("languages")[0].innerHTML = "<h2>" + loadedJson.sections.languages.title + ":</h2><article>" + loadedJson.sections.languages.title + "</article>";
 
         /*for (var key in loadedJson.sections) {
             console.log("key " + key + " has value " + loadedJson.sections[key]);

@@ -64,555 +64,353 @@
         "skills": {
             "title": "Conhecimento técnico",
             "description": "Conhecimentos avançados de programação para frontend web, multimídia e de jogos, conhecimentos básicos do backend garantindo um perfil fullstack, especialista no pacote Adobe Creative Suite, scripts para manipulação em lote, programação de aplicativos desktop para windows .net. Experiência em agências digitais web e multimídia, publicidade, estúdios criativos e estúdio de jogos. Experiência em startups que se tornaram unicórnios digitais. Conhecimentos em ao menos uma ferramenta opensource para cada tecnologia conhecida garantindo baixo custo de licenciamento de software.",
-            "grid": {
-                "item": {
+            "grid": [{
                     "title": "ÁUDIO",
-                    "description": "Captura, mixagem, sintetização, edição, efeitos especiais, sincronização de áudio e vídeo, encoding, maipulação em lote. Transmissão web ondemand e broadcast, players desktop para rádio corporativa e som ambiente.",
-                    "technologies": {
-                        "item": "Sound Forge",
-                        "item": "Audacity",
-                        "item": "Adobe Audition",
-                        "item": "Ardour"
-                    }
+                    "description": "Captura, mixagem, sintetização, edição, efeitos especiais, sincronização de áudio e vídeo, encoding, maipulação em lote. Transmissão web ondemand e broadcast, players desktop para rádio corporativa e som ambiente. Tecnologias: Sound Forge, Audacity, Adobe Audition, Ardour"
                 },
-                "item": {
+                {
                     "title": "VÍDEO/PRODUÇÃO",
-                    "description": "Direção, filmagem, edição, linear e não linear, produção e pós-produção, efeitos especiais, motionscript, encoding scripts de renderização em lote. Transmisão de vídeo ao vivo por streaming broadcast e ondemand, web players e desktop players para TV Corporativa e Digital Signage",
-                    "technologies": {
-                        "item": "Adobe Première",
-                        "item": "Sony Vegas Vídeo",
-                        "item": "VirtualDub",
-                        "item": "FFMPEG",
-                        "item": "Kdenlive",
-                        "item": "Natron",
-                        "item": "Open Broadcaster Software | OBS",
-                        "item": "Adobe Media Encoder",
-                        "item": "Blackmagic "
-                    }
+                    "description": "Direção, filmagem, edição, linear e não linear, produção e pós-produção, efeitos especiais, motionscript, encoding scripts de renderização em lote. Transmisão de vídeo ao vivo por streaming broadcast e ondemand, web players e desktop players para TV Corporativa e Digital Signage Tecnologias: Adobe Première, Sony Vegas Vídeo, VirtualDub, FFMPEG, Kdenlive, Natron, Open Broadcaster Software | OBS, Adobe Media Encoder, Blackmagic "
                 },
-                "item": {
+                {
                     "title": "3D",
-                    "description": "Modelagem, animação, render, esqueletos, efeitos físicos, iluminação e cenário, adobe flash e director, motionscript, scripts de renderização em lote, programação e games.",
-                    "technologies": {
-                        "item": "Blender",
-                        "item": "Unity 3D",
-                        "item": "3D Max",
-                        "item": "Lightwave",
-                        "item": "Maya",
-                        "item": "VRML e X3D",
-                        "item": "Web GL",
-                        "item": "(AS3) Flash 3",
-                        "item": "(LINGO) Director 3D"
-                    }
+                    "description": "Modelagem, animação, render, esqueletos, efeitos físicos, iluminação e cenário, adobe flash e director, motionscript, scripts de renderização em lote, programação e games. Tecnologias: Blender, Unity 3D, 3D Max, Lightwave, Maya, VRML e X3D, Web GL, (AS3) Flash 3, (LINGO) Director 3D"
                 },
-                "item": {
+                {
                     "title": "ANIMAÇÃO/PÓS-PRODUÇÃO",
-                    "description": "Conceito e teoria da animação e análise do movimento, flash, actionscript, 3D, after-effects, motionscript.",
-                    "technologies": {
-                        "item": "Adobe After Effects",
-                        "item": "Adobe Flash",
-                        "item": "Adobe Animator",
-                        "item": "Spine",
-                        "item": "Black Magic Davinci Resolve",
-                        "item": "Black Magic Fusion"
-                    }
-                },
-                "item": {
+                    "description": "Conceito e teoria da animação e análise do movimento, flash, actionscript, 3D, after-effects, motionscript. Tecnologias: Adobe After Effects, Adobe Flash, Adobe Animator, Spine, Black Magic Davinci Resolve, Black Magic Fusion"
+                }, {
                     "title": "DIGITAL SIGNAGE E MULTIMÍDIA",
-                    "description": "Conteúdo audiovisual interativo ou não para Outernet, Digital Signage indoor e outdoor, Publicidade Out of Home (DOOH), Cd-Rom, Totens, Stand para feiras e eventos, Ad games, DVD, apresentações audiovisuais para pequenos e grandes eventos, TV Corporativa.",
-                    "technologies": {
-                        "item": "Adobe Flash",
-                        "item": "Unity 3D",
-                        "item": "Macromedia Director",
-                        "item": "Godot",
-                        "item": "Visual Studio",
-                        "item": "Qt",
-                        "item": "NodeJS"
-                    }
-                },
-                "item": {
+                    "description": "Conteúdo audiovisual interativo ou não para Outernet, Digital Signage indoor e outdoor, Publicidade Out of Home (DOOH), Cd-Rom, Totens, Stand para feiras e eventos, Ad games, DVD, apresentações audiovisuais para pequenos e grandes eventos, TV Corporativa. Tecnologias: Adobe Flash, Unity 3D, Macromedia Director, Godot, Visual Studio, Qt, NodeJS"
+                }, {
                     "title": "ILUSTRAÇÃO E TIPOGRAFIA",
-                    "description": "Mão livre, bitmap e vetorial, ilustração e catoon. Iconografia (criação de ícones exclusivos) Logotipo e manual de marca, fontes para tipografia exclusiva.",
-                    "technologies": {
-                        "item": "Adobe Illustrator",
-                        "item": "Free Hand",
-                        "item": "Corel Draw",
-                        "item": "Painter",
-                        "item": "InkScape",
-                        "item": "Krita",
-                        "item": "Gimp",
-                        "item": "Adobe Photoshop",
-                        "item": "Fontographer",
-                        "item": "FontForge"
-                    }
-                },
-                "item": {
+                    "description": "Mão livre, bitmap e vetorial, ilustração e catoon. Iconografia (criação de ícones exclusivos) Logotipo e manual de marca, fontes para tipografia exclusiva. Tecnologias: Adobe Illustrator, Free Hand, Corel Draw, Painter, InkScape, Krita, Gimp, Adobe Photoshop, Fontographer, FontForge"
+                }, {
                     "title": "EDITORAÇÃO GRÁFICA",
-                    "description": "Elaboração de material gráfico impresso como folhetos, cartazes, jornais, revistas, brindes e embalagens.",
-                    "technologies": {
-                        "item": "Adobe Indesign",
-                        "item": "Adobe Page Maker",
-                        "item": "Adobe Acrobat",
-                        "item": "Scribus"
-                    }
-                },
-                "item": {
+                    "description": "Elaboração de material gráfico impresso como folhetos, cartazes, jornais, revistas, brindes e embalagens. Tecnologias: Adobe Indesign, Adobe Page Maker, Adobe Acrobat, Scribus"
+                }, {
                     "title": "FOTOGRAFIA",
-                    "description": "Conhecimento técnico e teórico de foto analógica e digital, técnicas de iluminação e estúdio, scripts de manipulação de imagens em lote, edição e tratamento de imagem, script de tratamento de imagens em lote.",
-                    "technologies": {
-                        "item": "Estúdio e iluminação",
-                        "item": "Fotografia luz natural",
-                        "item": "Fotojornalismo",
-                        "item": "Adobe Photoshop",
-                        "item": "Gimp"
-                    }
-                },
-                "item": {
+                    "description": "Conhecimento técnico e teórico de foto analógica e digital, técnicas de iluminação e estúdio, scripts de manipulação de imagens em lote, edição e tratamento de imagem, script de tratamento de imagens em lote. Tecnologias: Estúdio e iluminação, Fotografia luz natural, Fotojornalismo, Adobe Photoshop, Gimp"
+                }, {
                     "title": "PROGRAMAÇÃO E BANCO DE DADOS",
-                    "description": "ActionScript 2 e ActionScript 3, conteúdo dinâmico PHP/MySql, CSS2 e CSS3, tableless, APIs do Google, JQuery, Ajax, Frameworks JavaScript, aplicativos para desktop.",
-                    "technologies": {
-                        "item": "DHTML",
-                        "item": "ActionScript 1, 2 e 3",
-                        "item": "ASP",
-                        "item": "PHP",
-                        "item": "CGI",
-                        "item": "Javascript",
-                        "item": "Lingo",
-                        "item": ".Net, C#",
-                        "item": "C,C++",
-                        "item": "Java / Android",
-                        "item": "Python/Pygame",
-                        "item": "MySQL",
-                        "item": "Access",
-                        "item": "Qt"
-                    }
-                },
-                "item": {
+                    "description": "ActionScript 2 e ActionScript 3, conteúdo dinâmico PHP/MySql, CSS2 e CSS3, tableless, APIs do Google, JQuery, Ajax, Frameworks JavaScript, aplicativos para desktop. Tecnologias: DHTML, ActionScript 1, 2 e 3, ASP, PHP, CGI, Javascript, Lingo, .Net, C#, C,C++, Java / Android, Python/Pygame, MySQL, Access, Qt"
+                }, {
                     "title": "JOGOS",
-                    "description": "Jogos para as mais variadas plataformas e para os mais variados públicos: Consoles, internet, publicidade (Ad games), mobile, e-learning e treinamento corporativo. Artista Técnico, geração de texturas e mapas de sprites, fontes e conteúdo audiovisual, criação de asssets para jogos, programação das mecânicas de jogo, efeitos especiais, efeitos físicos, movimentos. Level design",
-                    "technologies": {
-                        "item": "Adobe Flash CS5 / AS2 AS3",
-                        "item": "Macromedia Director 2D/3D",
-                        "item": "Unity 3D / C#",
-                        "item": "Godot",
-                        "item": "Unreal",
-                        "item": "XNA",
-                        "item": "Java / Android",
-                        "item": "Pygame / Blender 3D",
-                        "item": "C C++",
-                        "item": "Texture Packer"
-                    }
-                },
-                "item": {
+                    "description": "Jogos para as mais variadas plataformas e para os mais variados públicos: Consoles, internet, publicidade (Ad games), mobile, e-learning e treinamento corporativo. Artista Técnico, geração de texturas e mapas de sprites, fontes e conteúdo audiovisual, criação de asssets para jogos, programação das mecânicas de jogo, efeitos especiais, efeitos físicos, movimentos. Level design Tecnologias: Adobe Flash CS5 / AS2 AS3, Macromedia Director 2D/3D, Unity 3D / C#, Godot, Unreal, XNA, Java / Android, Pygame / Blender 3D, C C++, Texture Packer"
+                }, {
                     "title": "EDITORAÇÃO WEB E FRONTEND",
-                    "description": "Criação de sites responsivos e multiplataforma utilizando sempre as últimas tendências de frontend.",
-                    "technologies": {
-                        "item": "Drupal",
-                        "item": "Wordpress",
-                        "item": "XHTML",
-                        "item": "HTML 3, 4 e 5",
-                        "item": "CSS",
-                        "item": "XML",
-                        "item": "Javascript(Puro e Frameworks)",
-                        "item": "Angular",
-                        "item": "Jquery",
-                        "item": "Json",
-                        "item": "Adobe Dreamweaver",
-                        "item": "VS Code",
-                        "item": "Google Analitics e SEO"
-                    }
-                },
-                "item": {
+                    "description": "Criação de sites responsivos e multiplataforma utilizando sempre as últimas tendências de frontend. Tecnologias: Drupal, Wordpress, XHTML, HTML 3, 4 e 5, CSS, XML, Javascript(Puro e Frameworks), Angular, Jquery, Json, Adobe Dreamweaver, VS Code, Google Analitics e SEO"
+                }, {
                     "title": "SISTEMAS OPERACIONAIS",
-                    "description": "Usuário avançado e administrador de sistemas, conhecimento abrangente do funcionamento software/hardware, otimização de sistemas, redes, segurança e diretivas de grupo.",
-                    "technologies": {
-                        "item": "MacOS",
-                        "item": "Linux",
-                        "item": "Windows",
-                        "item": "Android",
-                        "item": "Powershell, Batch e Shell"
-                    }
+                    "description": "Usuário avançado e administrador de sistemas, conhecimento abrangente do funcionamento software/hardware, otimização de sistemas, redes, segurança e diretivas de grupo. Tecnologias: MacOS, Linux, Windows, Android, Powershell, Batch e Shell"
                 }
-            }
+            ]
         },
         "languages": {
             "title": "Idiomas",
-            "grid": {
-                "item": "Inglês (Avançado) - TOEFL(2015) 450 pontos",
-                "item": "Espanhol (Leitura Técnica)",
-                "item": "Português (Nativo)"
-            }
+            "grid": ["Inglês (Avançado) - TOEFL(2015) 450 pontos", "Espanhol (Leitura Técnica)", "Português (Nativo)"]
+
         },
         "graduation": {
             "title": "Escolaridade",
-            "grid": {
-                "item": {
-                    "title": "Superior em Análise de Sistemas (Ênfase em Jogos Digitais)",
-                    "description": "FATEC/SP - início Ago/2011 - formado em Jul/2015 - Título Técnólogo."
-                },
-                "item": {
-                    "title": "Superior em Publicidade e Propaganda",
-                    "description": "FIZO - início Fev/2009 - curso trancado no 3º semestre."
-                },
-                "item": {
-                    "title": "Superior em Criação e Produção Gráfica Digital",
-                    "description": "Unip - início Ago/2006 - curso trancado no 4º semestre."
-                },
-                "item": {
-                    "title": "Superior em Design de Multimídia",
-                    "description": "SENAC/SP - início Fev/2001 - curso trancado no 4º semestre."
-                }
-            }
+            "grid": [{
+                "title": "Superior em Análise de Sistemas (Ênfase em Jogos Digitais)",
+                "description": "FATEC/SP - início Ago/2011 - formado em Jul/2015 - Título Técnólogo."
+            }, {
+                "title": "Superior em Publicidade e Propaganda",
+                "description": "FIZO - início Fev/2009 - curso trancado no 3º semestre."
+            }, {
+                "title": "Superior em Criação e Produção Gráfica Digital",
+                "description": "Unip - início Ago/2006 - curso trancado no 4º semestre."
+            }, {
+                "title": "Superior em Design de Multimídia",
+                "description": "SENAC/SP - início Fev/2001 - curso trancado no 4º semestre."
+            }]
         },
         "courses": {
             "title": "Cursos e especializações",
-            "grid": {
-                "item": {
-                    "title": "AngularJS",
-                    "description": "Loiane.training – 2020 (duração 28 horas)."
-                },
-                "item": {
-                    "title": "Web Moderno Completo",
-                    "description": "Udemy - 2020 (duração 88 horas)"
-                },
-                "item": {
-                    "title": "Oficina de desenho",
-                    "description": "Escola de artes de Osasco - SP - 2006 (duração 60 horas)."
-                },
-                "item": {
-                    "title": "Filmagem e direção",
-                    "description": "Senac - SP - 2003 (duração 20 horas)."
-                },
-                "item": {
-                    "title": "Oficina de game",
-                    "description": "Senac - SP - 2002 (grupo de estudos - duração 1 ano)."
-                },
-                "item": {
-                    "title": "Lightwave 3D modelagem e animação",
-                    "description": "Senac - SP - 2002 (duração 60 horas)."
-                },
-                "item": {
-                    "title": "Curso de Web Design",
-                    "description": "Senac - SP - 2000 (duração 96 horas)."
-                },
-                "item": {
-                    "title": "Curso de Artes Gráficas",
-                    "description": "Fundação Bradesco - 1992 (duração 12 meses)."
-                }
-            }
+            "grid": [{
+                "title": "AngularJS",
+                "description": "Loiane.training – 2020 (duração 28 horas)."
+            }, {
+                "title": "Web Moderno Completo",
+                "description": "Udemy - 2020 (duração 88 horas)"
+            }, {
+                "title": "Oficina de desenho",
+                "description": "Escola de artes de Osasco - SP - 2006 (duração 60 horas)."
+            }, {
+                "title": "Filmagem e direção",
+                "description": "Senac - SP - 2003 (duração 20 horas)."
+            }, {
+                "title": "Oficina de game",
+                "description": "Senac - SP - 2002 (grupo de estudos - duração 1 ano)."
+            }, {
+                "title": "Lightwave 3D modelagem e animação",
+                "description": "Senac - SP - 2002 (duração 60 horas)."
+            }, {
+                "title": "Curso de Web Design",
+                "description": "Senac - SP - 2000 (duração 96 horas)."
+            }, {
+                "title": "Curso de Artes Gráficas",
+                "description": "Fundação Bradesco - 1992 (duração 12 meses)."
+            }]
         },
-        "experience": {
-            "item": {
-                "title": "Set/2015 até hoje na IGS International Solutions - Cargo: Designer Sênior (Líder Artistas Técnicos)",
-                "description": "Atribuições:<br/>Especialista Adobe em desenvolvimento de jogos digitais. Desenvolvimento de scripts para automatizar e otimizar a criação de conteúdo gráfico para jogos utilizando ffmpeg, imagemagick, javascript, batch e shell script. Prover as posições e características das animações feitas no after effects de forma automatizada por meio de xml, json motionscript e Adobe Extend Script que no final é importado pela engine de jogos. Suprir a engine de jogos com todo material gráfico e audiovisual. Participação no projeto de modernização tecnológica e remasterização visual de todo o portifólio de jogos da Ortiz Gaming tendo contato com a plataforma legada feita para MS-DOS e C em baixa resolução e tecnologias das décadas de 80 e 90.",
-                "link": "http://www.ortizgaming.com/"
-            },
-            "item": {
-                "title": "Set/2013 até Set/2015 na Atmo Mídia Digital Corporativa - Cargo: Programador Flash",
-                "description": "Atribuições:<br/> - Análise e desenvolvimento de sistemas para Digital Signage, totens e multimídia além de sistemas para streaming de vídeo e vídeo sob demanda ou ao vivo; <br/> -Configuração e otimização de ambientes baseados em windows, linux, android e java; <br/> -Pesquisa, desenvolvimento e homologação de ambientes de hardware baseados nas arquiteturas ARM e x86 para decoders de video e thin clients para digital signage, totens e multimídia; <br/> -Coordenação da equipe de implantação e manutenção de hardware e software; <br/> -Negociação técnica de itens de hardware e software com fornecedores e prestadores de serviços no brasil e no exterior.",
-                "link": "http://www.atmodigital.com.br/"
-            },
-            "item": {
-                "title": "Jun/2013 até Set/2013 na Unidas Rent a Car - Cargo: Analista de Marketing Digital.",
-                "description": "Atribuições:<br/> -Coordenação de projetos para mídia on - line; <br/>-Análise de métricas do portal Unidas; <br/>-Análise de sistemas web; <br/>-Manutenção de conteúdo do portal Unidas; <br/>-Layouts para mídia on - line e impressa; <br/>-Edição e tratamento de vídeo; <br/>-Produção de e-mail Marketing.",
-                "link": "http://www.unidas.com.br"
-            },
-            "item": {
-                "title": "Ago/2007 até Mai/2013 na Elemidia Empresas - Cargo: Programador",
-                "description": "Atribuições: <br/> -Programação Actionscript 2 para a manutenção e desenvolvimento de novas funcionalidades para software de Digital Signage e Tv Corporativa da Elemidia Empresas;<br/>-Layouts para o softwares de TV Corporativa baseados na identidade visual do cliente; <br/>-Animações e vinhetas em 2 D; <br/>-Edição e tratamento de vídeo; <br/>-Cases de grandes empresas nacionais e multinacionais.Participação em mais de 250 projetos.",
-                "link": "http://www.elemidia.com.br"
-            },
-            "item": {
-                "title": "Nov/2006 até Mar/2007 na Edições Paulinas - Cargo: Web-Designer.",
-                "description": "Atribuições:<br/> Atualização do conteúdo do Portal Paulinas envolvendo banners e aplicações em flash, aplicações em ASP, conteúdo audiovisual, suporte ao internauta, html, css, imagens.",
-                "link": "http://www.paulinas.org.br/"
-            },
-            "item": {
-                "title": "Set/2005 até Nov/2006 na LC2 (parceria com a TCPcom) Cargo: Web-Developer Pleno.",
-                "description": "Atribuições:<br/> Diagramação e produção de web - sites institucionais, hot-sites, web - sites dinâmicos, banco de dados, web-marketing, suporte técnico, revenda de hospedagem, cPanel, atualização, alguns trabalhos gráficos e de multimídia.",
-                "link": ""
-            },
-            "item": {
-                "title": "Dez/2004 até Ago/2005 Cargo: Bit-Click Photo Digital Cargo: Operador de Vídeo.",
-                "description": "Cobertura de foto e vídeo em feiras, eventos e festas, edição de vídeo, efeitos especiais, vinhetas.",
-                "link": ""
-            },
-            "item": {
-                "title": "Nov/2002 até Dez/2004 na Yazz Design Cargo: Diretor de arte - Multimídia.",
-                "description": "Atribuições:<br/> Gerência de projetos e análise de custos para web e multimídia, produção em web multimídia, artes gráficas, ilustração, diagramação, coordenação de equipe para foto e vídeo, suporte ao cliente.",
-                "link": "http://www.yazz.com.br"
-            },
-            "item": {
-                "title": "Abril/2002 até Out/2002 na Dialeto Comunicação Cargo: Web-Designer.",
-                "description": "Atribuições:<br/> Diagramação e produção de web - sites institucionais, hot-sites, web - sites dinâmicos, web-marketing, suporte técnico, atualização, alguns trabalhos gráficos e de multimídia",
-                "link ": ""
-            },
-            "item": {
-                "title": "Nov/2000 até Dez/2001 na TCPcom Ltda Cargo: Web-Designer",
-                "description": "Atribuições:<br/>Diagramação e produção de web - sites institucionais, hot-sites, web-marketing, suporte técnico, atualização, desenho técnico(AutoCad), alguns trabalhos gráficos e de multimídia. <br/> ",
-                "link": ""
-            }
-        },
+        "experience": [{
+            "title": "Set/2015 até hoje na IGS International Solutions - Cargo: Designer Sênior (Líder Artistas Técnicos)",
+            "description": "Atribuições:<br/>Especialista Adobe em desenvolvimento de jogos digitais. Desenvolvimento de scripts para automatizar e otimizar a criação de conteúdo gráfico para jogos utilizando ffmpeg, imagemagick, javascript, batch e shell script. Prover as posições e características das animações feitas no after effects de forma automatizada por meio de xml, json motionscript e Adobe Extend Script que no final é importado pela engine de jogos. Suprir a engine de jogos com todo material gráfico e audiovisual. Participação no projeto de modernização tecnológica e remasterização visual de todo o portifólio de jogos da Ortiz Gaming tendo contato com a plataforma legada feita para MS-DOS e C em baixa resolução e tecnologias das décadas de 80 e 90.",
+            "link": "http://www.ortizgaming.com/"
+        }, {
+            "title": "Set/2013 até Set/2015 na Atmo Mídia Digital Corporativa - Cargo: Programador Flash",
+            "description": "Atribuições:<br/> - Análise e desenvolvimento de sistemas para Digital Signage, totens e multimídia além de sistemas para streaming de vídeo e vídeo sob demanda ou ao vivo; <br/> -Configuração e otimização de ambientes baseados em windows, linux, android e java; <br/> -Pesquisa, desenvolvimento e homologação de ambientes de hardware baseados nas arquiteturas ARM e x86 para decoders de video e thin clients para digital signage, totens e multimídia; <br/> -Coordenação da equipe de implantação e manutenção de hardware e software; <br/> -Negociação técnica de itens de hardware e software com fornecedores e prestadores de serviços no brasil e no exterior.",
+            "link": "http://www.atmodigital.com.br/"
+        }, {
+            "title": "Jun/2013 até Set/2013 na Unidas Rent a Car - Cargo: Analista de Marketing Digital.",
+            "description": "Atribuições:<br/> -Coordenação de projetos para mídia on - line; <br/>-Análise de métricas do portal Unidas; <br/>-Análise de sistemas web; <br/>-Manutenção de conteúdo do portal Unidas; <br/>-Layouts para mídia on - line e impressa; <br/>-Edição e tratamento de vídeo; <br/>-Produção de e-mail Marketing.",
+            "link": "http://www.unidas.com.br"
+        }, {
+            "title": "Ago/2007 até Mai/2013 na Elemidia Empresas - Cargo: Programador",
+            "description": "Atribuições: <br/> -Programação Actionscript 2 para a manutenção e desenvolvimento de novas funcionalidades para software de Digital Signage e Tv Corporativa da Elemidia Empresas;<br/>-Layouts para o softwares de TV Corporativa baseados na identidade visual do cliente; <br/>-Animações e vinhetas em 2 D; <br/>-Edição e tratamento de vídeo; <br/>-Cases de grandes empresas nacionais e multinacionais.Participação em mais de 250 projetos.",
+            "link": "http://www.elemidia.com.br"
+        }, {
+            "title": "Nov/2006 até Mar/2007 na Edições Paulinas - Cargo: Web-Designer.",
+            "description": "Atribuições:<br/> Atualização do conteúdo do Portal Paulinas envolvendo banners e aplicações em flash, aplicações em ASP, conteúdo audiovisual, suporte ao internauta, html, css, imagens.",
+            "link": "http://www.paulinas.org.br/"
+        }, {
+            "title": "Set/2005 até Nov/2006 na LC2 (parceria com a TCPcom) Cargo: Web-Developer Pleno.",
+            "description": "Atribuições:<br/> Diagramação e produção de web - sites institucionais, hot-sites, web - sites dinâmicos, banco de dados, web-marketing, suporte técnico, revenda de hospedagem, cPanel, atualização, alguns trabalhos gráficos e de multimídia.",
+            "link": ""
+        }, {
+            "title": "Dez/2004 até Ago/2005 Cargo: Bit-Click Photo Digital Cargo: Operador de Vídeo.",
+            "description": "Cobertura de foto e vídeo em feiras, eventos e festas, edição de vídeo, efeitos especiais, vinhetas.",
+            "link": ""
+        }, {
+            "title": "Nov/2002 até Dez/2004 na Yazz Design Cargo: Diretor de arte - Multimídia.",
+            "description": "Atribuições:<br/> Gerência de projetos e análise de custos para web e multimídia, produção em web multimídia, artes gráficas, ilustração, diagramação, coordenação de equipe para foto e vídeo, suporte ao cliente.",
+            "link": "http://www.yazz.com.br"
+        }, {
+            "title": "Abril/2002 até Out/2002 na Dialeto Comunicação Cargo: Web-Designer.",
+            "description": "Atribuições:<br/> Diagramação e produção de web - sites institucionais, hot-sites, web - sites dinâmicos, web-marketing, suporte técnico, atualização, alguns trabalhos gráficos e de multimídia",
+            "link ": ""
+        }, {
+            "title": "Nov/2000 até Dez/2001 na TCPcom Ltda Cargo: Web-Designer",
+            "description": "Atribuições:<br/>Diagramação e produção de web - sites institucionais, hot-sites, web-marketing, suporte técnico, atualização, desenho técnico(AutoCad), alguns trabalhos gráficos e de multimídia. <br/> ",
+            "link": ""
+        }],
         "portfolio": {
             "title": "Alguns trabalhos realizados",
-            "grid": {
-                "item": {
+            "grid": [{
                     "title": "WEB",
-                    "grid": {
-                        "item": {
-                            "title": "2010 - Mantu",
-                            "description": "Web-site para casa de shows.<br/><br/>Recursos utilizados: Site em PHP, XML e MySql com cadastro de usuários, acesso restrito ao albúm de fotos, Gerenciador de banners OpenX, integração com a API do Google Maps, Google Analytics, além de recursos avançados de CSS3 e JQuery.",
-                            "thumb": "thumbs/mantu.jpg",
-                            "content": "img/mantu.jpg"
-                        },
-                        "item": {
-                            "title": "2010 - Porto Velho Bar",
-                            "description": "Web-site casa de shows.<br/><br/>Recursos utilizados: Animação do lay-out no flash, integração do flash com o XML a fim de facilitar a atualização do conteúdo. Carregamento do site otimizado afim de primeiro carregarmos primeiro o conteúdo de maior importância e por último as imagens e planos de fundo, esta página possui uma versão mobile que é acessada automaticamente quando o acesso não provenha de um desktop.",
-                            "thumb": "thumbs/quick.jpg",
-                            "content": "img/quick.jpg"
-                        },
-                        "item": {
-                            "title": "2007 - QuickSand",
-                            "description": "Web-site institucional para Fabricante de calçados.<br/><br/>Recursos utilizados: Animação do lay - out no flash, tratamento de imagens, foto montagem.Com o uso do Photoshop o logotipo da empresa foi inserido em diversas montagens.O carro deste thumbnail por exemplo era preto e não tinha a pintura do fogo que foi inserida a partir da foto de uma fogueira.",
-                            "thumb": "thumbs/quick.jpg",
-                            "content": "img/quick.jpg"
-                        },
-                        "item": {
-                            "title": "2006 - Bunny's verão",
-                            "description": "Web-site institucional para rede de lojas de moda.<br/><br/>Recursos utilizados: Animação do lay-out no flash, sonorização, tratamento de imagens, formulário de contato em asp.",
-                            "thumb": "thumbs/bunnys3.jpg",
-                            "content": "img/bunnys3.jpg"
-                        },
-                        "item": {
-                            "title": "2006 - Bunny's inverno",
-                            "description": "Web-site institucional para rede de lojas de moda.<br/><br/>Recursos utilizados: Animação do lay-out no flash, sonorização, tratamento de imagens, formulário de contato em asp.",
-                            "thumb": "thumbs/bunnys2.jpg",
-                            "content": "img/bunnys2.jpg"
-                        },
-                        "item": {
-                            "title": "2005 - Bunny's verão",
-                            "description": "Web-site institucional para rede de lojas de moda.<br/><br/>Recursos utilizados: Animação do lay-out no flash, sonorização, tratamento de imagens, formulário de contato em asp.",
-                            "thumb": "thumbs/bunnys1.jpg",
-                            "content": "img/bunnys1.jpg"
-                        },
-                        "item": {
-                            "title": "2005 - Club B!",
-                            "description": "Web-site institucional para rede de lojas de moda.<br/><br/>Recursos utilizados: Animação do lay-out no flash, sonorização, tratamento de imagens, formulário de contato em asp.",
-                            "thumb": "thumbs/clubb.jpg",
-                            "content": "img/clubb.jpg"
-                        },
-                        "item": {
-                            "title": "2002 - JAD Logística",
-                            "description": "Web-Site institucional em Flash.",
-                            "thumb": "thumbs/jad.jpg",
-                            "content": "img/jad.jpg"
-                        },
-                        "item": {
-                            "title": "2010 - Gigabyte",
-                            "description": "Email marketing.",
-                            "thumb": "thumbs/gigabyte.jpg",
-                            "content": "img/gigabyte.jpg"
-                        }
-                    }
+                    "grid": [{
+                        "title": "2010 - Mantu",
+                        "description": "Web-site para casa de shows.<br/><br/>Recursos utilizados: Site em PHP, XML e MySql com cadastro de usuários, acesso restrito ao albúm de fotos, Gerenciador de banners OpenX, integração com a API do Google Maps, Google Analytics, além de recursos avançados de CSS3 e JQuery.",
+                        "thumb": "thumbs/mantu.jpg",
+                        "content": "img/mantu.jpg"
+                    }, {
+                        "title": "2010 - Porto Velho Bar",
+                        "description": "Web-site casa de shows.<br/><br/>Recursos utilizados: Animação do lay-out no flash, integração do flash com o XML a fim de facilitar a atualização do conteúdo. Carregamento do site otimizado afim de primeiro carregarmos primeiro o conteúdo de maior importância e por último as imagens e planos de fundo, esta página possui uma versão mobile que é acessada automaticamente quando o acesso não provenha de um desktop.",
+                        "thumb": "thumbs/quick.jpg",
+                        "content": "img/quick.jpg"
+                    }, {
+                        "title": "2007 - QuickSand",
+                        "description": "Web-site institucional para Fabricante de calçados.<br/><br/>Recursos utilizados: Animação do lay - out no flash, tratamento de imagens, foto montagem.Com o uso do Photoshop o logotipo da empresa foi inserido em diversas montagens.O carro deste thumbnail por exemplo era preto e não tinha a pintura do fogo que foi inserida a partir da foto de uma fogueira.",
+                        "thumb": "thumbs/quick.jpg",
+                        "content": "img/quick.jpg"
+                    }, {
+                        "title": "2006 - Bunny's verão",
+                        "description": "Web-site institucional para rede de lojas de moda.<br/><br/>Recursos utilizados: Animação do lay-out no flash, sonorização, tratamento de imagens, formulário de contato em asp.",
+                        "thumb": "thumbs/bunnys3.jpg",
+                        "content": "img/bunnys3.jpg"
+                    }, {
+                        "title": "2006 - Bunny's inverno",
+                        "description": "Web-site institucional para rede de lojas de moda.<br/><br/>Recursos utilizados: Animação do lay-out no flash, sonorização, tratamento de imagens, formulário de contato em asp.",
+                        "thumb": "thumbs/bunnys2.jpg",
+                        "content": "img/bunnys2.jpg"
+                    }, {
+                        "title": "2005 - Bunny's verão",
+                        "description": "Web-site institucional para rede de lojas de moda.<br/><br/>Recursos utilizados: Animação do lay-out no flash, sonorização, tratamento de imagens, formulário de contato em asp.",
+                        "thumb": "thumbs/bunnys1.jpg",
+                        "content": "img/bunnys1.jpg"
+                    }, {
+                        "title": "2005 - Club B!",
+                        "description": "Web-site institucional para rede de lojas de moda.<br/><br/>Recursos utilizados: Animação do lay-out no flash, sonorização, tratamento de imagens, formulário de contato em asp.",
+                        "thumb": "thumbs/clubb.jpg",
+                        "content": "img/clubb.jpg"
+                    }, {
+                        "title": "2002 - JAD Logística",
+                        "description": "Web-Site institucional em Flash.",
+                        "thumb": "thumbs/jad.jpg",
+                        "content": "img/jad.jpg"
+                    }, {
+                        "title": "2010 - Gigabyte",
+                        "description": "Email marketing.",
+                        "thumb": "thumbs/gigabyte.jpg",
+                        "content": "img/gigabyte.jpg"
+                    }]
                 },
-                "item": {
+                {
                     "title": "DIGITAL SIGNAGE",
-                    "grid": {
-                        "item": {
-                            "title": "2009 - Philips",
-                            "description": "Software para Digital Signage feito em actionscript. Adequação do layout proposto para o software.",
-                            "thumb": "thumbs/philips.jpg",
-                            "content": "img/philips.jpg"
-                        },
-                        "item": {
-                            "title": "2009 - Atlantica Hotels",
-                            "description": "Software para Digital Signage feito em actionscript. Criação do conceito de arte e desenvolvimento do layout para o software.",
-                            "thumb": "thumbs/atlantica.jpg",
-                            "content": "img/atlantica.jpg"
-                        },
-                        "item": {
-                            "title": "2009 - Unilever",
-                            "description": "Software para Digital Signage feito em actionscript. Adequação do layout proposto para o software.",
-                            "thumb": "thumbs/unilever.jpg",
-                            "content": "img/unilever.jpg"
-                        },
-                        "item": {
-                            "title": "2009 - GV Riscos",
-                            "description": "Software para Digital Signage feito em actionscript. Adequação do layout proposto para o software.",
-                            "thumb": "thumbs/gvriscos.jpg",
-                            "content": "img/gvriscos.jpg"
-                        },
-                        "item": {
-                            "title": "2009 - FENSA",
-                            "description": "Software para Digital Signage feito em actionscript. Adequação do layout proposto para o software.",
-                            "thumb": "thumbs/fensa.jpg",
-                            "content": "img/fensa.jpg"
-                        },
-                        "item": {
-                            "title": "2009 - NOKIA",
-                            "description": "Software para Digital Signage feito em actionscript. Adequação do layout proposto para o software.",
-                            "thumb": "thumbs/nokia.jpg",
-                            "content": "img/nokia.jpg"
-                        },
-                        "item": {
-                            "title": "2009 - Roche",
-                            "description": "Software para Digital Signage feito em actionscript. Adequação do layout proposto para o software.",
-                            "thumb": "thumbs/roche.jpg",
-                            "content": "img/roche.jpg"
-                        }
-                    }
+                    "grid": [{
+                        "title": "2009 - Philips",
+                        "description": "Software para Digital Signage feito em actionscript. Adequação do layout proposto para o software.",
+                        "thumb": "thumbs/philips.jpg",
+                        "content": "img/philips.jpg"
+                    }, {
+                        "title": "2009 - Atlantica Hotels",
+                        "description": "Software para Digital Signage feito em actionscript. Criação do conceito de arte e desenvolvimento do layout para o software.",
+                        "thumb": "thumbs/atlantica.jpg",
+                        "content": "img/atlantica.jpg"
+                    }, {
+                        "title": "2009 - Unilever",
+                        "description": "Software para Digital Signage feito em actionscript. Adequação do layout proposto para o software.",
+                        "thumb": "thumbs/unilever.jpg",
+                        "content": "img/unilever.jpg"
+                    }, {
+                        "title": "2009 - GV Riscos",
+                        "description": "Software para Digital Signage feito em actionscript. Adequação do layout proposto para o software.",
+                        "thumb": "thumbs/gvriscos.jpg",
+                        "content": "img/gvriscos.jpg"
+                    }, {
+                        "title": "2009 - FENSA",
+                        "description": "Software para Digital Signage feito em actionscript. Adequação do layout proposto para o software.",
+                        "thumb": "thumbs/fensa.jpg",
+                        "content": "img/fensa.jpg"
+                    }, {
+                        "title": "2009 - NOKIA",
+                        "description": "Software para Digital Signage feito em actionscript. Adequação do layout proposto para o software.",
+                        "thumb": "thumbs/nokia.jpg",
+                        "content": "img/nokia.jpg"
+                    }, {
+                        "title": "2009 - Roche",
+                        "description": "Software para Digital Signage feito em actionscript. Adequação do layout proposto para o software.",
+                        "thumb": "thumbs/roche.jpg",
+                        "content": "img/roche.jpg"
+                    }]
                 },
-                "item": {
+                {
                     "title": "JOGOS",
-                    "grid": {
-                        "item": {
-                            "title": "2001 - Cachorro",
-                            "description": "Jogo infantil feito em flash. Atualmente está transcrito para Javascript no intuito de torná-lo jogável na web moderna.",
-                            "thumb": "thumbs/cachorro.jpg",
-                            "content": "jogos/cachorro/cachorro.htm"
-                        },
-                        "item": {
-                            "title": "2013 - Caversan Mines",
-                            "description": "Jogo de campo minado feito em flash. Atualmente está transcrito para Javascript no intuito de torná-lo jogável na web moderna.",
-                            "thumb": "thumbs/mines.jpg",
-                            "content": "jogos/mines/mines.htm"
-                        },
-                        "item": {
-                            "title": "2013 - Protótipo Jogo da Memória",
-                            "description": "Protótipo de jogo da memória feito em Javascript.",
-                            "thumb": "thumbs/memo.jpg",
-                            "content": "jogos/memo/memo.htm"
-                        },
-                        "item": {
-                            "title": "2013 - Estudo de Jogo em Unity",
-                            "description": "Estudo de jogo em primeira pessoa feito em Unity 3D. (Requer plugin UNITY 3D).",
-                            "thumb": "thumbs/ilha.jpg",
-                            "content": "jogos/ilha/ilha.htm"
-                        }
-                    }
+                    "grid": [{
+                        "title": "2001 - Cachorro",
+                        "description": "Jogo infantil feito em flash. Atualmente está transcrito para Javascript no intuito de torná-lo jogável na web moderna.",
+                        "thumb": "thumbs/cachorro.jpg",
+                        "content": "jogos/cachorro/cachorro.htm"
+                    }, {
+                        "title": "2013 - Caversan Mines",
+                        "description": "Jogo de campo minado feito em flash. Atualmente está transcrito para Javascript no intuito de torná-lo jogável na web moderna.",
+                        "thumb": "thumbs/mines.jpg",
+                        "content": "jogos/mines/mines.htm"
+                    }, {
+                        "title": "2013 - Protótipo Jogo da Memória",
+                        "description": "Protótipo de jogo da memória feito em Javascript.",
+                        "thumb": "thumbs/memo.jpg",
+                        "content": "jogos/memo/memo.htm"
+                    }, {
+                        "title": "2013 - Estudo de Jogo em Unity",
+                        "description": "Estudo de jogo em primeira pessoa feito em Unity 3D. (Requer plugin UNITY 3D).",
+                        "thumb": "thumbs/ilha.jpg",
+                        "content": "jogos/ilha/ilha.htm"
+                    }]
                 },
-                "item": {
+                {
                     "title": "ILUSTRAÇÃO, LOGOTIPAGEM E ICONOGRAFIA",
-                    "grid": {
-                        "item": {
-                            "title": "2007 - Iconografia para TV Corporativa Nokia",
-                            "description": "Coleção de ícones para ilustrar a interface gráfica do canal de comunicação corporativa da Nokia.",
-                            "thumb": "thumbs/iconesnokia.jpg",
-                            "content": "img/iconesnokia.jpg"
-                        },
-                        "item": {
-                            "title": "2007 - Logotipo para TV Corporativa Unilever",
-                            "description": "Proposta de logotipo para canal de comunicação corporativa da Unilever.",
-                            "thumb": "thumbs/logoTVU.jpg",
-                            "content": ""
-                        },
-                        "item": {
-                            "title": "2007 - Iconografia para TV Corporativa",
-                            "description": "Proposta de iconografia para canal de comunicação corporativa.",
-                            "thumb": "thumbs/iconestransito.jpg",
-                            "content": ""
-                        },
-                        "item": {
-                            "title": "2007 - Logotipo para ISS Fácil",
-                            "description": "Logotipo para software de arrecadação fiscal da Prefeitura de Petrópolis.",
-                            "thumb": "thumbs/istbs.jpg",
-                            "content": ""
-                        }
-                    }
+                    "grid": [{
+                        "title": "2007 - Iconografia para TV Corporativa Nokia",
+                        "description": "Coleção de ícones para ilustrar a interface gráfica do canal de comunicação corporativa da Nokia.",
+                        "thumb": "thumbs/iconesnokia.jpg",
+                        "content": "img/iconesnokia.jpg"
+                    }, {
+                        "title": "2007 - Logotipo para TV Corporativa Unilever",
+                        "description": "Proposta de logotipo para canal de comunicação corporativa da Unilever.",
+                        "thumb": "thumbs/logoTVU.jpg",
+                        "content": ""
+                    }, {
+                        "title": "2007 - Iconografia para TV Corporativa",
+                        "description": "Proposta de iconografia para canal de comunicação corporativa.",
+                        "thumb": "thumbs/iconestransito.jpg",
+                        "content": ""
+                    }, {
+                        "title": "2007 - Logotipo para ISS Fácil",
+                        "description": "Logotipo para software de arrecadação fiscal da Prefeitura de Petrópolis.",
+                        "thumb": "thumbs/istbs.jpg",
+                        "content": ""
+                    }]
                 },
-                "item": {
+                {
                     "title": "BANNERS",
-                    "grid": {
-                        "item": {
-                            "title": "2002 - Uniban",
-                            "description": "Banner expansível para o vestibular da uniban",
-                            "thumb": "thumbs/uniban.jpg",
-                            "content": "img/uniban.jpg"
-                        }
-                    }
+                    "grid": [{
+                        "title": "2002 - Uniban",
+                        "description": "Banner expansível para o vestibular da uniban",
+                        "thumb": "thumbs/uniban.jpg",
+                        "content": "img/uniban.jpg"
+                    }]
                 },
-                "item": {
+                {
                     "title": "CD-ROM",
-                    "grid": {
-                        "item": {
-                            "title": "2003 - Wido",
-                            "description": "Cd-rom promocional onde foram utilizadas técnicas de sincronia de lábios, captura e edição de voz, criação de mascote p/ empresa. Os softwares utilizados foram o Sound Forge, Illustrator e o Flash.",
-                            "thumb": "thumbs/wido.jpg",
-                            "content": "img/wido.jpg"
-                        },
-                        "item": {
-                            "title": "2005 - Track & Field",
-                            "description": "Cd-rom interativo feito no Macromedia Director.",
-                            "thumb": "thumbs/tf.jpg",
-                            "content": "img/tf.jpg"
-                        }
-                    }
+                    "grid": [{
+                        "title": "2003 - Wido",
+                        "description": "Cd-rom promocional onde foram utilizadas técnicas de sincronia de lábios, captura e edição de voz, criação de mascote p/ empresa. Os softwares utilizados foram o Sound Forge, Illustrator e o Flash.",
+                        "thumb": "thumbs/wido.jpg",
+                        "content": "img/wido.jpg"
+                    }, {
+                        "title": "2005 - Track & Field",
+                        "description": "Cd-rom interativo feito no Macromedia Director.",
+                        "thumb": "thumbs/tf.jpg",
+                        "content": "img/tf.jpg"
+                    }]
                 },
-                "item": {
+                {
                     "title": "EDITORAÇÃO GRÁFICA",
-                    "grid": {
-                        "item": {
-                            "title": "2003 - Manual Mochila WIDO",
-                            "description": "Manual de Instruções ilustrado.",
-                            "thumb": "thumbs/mochila.jpg",
-                            "content": "img/mochila.jpg"
-                        },
-                        "item": {
-                            "title": "2010 - Identidade Visual Gelo Nevada",
-                            "description": "Identidade Visual para a empresa Gelo Nevada.",
-                            "thumb": "thumbs/nevada.jpg",
-                            "content": "img/nevada.jpg"
-                        },
-                        "item": {
-                            "title": "2004 - Citibank Club",
-                            "description": "Catálogo para clube de vantagens do Citibank produzido no Adobe inDesign.",
-                            "thumb": "thumbs/citi.jpg",
-                            "content": "pdf/citi.pdf"
-                        },
-                        "item": {
-                            "title": "2005 - Chora Brasil",
-                            "description": "Projeto gráfico e editorial para a revista Chora Brasil produzido no Adobe inDesign.",
-                            "thumb": "thumbs/chora.jpg",
-                            "content": "pdf/chora.pdf"
-                        }
-                    }
+                    "grid": [{
+                        "title": "2003 - Manual Mochila WIDO",
+                        "description": "Manual de Instruções ilustrado.",
+                        "thumb": "thumbs/mochila.jpg",
+                        "content": "img/mochila.jpg"
+                    }, {
+                        "title": "2010 - Identidade Visual Gelo Nevada",
+                        "description": "Identidade Visual para a empresa Gelo Nevada.",
+                        "thumb": "thumbs/nevada.jpg",
+                        "content": "img/nevada.jpg"
+                    }, {
+                        "title": "2004 - Citibank Club",
+                        "description": "Catálogo para clube de vantagens do Citibank produzido no Adobe inDesign.",
+                        "thumb": "thumbs/citi.jpg",
+                        "content": "pdf/citi.pdf"
+                    }, {
+                        "title": "2005 - Chora Brasil",
+                        "description": "Projeto gráfico e editorial para a revista Chora Brasil produzido no Adobe inDesign.",
+                        "thumb": "thumbs/chora.jpg",
+                        "content": "pdf/chora.pdf"
+                    }]
                 },
-                "item": {
+                {
                     "title": "ANIMAÇÃO E SONORIZAÇÃO",
-                    "grid": {
-                        "item": {
-                            "title": "2007 - TV Unilever",
-                            "description": "Vinheta para canal de comunicação corporativa.",
-                            "thumb": "thumbs/tvu.jpg",
-                            "content": "videos/tvu.mp4"
-                        },
-                        "item": {
-                            "title": "2008 - Mídia para a academia Reebok",
-                            "description": "Vinheta para canal de comunicação interna.",
-                            "thumb": "thumbs/reebok.jpg",
-                            "content": "videos/reebok.mp4"
-                        },
-                        "item": {
-                            "title": "2007 - Ano Novo Unilever",
-                            "description": "Vinheta para e-mail marketing de final de ano feita usando a identidade visual do cliente.",
-                            "thumb": "thumbs/mkt_tvu.jpg",
-                            "content": "videos/mkt_tvu.mp4"
-                        },
-                        "item": {
-                            "title": "2001 - Capoeira",
-                            "description": "Vinheta para canal de comunicação corporativa.",
-                            "thumb": "thumbs/capoeira.jpg",
-                            "content": "videos/capoeira.mp4"
-                        },
-                        "item": {
-                            "title": "2001 - Sonorização",
-                            "description": "Trabalho Acadêmico que consiste na sonorização da animação Lunch do artista Keith Lango, onde foram usadas técnicas de captura e edição sonora, o softwares de apoio foram o Vegas e Sound Forge.",
-                            "thumb": "thumbs/lunch.jpg",
-                            "content": "videos/lunch.mp4"
-                        }
-                    }
+                    "grid": [{
+                        "title": "2007 - TV Unilever",
+                        "description": "Vinheta para canal de comunicação corporativa.",
+                        "thumb": "thumbs/tvu.jpg",
+                        "content": "videos/tvu.mp4"
+                    }, {
+                        "title": "2008 - Mídia para a academia Reebok",
+                        "description": "Vinheta para canal de comunicação interna.",
+                        "thumb": "thumbs/reebok.jpg",
+                        "content": "videos/reebok.mp4"
+                    }, {
+                        "title": "2007 - Ano Novo Unilever",
+                        "description": "Vinheta para e-mail marketing de final de ano feita usando a identidade visual do cliente.",
+                        "thumb": "thumbs/mkt_tvu.jpg",
+                        "content": "videos/mkt_tvu.mp4"
+                    }, {
+                        "title": "2001 - Capoeira",
+                        "description": "Vinheta para canal de comunicação corporativa.",
+                        "thumb": "thumbs/capoeira.jpg",
+                        "content": "videos/capoeira.mp4"
+                    }, {
+                        "title": "2001 - Sonorização",
+                        "description": "Trabalho Acadêmico que consiste na sonorização da animação Lunch do artista Keith Lango, onde foram usadas técnicas de captura e edição sonora, o softwares de apoio foram o Vegas e Sound Forge.",
+                        "thumb": "thumbs/lunch.jpg",
+                        "content": "videos/lunch.mp4"
+                    }]
                 }
-            }
+            ]
         }
     }
 }

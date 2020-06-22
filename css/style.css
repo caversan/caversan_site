@@ -93,6 +93,35 @@ section h2 {
     color: #ffa;
 }
 
+.skillsGrid {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.gridItem {
+    color: #fff;
+    position: relative;
+    width: 25%;
+}
+
+.gridItemTitle {
+    text-align: center;
+    background-color: #666;
+    border: #333;
+    border-width: 3px 3px 0px 0px;
+    border-style: solid;
+}
+
+.gridItemDescription {
+    background-color: #777;
+    border: #333;
+    border-width: 3px 3px 0px 0px;
+    border-style: solid;
+    padding: 14px;
+    height: 100%;
+}
+
 @media screen and (min-width: 1380px) {
     .containerPrincipal,
     .topBar {
@@ -102,6 +131,12 @@ section h2 {
     .topBarContainer {
         display: flex;
         justify-content: center;
+    }
+}
+
+@media screen and (max-width: 1016px) {
+    .gridItem {
+        width: 33%;
     }
 }
 
@@ -119,5 +154,8 @@ section h2 {
     .icoMore {
         padding: 0px;
         height: 32px;
+    }
+    .gridItem {
+        width: 50%;
     }
 }
