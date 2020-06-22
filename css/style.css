@@ -12,6 +12,10 @@ body a {
     color: #ffa;
 }
 
+body img {
+    display: block;
+}
+
 section h1 {
     color: #ffa;
     line-height: .8;
