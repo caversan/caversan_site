@@ -84,19 +84,50 @@ try {
 
 
         document.getElementsByClassName("portifolio")[0].innerHTML += "<h2>" + loadedJson.sections.portifolio.title + ":</h2>";
-        document.getElementsByClassName("portifolio")[0].innerHTML += "<br/><div class=\"portifolioList\"></div>"
+        document.getElementsByClassName("portifolio")[0].innerHTML += "<div class=\"portifolioList\"></div>"
         for (i in loadedJson.sections.portifolio.grid) {
             document.getElementsByClassName("portifolioList")[0].innerHTML += "<div class=\"portifolioListTitle\">" + loadedJson.sections.portifolio.grid[i].title + "</div>";
             for (j in loadedJson.sections.portifolio.grid[i].grid) {
-                document.getElementsByClassName("portifolioList")[0].innerHTML += "<div class=\"portifolioListItem\"><div class=\"portifolioListItemThumb\"><a href=\"javascript:void(null)\" onClick=\"javascript:" + loadContent(loadedJson.sections.portifolio.grid[i].grid[j].content) + ";\"><img src=\"" + loadedJson.sections.portifolio.grid[i].grid[j].thumb + "\" /></a></div><div class=\"portifolioListItemDescription\">" + loadedJson.sections.portifolio.grid[i].grid[j].title + "<br/><br/>" + loadedJson.sections.portifolio.grid[i].grid[j].description + "</div></div>";
+                document.getElementsByClassName("portifolioList")[0].innerHTML += "<div class=\"portifolioListItem\"><div class=\"portifolioListItemThumb\"><a href=\"javascript:void(null)\" class=\"btnContent\" content=\"" + loadedJson.sections.portifolio.grid[i].grid[j].content + "\"><img src=\"" + loadedJson.sections.portifolio.grid[i].grid[j].thumb + "\" /></a></div><div class=\"portifolioListItemDescription\">" + loadedJson.sections.portifolio.grid[i].grid[j].title + "<br/><br/>" + loadedJson.sections.portifolio.grid[i].grid[j].description + "</div></div>";
 
             }
         }
+        var btnContent = document.getElementsByClassName('btnContent');
+        for (i = 0; i < btnContent.length; i++) {
+            // console.log(btnContent[i].getAttribute("content"))
+
+            btnContent[i].onclick = function() {
+                if (this.getAttribute("content") != "") {
+                    switch (this.getAttribute("content").split(".")[1]) {
+                        case "mp4":
+                            console.log("video");
+                            break;
+                        case "jpg":
+                        case "png":
+                            console.log("imagem");
+                            break;
+                        case "pdf":
+                            console.log("pdf");
+                            break;
+                        default:
+                            console.log("web");
+                            break;
+                    }
+                } else {
+                    console.log("vazio")
+                }
+                /*if(modal.style.display == "flex"){
+                  modal.style.display = "none";
+                } else{
+                  modal.style.display = "flex";
+                }*/
+            }
+        }
+
     }
 
-    function loadContent(content) {
-        console.log(content);
-    }
+
+
 } catch (err) {
     alert(err)
 }
