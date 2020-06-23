@@ -131,3 +131,80 @@ try {
 } catch (err) {
     alert(err)
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+// Get the modal
+var modal = document.getElementById('contactModalFrame');
+
+// Get the button that opens the modal
+var btn = document.getElementsByClassName('btnContact');
+
+// Get the <span> element that closes the modal
+var span = document.getElementById('closeX');
+
+// When the user clicks the button, open the modal 
+for (i in btn) {
+    btn[i].onclick = function() {
+        if (modal.style.display == "flex") {
+            modal.style.display = "none";
+        } else {
+            modal.style.display = "flex";
+        }
+    }
+}
+
+// When the user clicks on <span> (x), close the modal
+span.onclick = function() {
+    modal.style.display = "none";
+}
+
+// When the user clicks anywhere outside of the modal, close it
+window.onclick = function(event) {
+    if (event.target == modal) {
+        modal.style.display = "none";
+    }
+}
+
+
+
+
+
+
+
+
+var request = new XMLHttpRequest();
+request.open('GET', 'https://tools.dps.sh/frontend-application-test/modal-content.json', true);
+
+request.onreadystatechange = function() {
+    if (this.readyState === 4) {
+        if (this.status >= 200 && this.status < 400) {
+            // Success!
+            var loadedJson = JSON.parse(this.responseText);
+            var contactTitle = document.querySelector('#contactTitle');
+            contactTitle.innerHTML = "<h1>" + loadedJson.data.title + "</h1>";
+            var contactContent = document.querySelector('#contactContent');
+            contactContent.innerHTML = "<p>" + loadedJson.data.content + "</p>";
+
+        } else {
+            // Error :(
+        }
+    }
+};
+
+request.send();
+request = null;

@@ -206,48 +206,48 @@
                     "grid": [{
                         "title": "2010 - Mantu",
                         "description": "Web-site para casa de shows.<br/>Recursos utilizados: Site em PHP, XML e MySql com cadastro de usuários, acesso restrito ao albúm de fotos, Gerenciador de banners OpenX, integração com a API do Google Maps, Google Analytics, além de recursos avançados de CSS3 e JQuery.",
-                        "thumb": "thumbs/mantu.jpg",
-                        "content": "img/mantu.jpg"
+                        "thumb": "img/portifolio/thumbs/mantu.jpg",
+                        "content": "img/portifolio/mantu.jpg"
                     }, {
                         "title": "2010 - Porto Velho Bar",
                         "description": "Web-site casa de shows.<br/>Recursos utilizados: Animação do lay-out no flash, integração do flash com o XML a fim de facilitar a atualização do conteúdo. Carregamento do site otimizado afim de primeiro carregarmos primeiro o conteúdo de maior importância e por último as imagens e planos de fundo, esta página possui uma versão mobile que é acessada automaticamente quando o acesso não provenha de um desktop.",
-                        "thumb": "thumbs/portovelho.jpg",
-                        "content": "img/portovelho.jpg"
+                        "thumb": "img/portifolio/thumbs/portovelho.jpg",
+                        "content": "img/portifolio/portovelho.jpg"
                     }, {
                         "title": "2007 - QuickSand",
                         "description": "Web-site institucional para Fabricante de calçados.<br/>Recursos utilizados: Animação do lay - out no flash, tratamento de imagens, foto montagem.Com o uso do Photoshop o logotipo da empresa foi inserido em diversas montagens.O carro deste thumbnail por exemplo era preto e não tinha a pintura do fogo que foi inserida a partir da foto de uma fogueira.",
-                        "thumb": "thumbs/quick.jpg",
-                        "content": "img/quick.jpg"
+                        "thumb": "img/portifolio/thumbs/quick.jpg",
+                        "content": "img/portifolio/quick.jpg"
                     }, {
                         "title": "2006 - Bunny's verão",
                         "description": "Web-site institucional para rede de lojas de moda.<br/>Recursos utilizados: Animação do lay-out no flash, sonorização, tratamento de imagens, formulário de contato em asp.",
-                        "thumb": "thumbs/bunnys3.jpg",
-                        "content": "img/bunnys3.jpg"
+                        "thumb": "img/portifolio/thumbs/bunnys3.jpg",
+                        "content": "img/portifolio/bunnys3.jpg"
                     }, {
                         "title": "2006 - Bunny's inverno",
                         "description": "Web-site institucional para rede de lojas de moda.<br/>Recursos utilizados: Animação do lay-out no flash, sonorização, tratamento de imagens, formulário de contato em asp.",
-                        "thumb": "thumbs/bunnys2.jpg",
-                        "content": "img/bunnys2.jpg"
+                        "thumb": "img/portifolio/thumbs/bunnys2.jpg",
+                        "content": "img/portifolio/bunnys2.jpg"
                     }, {
                         "title": "2005 - Bunny's verão",
                         "description": "Web-site institucional para rede de lojas de moda.<br/>Recursos utilizados: Animação do lay-out no flash, sonorização, tratamento de imagens, formulário de contato em asp.",
-                        "thumb": "thumbs/bunnys1.jpg",
-                        "content": "img/bunnys1.jpg"
+                        "thumb": "img/portifolio/thumbs/bunnys1.jpg",
+                        "content": "img/portifolio/bunnys1.jpg"
                     }, {
                         "title": "2005 - Club B!",
                         "description": "Web-site institucional para rede de lojas de moda.<br/>Recursos utilizados: Animação do lay-out no flash, sonorização, tratamento de imagens, formulário de contato em asp.",
-                        "thumb": "thumbs/clubb.jpg",
-                        "content": "img/clubb.jpg"
+                        "thumb": "img/portifolio/thumbs/clubb.jpg",
+                        "content": "img/portifolio/clubb.jpg"
                     }, {
                         "title": "2002 - JAD Logística",
                         "description": "Web-Site institucional em Flash.",
-                        "thumb": "thumbs/jad.jpg",
-                        "content": "img/jad.jpg"
+                        "thumb": "img/portifolio/thumbs/jad.jpg",
+                        "content": "img/portifolio/jad.jpg"
                     }, {
                         "title": "2010 - Gigabyte",
                         "description": "Email marketing.",
-                        "thumb": "thumbs/gigabyte.jpg",
-                        "content": "img/gigabyte.jpg"
+                        "thumb": "img/portifolio/thumbs/gigabyte.jpg",
+                        "content": "img/portifolio/gigabyte.jpg"
                     }]
                 },
                 {
@@ -255,38 +255,38 @@
                     "grid": [{
                         "title": "2009 - Philips",
                         "description": "Software para Digital Signage feito em actionscript. Adequação do layout proposto para o software.",
-                        "thumb": "thumbs/philips.jpg",
-                        "content": "img/philips.jpg"
+                        "thumb": "img/portifolio/thumbs/philips.jpg",
+                        "content": "img/portifolio/philips.jpg"
                     }, {
                         "title": "2009 - Atlantica Hotels",
                         "description": "Software para Digital Signage feito em actionscript. Criação do conceito de arte e desenvolvimento do layout para o software.",
-                        "thumb": "thumbs/atlantica.jpg",
-                        "content": "img/atlantica.jpg"
+                        "thumb": "img/portifolio/thumbs/atlantica.jpg",
+                        "content": "img/portifolio/atlantica.jpg"
                     }, {
                         "title": "2009 - Unilever",
                         "description": "Software para Digital Signage feito em actionscript. Adequação do layout proposto para o software.",
-                        "thumb": "thumbs/unilever.jpg",
-                        "content": "img/unilever.jpg"
+                        "thumb": "img/portifolio/thumbs/unilever.jpg",
+                        "content": "img/portifolio/unilever.jpg"
                     }, {
                         "title": "2009 - GV Riscos",
                         "description": "Software para Digital Signage feito em actionscript. Adequação do layout proposto para o software.",
-                        "thumb": "thumbs/gvriscos.jpg",
-                        "content": "img/gvriscos.jpg"
+                        "thumb": "img/portifolio/thumbs/gvriscos.jpg",
+                        "content": "img/portifolio/gvriscos.jpg"
                     }, {
                         "title": "2009 - FEMSA",
                         "description": "Software para Digital Signage feito em actionscript. Adequação do layout proposto para o software.",
-                        "thumb": "thumbs/femsa.jpg",
-                        "content": "img/femsa.jpg"
+                        "thumb": "img/portifolio/thumbs/femsa.jpg",
+                        "content": "img/portifolio/femsa.jpg"
                     }, {
                         "title": "2009 - NOKIA",
                         "description": "Software para Digital Signage feito em actionscript. Adequação do layout proposto para o software.",
-                        "thumb": "thumbs/nokia.jpg",
-                        "content": "img/nokia.jpg"
+                        "thumb": "img/portifolio/thumbs/nokia.jpg",
+                        "content": "img/portifolio/nokia.jpg"
                     }, {
                         "title": "2009 - Roche",
                         "description": "Software para Digital Signage feito em actionscript. Adequação do layout proposto para o software.",
-                        "thumb": "thumbs/roche.jpg",
-                        "content": "img/roche.jpg"
+                        "thumb": "img/portifolio/thumbs/roche.jpg",
+                        "content": "img/portifolio/roche.jpg"
                     }]
                 },
                 {
@@ -294,22 +294,22 @@
                     "grid": [{
                         "title": "2001 - Cachorro",
                         "description": "Jogo infantil feito em flash. Atualmente está transcrito para Javascript no intuito de torná-lo jogável na web moderna.",
-                        "thumb": "thumbs/cachorro.jpg",
+                        "thumb": "img/portifolio/thumbs/cachorro.jpg",
                         "content": "jogos/cachorro/cachorro.htm"
                     }, {
                         "title": "2013 - Caversan Mines",
                         "description": "Jogo de campo minado feito em flash. Atualmente está transcrito para Javascript no intuito de torná-lo jogável na web moderna.",
-                        "thumb": "thumbs/mines.jpg",
+                        "thumb": "img/portifolio/thumbs/mines.jpg",
                         "content": "jogos/mines/mines.htm"
                     }, {
                         "title": "2013 - Protótipo Jogo da Memória",
                         "description": "Protótipo de jogo da memória feito em Javascript.",
-                        "thumb": "thumbs/memo.jpg",
+                        "thumb": "img/portifolio/thumbs/memo.jpg",
                         "content": "jogos/memo/memo.htm"
                     }, {
                         "title": "2013 - Estudo de Jogo em Unity",
                         "description": "Estudo de jogo em primeira pessoa feito em Unity 3D. (Requer plugin UNITY 3D).",
-                        "thumb": "thumbs/ilha.jpg",
+                        "thumb": "img/portifolio/thumbs/ilha.jpg",
                         "content": "jogos/ilha/ilha.htm"
                     }]
                 },
@@ -318,22 +318,22 @@
                     "grid": [{
                         "title": "2007 - Iconografia para TV Corporativa Nokia",
                         "description": "Coleção de ícones para ilustrar a interface gráfica do canal de comunicação corporativa da Nokia.",
-                        "thumb": "thumbs/iconesnokia.jpg",
-                        "content": "img/iconesnokia.jpg"
+                        "thumb": "img/portifolio/thumbs/iconesnokia.jpg",
+                        "content": "img/portifolio/iconesnokia.jpg"
                     }, {
                         "title": "2007 - Logotipo para TV Corporativa Unilever",
                         "description": "Proposta de logotipo para canal de comunicação corporativa da Unilever.",
-                        "thumb": "thumbs/tvu.jpg",
+                        "thumb": "img/portifolio/thumbs/tvu.jpg",
                         "content": ""
                     }, {
                         "title": "2007 - Iconografia para TV Corporativa",
                         "description": "Proposta de iconografia para canal de comunicação corporativa.",
-                        "thumb": "thumbs/iconestransito.jpg",
+                        "thumb": "img/portifolio/thumbs/iconestransito.jpg",
                         "content": ""
                     }, {
                         "title": "2007 - Logotipo para ISS Fácil",
                         "description": "Logotipo para software de arrecadação fiscal da Prefeitura de Petrópolis.",
-                        "thumb": "thumbs/istbs.jpg",
+                        "thumb": "img/portifolio/thumbs/istbs.jpg",
                         "content": ""
                     }]
                 },
@@ -342,8 +342,8 @@
                     "grid": [{
                         "title": "2002 - Uniban",
                         "description": "Banner expansível para o vestibular da uniban",
-                        "thumb": "thumbs/uniban.jpg",
-                        "content": "img/uniban.jpg"
+                        "thumb": "img/portifolio/thumbs/uniban.jpg",
+                        "content": "img/portifolio/uniban.jpg"
                     }]
                 },
                 {
@@ -351,13 +351,13 @@
                     "grid": [{
                         "title": "2003 - Wido",
                         "description": "Cd-rom promocional onde foram utilizadas técnicas de sincronia de lábios, captura e edição de voz, criação de mascote p/ empresa. Os softwares utilizados foram o Sound Forge, Illustrator e o Flash.",
-                        "thumb": "thumbs/wido.png",
-                        "content": "img/wido.jpg"
+                        "thumb": "img/portifolio/thumbs/wido.png",
+                        "content": "img/portifolio/wido.jpg"
                     }, {
                         "title": "2005 - Track & Field",
                         "description": "Cd-rom interativo feito no Macromedia Director.",
-                        "thumb": "thumbs/tf.png",
-                        "content": "img/tf.jpg"
+                        "thumb": "img/portifolio/thumbs/tf.png",
+                        "content": "img/portifolio/tf.jpg"
                     }]
                 },
                 {
@@ -365,22 +365,22 @@
                     "grid": [{
                         "title": "2003 - Manual Mochila WIDO",
                         "description": "Manual de Instruções ilustrado.",
-                        "thumb": "thumbs/mochila.jpg",
-                        "content": "img/mochila.jpg"
+                        "thumb": "img/portifolio/thumbs/mochila.jpg",
+                        "content": "img/portifolio/mochila.jpg"
                     }, {
                         "title": "2010 - Identidade Visual Gelo Nevada",
                         "description": "Identidade Visual para a empresa Gelo Nevada.",
-                        "thumb": "thumbs/gelonevada.jpg",
-                        "content": "img/gelonevada.jpg"
+                        "thumb": "img/portifolio/thumbs/gelonevada.jpg",
+                        "content": "img/portifolio/gelonevada.jpg"
                     }, {
                         "title": "2004 - Citibank Club",
                         "description": "Catálogo para clube de vantagens do Citibank produzido no Adobe inDesign.",
-                        "thumb": "thumbs/citi.jpg",
+                        "thumb": "img/portifolio/thumbs/citi.jpg",
                         "content": "pdf/citi.pdf"
                     }, {
                         "title": "2005 - Chora Brasil",
                         "description": "Projeto gráfico e editorial para a revista Chora Brasil produzido no Adobe inDesign.",
-                        "thumb": "thumbs/chora.jpg",
+                        "thumb": "img/portifolio/thumbs/chora.jpg",
                         "content": "pdf/chora.pdf"
                     }]
                 },
@@ -389,27 +389,27 @@
                     "grid": [{
                         "title": "2007 - TV Unilever",
                         "description": "Vinheta para canal de comunicação corporativa.",
-                        "thumb": "thumbs/tvu.jpg",
+                        "thumb": "img/portifolio/thumbs/tvu.jpg",
                         "content": "videos/tvu.mp4"
                     }, {
                         "title": "2008 - Mídia para a academia Reebok",
                         "description": "Vinheta para canal de comunicação interna.",
-                        "thumb": "thumbs/reebok.jpg",
+                        "thumb": "img/portifolio/thumbs/reebok.jpg",
                         "content": "videos/reebok.mp4"
                     }, {
                         "title": "2007 - Ano Novo Unilever",
                         "description": "Vinheta para e-mail marketing de final de ano feita usando a identidade visual do cliente.",
-                        "thumb": "thumbs/mkt_tvu.jpg",
+                        "thumb": "img/portifolio/thumbs/mkt_tvu.jpg",
                         "content": "videos/mkt_tvu.mp4"
                     }, {
                         "title": "2001 - Capoeira",
                         "description": "Vinheta para canal de comunicação corporativa.",
-                        "thumb": "thumbs/capoeira.jpg",
+                        "thumb": "img/portifolio/thumbs/capoeira.jpg",
                         "content": "videos/capoeira.mp4"
                     }, {
                         "title": "2001 - Sonorização",
                         "description": "Trabalho Acadêmico que consiste na sonorização da animação Lunch do artista Keith Lango, onde foram usadas técnicas de captura e edição sonora, o softwares de apoio foram o Vegas e Sound Forge.",
-                        "thumb": "thumbs/lunch.png",
+                        "thumb": "img/portifolio/thumbs/lunch.png",
                         "content": "videos/lunch.mp4"
                     }]
                 }
