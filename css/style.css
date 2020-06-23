@@ -5,7 +5,7 @@ body {
     font-size: 12px;
     margin: 0px 18px;
     padding: 18px;
-    line-height: 1.6;
+    line-height: 1.4;
 }
 
 body a {
@@ -96,30 +96,56 @@ section h2 {
 .skillsGrid {
     display: flex;
     flex-wrap: wrap;
-    justify-content: center;
 }
 
-.gridItem {
+.skillsGridItem {
     color: #fff;
     position: relative;
     width: 25%;
 }
 
-.gridItemTitle {
+.languages {
+    margin-top: 65px;
+}
+
+.skillsGridItemTitle {
     text-align: center;
     background-color: #666;
     border: #333;
-    border-width: 3px 3px 0px 0px;
+    border-width: 2px 1px 1px 1px;
     border-style: solid;
 }
 
-.gridItemDescription {
+.skillsGridItemDescription {
     background-color: #777;
     border: #333;
-    border-width: 3px 3px 0px 0px;
+    border-width: 1px;
     border-style: solid;
     padding: 14px;
     height: 100%;
+}
+
+.portifolioListTitle {
+    margint: 0px 3px;
+    padding: 4px 10px;
+    background-color: #666;
+    color: #fff;
+}
+
+.portifolioListItem {
+    display: flex;
+    flex-direction: row;
+    margin: 2px;
+}
+
+.portifolioListItemThumb {
+    width: 250px;
+}
+
+.portifolioListItemDescription {
+    padding: 2px 14px;
+    background-color: #777;
+    width: 100%;
 }
 
 @media screen and (min-width: 1380px) {
@@ -134,8 +160,8 @@ section h2 {
     }
 }
 
-@media screen and (max-width: 1016px) {
-    .gridItem {
+@media screen and (max-width: 1035px) {
+    .skillsGridItem {
         width: 33%;
     }
 }
@@ -155,7 +181,7 @@ section h2 {
         padding: 0px;
         height: 32px;
     }
-    .gridItem {
+    .skillsGridItem {
         width: 50%;
     }
 }

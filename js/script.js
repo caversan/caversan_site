@@ -47,26 +47,55 @@ try {
         document.getElementsByClassName("opportunity")[0].innerHTML = "<h2>" + loadedJson.sections.opportunity.title + ":</h2><article>" + loadedJson.sections.opportunity.description + "</article>";
         document.getElementsByClassName("profile")[0].innerHTML = "<h2>" + loadedJson.sections.profile.title + ":</h2><article>" + loadedJson.sections.profile.description + "</article>";
         document.getElementsByClassName("skills")[0].innerHTML = "<h2>" + loadedJson.sections.skills.title + ":</h2><article>" + loadedJson.sections.skills.description + "</article>";
-        document.getElementsByClassName("skills")[0].innerHTML += "<br/><span class=\"skillsGrid\"></span>"
+        document.getElementsByClassName("skills")[0].innerHTML += "<br/><div class=\"skillsGrid\"></div>"
 
         for (i in loadedJson.sections.skills.grid) {
-            document.getElementsByClassName("skillsGrid")[0].innerHTML += "<div class=\"gridItem\"><div class=\"gridItemTitle\">" + loadedJson.sections.skills.grid[i].title + "</div><div class=\"gridItemDescription\">" + loadedJson.sections.skills.grid[i].description + "</artidivcle></div>";
+            document.getElementsByClassName("skillsGrid")[0].innerHTML += "<div class=\"skillsGridItem\"><div class=\"skillsGridItemTitle\">" + loadedJson.sections.skills.grid[i].title + "</div><div class=\"skillsGridItemDescription\">" + loadedJson.sections.skills.grid[i].description + "</div></div>";
         }
 
-        document.getElementsByClassName("languages")[0].innerHTML = "<h2>" + loadedJson.sections.languages.title + ":</h2><article>" + loadedJson.sections.languages.title + "</article>";
-
-        /*for (var key in loadedJson.sections) {
-            console.log("key " + key + " has value " + loadedJson.sections[key]);
-            document.getElementsByClassName(key)[0].innerHTML = "<h2>" + loadedJson.sections[key].title + ":</h2><article>" + loadedJson.sections[key].description + "</article>";
-        }*/
 
 
-        //document.getElementsByClassName("profile")[0].innerHTML = "<h2>" + loadedJson.sections.profile.title + ":</h2><article>" + loadedJson.sections.profile.description + "</article>";
-        //var contactTitle = document.querySelector('#contactTitle');
-        //contactTitle.innerHTML = "<h1>" + loadedJson.data.title + "</h1>";
-        //var contactContent = document.querySelector('#contactContent');
-        //contactContent.innerHTML = "<p>" + loadedJson.data.content + "</p>";
+        document.getElementsByClassName("languages")[0].innerHTML += "<h2>" + loadedJson.sections.languages.title + ":</h2><ul class=\"languagesList\">";
+        for (i in loadedJson.sections.languages.grid) {
+            document.getElementsByClassName("languagesList")[0].innerHTML += "<li>" + loadedJson.sections.languages.grid[i] + "</li>";
+        }
+        document.getElementsByClassName("languages")[0].innerHTML += "</ul>";
 
+
+        document.getElementsByClassName("graduation")[0].innerHTML += "<h2>" + loadedJson.sections.graduation.title + ":</h2><ul class=\"graduationList\">";
+        for (i in loadedJson.sections.graduation.grid) {
+            document.getElementsByClassName("graduationList")[0].innerHTML += "<li>" + loadedJson.sections.graduation.grid[i].title + " - " + loadedJson.sections.graduation.grid[i].description + "</li>";
+        }
+        document.getElementsByClassName("graduation")[0].innerHTML += "</ul>";
+
+
+        document.getElementsByClassName("courses")[0].innerHTML += "<h2>" + loadedJson.sections.courses.title + ":</h2><ul class=\"coursesList\">";
+        for (i in loadedJson.sections.courses.grid) {
+            document.getElementsByClassName("coursesList")[0].innerHTML += "<li>" + loadedJson.sections.courses.grid[i].title + " - " + loadedJson.sections.courses.grid[i].description + "</li>";
+        }
+        document.getElementsByClassName("courses")[0].innerHTML += "</ul>";
+
+        document.getElementsByClassName("experience")[0].innerHTML += "<h2>" + loadedJson.sections.experience.title + ":</h2><ul class=\"experienceList\">";
+        for (i in loadedJson.sections.experience.grid) {
+            document.getElementsByClassName("experienceList")[0].innerHTML += "<li><b>" + loadedJson.sections.experience.grid[i].title + "</b><br/>" + loadedJson.sections.experience.grid[i].description + "<br/>" + ((loadedJson.sections.experience.grid[i].link != "") ? ("<a href=\"" + loadedJson.sections.experience.grid[i].link + "\" target=\"_blank\">" + loadedJson.sections.experience.grid[i].link + "</a>") : "") + "</li><br/><br/>";
+        }
+        document.getElementsByClassName("experience")[0].innerHTML += "</ul>";
+
+
+
+        document.getElementsByClassName("portifolio")[0].innerHTML += "<h2>" + loadedJson.sections.portifolio.title + ":</h2>";
+        document.getElementsByClassName("portifolio")[0].innerHTML += "<br/><div class=\"portifolioList\"></div>"
+        for (i in loadedJson.sections.portifolio.grid) {
+            document.getElementsByClassName("portifolioList")[0].innerHTML += "<div class=\"portifolioListTitle\">" + loadedJson.sections.portifolio.grid[i].title + "</div>";
+            for (j in loadedJson.sections.portifolio.grid[i].grid) {
+                document.getElementsByClassName("portifolioList")[0].innerHTML += "<div class=\"portifolioListItem\"><div class=\"portifolioListItemThumb\"><a href=\"javascript:void(null)\" onClick=\"javascript:" + loadContent(loadedJson.sections.portifolio.grid[i].grid[j].content) + ";\"><img src=\"" + loadedJson.sections.portifolio.grid[i].grid[j].thumb + "\" /></a></div><div class=\"portifolioListItemDescription\">" + loadedJson.sections.portifolio.grid[i].grid[j].title + "<br/><br/>" + loadedJson.sections.portifolio.grid[i].grid[j].description + "</div></div>";
+
+            }
+        }
+    }
+
+    function loadContent(content) {
+        console.log(content);
     }
 } catch (err) {
     alert(err)
