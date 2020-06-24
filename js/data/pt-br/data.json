@@ -59,50 +59,50 @@
         },
         "profile": {
             "title": "Perfil profissional",
-            "description": "Com perfil generalista possuo amplo conhecimento nas etapas envolvidas na coordenação, produção e criação em projetos para web, jogos, multimídia e audiovisual. Atuo tanto na área de Design quanto em programação o que é um perfil raro no mercado. Além de ter aptidão artistica, possuo contato direto com micro-informática desde 1986 começando a utiliza-la profissionalmente a partir de 1993. No ano 1998 comecei à me concentar nos estudos da computação gráfica e no ano 2000 à programação principalmente para Web e Multimídia e, a partir de 2007, à Digital Signage. Apesar de já ter desenvolvido jogos antes de 2010, foi neste ano que passei dar maior atenção à esta área afim de juntar meu conhecimento em arte e em programação."
+            "description": "Com perfil generalista possuo amplo conhecimento nas etapas envolvidas na coordenação, produção e criação em projetos para web, jogos, multimídia e audiovisual. Atuo tanto na área de Design quanto em programação o que é um perfil raro no mercado. Além de ter aptidão artística, possuo contato direto com microinformática desde a década de 80 começando a utilizá-la profissionalmente a partir de 1993. No ano 1998 comecei à me concentrar nos estudos da computação gráfica e wm 2000 à programação principalmente para Web e Multimídia. a partir de 2007, à Digital Signage. Apesar de já ter desenvolvido jogos antes de 2010, foi neste ano que passei dar maior atenção à esta área, afim de aprimorar meu conhecimento em multimídia e programação."
         },
         "skills": {
             "title": "Conhecimento técnico",
-            "description": "Conhecimentos avançados de programação para frontend web, multimídia e de jogos, conhecimentos básicos do backend garantindo um perfil fullstack, especialista no pacote Adobe Creative Suite, scripts para manipulação em lote, programação de aplicativos desktop para windows .net. Experiência em agências digitais web e multimídia, publicidade, estúdios criativos e estúdio de jogos. Experiência em startups que se tornaram unicórnios digitais. Conhecimentos em ao menos uma ferramenta opensource para cada tecnologia conhecida garantindo baixo custo de licenciamento de software.",
+            "description": "Conhecimentos avançados em programação para frontend web, multimídia e jogos. Conhecimentos básicos do backend garantindo um perfil fullstack. Especialista no pacote Adobe Creative Suite, desenvolvedor de scripts para manipulação de conteúdo audiovisual em lote, programação de aplicativos multimídia para desktop Windows .Net,(Compatibilidade com sistemas embarcados, versões antigas de Windows e hardware limitado). Experiência em agências digitais web e multimídia, publicidade, estúdios criativos e estúdio de jogos. Experiência em startups que se tornaram unicórnios digitais. Conhecimentos em ao menos uma ferramenta opensource para cada tecnologia paga conhecida garantindo baixo custo de licenciamento de software. Conhecimento em hardware para computação gráfica e sistemas embarcados.",
             "grid": [{
                     "title": "ÁUDIO",
-                    "description": "Captura, mixagem, sintetização, edição, efeitos especiais, sincronização de áudio e vídeo, encoding, maipulação em lote. Transmissão web ondemand e broadcast, players desktop para rádio corporativa e som ambiente. Tecnologias: Sound Forge, Audacity, Adobe Audition, Ardour"
+                    "description": "Captura, mixagem, sintetização, edição, efeitos especiais, sincronização de áudio e vídeo, encoding, manipulação em lote. Transmissão web ondemand e broadcast, players desktop para rádio corporativa e som ambiente. Tecnologias: Sound Forge, Audacity, Adobe Audition, Ardour."
                 },
                 {
                     "title": "VÍDEO/PRODUÇÃO",
-                    "description": "Direção, filmagem, edição, linear e não linear, produção e pós-produção, efeitos especiais, motionscript, encoding scripts de renderização em lote. Transmisão de vídeo ao vivo por streaming broadcast e ondemand, web players e desktop players para TV Corporativa e Digital Signage Tecnologias: Adobe Première, Sony Vegas Vídeo, VirtualDub, FFMPEG, Kdenlive, Natron, Open Broadcaster Software | OBS, Adobe Media Encoder, Blackmagic "
+                    "description": "Direção, filmagem, edição, linear e não linear, produção e pós-produção, efeitos especiais, motionscript, encoding scripts de renderização em lote. Transmissão de vídeo ao vivo por streaming broadcast e ondemand, web players e desktop players para TV Corporativa e Digital Signage Tecnologias: Adobe Première, Sony Vegas Vídeo, VirtualDub, FFMPEG, Kdenlive, Encoders, Blackmagic Fusion."
                 },
                 {
                     "title": "3D",
-                    "description": "Modelagem, animação, render, esqueletos, efeitos físicos, iluminação e cenário, adobe flash e director, motionscript, scripts de renderização em lote, programação e games. Tecnologias: Blender, Unity 3D, 3D Max, Lightwave, Maya, VRML e X3D, Web GL, (AS3) Flash 3, (LINGO) Director 3D"
+                    "description": "Modelagem, animação, render, esqueletos, efeitos físicos, iluminação e cenário, adobe flash e director, motionscript, scripts de renderização em lote, programação e games. Tecnologias: Blender, Unity 3D, 3D Max, Lightwave, Maya, VRML e X3D, Web GL, (AS3) Flash 3, (LINGO) Director 3D."
                 },
                 {
                     "title": "ANIMAÇÃO/PÓS-PRODUÇÃO",
-                    "description": "Conceito e teoria da animação e análise do movimento, flash, actionscript, 3D, after-effects, motionscript. Tecnologias: Adobe After Effects, Adobe Flash, Adobe Animator, Spine, Black Magic Davinci Resolve, Black Magic Fusion"
+                    "description": "Conceito e teoria da animação e análise do movimento, flash, actionscript, 3D, after-effects, motionscript. Tecnologias: Adobe After Effects, Adobe Flash, Adobe Animator, Spine, Black Magic Davinci Resolve, Black Magic Fusion."
                 }, {
                     "title": "DIGITAL SIGNAGE E MULTIMÍDIA",
-                    "description": "Conteúdo audiovisual interativo ou não para Outernet, Digital Signage indoor e outdoor, Publicidade Out of Home (DOOH), Cd-Rom, Totens, Stand para feiras e eventos, Ad games, DVD, apresentações audiovisuais para pequenos e grandes eventos, TV Corporativa. Tecnologias: Adobe Flash, Unity 3D, Macromedia Director, Godot, Visual Studio, Qt, NodeJS"
+                    "description": "Conteúdo audiovisual interativo ou não para Outernet, Digital Signage indoor e outdoor, Publicidade Out of Home (DOOH), Cd-Rom, Totens, Stand para feiras e eventos, Ad games, DVD, apresentações audiovisuais para pequenos e grandes eventos, TV Corporativa. Tecnologias: Adobe Flash, Unity 3D, Macromedia Director, Godot, Visual Studio, Qt, NodeJS."
                 }, {
                     "title": "ILUSTRAÇÃO E TIPOGRAFIA",
-                    "description": "Mão livre, bitmap e vetorial, ilustração e catoon. Iconografia (criação de ícones exclusivos) Logotipo e manual de marca, fontes para tipografia exclusiva. Tecnologias: Adobe Illustrator, Free Hand, Corel Draw, Painter, InkScape, Krita, Gimp, Adobe Photoshop, Fontographer, FontForge"
+                    "description": "Mão livre, bitmap e vetorial, ilustração e catoon. Iconografia (criação de ícones exclusivos) Logotipo e manual de marca, fontes para tipografia exclusiva. Tecnologias: Adobe Illustrator, Free Hand, Corel Draw, Painter, InkScape, Krita, Gimp, Adobe Photoshop, Fontographer, FontForge."
                 }, {
                     "title": "EDITORAÇÃO GRÁFICA",
-                    "description": "Elaboração de material gráfico impresso como folhetos, cartazes, jornais, revistas, brindes e embalagens. Tecnologias: Adobe Indesign, Adobe Page Maker, Adobe Acrobat, Scribus"
+                    "description": "Elaboração de material gráfico impresso como folhetos, cartazes, jornais, revistas, brindes e embalagens. Tecnologias: Adobe Indesign, Adobe Page Maker, Adobe Acrobat, Scribus."
                 }, {
                     "title": "FOTOGRAFIA",
-                    "description": "Conhecimento técnico e teórico de foto analógica e digital, técnicas de iluminação e estúdio, scripts de manipulação de imagens em lote, edição e tratamento de imagem, script de tratamento de imagens em lote. Tecnologias: Estúdio e iluminação, Fotografia luz natural, Fotojornalismo, Adobe Photoshop, Gimp"
+                    "description": "Conhecimento técnico e teórico de foto analógica e digital, técnicas de iluminação e estúdio, scripts de manipulação de imagens em lote, edição e tratamento de imagem, script de tratamento de imagens em lote. Tecnologias: Estúdio e iluminação, Fotografia luz natural, Fotojornalismo, Adobe Photoshop, Gimp."
                 }, {
                     "title": "PROGRAMAÇÃO E BANCO DE DADOS",
-                    "description": "ActionScript 2 e ActionScript 3, conteúdo dinâmico PHP/MySql, CSS2 e CSS3, tableless, APIs do Google, JQuery, Ajax, Frameworks JavaScript, aplicativos para desktop. Tecnologias: DHTML, ActionScript 1, 2 e 3, ASP, PHP, CGI, Javascript, Lingo, .Net, C#, C,C++, Java / Android, Python/Pygame, MySQL, Access, Qt"
+                    "description": "ActionScript 2 e ActionScript 3, conteúdo dinâmico PHP/MySql, CSS2 e CSS3, tableless, APIs do Google, JQuery, Ajax, Frameworks JavaScript, aplicativos para desktop. Tecnologias: DHTML, ActionScript 1, 2 e 3, ASP, PHP, CGI, Javascript, Lingo, .Net, C#, C,C++, Java / Android, Python/Pygame, MySQL, Access, Qt."
                 }, {
                     "title": "JOGOS",
-                    "description": "Jogos para as mais variadas plataformas e para os mais variados públicos: Consoles, internet, publicidade (Ad games), mobile, e-learning e treinamento corporativo. Artista Técnico, geração de texturas e mapas de sprites, fontes e conteúdo audiovisual, criação de asssets para jogos, programação das mecânicas de jogo, efeitos especiais, efeitos físicos, movimentos. Level design Tecnologias: Adobe Flash CS5 / AS2 AS3, Macromedia Director 2D/3D, Unity 3D / C#, Godot, Unreal, XNA, Java / Android, Pygame / Blender 3D, C C++, Texture Packer"
+                    "description": "Jogos para as mais variadas plataformas e para os mais variados públicos: Consoles, internet, publicidade (Ad games), mobile, e-learning e treinamento corporativo. Artista Técnico, geração de texturas e mapas de sprites, fontes e conteúdo audiovisual, criação de asssets para jogos, programação das mecânicas de jogo, efeitos especiais, efeitos físicos, movimentos. Level design Tecnologias: Adobe Flash CS5 / AS2 AS3, Macromedia Director 2D/3D, Unity 3D / C#, Godot, Unreal, XNA, Java / Android, Pygame / Blender 3D, C C++, Texture Packer."
                 }, {
                     "title": "EDITORAÇÃO WEB E FRONTEND",
-                    "description": "Criação de sites responsivos e multiplataforma utilizando sempre as últimas tendências de frontend. Tecnologias: Drupal, Wordpress, XHTML, HTML 3, 4 e 5, CSS, XML, Javascript(Puro e Frameworks), Angular, Jquery, Json, Adobe Dreamweaver, VS Code, Google Analitics e SEO"
+                    "description": "Criação de sites responsivos e multiplataforma utilizando sempre as últimas tendências de frontend. Tecnologias: Drupal, Wordpress, XHTML, HTML 3, 4 e 5, CSS, XML, Javascript(Puro e Frameworks), Angular, Jquery, Json, Adobe Dreamweaver, VS Code, Google Analitics e SEO."
                 }, {
                     "title": "SISTEMAS OPERACIONAIS",
-                    "description": "Usuário avançado e administrador de sistemas, conhecimento abrangente do funcionamento software/hardware, otimização de sistemas, redes, segurança e diretivas de grupo. Tecnologias: MacOS, Linux, Windows, Android, Powershell, Batch e Shell"
+                    "description": "Usuário avançado e administrador de sistemas, conhecimento abrangente do funcionamento software/hardware, otimização de sistemas, redes, segurança e diretivas de grupo. Tecnologias: MacOS, Linux, Windows, Android, Powershell, Batch e Shell."
                 }
             ]
         },
@@ -159,7 +159,7 @@
             "title": "Experiência profissional",
             "grid": [{
                 "title": "Set/2015 até hoje na IGS International Solutions - Cargo: Designer Sênior (Líder Artistas Técnicos)",
-                "description": "Atribuições:<br/>Especialista Adobe em desenvolvimento de jogos digitais. Desenvolvimento de scripts para automatizar e otimizar a criação de conteúdo gráfico para jogos utilizando ffmpeg, imagemagick, javascript, batch e shell script. Prover as posições e características das animações feitas no after effects de forma automatizada por meio de xml, json motionscript e Adobe Extend Script que no final é importado pela engine de jogos. Suprir a engine de jogos com todo material gráfico e audiovisual. Participação no projeto de modernização tecnológica e remasterização visual de todo o portifólio de jogos da Ortiz Gaming tendo contato com a plataforma legada feita para MS-DOS e C em baixa resolução e tecnologias das décadas de 80 e 90.",
+                "description": "Atribuições:<br/>Especialista Adobe em desenvolvimento de jogos digitais. Desenvolvimento de scripts para automatizar e otimizar a criação de conteúdo gráfico para jogos utilizando ffmpeg, imagemagick, javascript, batch e shell script. Prover as posições e características das animações feitas no after effects de forma automatizada por meio de xml, json motionscript e Adobe Extend Script que no final é importado pela engine de jogos. Suprir a engine de jogos com todo material gráfico e audiovisual. Participação no projeto de modernização tecnológica e remasterização visual de todo o portifólio de jogos da Ortiz Gaming tendo contato com a plataforma legada feita para MS-DOS e C em baixa resolução e tecnologias das décadas de 80 e 90. Coordenação da equipe de arte técnica, equipe encarregada de implementar conteúdo artístico no software de jogo.",
                 "link": "http://www.ortizgaming.com/"
             }, {
                 "title": "Set/2013 até Set/2015 na Atmo Mídia Digital Corporativa - Cargo: Programador Flash",
