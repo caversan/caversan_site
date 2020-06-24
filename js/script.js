@@ -77,7 +77,7 @@ try {
 
         document.getElementsByClassName("experience")[0].innerHTML += "<h2>" + loadedJson.sections.experience.title + ":</h2><ul class=\"experienceList\">";
         for (i in loadedJson.sections.experience.grid) {
-            document.getElementsByClassName("experienceList")[0].innerHTML += "<li><b>" + loadedJson.sections.experience.grid[i].title + "</b><br/>" + loadedJson.sections.experience.grid[i].description + "<br/>" + ((loadedJson.sections.experience.grid[i].link != "") ? ("<a href=\"" + loadedJson.sections.experience.grid[i].link + "\" target=\"_blank\">" + loadedJson.sections.experience.grid[i].link + "</a>") : "") + "</li><br/><br/>";
+            document.getElementsByClassName("experienceList")[0].innerHTML += "<li><b>" + loadedJson.sections.experience.grid[i].title + "</b><br/>" + loadedJson.sections.experience.grid[i].description + "<br/>" + ((loadedJson.sections.experience.grid[i].link != "" || loadedJson.sections.experience.grid[i].link != undefined) ? ("<a href=\"" + loadedJson.sections.experience.grid[i].link + "\" target=\"_blank\">" + loadedJson.sections.experience.grid[i].link + "</a>") : "") + "</li><br/><br/>";
         }
         document.getElementsByClassName("experience")[0].innerHTML += "</ul>";
 
