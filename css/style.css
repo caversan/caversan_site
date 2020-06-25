@@ -230,4 +230,7 @@ section h2 {
     img {
         width: 100%;
     }
+    .languages {
+        margin-top: 80px;
+    }
 }
