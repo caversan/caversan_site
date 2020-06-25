@@ -187,6 +187,13 @@ section h2 {
 }
 
 @media screen and (max-width: 775px) {
+    body {
+        margin: 0px;
+        padding: 0px;
+    }
+    .topBar {
+        margin: 0px;
+    }
     .portifolioListItem {
         flex-direction: column;
     }
@@ -197,7 +204,7 @@ section h2 {
         padding: 6px 10px;
     }
     .pagina {
-        padding: 48px 18px;
+        padding: 76px 18px;
     }
     .flag,
     .icoMore {
