@@ -145,6 +145,7 @@ section h2 {
 .portifolioListItemDescription {
     padding: 2px 14px;
     background-color: #777;
+    color: #fff;
     width: 100%;
 }
 
@@ -188,6 +189,7 @@ section h2 {
 
 @media screen and (max-width: 775px) {
     body {
+        font-size: 16px;
         margin: 0px;
         padding: 0px;
     }
@@ -198,6 +200,7 @@ section h2 {
         flex-direction: column;
     }
     .topBar {
+        font-size: 14px;
         height: 64px;
     }
     .topBarTitle {
@@ -219,6 +222,7 @@ section h2 {
     }
     .portifolioListItemDescription {
         width: auto;
+        padding: 10px;
     }
     .portifolioListItemThumb {
         width: 100%;
