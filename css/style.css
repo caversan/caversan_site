@@ -187,6 +187,9 @@ section h2 {
 }
 
 @media screen and (max-width: 775px) {
+    .portifolioListItem {
+        flex-direction: column;
+    }
     .topBar {
         height: 64px;
     }
@@ -203,5 +206,17 @@ section h2 {
     }
     .skillsGridItem {
         width: 50%;
+    }
+    .portifolioListItem {
+        width: 100%;
+    }
+    .portifolioListItemDescription {
+        width: auto;
+    }
+    .portifolioListItemThumb {
+        width: 100%;
+    }
+    img {
+        width: 100%;
     }
 }
