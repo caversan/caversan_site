@@ -93,40 +93,72 @@ try {
             }
         }
         var btnContent = document.getElementsByClassName('btnContent');
+        var imageModalFrame = document.getElementsByClassName('imageModalFrame')[0];
+        window.onclick = function(event) {
+            if (event.target == imageModalFrame) {
+                closeModal();
+            }
+        }
         for (i = 0; i < btnContent.length; i++) {
             // console.log(btnContent[i].getAttribute("content"))
 
             btnContent[i].onclick = function() {
                 if (this.getAttribute("content") != "") {
                     switch (this.getAttribute("content").split(".")[1]) {
+                        case "m4v":
                         case "mp4":
-                            console.log("video");
+                            videoOpen(this.getAttribute("content"), document.getElementsByClassName('contentView')[0]);
                             break;
                         case "jpg":
                         case "png":
-                            console.log("imagem");
+                            imageOpen(this.getAttribute("content"), document.getElementsByClassName('contentView')[0]);
                             break;
                         case "pdf":
-                            console.log("pdf");
+                            pdfOpen(this.getAttribute("content"));
                             break;
                         default:
                             console.log("web");
                             break;
                     }
+
                 } else {
                     console.log("vazio")
                 }
-                /*if(modal.style.display == "flex"){
-                  modal.style.display = "none";
-                } else{
-                  modal.style.display = "flex";
-                }*/
+
             }
         }
 
+
+        function imageOpen(img, target) {
+            target.innerHTML = "<div class=\"imageModalFrameClose\"><div class=\"btnClose\">[X]</div></div><img src=\"" + img + "\" />";
+            showModal();
+        }
+
+        function pdfOpen(pdf) {
+            window.open(pdf)
+        }
+
+        function videoOpen(video, target) {
+            target.innerHTML = "<div class=\"imageModalFrameClose\"><div class=\"btnClose\">[X]</div></div><video autoplay controls><source src=\"" + video + "\" type=\"video/mp4\"></video>"
+            showModal();
+        }
+
+        function showModal() {
+            document.getElementsByClassName('btnClose')[0].onclick = function() {
+                closeModal();
+            }
+            if (imageModalFrame.style.display == "flex") {
+                closeModal();
+            } else {
+                imageModalFrame.style.display = "flex";
+            }
+        };
+
+        function closeModal() {
+            imageModalFrame.style.display = "none";
+            document.getElementsByClassName('contentView')[0].innerHTML = "";
+        }
     }
-
-
 
 } catch (err) {
     alert(err)
