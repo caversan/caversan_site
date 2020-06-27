@@ -195,6 +195,7 @@ video {
     color: #fff;
     background-color: #800;
     padding: 3px;
+    cursor: pointer;
 }
 
 @media screen and (min-width: 1380px) {

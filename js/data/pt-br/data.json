@@ -202,6 +202,15 @@
         "portifolio": {
             "title": "Alguns trabalhos realizados",
             "grid": [{
+                    "title": "DIGITAL SIGNAGE",
+                    "grid": [{
+                        "title": "entre 2007 e 2015",
+                        "description": "Criação e desenvolvimento do software de digital signage, rádio virtual e TV corporativa para Elemidia Empresas e Atmo. A aplicação foi desenvolvida em .Net, Actionscript, Batch Script, Powershell e JavaScript totalmente parametrizada afim de agilizar a replicação do software em vários clientes e modular para que o software pudesse ser personalizado além de um watchdog (controle de falhas) construído para este ser executado de forma estável em hardware limitado.",
+                        "thumb": "img/portifolio/thumbs/digital_signage.png",
+                        "content": "videos/digital_signage.m4v"
+                    }]
+                },
+                {
                     "title": "WEB",
                     "grid": [{
                         "title": "2010 - Mantu",
@@ -243,15 +252,6 @@
                         "description": "Email marketing.",
                         "thumb": "img/portifolio/thumbs/gigabyte.png",
                         "content": "img/portifolio/gigabyte.png"
-                    }]
-                },
-                {
-                    "title": "DIGITAL SIGNAGE",
-                    "grid": [{
-                        "title": "entre 2007 e 2015",
-                        "description": "Criação e desenvolvimento do software de digital signage, rádio virtual e TV corporativa para Elemidia Empresas e Atmo. A aplicação foi desenvolvida em .Net, Actionscript, Batch Script, Powershell e JavaScript totalmente parametrizada afim de agilizar a replicação do software em vários clientes e modular para que o software pudesse ser personalizado além de um watchdog (controle de falhas) construído para este ser executado de forma estável em hardware limitado.",
-                        "thumb": "img/portifolio/thumbs/digital_signage.png",
-                        "content": "videos/digital_signage.m4v"
                     }]
                 },
                 {
