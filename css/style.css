@@ -216,7 +216,7 @@ video {
     }
 }
 
-@media screen and (max-width: 775px) {
+@media screen and (max-width: 790px) {
     body {
         font-size: 16px;
         margin: 0px;

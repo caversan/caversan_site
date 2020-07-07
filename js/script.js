@@ -1,9 +1,29 @@
 try {
+    var language = "";
+    document.getElementsByClassName('flag')[0].onclick = function() {
+        if (language != "pt-br" && jsonPTBR.readyState === 4) {
+            if (jsonPTBR.status >= 200 && jsonPTBR.status < 400) {
+                language = "pt-br";
+                fillHtml(JSON.parse(jsonPTBR.responseText))
+            }
+        }
+    }
+    document.getElementsByClassName('flag')[1].onclick = function() {
+        if (language != "en" && jsonEN.readyState === 4) {
+            if (jsonEN.status >= 200 && jsonEN.status < 400) {
+                language = "en";
+                fillHtml(JSON.parse(jsonEN.responseText))
+            }
+        }
+    }
+
+
+
     var data = new Date();
 
-    //var jsonEN = new XMLHttpRequest();
-    //jsonEN.open('GET', 'js/data/en/data.json', true);
-    //jsonEN.send();
+    var jsonEN = new XMLHttpRequest();
+    jsonEN.open('GET', 'js/data/en/data.json', true);
+    jsonEN.send();
     //jsonEN = null;
 
 
@@ -14,6 +34,7 @@ try {
     jsonPTBR.onreadystatechange = function() {
         if (this.readyState === 4) {
             if (this.status >= 200 && this.status < 400) {
+                language = "pt-br";
                 fillHtml(JSON.parse(this.responseText))
             } else {
                 // Error :(
@@ -22,7 +43,7 @@ try {
     };
 
     jsonPTBR.send();
-    jsonPTBR = null;
+    //jsonPTBR = null;
 
 
     function fillHtml(loadedJson) {
@@ -55,27 +76,27 @@ try {
 
 
 
-        document.getElementsByClassName("languages")[0].innerHTML += "<h2>" + loadedJson.sections.languages.title + ":</h2><ul class=\"languagesList\">";
+        document.getElementsByClassName("languages")[0].innerHTML = "<h2>" + loadedJson.sections.languages.title + ":</h2><ul class=\"languagesList\">";
         for (i in loadedJson.sections.languages.grid) {
             document.getElementsByClassName("languagesList")[0].innerHTML += "<li>" + loadedJson.sections.languages.grid[i] + "</li>";
         }
         document.getElementsByClassName("languages")[0].innerHTML += "</ul>";
 
 
-        document.getElementsByClassName("graduation")[0].innerHTML += "<h2>" + loadedJson.sections.graduation.title + ":</h2><ul class=\"graduationList\">";
+        document.getElementsByClassName("graduation")[0].innerHTML = "<h2>" + loadedJson.sections.graduation.title + ":</h2><ul class=\"graduationList\">";
         for (i in loadedJson.sections.graduation.grid) {
             document.getElementsByClassName("graduationList")[0].innerHTML += "<li>" + loadedJson.sections.graduation.grid[i].title + " - " + loadedJson.sections.graduation.grid[i].description + "</li>";
         }
         document.getElementsByClassName("graduation")[0].innerHTML += "</ul>";
 
 
-        document.getElementsByClassName("courses")[0].innerHTML += "<h2>" + loadedJson.sections.courses.title + ":</h2><ul class=\"coursesList\">";
+        document.getElementsByClassName("courses")[0].innerHTML = "<h2>" + loadedJson.sections.courses.title + ":</h2><ul class=\"coursesList\">";
         for (i in loadedJson.sections.courses.grid) {
             document.getElementsByClassName("coursesList")[0].innerHTML += "<li>" + loadedJson.sections.courses.grid[i].title + " - " + loadedJson.sections.courses.grid[i].description + "</li>";
         }
         document.getElementsByClassName("courses")[0].innerHTML += "</ul>";
 
-        document.getElementsByClassName("experience")[0].innerHTML += "<h2>" + loadedJson.sections.experience.title + ":</h2><ul class=\"experienceList\">";
+        document.getElementsByClassName("experience")[0].innerHTML = "<h2>" + loadedJson.sections.experience.title + ":</h2><ul class=\"experienceList\">";
         for (i in loadedJson.sections.experience.grid) {
             document.getElementsByClassName("experienceList")[0].innerHTML += "<li><b>" + loadedJson.sections.experience.grid[i].title + "</b><br/>" + loadedJson.sections.experience.grid[i].description + "<br/>" + ((loadedJson.sections.experience.grid[i].link != "" || loadedJson.sections.experience.grid[i].link != undefined) ? ("<a href=\"" + loadedJson.sections.experience.grid[i].link + "\" target=\"_blank\">" + loadedJson.sections.experience.grid[i].link + "</a>") : "") + "</li><br/><br/>";
         }
@@ -83,7 +104,7 @@ try {
 
 
 
-        document.getElementsByClassName("portifolio")[0].innerHTML += "<h2>" + loadedJson.sections.portifolio.title + ":</h2>";
+        document.getElementsByClassName("portifolio")[0].innerHTML = "<h2>" + loadedJson.sections.portifolio.title + ":</h2>";
         document.getElementsByClassName("portifolio")[0].innerHTML += "<div class=\"portifolioList\"></div>"
         for (i in loadedJson.sections.portifolio.grid) {
             document.getElementsByClassName("portifolioList")[0].innerHTML += "<div class=\"portifolioListTitle\">" + loadedJson.sections.portifolio.grid[i].title + "</div>";
@@ -163,51 +184,3 @@ try {
 } catch (err) {
     alert(err)
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-/* 
-// Get the modal
-var modal = document.getElementById('contactModalFrame');
-
-// Get the button that opens the modal
-var btn = document.getElementsByClassName('btnContact');
-
-// Get the <span> element that closes the modal
-var span = document.getElementById('closeX');
-
-// When the user clicks the button, open the modal 
-for (i in btn) {
-    btn[i].onclick = function() {
-        if (modal.style.display == "flex") {
-            modal.style.display = "none";
-        } else {
-            modal.style.display = "flex";
-        }
-    }
-}
-
-// When the user clicks on <span> (x), close the modal
-span.onclick = function() {
-    modal.style.display = "none";
-}
-
-// When the user clicks anywhere outside of the modal, close it
-window.onclick = function(event) {
-    if (event.target == modal) {
-        modal.style.display = "none";
-    }
-} */
