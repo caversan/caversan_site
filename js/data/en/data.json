@@ -31,7 +31,7 @@
             "title": "Nationality",
             "description": "Brazilian"
         },
-        "matrialstate": {
+        "matrialstatus": {
             "title": "Matrial status",
             "description": "Civil Union"
         },
@@ -106,13 +106,13 @@
                     "description": "Responsive pages for multiplataform contents using the best an uptodate frontend tendencies. Tecnologies: Drupal, Wordpress, XHTML, HTML 3, 4 and 5, CSS, XML, Javascript(Vanilla and Frameworks), Angular, Jquery, Json, Adobe Dreamweaver, VS Code, Google Analitics and SEO."
                 }, {
                     "title": "SISTEMAS OPERACIONAIS",
-                    "description": "Usuário avançado e administrador de sistemas, conhecimento abrangente do funcionamento software/hardware, otimização de sistemas, redes, segurança e diretivas de grupo. Tecnologias: MacOS, Linux, Windows, Android, Powershell, Batch and Shell."
+                    "description": "Advanced user and system administrator, knowledge in software/hardware, system optimization, network, security and group policies. Technologies: MacOS, Linux, Windows, Android, Powershell, Batch and Shell."
                 }
             ]
         },
         "languages": {
             "title": "Languages",
-            "grid": ["English (Advanced) - TOEFL(2015) 450 points", "Spanish (Basic reading)", "Portuguese (Native)"]
+            "grid": ["English (Professional working proficiency) - TOEFL(2015) 450 points", "Spanish (Limited working proficiency)", "Portuguese (Native)"]
 
         },
         "graduation": {
@@ -174,42 +174,42 @@
                 "description": "Activities:<br/> -Digital Marketing Leader; <br/>-SEO metrics; <br/>-Web development; <br/>-Portal Unidas maintenance; <br/>-On-line and off line material layouts; <br/>-Video editing; <br/>-E-mail Marketing Production.",
                 "link": "http://www.unidas.com.br"
             }, {
-                "title": "Ago/2007 até Mai/2013 na Elemidia Empresas - Cargo: Programador",
-                "description": "Activities: <br/> -Programação Actionscript 2 para a manutenção e desenvolvimento de novas funcionalidades para software de Digital Signage e Tv Corporativa da Elemidia Empresas;<br/>-Layouts para o softwares de TV Corporativa baseadas na identidade visual do cliente; <br/>-Animações e vinhetas em 2 D; <br/>-Edição e tratamento de vídeo; <br/>-Cases de grandes empresas nacionais e multinacionais. Participação em mais de 300 projetos.",
+                "title": "Aug/2007 to May/2013 at Elemidia Empresas - Occupation: Programmer",
+                "description": "Activities: <br/> -Actionscript 2 programming for digital signage software development and maintenance;<br/>-Digital signage and Corporate TV layouts based in costumer brand guideline; <br/>-2D teasers animation; <br/>-Video editing; <br/>-Multinational costumers. Implementing over 300 projects.",
                 "link": "http://www.elemidia.com.br"
             }, {
-                "title": "Nov/2006 até Mar/2007 na Edições Paulinas - Cargo: Web-Designer.",
-                "description": "Activities:<br/> Atualização do conteúdo do Portal Paulinas envolvendo banners e aplicações em flash, aplicações em ASP, conteúdo audiovisual, suporte ao internauta, html, css, imagens.",
+                "title": "Nov/2006 to Mar/2007 at Edições Paulinas - Occupation: Web-Designer",
+                "description": "Activities:<br/> Content maintenance of Edições Paulinas portal using flash, ASP.NET, audiovisual content, user support, html, css, photo editing.",
                 "link": "http://www.paulinas.org.br/"
             }, {
-                "title": "Set/2005 até Nov/2006 na LC2 (parceria com a TCPcom) Cargo: Web-Developer Pleno.",
-                "description": "Activities:<br/> Diagramação e produção de web - sites institucionais, hot-sites, web - sites dinâmicos, banco de dados, web-marketing, suporte técnico, revenda de hospedagem, cPanel, atualização, alguns trabalhos gráficos e de multimídia.",
+                "title": "Sep/2005 to Nov/2006 at LC2 (TCPcom partner) - Occupation: Web-Developer",
+                "description": "Activities:<br/> Institutional sites webdesign, hot-sites, dynamic web-sites, databases, web-marketing, user support, host reselling, cPanel, maintenance, graphics and multimedia.",
                 "link": ""
             }, {
-                "title": "Dez/2004 até Ago/2005 Cargo: Bit-Click Photo Digital Cargo: Operador de Vídeo.",
-                "description": "Activities: <br/> -Cobertura de foto e vídeo em feiras, eventos e festas, edição de vídeo, efeitos especiais, vinhetas.",
+                "title": "Dec/2004 to Aug/2005 at Bit-Click Photo Digital - Occupation: Camera man",
+                "description": "Activities: <br/> -Photo and video capture for fairs and shows, video editing, special effects, teasers.",
                 "link": ""
             }, {
-                "title": "Nov/2002 até Dez/2004 na Yazz Design Cargo: Diretor de arte - Multimídia.",
-                "description": "Activities:<br/> Gerência de projetos e análise de custos para web e multimídia, produção em web multimídia, artes gráficas, ilustração, diagramação, coordenação de equipe para foto e vídeo, suporte ao cliente.",
+                "title": "Nov/2002 to Dec/2004 at Yazz Design - Occupation: Multimedia Art Director.",
+                "description": "Activities:<br/> Project Management, cost analysis for web and multimedia, website production, graphic arts, illustration, team leading, user support.",
                 "link": "http://www.yazz.com.br"
             }, {
-                "title": "Abril/2002 até Out/2002 na Dialeto Comunicação Cargo: Web-Designer.",
-                "description": "Activities:<br/>Diagramação e produção de web - sites institucionais, hot-sites, web-marketing, suporte técnico, atualização, desenho técnico(AutoCad), alguns trabalhos gráficos e de multimídia.",
+                "title": "Apr/2002 to Oct/2002 at Dialeto Comunicação - Occupation: Web-Designer.",
+                "description": "Activities:<br/>Institutional sites webdesign, hot-sites, dynamic web-sites, databases, web-marketing, user support, host reselling, cPanel, maintenance, graphics and multimedia.",
                 "link": ""
             }, {
-                "title": "Nov/2000 até Dez/2001 na TCPcom Ltda Cargo: Web-Designer",
-                "description": "Activities:<br/>Diagramação e produção de web - sites institucionais, hot-sites, web-marketing, suporte técnico, atualização, desenho técnico(AutoCad), alguns trabalhos gráficos e de multimídia.",
+                "title": "Nov/2000 to Dec/2001 at TCPcom Ltda - Occupation: Web-Designer",
+                "description": "Activities:<br/>Institutional sites webdesign, hot-sites, dynamic web-sites, databases, web-marketing, user support, host reselling, cPanel, maintenance, graphics and multimedia.",
                 "link": ""
             }]
         },
         "portifolio": {
-            "title": "Alguns trabalhos realizados",
+            "title": "Some works",
             "grid": [{
                     "title": "DIGITAL SIGNAGE",
                     "grid": [{
-                        "title": "entre 2007 e 2015",
-                        "description": "Criação e desenvolvimento do software de digital signage, rádio virtual e TV corporativa para Elemidia Empresas e Atmo. A aplicação foi desenvolvida em .Net, Actionscript, Batch Script, Powershell e JavaScript totalmente parametrizada afim de agilizar a replicação do software em vários clientes e modular para que o software pudesse ser personalizado além de um watchdog (controle de falhas) construído para este ser executado de forma estável em hardware limitado.",
+                        "title": "between 2007 e 2015",
+                        "description": "Development of a Digital Signage Software for Atmo and Elemidia, virtual radio e corporate TV. Application programmed in .Net, Actionscript, Batch Script, Powershell and JavaScript fully parametrized for automate the software replication for many costumers and based in micro modules to permiting the software customization, watchdog (failure control) to bring stability in less resources hardware.",
                         "thumb": "img/portifolio/thumbs/digital_signage.png",
                         "content": "videos/digital_signage.m4v"
                     }]
@@ -218,42 +218,42 @@
                     "title": "WEB",
                     "grid": [{
                         "title": "2010 - Mantu",
-                        "description": "Web-site para casa de shows.<br/>Recursos utilizados: Site em PHP, XML e MySql com cadastro de usuários, acesso restrito ao albúm de fotos, Gerenciador de banners OpenX, integração com a API do Google Maps, Google Analytics, além de recursos avançados de CSS3 e JQuery.",
+                        "description": "Web-site for show bar.<br/>Resources: Site in PHP, XML and MySql with user control, restrict access to a photo gallery, Banner manager OpenX, Google Maps, Google Analytics, CSS3 and JQuery.",
                         "thumb": "img/portifolio/thumbs/mantu.png",
                         "content": "img/portifolio/mantu.png"
                     }, {
                         "title": "2010 - Porto Velho Bar",
-                        "description": "Web-site casa de shows.<br/>Recursos utilizados: Animação do lay-out no flash, integração do flash com o XML a fim de facilitar a atualização do conteúdo. Carregamento do site otimizado afim de primeiro carregarmos primeiro o conteúdo de maior importância e por último as imagens e planos de fundo, esta página possui uma versão mobile que é acessada automaticamente quando o acesso não provenha de um desktop.",
+                        "description": "Web-site for show bar.<br/>Resources: Site in PHP, XML and MySql with user control, restrict access to a photo gallery, Banner manager OpenX, Google Maps, Google Analytics, CSS3 and JQuery.",
                         "thumb": "img/portifolio/thumbs/portovelho.png",
                         "content": "img/portifolio/portovelho.png"
                     }, {
                         "title": "2007 - QuickSand",
-                        "description": "Web-site institucional para Fabricante de calçados.<br/>Recursos utilizados: Animação do lay - out no flash, tratamento de imagens, foto montagem.Com o uso do Photoshop o logotipo da empresa foi inserido em diversas montagens.O carro deste thumbnail por exemplo era preto e não tinha a pintura do fogo que foi inserida a partir da foto de uma fogueira.",
+                        "description": "Institutional Web-site.<br/>Recursos utilizados: Adobe Flash - Actionscript 2, Javascript, PHP, MySQL.",
                         "thumb": "img/portifolio/thumbs/quick.png",
                         "content": "videos/quick.m4v"
                     }, {
-                        "title": "2006 - Bunny's verão",
-                        "description": "Web-site institucional para rede de lojas de moda.<br/>Recursos utilizados: Animação do lay-out no flash, sonorização, tratamento de imagens, formulário de contato em asp.",
+                        "title": "2006 - Bunny's summer",
+                        "description": "Institutional Web-site.<br/>Recursos utilizados: Adobe Flash - Actionscript 2, Javascript, PHP, MySQL.",
                         "thumb": "img/portifolio/thumbs/bunnys3.png",
                         "content": "videos/bunnys3.m4v"
                     }, {
-                        "title": "2006 - Bunny's inverno",
-                        "description": "Web-site institucional para rede de lojas de moda.<br/>Recursos utilizados: Animação do lay-out no flash, sonorização, tratamento de imagens, formulário de contato em asp.",
+                        "title": "2006 - Bunny's winter",
+                        "description": "Institutional Web-site.<br/>Recursos utilizados: Adobe Flash - Actionscript 2, Javascript, PHP, MySQL.",
                         "thumb": "img/portifolio/thumbs/bunnys2.png",
                         "content": "videos/bunnys2.m4v"
                     }, {
-                        "title": "2005 - Bunny's verão",
-                        "description": "Web-site institucional para rede de lojas de moda.<br/>Recursos utilizados: Animação do lay-out no flash, sonorização, tratamento de imagens, formulário de contato em asp.",
+                        "title": "2005 - Bunny's summer",
+                        "description": "Institutional Web-site.<br/>Recursos utilizados: Adobe Flash - Actionscript 2, Javascript, PHP, MySQL.",
                         "thumb": "img/portifolio/thumbs/bunnys1.png",
                         "content": "videos/bunnys1.m4v"
                     }, {
                         "title": "2005 - Club B!",
-                        "description": "Web-site institucional para rede de lojas de moda.<br/>Recursos utilizados: Animação do lay-out no flash, sonorização, tratamento de imagens, formulário de contato em asp.",
+                        "description": "Institutional Web-site.<br/>Recursos utilizados: Adobe Flash - Actionscript 2, Javascript, PHP, MySQL.",
                         "thumb": "img/portifolio/thumbs/clubb.png",
                         "content": "videos/clubb.m4v"
                     }, {
                         "title": "2010 - Gigabyte",
-                        "description": "Email marketing.",
+                        "description": "E-mail marketing.",
                         "thumb": "img/portifolio/thumbs/gigabyte.png",
                         "content": "img/portifolio/gigabyte.png"
                     }]
@@ -261,23 +261,23 @@
                 {
                     "title": "EDITORAÇÃO GRÁFICA",
                     "grid": [{
-                        "title": "2003 - Manual Mochila WIDO",
-                        "description": "Manual de Instruções ilustrado.",
+                        "title": "2003 - WIDO Back Pack Manual",
+                        "description": "Illustred Back Pack Manual.",
                         "thumb": "img/portifolio/thumbs/mochila.png",
                         "content": "img/portifolio/mochila.png"
                     }, {
-                        "title": "2010 - Identidade Visual Gelo Nevada",
-                        "description": "Identidade Visual para a empresa Gelo Nevada.",
+                        "title": "2010 - Brand Guideline Gelo Nevada",
+                        "description": "Brand Guideline to Gelo Nevada.",
                         "thumb": "img/portifolio/thumbs/gelonevada.png",
                         "content": "img/portifolio/gelonevada.png"
                     }, {
                         "title": "2004 - Citibank Club",
-                        "description": "Catálogo para clube de vantagens do Citibank produzido no Adobe inDesign.",
+                        "description": "Citibank Advantage Clube made with Adobe inDesign.",
                         "thumb": "img/portifolio/thumbs/citi.png",
                         "content": "pdf/citi.pdf"
                     }, {
                         "title": "2005 - Chora Brasil",
-                        "description": "Projeto gráfico e editorial para a revista Chora Brasil produzido no Adobe inDesign.",
+                        "description": "Graphic project for magazine Chora Brasil made with Adobe inDesign.",
                         "thumb": "img/portifolio/thumbs/chora.png",
                         "content": "pdf/chora.pdf"
                     }]

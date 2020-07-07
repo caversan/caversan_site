@@ -38,7 +38,7 @@ try {
         document.getElementsByClassName("email")[0].innerHTML = loadedJson.profile.email.title + ": <a href=\"mailto:" + loadedJson.profile.email.description + "\">" + loadedJson.profile.email.description + "</a>";
         document.getElementsByClassName("address")[0].innerHTML = loadedJson.profile.address.title + ": " + loadedJson.profile.address.description;
         document.getElementsByClassName("nationality")[0].innerHTML = loadedJson.profile.nationality.title + ": " + loadedJson.profile.nationality.description;
-        document.getElementsByClassName("matrialstate")[0].innerHTML = loadedJson.profile.matrialstate.title + ": " + loadedJson.profile.matrialstate.description;
+        document.getElementsByClassName("matrialstatus")[0].innerHTML = loadedJson.profile.matrialstatus.title + ": " + loadedJson.profile.matrialstatus.description;
         document.getElementsByClassName("children")[0].innerHTML = loadedJson.profile.children.title + ": " + loadedJson.profile.children.description;
         document.getElementsByClassName("driverlicense")[0].innerHTML = loadedJson.profile.driverlicense.title + ": " + loadedJson.profile.driverlicense.description;
         document.getElementsByClassName("car")[0].innerHTML = loadedJson.profile.car.title + ": " + loadedJson.profile.car.description;

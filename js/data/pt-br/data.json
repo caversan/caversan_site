@@ -31,7 +31,7 @@
             "title": "Nacionalidade",
             "description": "Brasileiro"
         },
-        "matrialstate": {
+        "matrialstatus": {
             "title": "Estado civil",
             "description": "Casado"
         },
@@ -175,7 +175,7 @@
                 "link": "http://www.unidas.com.br"
             }, {
                 "title": "Ago/2007 até Mai/2013 na Elemidia Empresas - Cargo: Programador",
-                "description": "Atribuições: <br/> -Programação Actionscript 2 para a manutenção e desenvolvimento de novas funcionalidades para software de Digital Signage e Tv Corporativa da Elemidia Empresas;<br/>-Layouts para o softwares de TV Corporativa baseadas na identidade visual do cliente; <br/>-Animações e vinhetas em 2 D; <br/>-Edição e tratamento de vídeo; <br/>-Cases de grandes empresas nacionais e multinacionais. Participação em mais de 300 projetos.",
+                "description": "Atribuições: <br/> -Programação Actionscript 2 para a manutenção e desenvolvimento de novas funcionalidades para software de Digital Signage e Tv Corporativa da Elemidia Empresas;<br/>-Layouts para o softwares de TV Corporativa baseadas na identidade visual do cliente; <br/>-Animações e vinhetas em 2D; <br/>-Edição e tratamento de vídeo; <br/>-Cases de grandes empresas nacionais e multinacionais. Participação em mais de 300 projetos.",
                 "link": "http://www.elemidia.com.br"
             }, {
                 "title": "Nov/2006 até Mar/2007 na Edições Paulinas - Cargo: Web-Designer.",
