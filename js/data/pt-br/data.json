@@ -15,13 +15,17 @@
             "title": "Fone/Whatsapp",
             "description": "+55 11 98091-0161"
         },
+        "skype": {
+            "title": "Skype",
+            "description": "adrcaversan@hotmail.com"
+        },
         "email": {
             "title": "E-mail",
             "description": "adriano.caversan@gmail.com"
         },
         "address": {
             "title": "Endereço",
-            "description": "Parque Continental, Zona Oeste de São Paulo."
+            "description": "Parque Continental, Zona Oeste de São Paulo"
         },
         "nationality": {
             "title": "Nacionalidade",
@@ -90,7 +94,7 @@
                     "description": "Elaboração de material gráfico impresso como folhetos, cartazes, jornais, revistas, brindes e embalagens. Tecnologias: Adobe Indesign, Adobe Page Maker, Adobe Acrobat, Scribus."
                 }, {
                     "title": "FOTOGRAFIA",
-                    "description": "Conhecimento técnico e teórico de foto analógica e digital, técnicas de iluminação e estúdio, scripts de manipulação de imagens em lote, edição e tratamento de imagem, script de tratamento de imagens em lote. Tecnologias: Estúdio e iluminação, Fotografia luz natural, Fotojornalismo, Adobe Photoshop, Gimp."
+                    "description": "Conhecimento técnico e teórico de foto analógica e digital, técnicas de iluminação e estúdio, scripts de manipulação de imagens em lote, edição e tratamento de imagem. Tecnologias: Estúdio e iluminação, Fotografia luz natural, Fotojornalismo, Adobe Photoshop, Gimp."
                 }, {
                     "title": "PROGRAMAÇÃO E BANCO DE DADOS",
                     "description": "ActionScript 2 e ActionScript 3, conteúdo dinâmico PHP/MySql, CSS2 e CSS3, tableless, APIs do Google, JQuery, Ajax, Frameworks JavaScript, aplicativos para desktop. Tecnologias: DHTML, ActionScript 1, 2 e 3, ASP, PHP, CGI, Javascript, Lingo, .Net, C#, C,C++, Java / Android, Python/Pygame, MySQL, Access, Qt."
@@ -167,7 +171,7 @@
                 "link": "http://www.atmodigital.com.br/"
             }, {
                 "title": "Jun/2013 até Set/2013 na Unidas Rent a Car - Cargo: Analista de Marketing Digital.",
-                "description": "Atribuições:<br/> -Coordenação de projetos para mídia on - line; <br/>-Análise de métricas do portal Unidas; <br/>-Análise de sistemas web; <br/>-Manutenção de conteúdo do portal Unidas; <br/>-Layouts para mídia on - line e impressa; <br/>-Edição e tratamento de vídeo; <br/>-Produção de e-mail Marketing.",
+                "description": "Atribuições:<br/> -Coordenação de projetos para mídia on-line; <br/>-Análise de métricas do portal Unidas; <br/>-Análise de sistemas web; <br/>-Manutenção de conteúdo do portal Unidas; <br/>-Layouts para mídia on-line e impressa; <br/>-Edição e tratamento de vídeo; <br/>-Produção de e-mail Marketing.",
                 "link": "http://www.unidas.com.br"
             }, {
                 "title": "Ago/2007 até Mai/2013 na Elemidia Empresas - Cargo: Programador",
