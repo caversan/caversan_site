@@ -57,6 +57,7 @@ try {
         document.getElementsByClassName("birth")[0].innerHTML = loadedJson.profile.birth.title + ": 0" + birth.getDate() + "/0" + (birth.getMonth() + 1) + "/" + birth.getFullYear();
         document.getElementsByClassName("phone")[0].innerHTML = loadedJson.profile.phone.title + ": <a href=\"tel:" + loadedJson.profile.phone.description + "\">" + loadedJson.profile.phone.description + "</a>";
         document.getElementsByClassName("email")[0].innerHTML = loadedJson.profile.email.title + ": <a href=\"mailto:" + loadedJson.profile.email.description + "\">" + loadedJson.profile.email.description + "</a>";
+        document.getElementsByClassName("skype")[0].innerHTML = loadedJson.profile.skype.title + ": <a href=\"mailto:" + loadedJson.profile.skype.description + "\">" + loadedJson.profile.skype.description + "</a>";
         document.getElementsByClassName("address")[0].innerHTML = loadedJson.profile.address.title + ": " + loadedJson.profile.address.description;
         document.getElementsByClassName("nationality")[0].innerHTML = loadedJson.profile.nationality.title + ": " + loadedJson.profile.nationality.description;
         document.getElementsByClassName("matrialstatus")[0].innerHTML = loadedJson.profile.matrialstatus.title + ": " + loadedJson.profile.matrialstatus.description;
