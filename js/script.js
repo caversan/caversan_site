@@ -20,6 +20,7 @@ try {
 
 
     var data = new Date();
+    var months = ["Jan", "Feb", "Mar", "Apr", "May", "Jun", "Jul", "Aug", "Sep", "Oct", "Nov", "Dec"];
 
     var jsonEN = new XMLHttpRequest();
     jsonEN.open('GET', 'js/data/en/data.json', true);
@@ -54,7 +55,19 @@ try {
         document.getElementsByClassName("nome")[0].innerHTML = loadedJson.name;
         document.getElementsByClassName("occupation")[0].innerHTML = loadedJson.profile.occupation.title + ": <span class=\"txtAmarelo\">" + loadedJson.profile.occupation.description + "</span>";
         var birth = new Date(loadedJson.profile.birth.description)
-        document.getElementsByClassName("birth")[0].innerHTML = loadedJson.profile.birth.title + ": 0" + birth.getDate() + "/0" + (birth.getMonth() + 1) + "/" + birth.getFullYear();
+        switch (language) {
+            case "pt-br":
+                document.getElementsByClassName("birth")[0].innerHTML = loadedJson.profile.birth.title + ": 0" + birth.getDate() + "/0" + (birth.getMonth() + 1) + "/" + birth.getFullYear();
+                break;
+            case "en":
+                document.getElementsByClassName("birth")[0].innerHTML = loadedJson.profile.birth.title + ": " + months[birth.getMonth()] + "/0" + birth.getDate() + "/" + birth.getFullYear();
+                break;
+            default:
+                alert("")
+                document.getElementsByClassName("birth")[0].innerHTML = loadedJson.profile.birth.title + ": 0" + birth.getDate() + "/0" + (birth.getMonth() + 1) + "/" + birth.getFullYear();
+                break;
+        }
+
         document.getElementsByClassName("phone")[0].innerHTML = loadedJson.profile.phone.title + ": <a href=\"tel:" + loadedJson.profile.phone.description + "\">" + loadedJson.profile.phone.description + "</a>";
         document.getElementsByClassName("email")[0].innerHTML = loadedJson.profile.email.title + ": <a href=\"mailto:" + loadedJson.profile.email.description + "\">" + loadedJson.profile.email.description + "</a>";
         document.getElementsByClassName("skype")[0].innerHTML = loadedJson.profile.skype.title + ": <a href=\"mailto:" + loadedJson.profile.skype.description + "\">" + loadedJson.profile.skype.description + "</a>";

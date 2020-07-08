@@ -24,7 +24,7 @@
             "description": "adriano.caversan@gmail.com"
         },
         "address": {
-            "title": "Address",
+            "title": "Location",
             "description": "São Paulo, Brazil"
         },
         "nationality": {
@@ -33,11 +33,11 @@
         },
         "matrialstatus": {
             "title": "Matrial status",
-            "description": "Civil Union"
+            "description": "Common-law marriage"
         },
         "children": {
             "title": "Children",
-            "description": "Yes, one 10 yo child"
+            "description": "Yes, a 10 yo child"
         },
         "driverlicense": {
             "title": "Driver License",
@@ -52,7 +52,7 @@
             "description": "Yes for short travels"
         },
         "move": {
-            "title": "DAvailability for moving",
+            "title": "Availability for moving",
             "description": " Yes with my wife and my daughter"
         }
     },
@@ -63,22 +63,22 @@
         },
         "profile": {
             "title": "Professional Profile",
-            "description": "With a generalist profile, I’ve a large knowledge with the steps to lead the production for web, games, multimedia and audiovisual projects. I’m working as Designer and Programmer nothing in only one, this is a rare ability in the marketplace. Besides having artistic abilities, I had a direct contact with IT from 80’s starting to use for professional purposes in 1993. In 1998 I started my studies in computer graphics and near 2000 I started my studies in programming, specially in Web and Multimedia and in 2007 projects for Digital Signage. Although I already made games before 2010, was in this year that’s I started my studies in this area, for advance my knowledge in multimedia and programming."
+            "description": "With a generalist profile, I’ve a large knowledge with the steps to lead the production for web, games, multimedia and audiovisual projects. I’m working as Designer and Programmer nothing in only one, this is a rare ability in the marketplace. Besides having artistic skills, I had a direct contact with computing from 80’s starting to use for professional purposes in 1993. In 1998 I started my studies in computer graphics and near 2000 I started my studies in programming, specially for Web and Multimedia, in 2007 for Digital Signage. Although I already made games before 2010, was in this year that I started my studies in this area, for advance my knowledge in multimedia and programming."
         },
         "skills": {
             "title": "Technical knowledge",
-            "description": "Advanced knowledge in programming for web frontend, multimedia and games. Basic knowledge in backend granting a fullstack profile. Adobe Creative Suite specialist, batch script developer for automate the manipulation of the audiovisual contents. Programming for multimedia applications for Windows desktop using .Net (backward compatibility, embedded systems and limmited hardware). Experience with Digital Offices like Web-Marketing, Advertising, Criative Studios, Game Studios, Multimedia Studios. Knowledge in one open source tool for every paid technology used reducing the software licensing costs. Hardware knowledge for computer graphics and embedded systems.",
+            "description": "Advanced knowledge in programming for web frontend, multimedia and games. Basic knowledge in backend granting a fullstack profile. Adobe Creative Suite specialist, batch script developer for automate the manipulation of the audiovisual contents. Programming for Windows desktop multimedia applications using .Net (backward compatibility, embedded systems and limmited hardware). Experience with Digital Offices like Web-Marketing, Advertising, Criative Studios, Game Studios, Multimedia Studios. Knowledge in one open source tool for every paid technology used reducing the software licensing costs. Hardware knowledge for computer graphics and embedded systems.",
             "grid": [{
                     "title": "AUDIO",
-                    "description": "Capture, mixing, synthesizing, editing, special effects, audio and video synchronization, encoding, batch manipulation. Webcast on demand and broadcast, desktop players for corporate radio and surround sound. Technologies: Sound Forge, Audacity, Adobe Audition, Ardour."
+                    "description": "Capture, mixing, synthesizing, editing, special effects, audio and video synchronization, encoding, batch manipulation. Webcast on-demand and broadcast, desktop players for corporate radio and sound environment. Technologies: Sound Forge, Audacity, Adobe Audition, Ardour."
                 },
                 {
                     "title": "VIDEO PRODUCTION",
-                    "description": "Direction, filming, editing, linear and non-linear, production and post-production, special effects, motion script, encoding batch rendering scripts. Live video transmission by streaming broadcast and ondemand, web players and desktop players for Corporate TV and Digital Signage. Technologies: Adobe Première, Sony Vegas Video, VirtualDub, FFMPEG, Kdenlive, Encoders, Blackmagic Fusion."
+                    "description": "Direction, filming, editing, linear and non-linear, production and post-production, special effects, motion script, encoding, automated rendering scripts. Live video transmission over  broadcast streaming or on-demand, web players and desktop players for Corporate TV and Digital Signage. Technologies: Adobe Première, Sony Vegas Video, VirtualDub, FFMPEG, Kdenlive, Encoders, Blackmagic Fusion."
                 },
                 {
                     "title": "3D",
-                    "description": "Modeling, animation, render, bones, physics, lightning scene, adobe flash and director, motionscript, bulk render scirpts, programming for games. Technologies: Blender, Unity 3D, 3D Max, Lightwave, Maya, VRML e X3D, Web GL, (AS3) Flash 3, (LINGO) Director 3D."
+                    "description": "Modeling, animation, rendering, bones, physics, lightning scene, adobe flash and director, motionscript, bulk render scirpts, programming for games. Technologies: Blender, Unity 3D, 3D Max, Lightwave, Maya, VRML e X3D, Web GL, (AS3) Flash 3, (LINGO) Director 3D."
                 },
                 {
                     "title": "ANIMATION",
@@ -167,7 +167,7 @@
                 "link": "http://www.ortizgaming.com/"
             }, {
                 "title": "Sep/2013 to Sep/2015 at Atmo Mídia Digital Corporativa - Occupation: Flash programmer",
-                "description": "Activities:<br/> - System Analysis and Software Development for Digital Signage, totems, multimedia, video streaming live or on demand; <br/> -OS setup and optimization for Windows, Linux, Android and Java; <br/> -Hardware research and test for ARM and x86, video decoders, thin clients for digital signage, totems and multimedia; <br/> -IT Leader; <br/> -Hardware and software worldwide negotiation",
+                "description": "Activities:<br/> - System Analysis and Software Development for Digital Signage, totems, multimedia, video streaming live or on-demand; <br/> -OS setup and optimization for Windows, Linux, Android and Java; <br/> -Hardware research and test for ARM and x86, video decoders, thin clients for digital signage, totems and multimedia; <br/> -IT Leader; <br/> -Hardware and software worldwide negotiation",
                 "link": "http://www.atmodigital.com.br/"
             }, {
                 "title": "Jun/2013 to Sep/2013 at Unidas Rent a Car - Occupation: Digital Marketing Analyst.",

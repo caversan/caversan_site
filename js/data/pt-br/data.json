@@ -70,11 +70,11 @@
             "description": "Conhecimentos avançados em programação para front-end web, multimídia e jogos. Conhecimentos básicos do backend garantindo um perfil fullstack. Especialista no pacote Adobe Creative Suite, desenvolvedor de scripts para manipulação de conteúdo audiovisual em lote, programação de aplicativos multimídia para desktop Windows .Net,(Compatibilidade com sistemas embarcados, versões antigas de Windows e hardware limitado). Experiência em agências digitais web e multimídia, publicidade, estúdios criativos e estúdio de jogos. Experiência em startups que se tornaram unicórnios digitais. Conhecimentos em ao menos uma ferramenta opensource para cada tecnologia paga conhecida garantindo baixo custo de licenciamento de software. Conhecimento em hardware para computação gráfica e sistemas embarcados.",
             "grid": [{
                     "title": "ÁUDIO",
-                    "description": "Captura, mixagem, sintetização, edição, efeitos especiais, sincronização de áudio e vídeo, encoding, manipulação em lote. Transmissão web ondemand e broadcast, players desktop para rádio corporativa e som ambiente. Tecnologias: Sound Forge, Audacity, Adobe Audition, Ardour."
+                    "description": "Captura, mixagem, sintetização, edição, efeitos especiais, sincronização de áudio e vídeo, encoding, manipulação em lote. Transmissão web on-demand e broadcast, players desktop para rádio corporativa e som ambiente. Tecnologias: Sound Forge, Audacity, Adobe Audition, Ardour."
                 },
                 {
                     "title": "VÍDEO/PRODUÇÃO",
-                    "description": "Direção, filmagem, edição, linear e não linear, produção e pós-produção, efeitos especiais, motionscript, encoding scripts de renderização em lote. Transmissão de vídeo ao vivo por streaming broadcast e ondemand, web players e desktop players para TV Corporativa e Digital Signage Tecnologias: Adobe Première, Sony Vegas Vídeo, VirtualDub, FFMPEG, Kdenlive, Encoders, Blackmagic Fusion."
+                    "description": "Direção, filmagem, edição, linear e não linear, produção e pós-produção, efeitos especiais, motionscript, encoding scripts de renderização em lote. Transmissão de vídeo ao vivo por streaming broadcast e on-demand, web players e desktop players para TV Corporativa e Digital Signage Tecnologias: Adobe Première, Sony Vegas Vídeo, VirtualDub, FFMPEG, Kdenlive, Encoders, Blackmagic Fusion."
                 },
                 {
                     "title": "3D",
