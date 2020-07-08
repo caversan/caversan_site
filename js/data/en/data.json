@@ -5,7 +5,7 @@
     "profile": {
         "occupation": {
             "title": "Occupation",
-            "description": "Designer and Software Developer for Web, Games, Digital Signage and Multimedia."
+            "description": "Designer and Developer for Web, Games, Digital Signage and Multimedia."
         },
         "birth": {
             "title": "Birth",
@@ -63,47 +63,47 @@
         },
         "profile": {
             "title": "Professional Profile",
-            "description": "With a generalist profile, I’ve a large knowledge with the steps to lead the production for web, games, multimedia and audiovisual projects. I’m working as Designer and Programmer nothing in only one, this is a rare ability in the marketplace. Besides having artistic skills, I had a direct contact with computing from 80’s starting to use for professional purposes in 1993. In 1998 I started my studies in computer graphics and near 2000 I started my studies in programming, specially for Web and Multimedia, in 2007 for Digital Signage. Although I already made games before 2010, was in this year that I started my studies in this area, for advance my knowledge in multimedia and programming."
+            "description": "With a generalist profile, I’ve a large knowledge in the steps to lead a production for web, games, multimedia and audiovisual projects. I’m working as Designer and Programmer nothing in only one, this is a rare ability in the marketplace. Besides having artistic skills, I had a direct contact with computing from 80’s, using for professional purposes from 1993. In 1998 I started my studies in computer graphics and near 2000 in programming, specially for Web and Multimedia, beginning in 2007 to work with Digital Signage. Although I already made games before, was in 2010 that I started my studies in this area, for advance my knowledge in multimedia and programming."
         },
         "skills": {
             "title": "Technical knowledge",
-            "description": "Advanced knowledge in programming for web frontend, multimedia and games. Basic knowledge in backend granting a fullstack profile. Adobe Creative Suite specialist, batch script developer for automate the manipulation of the audiovisual contents. Programming for Windows desktop multimedia applications using .Net (backward compatibility, embedded systems and limmited hardware). Experience with Digital Offices like Web-Marketing, Advertising, Criative Studios, Game Studios, Multimedia Studios. Knowledge in one open source tool for every paid technology used reducing the software licensing costs. Hardware knowledge for computer graphics and embedded systems.",
+            "description": "Advanced knowledge in programming for web frontend, multimedia and games. Basic knowledge in backend granting a fullstack profile. Adobe Creative Suite specialist, batch script development for automate the manipulation of the audiovisual contents. Programming for Windows desktop multimedia applications using .Net (backward compatibility, embedded systems and limmited hardware). Experience with Digital Offices like Web-Marketing, Advertising, Criative Studios, Game Studios, Multimedia Studios. Knowledge in one open source tool for every paid technology used reducing the software licensing costs. Hardware knowledge for computer graphics and embedded systems.",
             "grid": [{
                     "title": "AUDIO",
-                    "description": "Capture, mixing, synthesizing, editing, special effects, audio and video synchronization, encoding, batch manipulation. Webcast on-demand and broadcast, desktop players for corporate radio and sound environment. Technologies: Sound Forge, Audacity, Adobe Audition, Ardour."
+                    "description": "Capture, mixing, synthesizing, editing, special effects, audio and video synchronization, encoding, automated routines. Webcast on-demand and broadcast, desktop players for corporate radio and sound environment. Technologies: Sound Forge, Audacity, Adobe Audition, Ardour."
                 },
                 {
                     "title": "VIDEO PRODUCTION",
-                    "description": "Direction, filming, editing, linear and non-linear, production and post-production, special effects, motion script, encoding, automated rendering scripts. Live video transmission over  broadcast streaming or on-demand, web players and desktop players for Corporate TV and Digital Signage. Technologies: Adobe Première, Sony Vegas Video, VirtualDub, FFMPEG, Kdenlive, Encoders, Blackmagic Fusion."
+                    "description": "Direction, filming, editing, linear and non-linear, production and post-production, special effects, motion script, encoding, scripts. Live video transmission over broadcast streaming or on-demand, web players and desktop players for Corporate TV and Digital Signage. Technologies: Adobe Première, Sony Vegas Video, VirtualDub, FFMPEG, Kdenlive, Encoders, Blackmagic Fusion."
                 },
                 {
                     "title": "3D",
-                    "description": "Modeling, animation, rendering, bones, physics, lightning scene, adobe flash and director, motionscript, bulk render scirpts, programming for games. Technologies: Blender, Unity 3D, 3D Max, Lightwave, Maya, VRML e X3D, Web GL, (AS3) Flash 3, (LINGO) Director 3D."
+                    "description": "Modeling, animation, rendering, bones, physics, lightning, scene, adobe flash and director, motionscript, scripts, programming for games. Technologies: Blender, Unity 3D, 3D Max, Lightwave, Maya, VRML e X3D, Web GL, (AS3) Flash 3, (LINGO) Director 3D."
                 },
                 {
                     "title": "ANIMATION",
-                    "description": "Animation theory and moviment analisis, flash, actionscript, motionscript, after-effects, 3D. Technologies: Adobe After Effects, Adobe Flash, Adobe Animator, Spine, Black Magic Davinci Resolve, Black Magic Fusion."
+                    "description": "Animation theory and motion analisis, flash, actionscript, motionscript, after-effects, 3D. Technologies: Adobe After Effects, Adobe Flash, Adobe Animator, Spine, Black Magic Davinci Resolve, Black Magic Fusion."
                 }, {
                     "title": "DIGITAL SIGNAGE AND MULTIMEDIA",
-                    "description": "Audiovisual content interactive or not. Outernet, Digital Signage indoor and outdoor, Media Out of Home (DOOH), Cd-Rom, Totens, Stand for events, Ad games, DVD, multimedia presentationsfor small and large events, Corporative TV. Technologies: Adobe Flash, Unity 3D, Macromedia Director, Godot, Visual Studio, Qt, NodeJS."
+                    "description": "Audiovisual content interactive or not for Digital Signage indoor and outdoor, Cd-Rom/DVD/Blu-ray, Totens, events, Ad games, presentations and Corporate TV. Technologies: Adobe Flash, Unity 3D, Macromedia Director, Godot, Visual Studio, Qt, NodeJS."
                 }, {
                     "title": "ILUSTRATION",
-                    "description": "Free hand, bitmap, vector, illustration, catoons, icons, logos, brand concept, exclusive typography. Technologies: Adobe Illustrator, Free Hand, Corel Draw, Painter, InkScape, Krita, Gimp, Adobe Photoshop, Fontographer, FontForge."
+                    "description": "Freehand drawing, bitmap, vector, illustration, catoons, icons, logos, brand concept, exclusive typography. Technologies: Adobe Illustrator, Free Hand, Corel Draw, Painter, InkScape, Krita, Gimp, Adobe Photoshop, Fontographer, FontForge."
                 }, {
                     "title": "GRAPHIC DESIGN",
                     "description": "Graphic material production, folders for printing, newsletters, magazines, corporate gifts and packs. Technologies: Adobe Indesign, Adobe Page Maker, Adobe Acrobat, Scribus."
                 }, {
                     "title": "PHOTOGRAPHY",
-                    "description": "Knowledge in SLR and DSLR, illumination techniques and studio prectice, scripts for bulk manipulation, image editing. Technologies: Adobe Photoshop, Gimp."
+                    "description": "Knowledge in SLR and DSLR, illumination techniques and studio prectice, automated scripts, image editing. Technologies: Adobe Photoshop, Gimp."
                 }, {
                     "title": "PROGRAMMING AND DB",
-                    "description": "ActionScript 2 e ActionScript 3, dinamic content PHP/MySql, CSS2 e CSS3, tableless, Google API, JQuery, Ajax, Frameworks JavaScript, desktop apps. Technologies: DHTML, ActionScript 1, 2 e 3, ASP, PHP, CGI, Javascript, Lingo, .Net, C#, C,C++, Java / Android, Python/Pygame, MySQL, Access, Qt."
+                    "description": "ActionScript 2 e ActionScript 3, dynamic content PHP/MySql, CSS2 e CSS3, tableless, Google API, JQuery, Ajax, Frameworks JavaScript, desktop apps. Technologies: DHTML, ActionScript 1, 2 e 3, ASP, PHP, CGI, Javascript, Lingo, .Net, C#, C,C++, Java / Android, Python/Pygame, MySQL, Access, Qt."
                 }, {
                     "title": "GAMES AND MULTIMEDIA",
-                    "description": "Games for a great variety of plataforms and publics: Consoles, internet, Advertising (Ad games), mobile, e-learning Corporative training. Tech Artists, texture map genaration sprite sheets, fonts e audiovisual content, game assets, game machanics programming, SFX, Physics, animation, level design Technologies: Adobe Flash CS5 / AS2 AS3, Macromedia Director 2D/3D, Unity 3D / C#, Godot, Unreal, XNA, Java / Android, Pygame / Blender 3D, C C++, Texture Packer."
+                    "description": "Games for a broad variety of plataforms and publics: Consoles, internet, Advertising (Ad games), mobile, e-learning Corporative training. Tech Artists, texture map genaration sprite sheets, fonts e audiovisual content, game assets, game machanics programming, SFX, Physics, animation, level design Technologies: Adobe Flash CS5 / AS2 AS3, Macromedia Director 2D/3D, Unity 3D / C#, Godot, Unreal, XNA, Java / Android, Pygame / Blender 3D, C C++, Texture Packer."
                 }, {
                     "title": "WEB",
-                    "description": "Responsive pages for multiplataform contents using the best an uptodate frontend tendencies. Tecnologies: Drupal, Wordpress, XHTML, HTML 3, 4 and 5, CSS, XML, Javascript(Vanilla and Frameworks), Angular, Jquery, Json, Adobe Dreamweaver, VS Code, Google Analitics and SEO."
+                    "description": "Responsive pages for multiplataform content using the best praticies and modern frontend tendencies. Technologies: Drupal, Wordpress, XHTML, HTML 3, 4 and 5, CSS, XML, Javascript(Vanilla and Frameworks), Angular, Jquery, Json, Adobe Dreamweaver, VS Code, Google Analitics and SEO."
                 }, {
                     "title": "OPERATIONAL SYSTEMS",
                     "description": "Advanced user and system administrator, knowledge in software/hardware, system optimization, network, security and group policies. Technologies: MacOS, Linux, Windows, Android, Powershell, Batch and Shell."
@@ -112,7 +112,7 @@
         },
         "languages": {
             "title": "Languages",
-            "grid": ["English (Professional working proficiency) - TOEFL(2015) 450 points", "Spanish (Limited working proficiency)", "Portuguese (Native)"]
+            "grid": ["English (Professional working proficiency) - TOEFL(2015) 450 points", "Spanish (Basic reading and listening)", "Portuguese (Native)"]
 
         },
         "graduation": {
@@ -147,7 +147,7 @@
                 "description": "Senac - SP - 2003 (duration 20 hours)."
             }, {
                 "title": "Game production",
-                "description": "Senac - SP - 2002 (grupo de estudos - duration 1 ano)."
+                "description": "Senac - SP - 2002 (duration 1 year)."
             }, {
                 "title": "Lightwave 3D modeling and animationo",
                 "description": "Senac - SP - 2002 (duration 60 hours)."
@@ -156,14 +156,14 @@
                 "description": "Senac - SP - 2000 (duration 96 hours)."
             }, {
                 "title": "Graphic Arts",
-                "description": "Fundação Bradesco - 1992 (duration 12 meses)."
+                "description": "Fundação Bradesco - 1992 (duration 1 year)."
             }]
         },
         "experience": {
             "title": "Professional Experience",
             "grid": [{
                 "title": "Sep/2015 to Nov/2019 at IGS International Solutions - Occupation: Senior Digital Designer (Lead Technical Artist)",
-                "description": "Activities:<br/>Adobe tools specialist for gambling game projects. Development of scripts to automate and optimize the multimedia creation using ffmpeg, imagmagick, javascript, batch and shell commands. Provide the media assets positions and animation information using json, xml, after effects motion script and adobe extended script for use in game engine. Supply the game engine with texture atlas, bitmap fonts, sounds, video etc. Technological update and visual remastering of legacy games based in 80’s and 90’s technologies like MS-DOS and C. Lead the Tech Artist team on charge of provide all creative content to the game plataform.",
+                "description": "Activities:<br/>Adobe tools specialist for gambling game projects. Script development to automate and optimize the multimedia creation using ffmpeg, imagmagick, javascript, batch and shell commands. Provide the media assets positions and animation information using json, xml, after effects motion script and adobe extended script for use in game engine. Supply the game engine with texture maps, sprite sheets, bitmap fonts, sounds, video etc. Technological update and visual remastering of legacy games based in 80’s and 90’s technologies like MS-DOS and C. Lead the Tech Artist team on charge of provide all creative content to the game plataform.",
                 "link": "http://www.ortizgaming.com/"
             }, {
                 "title": "Sep/2013 to Sep/2015 at Atmo Mídia Digital Corporativa - Occupation: Flash programmer",
@@ -208,8 +208,8 @@
             "grid": [{
                     "title": "DIGITAL SIGNAGE",
                     "grid": [{
-                        "title": "between 2007 e 2015",
-                        "description": "Development of a Digital Signage Software for Atmo and Elemidia, virtual radio e corporate TV. Application programmed in .Net, Actionscript, Batch Script, Powershell and JavaScript fully parametrized for automate the software replication for many costumers and based in micro modules to permiting the software customization, watchdog (failure control) to bring stability in less resources hardware.",
+                        "title": "between 2007 and 2015",
+                        "description": "Development of a Digital Signage Software for Atmo and Elemidia, virtual radio and corporate TV. Application programmed in .Net, Actionscript, Batch Script, Powershell and JavaScript fully parametrized for automate the software replication for many costumers and based in micro modules to permiting the software customization, watchdog (failure control) to bring stability in less resources hardware.",
                         "thumb": "img/portifolio/thumbs/digital_signage.png",
                         "content": "videos/digital_signage.m4v"
                     }]
@@ -228,27 +228,27 @@
                         "content": "img/portifolio/portovelho.png"
                     }, {
                         "title": "2007 - QuickSand",
-                        "description": "Institutional Web-site.<br/>Recursos utilizados: Adobe Flash - Actionscript 2, Javascript, PHP, MySQL.",
+                        "description": "Institutional Web-site.<br/>Resources: Adobe Flash - Actionscript 2, Javascript, PHP, MySQL.",
                         "thumb": "img/portifolio/thumbs/quick.png",
                         "content": "videos/quick.m4v"
                     }, {
-                        "title": "2006 - Bunny's summer",
-                        "description": "Institutional Web-site.<br/>Recursos utilizados: Adobe Flash - Actionscript 2, Javascript, PHP, MySQL.",
+                        "title": "2006 - Bunny's summer collection",
+                        "description": "Institutional Web-site.<br/>Resources: Adobe Flash - Actionscript 2, Javascript, PHP, MySQL.",
                         "thumb": "img/portifolio/thumbs/bunnys3.png",
                         "content": "videos/bunnys3.m4v"
                     }, {
-                        "title": "2006 - Bunny's winter",
-                        "description": "Institutional Web-site.<br/>Recursos utilizados: Adobe Flash - Actionscript 2, Javascript, PHP, MySQL.",
+                        "title": "2006 - Bunny's winter collection",
+                        "description": "Institutional Web-site.<br/>Resources: Adobe Flash - Actionscript 2, Javascript, PHP, MySQL.",
                         "thumb": "img/portifolio/thumbs/bunnys2.png",
                         "content": "videos/bunnys2.m4v"
                     }, {
-                        "title": "2005 - Bunny's summer",
-                        "description": "Institutional Web-site.<br/>Recursos utilizados: Adobe Flash - Actionscript 2, Javascript, PHP, MySQL.",
+                        "title": "2005 - Bunny's summer collection",
+                        "description": "Institutional Web-site.<br/>Resources: Adobe Flash - Actionscript 2, Javascript, PHP, MySQL.",
                         "thumb": "img/portifolio/thumbs/bunnys1.png",
                         "content": "videos/bunnys1.m4v"
                     }, {
                         "title": "2005 - Club B!",
-                        "description": "Institutional Web-site.<br/>Recursos utilizados: Adobe Flash - Actionscript 2, Javascript, PHP, MySQL.",
+                        "description": "Institutional Web-site.<br/>Resources: Adobe Flash - Actionscript 2, Javascript, PHP, MySQL.",
                         "thumb": "img/portifolio/thumbs/clubb.png",
                         "content": "videos/clubb.m4v"
                     }, {
@@ -261,23 +261,23 @@
                 {
                     "title": "EDITORAÇÃO GRÁFICA",
                     "grid": [{
-                        "title": "2003 - WIDO Back Pack Manual",
+                        "title": "2003 - WIDO's Back Pack Manual",
                         "description": "Illustred Back Pack Manual.",
                         "thumb": "img/portifolio/thumbs/mochila.png",
                         "content": "img/portifolio/mochila.png"
                     }, {
-                        "title": "2010 - Brand Guideline Gelo Nevada",
-                        "description": "Brand Guideline to Gelo Nevada.",
+                        "title": "2010 - Gelo Nevada's Brand Guideline ",
+                        "description": "Brand Guideline for Gelo Nevada Company.",
                         "thumb": "img/portifolio/thumbs/gelonevada.png",
                         "content": "img/portifolio/gelonevada.png"
                     }, {
                         "title": "2004 - Citibank Club",
-                        "description": "Citibank Advantage Clube made with Adobe inDesign.",
+                        "description": "Citibank Advantage Club made in Adobe inDesign.",
                         "thumb": "img/portifolio/thumbs/citi.png",
                         "content": "pdf/citi.pdf"
                     }, {
                         "title": "2005 - Chora Brasil",
-                        "description": "Graphic project for magazine Chora Brasil made with Adobe inDesign.",
+                        "description": "Graphic project for magazine Chora Brasil made in Adobe inDesign.",
                         "thumb": "img/portifolio/thumbs/chora.png",
                         "content": "pdf/chora.pdf"
                     }]
