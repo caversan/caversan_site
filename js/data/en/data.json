@@ -1,7 +1,7 @@
 {
     "name": "Adriano Caversan",
     "title": "Graphic Computing and Multimedia Software Development",
-    "pdf": "docs/adriano-caversan-en.pdf",
+    "pdf": "docs/adriano-caversan-cv-en.pdf",
     "profile": {
         "occupation": {
             "title": "Occupation",
@@ -105,7 +105,7 @@
                     "title": "WEB",
                     "description": "Responsive pages for multiplataform contents using the best an uptodate frontend tendencies. Tecnologies: Drupal, Wordpress, XHTML, HTML 3, 4 and 5, CSS, XML, Javascript(Vanilla and Frameworks), Angular, Jquery, Json, Adobe Dreamweaver, VS Code, Google Analitics and SEO."
                 }, {
-                    "title": "SISTEMAS OPERACIONAIS",
+                    "title": "OPERATIONAL SYSTEMS",
                     "description": "Advanced user and system administrator, knowledge in software/hardware, system optimization, network, security and group policies. Technologies: MacOS, Linux, Windows, Android, Powershell, Batch and Shell."
                 }
             ]
