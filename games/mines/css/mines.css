@@ -1,0 +1,56 @@
+body {
+    padding: 0px;
+    margin: 0px;
+}
+
+.minesBody {
+    display: flex;
+    flex-direction: column;
+}
+
+.minesRow {
+    display: flex;
+}
+
+@media (orientation: landscape) {
+    .minesBody {
+        height: 100vh;
+        width: 100vh;
+    }
+    .minesRow {
+        display: flex;
+        width: 100vh;
+        height: 5vh;
+    }
+}
+
+@media (orientation: portrait) {
+    .minesBody {
+        height: 100vw;
+        width: 100vw;
+    }
+    .minesRow {
+        display: flex;
+        width: 100vw;
+        height: 5vw;
+    }
+}
+
+.minesBt {
+    background-color: #ebe8eb;
+    /*border: 1px solid #bdbdbd;
+    border-radius: 15%;*/
+    display: inline-block;
+    cursor: pointer;
+    color: #777777;
+    width: 5%;
+    height: 100%;
+}
+
+.minesBt:hover {
+    background-color: #e3e3e3;
+}
+
+.minesBt:active {
+    box-shadow: none 1px black;
+}

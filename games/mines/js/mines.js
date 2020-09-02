@@ -46,10 +46,16 @@ ALERTANOME._visible = false;// alerta para inserção do player
 */
 //////////////////////////////////////////////////////////////////////////////////////
 
+
+
+
+
+
+
 //a função abaixo costumo usar para limpar e resetar variaveis e campos de texto para que não ocorram erros como NAN, undefined ou null
 setMineField(linhas, colunas, currentDif);
 
-clearText(true);
+
 //////////////////////////////////////////////////////////////////////////////////////
 
 
@@ -312,25 +318,36 @@ function setMineField(lines, columns, difficulty) {
 
     // zeramos o placar
     cellsToLeft = (lines * columns) * (100 - difficulty) / 100;
-    document.getElementsByClassName("txtFaltam")[0].innerHTML = cellsToLeft;
+    // document.getElementsByClassName("txtFaltam")[0].innerHTML = cellsToLeft;
     // zeramos o cronometro
     cronometro = 0;
-    document.getElementsByClassName("txtTempo")[0].innerHTML = cronometro;
+    //document.getElementsByClassName("txtTempo")[0].innerHTML = cronometro;
 
 
     // PREENCHIMENTO DO ARRAY
 
     mineField = []; // array vazio
+    document.writeln("<body>")
+    document.writeln("<div class=\"minesBody\">")
     for (i = 0; i < lines; i++) {
         mineField[i] = []; // aqui eu crio um array em cada item do meu array principal tornando-o multidimensional, trataremos estes itens como as linhas do meu campo minado
+
+        document.writeln("<div class=\"minesRow\">")
+
         for (j = 0; j < columns; j++) {
+            //document.writeln("<a href=\"#\" class=\"minesBt\"></a>")
+            document.writeln("<div class=\"minesBt\"></div>")
             mineField[i][j] = []; // cada célula desse array terá
             // dai eu inicio meu array com todos os campos zerados
             mineField[i][j].nome = 0; // um campo nome que usarei para dizer para a célula que tipo de informação ela deve mostrar para o jogador (o desenho de uma bomba, o numero de bombas nas casas vizinhas ou ainda uma célula em branco)
             mineField[i][j].valor = 0; // este é o conteúdo propriamente dito 0 ou -1
         }
+
+        document.writeln("</div>")
     }
-    // FIM DO PREENCHIMENTO DO ARRAY
+    document.writeln("</div>")
+    document.writeln("</body>")
+        // FIM DO PREENCHIMENTO DO ARRAY
 
     outPut(lines, columns);
 
