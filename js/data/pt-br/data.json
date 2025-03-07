@@ -118,16 +118,19 @@
         "graduation": {
             "title": "Escolaridade",
             "grid": [{
-                "title": "Superior em Análise de Sistemas (Ênfase em Jogos Digitais)",
-                "description": "FATEC/SP - início Ago/2011 - formado em Jul/2015 - Título Tecnólogo."
+                "title": "Engenharia de Computação",
+                "description": "Univesp - início Ago/2021 - previsão de graduação em Dez/2026"
+            },{
+                "title": "Tecnólogo em Análise de Sistemas (Ênfase em Jogos Digitais)",
+                "description": "FATEC - início Ago/2011 - formado em Jul/2015"
             }, {
-                "title": "Superior em Publicidade e Propaganda",
+                "title": "Bacharel em Publicidade e Propaganda",
                 "description": "FIZO - início Fev/2009 - curso trancado no 3º semestre."
             }, {
-                "title": "Superior em Criação e Produção Gráfica Digital",
+                "title": "Tecnólogo em Criação e Produção Gráfica Digital",
                 "description": "Unip - início Ago/2006 - curso trancado no 4º semestre."
             }, {
-                "title": "Superior em Design de Multimídia",
+                "title": "Tecnólogo em Design de Multimídia",
                 "description": "SENAC/SP - início Fev/2001 - curso trancado no 4º semestre."
             }]
         },
@@ -162,6 +165,10 @@
         "experience": {
             "title": "Experiência profissional",
             "grid": [{
+                "title": "Jun/2021 até o momento na Hogarth Worldwide - Cargo: Desenvolvedor Front-End",
+                "description": "Atribuições:<br/>Desenvolvimento de animações para banners publicitários (conteúdo dinâmico ou não) utilizando a coleção Adobe, HTML5, CSS3, JavaScript e Frameworks. Entregando milhares de banners publicitários em 150 projetos para o Brasil e o mundo para companhias como Bayer, L'oreal, Coca-Cola, BMW, Amex, Jameson etc.",
+                "link": "http://www.hogarth.com/"
+            },{
                 "title": "Set/2015 até Nov/2019 na IGS International Solutions - Cargo: Designer Sênior (Líder Artistas Técnicos)",
                 "description": "Atribuições:<br/>Especialista Adobe em desenvolvimento de jogos digitais. Desenvolvimento de scripts para automatizar e otimizar a criação de conteúdo gráfico para jogos utilizando ffmpeg, imagemagick, javascript, batch e shell script. Prover as posições e características das animações feitas no after effects de forma automatizada por meio de xml, json motionscript e Adobe Extend Script que no final é importado pela engine de jogos. Suprir a engine de jogos com todo material gráfico e audiovisual. Participação no projeto de modernização tecnológica e remasterização visual de todo o portifólio de jogos da Ortiz Gaming tendo contato com a plataforma legada feita para MS-DOS e C em baixa resolução e tecnologias das décadas de 80 e 90. Coordenação da equipe de arte técnica, equipe encarregada de implementar conteúdo artístico no software de jogo.",
                 "link": "http://www.ortizgaming.com/"

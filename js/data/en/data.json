@@ -37,7 +37,7 @@
         },
         "children": {
             "title": "Children",
-            "description": "Yes, a 10 yo child"
+            "description": "Yes"
         },
         "driverlicense": {
             "title": "Driver License",
@@ -67,7 +67,7 @@
         },
         "skills": {
             "title": "Technical knowledge",
-            "description": "Advanced knowledge in programming for web frontend, multimedia and games. Basic knowledge in backend granting a fullstack profile. Adobe Creative Suite specialist, batch script development for automate the manipulation of the audiovisual contents. Programming for Windows desktop multimedia applications using .Net (backward compatibility, embedded systems and limmited hardware). Experience with Digital Offices like Web-Marketing, Advertising, Creative Studios, Game Studios, Multimedia Studios. Knowledge in one open source tool for every paid technology used reducing the software licensing costs. Hardware knowledge for computer graphics and embedded systems.",
+            "description": "Advanced knowledge in programming for web front-end, multimedia and games. Basic knowledge in backend granting a fullstack profile. Adobe Creative Suite specialist, batch script development for automate the manipulation of the audiovisual contents. Programming for Windows desktop multimedia applications using .Net (backward compatibility, embedded systems and limmited hardware). Experience with Digital Offices like Web-Marketing, Advertising, Creative Studios, Game Studios, Multimedia Studios. Knowledge in one open source tool for every paid technology used reducing the software licensing costs. Hardware knowledge for computer graphics and embedded systems.",
             "grid": [{
                     "title": "AUDIO",
                     "description": "Capture, mixing, synthesizing, editing, special effects, audio and video synchronization, encoding, automated routines. Webcast on-demand and broadcast, desktop players for corporate radio and sound environment. Technologies: Sound Forge, Audacity, Adobe Audition, Ardour."
@@ -103,7 +103,7 @@
                     "description": "Games for a broad variety of plataforms and publics: Consoles, internet, Advertising (Ad games), mobile, e-learning Corporative training. Tech Artists, texture map genaration sprite sheets, fonts e audiovisual content, game assets, game machanics programming, SFX, Physics, animation, level design Technologies: Adobe Flash CS5 / AS2 AS3, Macromedia Director 2D/3D, Unity 3D / C#, Godot, Unreal, XNA, Java / Android, Pygame / Blender 3D, C C++, Texture Packer."
                 }, {
                     "title": "WEB",
-                    "description": "Responsive pages for multiplataform content using the best praticies and modern frontend tendencies. Technologies: Drupal, Wordpress, XHTML, HTML 3, 4 and 5, CSS, XML, Javascript(Vanilla and Frameworks), Angular, Jquery, Json, Adobe Dreamweaver, VS Code, Google Analitics and SEO."
+                    "description": "Responsive pages for multiplataform content using the best praticies and modern front-end tendencies. Technologies: Drupal, Wordpress, XHTML, HTML 3, 4 and 5, CSS, XML, Javascript(Vanilla and Frameworks), Angular, Jquery, Json, Adobe Dreamweaver, VS Code, Google Analitics and SEO."
                 }, {
                     "title": "OPERATIONAL SYSTEMS",
                     "description": "Advanced user and system administrator, knowledge in software/hardware, system optimization, network, security and group policies. Technologies: MacOS, Linux, Windows, Android, Powershell, Batch and Shell."
@@ -118,16 +118,19 @@
         "graduation": {
             "title": "Graduation",
             "grid": [{
-                "title": "Technologist in Game Development",
-                "description": "FATEC/SP - from Aug/2011 graduated in Jul/2015"
+                "title": "Egineer's degree in Computing Engineering",
+                "description": "Univesp - from Aug/2021 graduate prevision to Dez/2026"
+            },{
+                "title": "Technologist's degree in Game Development",
+                "description": "FATEC - from Aug/2011 graduated in Jul/2015"
             }, {
-                "title": "Bach. in Marketing and Advertising",
+                "title": "Bach. degree in Marketing and Advertising",
                 "description": "FIZO - from Feb/2009 - left in 3rd semester."
             }, {
-                "title": "Technologist in Digital Graphics Production",
+                "title": "Technologist's in Digital Graphics Production",
                 "description": "Unip - from Aug/2006 - left in 4th semester."
             }, {
-                "title": "Technologist in Multimedia Design",
+                "title": "Technologist's in Multimedia Design",
                 "description": "SENAC/SP - from Feb/2001 - left in 4th semester."
             }]
         },
@@ -162,6 +165,10 @@
         "experience": {
             "title": "Professional Experience",
             "grid": [{
+                "title": "Since Jun/2021 at Hogarth Worldwide - Occupation: Front-End Developer",
+                "description": "Activities:<br/>Web animation for Ad-Banners, (dynamic content or not), using Adobe Tools, HTML5, CSS3, JavaScript and your frameworks. Delivering a thousand of banner ads in 150 projects to in Brazil and worldwide for companies like Bayer, L'oreal, Coca-Cola, BMW, Amex, Jameson etc.",
+                "link": "http://www.hogarth.com/"
+            },{
                 "title": "Sep/2015 to Nov/2019 at IGS International Solutions - Occupation: Senior Digital Designer (Lead Technical Artist)",
                 "description": "Activities:<br/>Adobe tools specialist for gambling game projects. Script development to automate and optimize the multimedia creation using ffmpeg, imagmagick, javascript, batch and shell commands. Provide the media assets positions and animation information using json, xml, after effects motion script and adobe extended script for use in game engine. Supply the game engine with texture maps, sprite sheets, bitmap fonts, sounds, video etc. Technological update and visual remastering of legacy games based in 80’s and 90’s technologies like MS-DOS and C. Lead the Tech Artist team on charge of provide all creative content to the game plataform.",
                 "link": "http://www.ortizgaming.com/"
