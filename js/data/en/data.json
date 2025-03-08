@@ -58,156 +58,124 @@
     },
     "sections": {
         "opportunity": {
-            "title": "Oportunity",
-            "description": "Work with design or software development for web, games, digital signage and multimedia."
+            "title": "Desired Opportunity",
+            "description": "Work with creation and development of systems for web, audiovisual, games, and multimedia."
         },
         "profile": {
             "title": "Professional Profile",
-            "description": "With a generalist profile, I’ve a large knowledge in the steps to lead a production for web, games, multimedia and audiovisual projects. I’m working as Designer and Programmer nothing in only one, this is a rare ability in the marketplace. Besides having artistic skills, I had a direct contact with computing from 80’s, using for professional purposes from 1993. In 1998 I started my studies in computer graphics and near 2000 in programming, specially for Web and Multimedia, beginning in 2007 to work with Digital Signage. Although I already made games before, was in 2010 that I started my studies in this area, for advance my knowledge in multimedia and programming."
+            "description": "Professional with a generalist profile and extensive knowledge in the stages of production for web, games, multimedia, and audiovisual projects. Currently, I work as a Designer and Programmer, combining skills in both areas, which is a rare skill in the market. In addition to having artistic skills, I have had direct contact with computing since the 1980s, using it professionally since 1993. In 1998, I started my studies in computer graphics and, in the late 1990s, in programming, especially for Web and Multimedia. Since 2007, I have been working with Digital Signage, and although I have created games before, it was in 2010 that I deepened my studies in this area to advance my knowledge in multimedia and programming."
         },
         "skills": {
-            "title": "Technical knowledge",
-            "description": "Advanced knowledge in programming for web front-end, multimedia and games. Basic knowledge in backend granting a fullstack profile. Adobe Creative Suite specialist, batch script development for automate the manipulation of the audiovisual contents. Programming for Windows desktop multimedia applications using .Net (backward compatibility, embedded systems and limmited hardware). Experience with Digital Offices like Web-Marketing, Advertising, Creative Studios, Game Studios, Multimedia Studios. Knowledge in one open source tool for every paid technology used reducing the software licensing costs. Hardware knowledge for computer graphics and embedded systems.",
-            "grid": [{
-                    "title": "AUDIO",
-                    "description": "Capture, mixing, synthesizing, editing, special effects, audio and video synchronization, encoding, automated routines. Webcast on-demand and broadcast, desktop players for corporate radio and sound environment. Technologies: Sound Forge, Audacity, Adobe Audition, Ardour."
-                },
-                {
-                    "title": "VIDEO PRODUCTION",
-                    "description": "Direction, filming, editing, linear and non-linear, production and post-production, special effects, motion script, encoding, scripts. Live video transmission over broadcast streaming or on-demand, web players and desktop players for Corporate TV and Digital Signage. Technologies: Adobe Première, Sony Vegas Video, VirtualDub, FFMPEG, Kdenlive, Encoders, Blackmagic Fusion."
-                },
-                {
-                    "title": "3D",
-                    "description": "Modeling, animation, rendering, bones, physics, lightning, scene, adobe flash and director, motionscript, scripts, programming for games. Technologies: Blender, Unity 3D, 3D Max, Lightwave, Maya, VRML e X3D, Web GL, (AS3) Flash 3, (LINGO) Director 3D."
-                },
-                {
-                    "title": "ANIMATION",
-                    "description": "Animation theory and motion analisis, flash, actionscript, motionscript, after-effects, 3D. Technologies: Adobe After Effects, Adobe Flash, Adobe Animator, Spine, Black Magic Davinci Resolve, Black Magic Fusion."
-                }, {
-                    "title": "DIGITAL SIGNAGE AND MULTIMEDIA",
-                    "description": "Audiovisual content interactive or not for Digital Signage indoor and outdoor, Cd-Rom/DVD/Blu-ray, Totens, events, Ad games, presentations and Corporate TV. Technologies: Adobe Flash, Unity 3D, Macromedia Director, Godot, Visual Studio, Qt, NodeJS."
-                }, {
-                    "title": "ILUSTRATION",
-                    "description": "Freehand drawing, bitmap, vector, illustration, catoons, icons, logos, brand concept, exclusive typography. Technologies: Adobe Illustrator, Free Hand, Corel Draw, Painter, InkScape, Krita, Gimp, Adobe Photoshop, Fontographer, FontForge."
-                }, {
-                    "title": "GRAPHIC DESIGN",
-                    "description": "Graphic material production, folders for printing, newsletters, magazines, corporate gifts and packs. Technologies: Adobe Indesign, Adobe Page Maker, Adobe Acrobat, Scribus."
-                }, {
-                    "title": "PHOTOGRAPHY",
-                    "description": "Knowledge in SLR and DSLR, illumination techniques and studio prectice, automated scripts, image editing. Technologies: Adobe Photoshop, Gimp."
-                }, {
-                    "title": "PROGRAMMING AND DB",
-                    "description": "ActionScript 2 e ActionScript 3, dynamic content PHP/MySql, CSS2 e CSS3, tableless, Google API, JQuery, Ajax, Frameworks JavaScript, desktop apps. Technologies: DHTML, ActionScript 1, 2 e 3, ASP, PHP, CGI, Javascript, Lingo, .Net, C#, C,C++, Java / Android, Python/Pygame, MySQL, Access, Qt."
-                }, {
-                    "title": "GAMES AND MULTIMEDIA",
-                    "description": "Games for a broad variety of plataforms and publics: Consoles, internet, Advertising (Ad games), mobile, e-learning Corporative training. Tech Artists, texture map genaration sprite sheets, fonts e audiovisual content, game assets, game machanics programming, SFX, Physics, animation, level design Technologies: Adobe Flash CS5 / AS2 AS3, Macromedia Director 2D/3D, Unity 3D / C#, Godot, Unreal, XNA, Java / Android, Pygame / Blender 3D, C C++, Texture Packer."
-                }, {
-                    "title": "WEB",
-                    "description": "Responsive pages for multiplataform content using the best praticies and modern front-end tendencies. Technologies: Drupal, Wordpress, XHTML, HTML 3, 4 and 5, CSS, XML, Javascript(Vanilla and Frameworks), Angular, Jquery, Json, Adobe Dreamweaver, VS Code, Google Analitics and SEO."
-                }, {
-                    "title": "OPERATIONAL SYSTEMS",
-                    "description": "Advanced user and system administrator, knowledge in software/hardware, system optimization, network, security and group policies. Technologies: MacOS, Linux, Windows, Android, Powershell, Batch and Shell."
-                }
-            ]
+            "title": "Technical Knowledge",
+            "grid": ["Programming: Advanced knowledge in frontend development for web, multimedia, and games using Adobe Creative Suite, HTML5 JS CSS3, JS Frameworks. Intermediate knowledge in backend, providing a fullstack profile using React, Redux, NodeJS, Angular, Vue, NoSQL, and SQL databases.", "Automation: Advanced experience with scripts for task and process automation in Linux and Windows systems, including media conversions, scheduled tasks, and automated routines.", "Desktop Development: Programming for Windows applications using .NET (backward compatibility, embedded systems, limited hardware, IoT, multimedia).", "Industry: Experience in Creative Studios, Digital Marketing, Advertising, Game Studios, and Multimedia Studios.", "Hardware: Knowledge in computer graphics, embedded systems, and IoT."]
         },
         "languages": {
             "title": "Languages",
-            "grid": ["English (Professional working proficiency) - TOEFL(2015) 450 points", "Spanish (Basic for reading and listening)", "Portuguese (Native)"]
-
+            "grid": ["English (Advanced) - TOEFL(2015) 450 points", "Spanish (Technical Reading)", "Portuguese (Native)"]
         },
         "graduation": {
-            "title": "Graduation",
+            "title": "Education",
             "grid": [{
-                "title": "Egineer's degree in Computing Engineering",
-                "description": "Univesp - from Aug/2021 graduate prevision to Dez/2026"
+            "title": "MBA - Software Engineering",
+            "description": "USP/Esalq - started Aug/2021 - expected graduation in Jan/2026"
             },{
-                "title": "Technologist's degree in Game Development",
-                "description": "FATEC - from Aug/2011 graduated in Jul/2015"
+            "title": "Bachelor Computer Engineering",
+            "description": "Univesp - started Aug/2021 - expected graduation in Jan/2026"
+            },{
+            "title": "Bachelor in Information Technology (IoT)",
+            "description": "Univesp - started Aug/2021 - graduated in Aug/2024"
+            },{
+            "title": "Technologist in Systems Analysis (Emphasis on Digital Games)",
+            "description": "FATEC - started Aug/2011 - graduated in Jul/2015"
             }, {
-                "title": "Bach. degree in Marketing and Advertising",
-                "description": "FIZO - from Feb/2009 - left in 3rd semester."
+            "title": "Bachelor in Advertising and Propaganda",
+            "description": "FIZO - started Feb/2009 - course interrupted in the 3rd semester."
             }, {
-                "title": "Technologist's in Digital Graphics Production",
-                "description": "Unip - from Aug/2006 - left in 4th semester."
+            "title": "Technologist in Digital Graphic Creation and Production",
+            "description": "Unip - started Aug/2006 - course interrupted in the 4th semester."
             }, {
-                "title": "Technologist's in Multimedia Design",
-                "description": "SENAC/SP - from Feb/2001 - left in 4th semester."
+            "title": "Technologist in Multimedia Design",
+            "description": "SENAC/SP - started Feb/2001 - course interrupted in the 4th semester."
             }]
         },
         "courses": {
-            "title": "Courses",
+            "title": "Courses and Specializations",
             "grid": [{
-                "title": "AngularJS",
-                "description": "Loiane.training – 2020 (duration 28 hours)."
+            "title": "AngularJS",
+            "description": "Loiane.training – 2020 (duration 28 hours)."
             }, {
-                "title": "Modern Web Development",
-                "description": "Udemy - 2020 (duration 88 hours)"
+            "title": "Complete Modern Web",
+            "description": "Udemy - 2020 (duration 88 hours)"
             }, {
-                "title": "Freehand drawing and painting",
-                "description": "Escola de artes de Osasco - SP - 2006 (duration 60 hours)."
+            "title": "Drawing Workshop",
+            "description": "Osasco Art School - SP - 2006 (duration 60 hours)."
             }, {
-                "title": "Movie direction",
-                "description": "Senac - SP - 2003 (duration 20 hours)."
+            "title": "Filming and Direction",
+            "description": "Senac - SP - 2003 (duration 20 hours)."
             }, {
-                "title": "Game production",
-                "description": "Senac - SP - 2002 (duration 1 year)."
+            "title": "Game Workshop",
+            "description": "Senac - SP - 2002 (duration 1 year)."
             }, {
-                "title": "Lightwave 3D modeling and animationo",
-                "description": "Senac - SP - 2002 (duration 60 hours)."
+            "title": "Lightwave 3D Modeling and Animation",
+            "description": "Senac - SP - 2002 (duration 60 hours)."
             }, {
-                "title": "Web Design",
-                "description": "Senac - SP - 2000 (duration 96 hours)."
+            "title": "Web Design Course",
+            "description": "Senac - SP - 2000 (duration 96 hours)."
             }, {
-                "title": "Graphic Arts",
-                "description": "Fundação Bradesco - 1992 (duration 1 year)."
+            "title": "Graphic Arts Course",
+            "description": "Bradesco Foundation - 1992 (duration 1 year)."
             }]
         },
         "experience": {
             "title": "Professional Experience",
             "grid": [{
-                "title": "Since Jun/2021 at Hogarth Worldwide - Occupation: Front-End Developer",
-                "description": "Activities:<br/>Web animation for Ad-Banners, (dynamic content or not), using Adobe Tools, HTML5, CSS3, JavaScript and your frameworks. Delivering a thousand of banner ads in 150 projects to in Brazil and worldwide for companies like Bayer, L'oreal, Coca-Cola, BMW, Amex, Jameson etc.",
-                "link": "http://www.hogarth.com/"
+            "title": "Eletromidia S/A - Nov/2022 to present<br/>Position: Senior Fullstack Developer",
+            "description": "◦ Development of digital signage software using React/Redux. <br/> ◦ Conversion of legacy code (Actionscript) to modern technologies. <br/> ◦ Multimedia animation using JavaScript animation frameworks such as GSAP, Adobe Animate, Milagro, Google Web Designer. <br/> ◦ Media conversion automation using FFMPEG scripts.",
+            "link": "http://eletromidia.com.br/"
             },{
-                "title": "Sep/2015 to Nov/2019 at IGS International Solutions - Occupation: Senior Digital Designer (Lead Technical Artist)",
-                "description": "Activities:<br/>Adobe tools specialist for gambling game projects. Script development to automate and optimize the multimedia creation using ffmpeg, imagmagick, javascript, batch and shell commands. Provide the media assets positions and animation information using json, xml, after effects motion script and adobe extended script for use in game engine. Supply the game engine with texture maps, sprite sheets, bitmap fonts, sounds, video etc. Technological update and visual remastering of legacy games based in 80’s and 90’s technologies like MS-DOS and C. Lead the Tech Artist team on charge of provide all creative content to the game plataform.",
-                "link": "http://www.ortizgaming.com/"
+            "title": "Hogarth Worldwide - Jun/2021 to Oct/2022<br/>Position: Senior Front-End Developer",
+            "description": "◦ Development of animations for advertising banners (dynamic or not) using Adobe suite, HTML5, CSS3, JavaScript and Frameworks. <br/> ◦ Delivered thousands of advertising banners in 150 projects for Brazil and worldwide for companies such as Bayer, L'oreal, Coca-Cola, BMW, Amex, Jameson etc.",
+            "link": "http://www.hogarth.com/"
+            },{
+            "title": "IGS International Solutions - Sep/2015 to Nov/2019<br/>Position: Senior Designer (Lead Technical Artists)",
+            "description": "◦ Adobe specialist in digital game development. <br/> ◦ Development of scripts to automate and optimize the creation of graphic content for games using ffmpeg, imagemagick, javascript, batch and shell script. <br/> ◦ Provide the positions and characteristics of animations made in after effects in an automated way through xml, json motionscript and Adobe Extend Script which is finally imported by the game engine. <br/> ◦ Supply the game engine with all graphic and audiovisual material. <br/> ◦ Participation in the technological modernization and visual remastering project of the entire Ortiz Gaming game portfolio, having contact with the legacy platform made for MS-DOS and C in low resolution and technologies from the 80s and 90s. <br/> ◦ Coordination of the technical art team, a team responsible for implementing artistic content in the game software.",
+            "link": "http://www.ortizgaming.com/"
             }, {
-                "title": "Sep/2013 to Sep/2015 at Atmo Mídia Digital Corporativa - Occupation: Flash programmer",
-                "description": "Activities:<br/> - System Analysis and Software Development for Digital Signage, totems, multimedia, video streaming live or on-demand; <br/> -OS setup and optimization for Windows, Linux, Android and Java; <br/> -Hardware research and test for ARM and x86, video decoders, thin clients for digital signage, totems and multimedia; <br/> -IT Leader; <br/> -Hardware and software worldwide negotiation",
-                "link": "http://www.atmodigital.com.br/"
+            "title": "Atmo Mídia Digital Corporativa - Sep/2013 to Sep/2015<br/>Position: Flash Programmer",
+            "description": "◦ Analysis and development of systems for Digital Signage, totems and multimedia as well as systems for video streaming and video on demand or live. <br/> ◦ Configuration and optimization of environments based on windows, linux, android and java. <br/> ◦ Research, development and approval of hardware environments based on ARM and x86 architectures for video decoders and thin clients for digital signage, totems and multimedia. <br/> ◦ Coordination of the hardware and software implementation and maintenance team. <br/> ◦ Technical negotiation of hardware and software items with suppliers and service providers in Brazil and abroad.",
+            "link": "http://www.atmodigital.com.br/"
             }, {
-                "title": "Jun/2013 to Sep/2013 at Unidas Rent a Car - Occupation: Digital Marketing Analyst.",
-                "description": "Activities:<br/> -Digital Marketing Leader; <br/>-SEO metrics; <br/>-Web development; <br/>-Portal Unidas maintenance; <br/>-On-line and off line material layouts; <br/>-Video editing; <br/>-E-mail Marketing Production.",
-                "link": "http://www.unidas.com.br"
+            "title": "Unidas Rent a Car - Jun/2013 to Sep/2013<br/>Position: Digital Marketing Analyst",
+            "description": "◦ Coordination of projects for online media. <br/> ◦ Analysis of Unidas portal metrics. <br/> ◦ Web systems analysis. <br/> ◦ Maintenance of Unidas portal content. <br/> ◦ Layouts for online and print media. <br/> ◦ Video editing and processing. <br/> ◦ Production of e-mail Marketing.",
+            "link": "http://www.unidas.com.br"
             }, {
-                "title": "Aug/2007 to May/2013 at Elemidia Empresas - Occupation: Programmer",
-                "description": "Activities: <br/> -Actionscript 2 programming for digital signage software development and maintenance;<br/>-Digital signage and Corporate TV layouts based in costumer brand guideline; <br/>-2D teasers animation; <br/>-Video editing; <br/>-Multinational costumers. Implementing over 300 projects.",
-                "link": "http://www.elemidia.com.br"
+            "title": "Elemidia Empresas - Aug/2007 to May/2013<br/>Position: Programmer",
+            "description": "◦ Actionscript 2 programming for maintenance and development of new features for Digital Signage and Corporate TV software from Elemidia Empresas. <br/> ◦ Layouts for Corporate TV software based on the client's visual identity. <br/> ◦ 2D animations and vignettes. <br/> ◦ Video editing and processing. <br/> ◦ Cases of large national and multinational companies. Participation in more than 300 projects.",
+            "link": "http://www.elemidia.com.br"
             }, {
-                "title": "Nov/2006 to Mar/2007 at Edições Paulinas - Occupation: Web-Designer",
-                "description": "Activities:<br/> Content maintenance of Edições Paulinas portal using flash, ASP.NET, audiovisual content, user support, html, css, photo editing.",
-                "link": "http://www.paulinas.org.br/"
+            "title": "Edições Paulinas - Nov/2006 to Mar/2007<br/>Position: Web-Designer",
+            "description": "◦ Updating the content of the Paulinas Portal involving banners and flash applications, ASP applications, audiovisual content, user support, html, css, images.",
+            "link": "http://www.paulinas.org.br/"
             }, {
-                "title": "Sep/2005 to Nov/2006 at LC2 (TCPcom partner) - Occupation: Web-Developer",
-                "description": "Activities:<br/> Institutional sites webdesign, hot-sites, dynamic web-sites, databases, web-marketing, user support, host reselling, cPanel, maintenance, graphics and multimedia.",
-                "link": ""
+            "title": "LC2 (partnership with TCPcom) - Sep/2005 to Nov/2006<br/>Position: Mid-level Web-Developer",
+            "description": "◦ Layout and production of institutional websites, hot-sites, dynamic websites, database, web-marketing, technical support, hosting resale, cPanel, updates, some graphic and multimedia work.",
+            "link": ""
             }, {
-                "title": "Dec/2004 to Aug/2005 at Bit-Click Photo Digital - Occupation: Camera man",
-                "description": "Activities: <br/> -Photo and video capture for fairs and shows, video editing, special effects, teasers.",
-                "link": ""
+            "title": "Bit-Click Photo Digital - Dec/2004 to Aug/2005<br/>Position: Video Operator",
+            "description": "◦ Photo and video coverage at fairs, events and parties, video editing, special effects, vignettes.",
+            "link": ""
             }, {
-                "title": "Nov/2002 to Dec/2004 at Yazz Design - Occupation: Multimedia Art Director.",
-                "description": "Activities:<br/> Project Management, cost analysis for web and multimedia, website production, graphic arts, illustration, team leading, user support.",
-                "link": "http://www.yazz.com.br"
+            "title": "Yazz Design - Nov/2002 to Dec/2004<br/>Position: Art Director - Multimedia",
+            "description": "◦ Project management and cost analysis for web and multimedia, production in web multimedia, graphic arts, illustration, layout, team coordination for photo and video, customer support.",
+            "link": "http://www.yazz.com.br"
             }, {
-                "title": "Apr/2002 to Oct/2002 at Dialeto Comunicação - Occupation: Web-Designer.",
-                "description": "Activities:<br/>Institutional sites webdesign, hot-sites, dynamic web-sites, databases, web-marketing, user support, host reselling, cPanel, maintenance, graphics and multimedia.",
-                "link": ""
+            "title": "Dialeto Comunicação - Apr/2002 to Oct/2002<br/>Position: Web-Designer",
+            "description": "◦ Layout and production of institutional websites, hot-sites, web-marketing, technical support, updates, technical drawing (AutoCad), some graphic and multimedia work.",
+            "link": ""
             }, {
-                "title": "Nov/2000 to Dec/2001 at TCPcom Ltda - Occupation: Web-Designer",
-                "description": "Activities:<br/>Institutional sites webdesign, hot-sites, dynamic web-sites, databases, web-marketing, user support, host reselling, cPanel, maintenance, graphics and multimedia.",
-                "link": ""
+            "title": "TCPcom Ltda - Nov/2000 to Dec/2001<br/>Position: Web-Designer",
+            "description": "◦ Layout and production of institutional websites, hot-sites, web-marketing, technical support, updates, technical drawing (AutoCad), some graphic and multimedia work.",
+            "link": ""
             }]
         },
         "portifolio": {

@@ -104,10 +104,6 @@ section h2 {
     width: 25%;
 }
 
-.languages {
-    margin-top: 65px;
-}
-
 .skillsGridItemTitle {
     text-align: center;
     background-color: #666;
@@ -259,9 +255,7 @@ video {
     img {
         width: 100%;
     }
-    .languages {
-        margin-top: 80px;
-    }
+
     .portifolioListItemThumb img {
         width: 100%;
         height: 100%;

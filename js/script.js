@@ -70,7 +70,7 @@ try {
 
         document.getElementsByClassName("phone")[0].innerHTML = loadedJson.profile.phone.title + ": <a href=\"tel:" + loadedJson.profile.phone.description + "\">" + loadedJson.profile.phone.description + "</a>";
         document.getElementsByClassName("email")[0].innerHTML = loadedJson.profile.email.title + ": <a href=\"mailto:" + loadedJson.profile.email.description + "\">" + loadedJson.profile.email.description + "</a>";
-        document.getElementsByClassName("skype")[0].innerHTML = loadedJson.profile.skype.title + ": <a href=\"mailto:" + loadedJson.profile.skype.description + "\">" + loadedJson.profile.skype.description + "</a>";
+        //document.getElementsByClassName("skype")[0].innerHTML = loadedJson.profile.skype.title + ": <a href=\"mailto:" + loadedJson.profile.skype.description + "\">" + loadedJson.profile.skype.description + "</a>";
         document.getElementsByClassName("address")[0].innerHTML = loadedJson.profile.address.title + ": " + loadedJson.profile.address.description;
         document.getElementsByClassName("nationality")[0].innerHTML = loadedJson.profile.nationality.title + ": " + loadedJson.profile.nationality.description;
         document.getElementsByClassName("matrialstatus")[0].innerHTML = loadedJson.profile.matrialstatus.title + ": " + loadedJson.profile.matrialstatus.description;
@@ -82,10 +82,11 @@ try {
         document.getElementsByClassName("opportunity")[0].innerHTML = "<h2>" + loadedJson.sections.opportunity.title + ":</h2><article>" + loadedJson.sections.opportunity.description + "</article>";
         document.getElementsByClassName("profile")[0].innerHTML = "<h2>" + loadedJson.sections.profile.title + ":</h2><article>" + loadedJson.sections.profile.description + "</article>";
         document.getElementsByClassName("skills")[0].innerHTML = "<h2>" + loadedJson.sections.skills.title + ":</h2><article>" + loadedJson.sections.skills.description + "</article>";
-        document.getElementsByClassName("skills")[0].innerHTML += "<br/><div class=\"skillsGrid\"></div>"
+   
+        document.getElementsByClassName("skills")[0].innerHTML = "<h2>" + loadedJson.sections.skills.title + ":</h2><ul class=\"skillsList\">";
 
-        for (i in loadedJson.sections.skills.grid) {
-            document.getElementsByClassName("skillsGrid")[0].innerHTML += "<div class=\"skillsGridItem\"><div class=\"skillsGridItemTitle\">" + loadedJson.sections.skills.grid[i].title + "</div><div class=\"skillsGridItemDescription\">" + loadedJson.sections.skills.grid[i].description + "</div></div>";
+       for (i in loadedJson.sections.skills.grid) {
+            document.getElementsByClassName("skillsList")[0].innerHTML += "<li>" + loadedJson.sections.skills.grid[i]+ "</li>";
         }
 
 
@@ -99,14 +100,14 @@ try {
 
         document.getElementsByClassName("graduation")[0].innerHTML = "<h2>" + loadedJson.sections.graduation.title + ":</h2><ul class=\"graduationList\">";
         for (i in loadedJson.sections.graduation.grid) {
-            document.getElementsByClassName("graduationList")[0].innerHTML += "<li>" + loadedJson.sections.graduation.grid[i].title + " - " + loadedJson.sections.graduation.grid[i].description + "</li>";
+            document.getElementsByClassName("graduationList")[0].innerHTML += "<li><b>" + loadedJson.sections.graduation.grid[i].title + "</b> - " + loadedJson.sections.graduation.grid[i].description + "</li>";
         }
         document.getElementsByClassName("graduation")[0].innerHTML += "</ul>";
 
 
         document.getElementsByClassName("courses")[0].innerHTML = "<h2>" + loadedJson.sections.courses.title + ":</h2><ul class=\"coursesList\">";
         for (i in loadedJson.sections.courses.grid) {
-            document.getElementsByClassName("coursesList")[0].innerHTML += "<li>" + loadedJson.sections.courses.grid[i].title + " - " + loadedJson.sections.courses.grid[i].description + "</li>";
+            document.getElementsByClassName("coursesList")[0].innerHTML += "<li><b>" + loadedJson.sections.courses.grid[i].title + "</b> - " + loadedJson.sections.courses.grid[i].description + "</li>";
         }
         document.getElementsByClassName("courses")[0].innerHTML += "</ul>";
 
