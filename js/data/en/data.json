@@ -5,7 +5,7 @@
     "profile": {
         "occupation": {
             "title": "Occupation",
-            "description": "Designer and Developer for Web, Games, Digital Signage and Multimedia."
+            "description": "Designer and Developer for Web, IoT, Games, Digital Signage and Multimedia."
         },
         "birth": {
             "title": "Birth",
@@ -59,7 +59,7 @@
     "sections": {
         "opportunity": {
             "title": "Desired Opportunity",
-            "description": "Work with creation and development of systems for web, audiovisual, games, and multimedia."
+            "description": "Work with design and development for web, desktop, IoT, audiovisual, games and multimedia."
         },
         "profile": {
             "title": "Professional Profile",
@@ -67,7 +67,7 @@
         },
         "skills": {
             "title": "<b>Technical Knowledge</b>",
-            "grid": ["<b>Programming:</b> Advanced knowledge in frontend development for web, multimedia, and games using Adobe Creative Suite, HTML5 JS CSS3, JS Frameworks. Intermediate knowledge in backend, providing a fullstack profile using React, Redux, NodeJS, Angular, Vue, NoSQL, and SQL databases.", "<b>Automation:</b> Advanced experience with scripts for task and process automation in Linux and Windows systems, including media conversions, scheduled tasks, and automated routines.", "<b>Desktop Development:</b> Programming for Windows applications using .NET (backward compatibility, embedded systems, limited hardware, IoT, multimedia).", "<b>Industry:</b> Experience in Creative Studios, Digital Marketing, Advertising, Game Studios, and Multimedia Studios.", "<b>Hardware:</b> Knowledge in computer graphics, embedded systems, and IoT."]
+            "grid": ["<b>Programming:</b> Advanced knowledge in frontend development for web, multimedia, and games using Adobe Creative Suite, HTML5 JS CSS3, JS Frameworks. Intermediate knowledge in backend, providing a full-stack profile using React, Redux, NodeJS, Angular, Vue, NoSQL and SQL. IoT devices programming using Python, C and C++. Game Development using C#, Python and C++.", "<b>Automation:</b> Advanced experience in scripting to automate tasks and processes in both Linux and Windows systems (Batch Script and Bash), including media conversions, scheduled tasks, and automated routines.", "<b>Desktop Development:</b> Programming for Windows desktop applications using .NET (backward compatibility, embedded systems, low-end hardware, IoT, multimedia).", "<b>Industry:</b> Experience with Creative Studios, Web Marketing, Advertising, Game Studios, and Multimedia Studios.", "<b>Hardware:</b> Knowledge of computer graphics, PC computer architectures, embedded systems and IoT, general devices for creative studios, IO ports, network and over air communication.", "<b>Electronics:</b> Experience with electronics including soldering, electric components, IO ports, PLC firmware programming (Arduino, STM32, ESP32), IoT sensors, measurement devices (power, signal, sensors).", "<b>Multimedia: </b> Knowledge of streaming infrastructure including studio devices like cameras and illumination, professional AV cables, production boards, switchers, splitters, encoders etc. Experience with media capture, network and server infrastructure, web protocols and codecs for media streaming, on demand, broadcast and live web transmission, live media transmission over air using satellite digital tv signal, web front-end media player, Software for STB, IPTV and satellite media receptors.", "<b>Design:</b> Adobe Creative Cloud specialist with knowledge in photography, animation (web and multimedia), illustration (vector and bitmap), video editing, VFX, printing, web-sites.", "<b>Game Development:</b> Experience with common game engines like a Godot, Unreal and Unity. Game development for Ad-Games, gambling games, casual games. Tech Artist for asset production from design guideline."]
         },
         "languages": {
             "title": "Languages",
@@ -77,7 +77,7 @@
             "title": "Education",
             "grid": [{
             "title": "MBA - Software Engineering",
-            "description": "USP/Esalq - started Aug/2021 - expected graduation in Jan/2026"
+            "description": "USP/Esalq - started Feb/2024 - expected graduation in Jan/2026"
             },{
             "title": "Bachelor Computer Engineering",
             "description": "Univesp - started Aug/2021 - expected graduation in Jan/2026"
@@ -101,11 +101,14 @@
         "courses": {
             "title": "Courses and Specializations",
             "grid": [{
+            "title": "Redux, React Redux & Redux Toolkit RTK Course",
+            "description": "Udemy - 2024 (duration 20 hours)"
+            },  {
+            "title": "Modern web development with HTML, CSS, Javascript, React, NodeJs and more",
+            "description": "Udemy - 2020 (duration 88 hours)"
+            }, {
             "title": "AngularJS",
             "description": "Loiane.training – 2020 (duration 28 hours)."
-            }, {
-            "title": "Complete Modern Web",
-            "description": "Udemy - 2020 (duration 88 hours)"
             }, {
             "title": "Drawing Workshop",
             "description": "Osasco Art School - SP - 2006 (duration 60 hours)."
@@ -129,51 +132,51 @@
         "experience": {
             "title": "Professional Experience",
             "grid": [{
-            "title": "Eletromidia S/A - Nov/2022 to present<br/>Position: Senior Fullstack Developer",
-            "description": "◦ Development of digital signage software using React/Redux. <br/> ◦ Conversion of legacy code (Actionscript) to modern technologies. <br/> ◦ Multimedia animation using JavaScript animation frameworks such as GSAP, Adobe Animate, Milagro, Google Web Designer. <br/> ◦ Media conversion automation using FFMPEG scripts.",
-            "link": "http://eletromidia.com.br/"
+            "title": "Eletromidia S/A - nov/2022 to mar/2025<br/>Position: Senior Fullstack Developer",
+            "description": "◦ Full-stack development for digital signage software using React, Redux, Electron and NodeJS. <br/> ◦ Conversion of legacy code (Actionscript) to modern technologies. <br/> ◦ Multimedia animation using JavaScript animation frameworks such as GSAP, Adobe Animate, Milagro, Google Web Designer. <br/> ◦ High impact special audiovisual projects for digital signage involving video wall, led matrix and professional audiovisual hardware. <br/> ◦ Automated media conversion using FFMPEG scripts. <br/>",
+            "link": "https://eletromidia.com.br/"
             },{
-            "title": "Hogarth Worldwide - Jun/2021 to Oct/2022<br/>Position: Senior Front-End Developer",
-            "description": "◦ Development of animations for advertising banners (dynamic or not) using Adobe suite, HTML5, CSS3, JavaScript and Frameworks. <br/> ◦ Delivered thousands of advertising banners in 150 projects for Brazil and worldwide for companies such as Bayer, L'oreal, Coca-Cola, BMW, Amex, Jameson etc.",
-            "link": "http://www.hogarth.com/"
+            "title": "Hogarth Worldwide - jun/2021 to oct/2022<br/>Position: Senior Front-End Developer",
+            "description": "◦ Web animation for dynamic or static Ad Banners using Adobe Tools, HTML5, CSS3 and Javascript animation frameworks like GSAP, Adobe Animate, Milagro and Google Web Designer.<br/> ◦ Delivered thousands of advertising banners in 150 projects for Brazil and worldwide for companies such as Bayer, L'oreal, Coca-Cola, BMW, Amex, Jameson etc.",
+            "link": "https://hogarth.com/"
             },{
-            "title": "IGS International Solutions - Sep/2015 to Nov/2019<br/>Position: Senior Designer (Lead Technical Artists)",
+            "title": "IGS International Solutions - sep/2015 to nov/2019<br/>Position: Senior Designer (Lead Technical Artists)",
             "description": "◦ Adobe specialist in digital game development. <br/> ◦ Development of scripts to automate and optimize the creation of graphic content for games using ffmpeg, imagemagick, javascript, batch and shell script. <br/> ◦ Provide the positions and characteristics of animations made in after effects in an automated way through xml, json motionscript and Adobe Extend Script which is finally imported by the game engine. <br/> ◦ Supply the game engine with all graphic and audiovisual material. <br/> ◦ Participation in the technological modernization and visual remastering project of the entire Ortiz Gaming game portfolio, having contact with the legacy platform made for MS-DOS and C in low resolution and technologies from the 80s and 90s. <br/> ◦ Coordination of the technical art team, a team responsible for implementing artistic content in the game software.",
-            "link": "http://www.ortizgaming.com/"
+            "link": "https://ortizgaming.com/"
             }, {
-            "title": "Atmo Mídia Digital Corporativa - Sep/2013 to Sep/2015<br/>Position: Flash Programmer",
-            "description": "◦ Analysis and development of systems for Digital Signage, totems and multimedia as well as systems for video streaming and video on demand or live. <br/> ◦ Configuration and optimization of environments based on windows, linux, android and java. <br/> ◦ Research, development and approval of hardware environments based on ARM and x86 architectures for video decoders and thin clients for digital signage, totems and multimedia. <br/> ◦ Coordination of the hardware and software implementation and maintenance team. <br/> ◦ Technical negotiation of hardware and software items with suppliers and service providers in Brazil and abroad.",
-            "link": "http://www.atmodigital.com.br/"
+            "title": "Atmo Mídia Digital Corporativa - sep/2013 to sep/2015<br/>Position: Flash Programmer",
+            "description": "◦ System analysis and software development for digital signage, totems, live or on-demand video streaming over web or satellite DTV transmission. <br/> ◦ Configuration and optimization of environments based on windows, linux, android and java. <br/> ◦ Research, development and approval of hardware environments based on ARM and x86 architectures for video decoders and thin clients for digital signage, totems and multimedia. <br/> ◦ Coordination of the hardware and software implementation and maintenance team. <br/> ◦ Technical negotiation of hardware and software items with suppliers and service providers in Brazil and abroad.",
+            "link": "https://atmodigital.com.br/"
             }, {
-            "title": "Unidas Rent a Car - Jun/2013 to Sep/2013<br/>Position: Digital Marketing Analyst",
+            "title": "Unidas Rent a Car - jun/2013 to sep/2013<br/>Position: Digital Marketing Analyst",
             "description": "◦ Coordination of projects for online media. <br/> ◦ Analysis of Unidas portal metrics. <br/> ◦ Web systems analysis. <br/> ◦ Maintenance of Unidas portal content. <br/> ◦ Layouts for online and print media. <br/> ◦ Video editing and processing. <br/> ◦ Production of e-mail Marketing.",
-            "link": "http://www.unidas.com.br"
+            "link": "https://unidas.com.br"
             }, {
-            "title": "Elemidia Empresas - Aug/2007 to May/2013<br/>Position: Programmer",
-            "description": "◦ Actionscript 2 programming for maintenance and development of new features for Digital Signage and Corporate TV software from Elemidia Empresas. <br/> ◦ Layouts for Corporate TV software based on the client's visual identity. <br/> ◦ 2D animations and vignettes. <br/> ◦ Video editing and processing. <br/> ◦ Cases of large national and multinational companies. Participation in more than 300 projects.",
-            "link": "http://www.elemidia.com.br"
+            "title": "Elemidia Empresas - aug/2007 to may/2013<br/>Position: Programmer",
+            "description": "◦ Actionscript 2 programming for digital signage software development and maintenance. <br/> ◦ Developed digital signage layouts and corporate TV content based on client brand guidelines. <br/> ◦ Created 2D teasers, video editing, and animations. <br/> ◦ Worked on multinational client projects, implementing over 300 projects. <br/>",
+            "link": "https://eletromidia.com.br/"
             }, {
-            "title": "Edições Paulinas - Nov/2006 to Mar/2007<br/>Position: Web-Designer",
+            "title": "Edições Paulinas - nov/2006 to mar/2007<br/>Position: Web-Designer",
             "description": "◦ Updating the content of the Paulinas Portal involving banners and flash applications, ASP applications, audiovisual content, user support, html, css, images.",
-            "link": "http://www.paulinas.org.br/"
+            "link": "https://paulinas.org.br/"
             }, {
-            "title": "LC2 (partnership with TCPcom) - Sep/2005 to Nov/2006<br/>Position: Mid-level Web-Developer",
+            "title": "LC2 (partnership with TCPcom) - sep/2005 to nov/2006<br/>Position: Mid-level Web-Developer",
             "description": "◦ Layout and production of institutional websites, hot-sites, dynamic websites, database, web-marketing, technical support, hosting resale, cPanel, updates, some graphic and multimedia work.",
             "link": ""
             }, {
-            "title": "Bit-Click Photo Digital - Dec/2004 to Aug/2005<br/>Position: Video Operator",
+            "title": "Bit-Click Photo Digital - dec/2004 to aug/2005<br/>Position: Video Operator",
             "description": "◦ Photo and video coverage at fairs, events and parties, video editing, special effects, vignettes.",
             "link": ""
             }, {
-            "title": "Yazz Design - Nov/2002 to Dec/2004<br/>Position: Art Director - Multimedia",
+            "title": "Yazz Design - nov/2002 to dec/2004<br/>Position: Art Director - Multimedia",
             "description": "◦ Project management and cost analysis for web and multimedia, production in web multimedia, graphic arts, illustration, layout, team coordination for photo and video, customer support.",
-            "link": "http://www.yazz.com.br"
+            "link": "https://www.yazz.com.br"
             }, {
-            "title": "Dialeto Comunicação - Apr/2002 to Oct/2002<br/>Position: Web-Designer",
+            "title": "Dialeto Comunicação - apr/2002 to oct/2002<br/>Position: Web-Designer",
             "description": "◦ Layout and production of institutional websites, hot-sites, web-marketing, technical support, updates, technical drawing (AutoCad), some graphic and multimedia work.",
             "link": ""
             }, {
-            "title": "TCPcom Ltda - Nov/2000 to Dec/2001<br/>Position: Web-Designer",
+            "title": "TCPcom Ltda - nov/2000 to dec/2001<br/>Position: Web-Designer",
             "description": "◦ Layout and production of institutional websites, hot-sites, web-marketing, technical support, updates, technical drawing (AutoCad), some graphic and multimedia work.",
             "link": ""
             }]
@@ -181,6 +184,14 @@
         "portifolio": {
             "title": "Some works",
             "grid": [{
+                    "title": "AD BANNERS",
+                    "grid": [{
+                        "title": "between 2020 and 2022",
+                        "description": "Web animation for dynamic or static Ad Banners using Adobe Tools, HTML5, CSS3 and Javascript animation frameworks like GSAP, Adobe Animate, Milagro and Google Web Designer.",
+                        "thumb": "img/portifolio/thumbs/banners.png",
+                        "content": "videos/banners.mp4"
+                    }]
+                },{
                     "title": "DIGITAL SIGNAGE",
                     "grid": [{
                         "title": "between 2007 and 2015",
