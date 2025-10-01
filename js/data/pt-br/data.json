@@ -1,273 +1,387 @@
 {
-    "name": "Adriano Caversan",
-    "title": "Computação Gráfica e Desenvolvimento de Aplicativos Multimídia",
-    "pdf": "docs/adriano-caversan-cv-ptbr.pdf",
-    "profile": {
-        "occupation": {
-            "title": "Ocupação",
-            "description": "Designer e Desenvolvedor de Aplicativos para Web, Iot, Games, Digital Signage e Multimídia."
-        },
-        "birth": {
-            "title": "Nascimento",
-            "description": "July 02, 1976"
-        },
-        "phone": {
-            "title": "Fone/Whatsapp",
-            "description": "+55 11 98091-0161"
-        },
-        "skype": {
-            "title": "Skype",
-            "description": "adrcaversan@hotmail.com"
-        },
-        "email": {
-            "title": "E-mail",
-            "description": "adriano.caversan@gmail.com"
-        },
-        "address": {
-            "title": "Endereço",
-            "description": "São Paulo - SP"
-        },
-        "nationality": {
-            "title": "Nacionalidade",
-            "description": "Brasileiro"
-        },
-        "matrialstatus": {
-            "title": "Estado civil",
-            "description": "Casado"
-        },
-        "children": {
-            "title": "Filhos",
-            "description": "Sim"
-        },
-        "driverlicense": {
-            "title": "Carteira de Motorista",
-            "description": "cat. B"
-        },
-        "car": {
-            "title": "Veículo Próprio",
-            "description": "Sim"
-        },
-        "travel": {
-            "title": "Disponibilidade para viagem",
-            "description": "Sim (para viagens curtas)"
-        },
-        "move": {
-            "title": "Disponibilidade para mudança",
-            "description": "Sim (com a família)"
-        }
-    },
-    "sections": {
-        "opportunity": {
-            "title": "Oportunidade desejada",
-            "description": "Trabalhar com design ou desenvolvimento de software para web, desktop, IoT, jogos, sinalização digital e multimídia."
-        },
-        "profile": {
-            "title": "Perfil profissional",
-            "description": "Profissional com perfil generalista e amplo conhecimento nas etapas de produção de projetos para web, jogos, multimídia e audiovisual. Atualmente, atuo como Designer e Programador, combinando habilidades em ambas as áreas, o que é uma habilidade rara no mercado. Além de possuir habilidades artísticas, tive contato direto com a computação desde a década de 1980, utilizando-a de forma profissional desde 1993. Em 1998, iniciei meus estudos em computação gráfica e, no final dos anos 1990, em programação, especialmente para Web e Multimídia. Desde 2007, venho trabalhando com Sinalização Digital, e, embora já tenha criado jogos anteriormente, foi em 2010 que aprofundei meus estudos nesta área para avançar meus conhecimentos em multimídia e programação."
-        },
-        "skills": {
-            "title": "Conhecimento técnico",
-            "grid": ["<b>Programação:</b> Conhecimentos avançados em desenvolvimento frontend para web, multimídia e jogos usando a Coletânea Adobe, HTML5, Javascript, CSS3 bem como Frameworks Javascript. Conhecimento intermediário em backend, proporcionando um perfil fullstack usando React, Redux, NodeJS, Angular, Vue, bancos de dados NoSQL e SQL. Programação de dispositivos IoT utilizando Python, C e C++. Desenvolvimento de jogos em C#, Python, C++ e Javascript.", "<b>Automatização:</b> Experiência avançada com scripts para automação de tarefas e processos em sistemas Linux e Windows, incluindo conversões de mídia, tarefas agendadas e rotinas automatizadas.", "<b>Desenvolvimento Desktop:</b> Programação para aplicações Windows utilizando .NET (compatibilidade retroativa, sistemas embarcados e otimização para hardware limitado, IoT, multimídia).", "<b>Indústria:</b> Experiência em Estúdios Criativos, Marketing Digital, Publicidade, Estúdios de Jogos e Estúdios Multimídia.", "<b>Hardware:</b> Hardware para computação gráfica, arquitetura de computadores pessoais, sistemas embarcados e IoT, equipamentos de fotografia e estúdio audiovisuais, portas de comunicação IO, comunicação em rede cabeada e sem fio.", "<b>Eletrônica:</b> Experiência com eletrônica incluindo soldagem, componentes eletrônicos, portas de comunicação IO, programação de firmware para CLP (Arduino, STM322 e ESP32), sensores IoT, equipamentos de medição (força, sinal e sensores).", "<b>Multimídia:</b> Conhecimento de infraestrutura para streaming incluindo equipamentos para estúdio como câmeras e iluminação, cabeamento profissional para áudio e vídeo, mesas de produção, switchers, splitters, encoders etc. Vivência com captura de mídia, infraestrutura de rede e servidor, protocolos e codecs para streaming de mídia on demand, broadcast e transmissão ao vivo, transmissão de sinal via satélite, frontend para media player para web, software para media player para STB, IPTV e receptores satélite.", "<b>Design:</b> specialista na suíte Adobe com conhecimento em fotografia, animação, produção audiovisual, efeitos especiais, ilustração, impressão, web-sites.", "<b>Desenvolvimento de Jogos:</b> Experiência com as principais engines de jogos como Godot, Unreal e Unity. Desenvolvimento de Ad-Games, jogos de apostas e jogos casuais. Artista técnico para a produção de assets de acordo com o design proposto."]
-        },
-        "languages": {
-            "title": "Idiomas",
-            "grid": ["Inglês (Avançado) - TOEFL(2015) 450 pontos", "Espanhol (Leitura Técnica)", "Português (Nativo)"]
-        },
-        "graduation": {
-            "title": "Escolaridade",
-            "grid": [{
-                "title": "MBA - Engenharia de Software",
-                "description": "USP/Esalq - início Fev/2024 - previsão de graduação em Jan/2026"
-            },{
-                "title": "Engenharia de Computação",
-                "description": "Univesp - início Ago/2021 - previsão de graduação em Jan/2026"
-            },{
-                "title": "Bacharel em Tecnologia da Informação (IoT)",
-                "description": "Univesp - início Ago/2021 - formado em Ago/2024"
-            },{
-                "title": "Tecnólogo em Análise de Sistemas (Ênfase em Jogos Digitais)",
-                "description": "FATEC - início Ago/2011 - formado em Jul/2015"
-            }, {
-                "title": "Bacharel em Publicidade e Propaganda",
-                "description": "FIZO - início Fev/2009 - curso trancado no 3º semestre."
-            }, {
-                "title": "Tecnólogo em Criação e Produção Gráfica Digital",
-                "description": "Unip - início Ago/2006 - curso trancado no 4º semestre."
-            }, {
-                "title": "Tecnólogo em Design de Multimídia",
-                "description": "SENAC/SP - início Fev/2001 - curso trancado no 4º semestre."
-            }]
-        },
-        "courses": {
-            "title": "Cursos e especializações",
-            "grid": [{
-                "title": "Redux, React Redux & Redux Toolkit RTK Course",
-                "description": "Udemy - 2024 (duração 20 horas)."
-            },  {
-                "title": "Web Moderna: HTML, CSS, Javascript, React, NodeJs e mais",
-                "description": "Udemy - 2020 (duração 88 horas)."
-            }, {
-                "title": "AngularJS",
-                "description": "Loiane.training – 2020 (duração 28 horas)."
-            },  {
-                "title": "Oficina de desenho",
-                "description": "Escola de artes de Osasco - SP - 2006 (duração 60 horas)."
-            }, {
-                "title": "Filmagem e direção",
-                "description": "Senac - SP - 2003 (duração 20 horas)."
-            }, {
-                "title": "Oficina de games",
-                "description": "Senac - SP - 2002 (duração 1 ano)."
-            }, {
-                "title": "Lightwave 3D modelagem e animação",
-                "description": "Senac - SP - 2002 (duração 60 horas)."
-            }, {
-                "title": "Curso de Web Design",
-                "description": "Senac - SP - 2000 (duração 96 horas)."
-            }, {
-                "title": "Curso de Artes Gráficas",
-                "description": "Fundação Bradesco - 1992 (duração 1 ano)."
-            }]
-        },
-        "experience": {
-            "title": "Experiência profissional",
-            "grid": [{
-            "title": "Eletromidia S/A - nov/2022 até o mar/2025<br/>Cargo: Desenvolvedor Fullstack Senior",
-            "description": "◦ Desenvolvimento de software para sinalização digital usando React, Redux, Electron e NodeJS. <br/> ◦ Conversão de código legado (Actionscript) para tecnologias web modernas. <br/> ◦ Animação multimídia utilizando frameworks de animação JavaScript como GSAP, Adobe Animate, Milagro, Google Web Designer. <br/> ◦ Projetos especiais de alto impacto para digital signage envolvendo video wall, led matrix e equipamento audiovisual profissional. <br/> ◦ Automação de conversão de mídia utilizando scripts FFMPEG. <br/>",
-            "link": "https://eletromidia.com.br/"
-            },{
-            "title": "Hogarth Worldwide - jun/2021 até out/2022<br/>Cargo: Desenvolvedor Front-End Senior",
-            "description": "◦ Animação de banners publicitários dinâmicos ou estáticos utilizando Adobe Creative Suite, HTML5, CSS3 e frameworks de animação JavaScript como GSAP, Adobe Animate, Milagro, Google Web Designer. <br/> ◦ Entrega de milhares de variações de formatos em centenas de projetos para o Brasil e o mundo em companhias como Bayer, L'oreal, Coca-Cola, BMW, Amex, Jameson etc.",
-            "link": "https://hogarth.com/"
-            },{
-            "title": "IGS International Solutions - set/2015 até nov/2019<br/>Cargo: Designer Sênior (Líder Artistas Técnicos)",
-            "description": "◦ Especialista Adobe em desenvolvimento de jogos digitais. <br/> ◦ Desenvolvimento de scripts para automatizar e otimizar a criação de conteúdo gráfico para jogos utilizando ffmpeg, imagemagick, javascript, batch e shell script. <br/> ◦ Prover as posições e características das animações feitas no after effects de forma automatizada por meio de xml, json motionscript e Adobe Extend Script que no final é importado pela engine de jogos. <br/> ◦ Suprir a engine de jogos com todo material gráfico e audiovisual. <br/> ◦ Participação no projeto de modernização tecnológica e remasterização visual de todo o portifólio de jogos da Ortiz Gaming tendo contato com a plataforma legada feita para MS-DOS e C em baixa resolução e tecnologias das décadas de 80 e 90. <br/> ◦ Coordenação da equipe de arte técnica, equipe encarregada de implementar conteúdo artístico no software de jogo.",
-            "link": "https://ortizgaming.com/"
-            }, {
-            "title": "Atmo Mídia Digital Corporativa - set/2013 até set/2015<br/>Cargo: Programador Flash",
-            "description": "◦ Análise e desenvolvimento de sistemas para Digital Signage, totens e multimídia além de sistemas para streaming de vídeo como vídeo sob demanda ou ao vivo além de sua transmissão via web ou via satélite pelo sistema de TV Digital. <br/> ◦ Configuração e otimização de ambientes baseados em windows, linux, android e java. <br/> ◦ Pesquisa, desenvolvimento e homologação de ambientes de hardware baseados nas arquiteturas ARM e x86 para decoders de vídeo e thin clients para digital signage, totens e multimídia. <br/> ◦ Coordenação da equipe de implantação e manutenção de hardware e software. <br/> ◦ Negociação técnica de itens de hardware e software com fornecedores e prestadores de serviços no Brasil e no exterior.",
-            "link": "https://atmodigital.com.br/"
-            }, {
-            "title": "Unidas Rent a Car - jun/2013 até set/2013<br/>Cargo: Analista de Marketing Digital",
-            "description": "◦ Coordenação de projetos para mídia on-line. <br/> ◦ Análise de métricas do portal Unidas. <br/> ◦ Análise de sistemas web. <br/> ◦ Manutenção de conteúdo do portal Unidas. <br/> ◦ Layouts para mídia on-line e impressa. <br/> ◦ Edição e tratamento de vídeo. <br/> ◦ Produção de e-mail Marketing.",
-            "link": "https://unidas.com.br"
-            }, {
-            "title": "Elemidia Empresas - ago/2007 até mai/2013<br/>Cargo: Programador",
-            "description": "◦ Programação Actionscript 2 para a manutenção e desenvolvimento de novas funcionalidades para software de Digital Signage e Tv Corporativa da Elemidia Empresas. <br/> ◦ Layouts para o softwares de TV Corporativa baseadas na identidade visual do cliente. <br/> ◦ Animações e vinhetas em 2D. <br/> ◦ Edição e tratamento de vídeo. <br/> ◦ Cases de grandes empresas nacionais e multinacionais. Participação em mais de 300 projetos.",
-            "link": "https://eletromidia.com.br/"
-            }, {
-            "title": "Edições Paulinas - nov/2006 até mar/2007<br/>Cargo: Web-Designer",
-            "description": "◦ Atualização do conteúdo do Portal Paulinas envolvendo banners e aplicações em flash, aplicações em ASP, conteúdo audiovisual, suporte ao internauta, html, css, imagens.",
-            "link": "https://paulinas.org.br/"
-            }, {
-            "title": "LC2 (parceria com a TCPcom) - set/2005 até nov/2006<br/>Cargo: Web-Developer Pleno",
-            "description": "◦ Diagramação e produção de web-sites institucionais, hot-sites, web-sites dinâmicos, banco de dados, web-marketing, suporte técnico, revenda de hospedagem, cPanel, atualização, alguns trabalhos gráficos e de multimídia.",
-            "link": ""
-            }, {
-            "title": "Bit-Click Photo Digital - dez/2004 até ago/2005<br/>Cargo: Operador de Vídeo",
-            "description": "◦ Cobertura de foto e vídeo em feiras, eventos e festas, edição de vídeo, efeitos especiais, vinhetas.",
-            "link": ""
-            }, {
-            "title": "Yazz Design - nov/2002 até dez/2004<br/>Cargo: Diretor de arte - Multimídia",
-            "description": "◦ Gerência de projetos e análise de custos para web e multimídia, produção em web multimídia, artes gráficas, ilustração, diagramação, coordenação de equipe para foto e vídeo, suporte ao cliente.",
-            "link": "https://yazz.com.br"
-            }, {
-            "title": "Dialeto Comunicação - abr/2002 até out/2002<br/>Cargo: Web-Designer",
-            "description": "◦ Diagramação e produção de web-sites institucionais, hot-sites, web-marketing, suporte técnico, atualização, desenho técnico(AutoCad), alguns trabalhos gráficos e de multimídia.",
-            "link": ""
-            }, {
-            "title": "TCPcom Ltda - nov/2000 até dez/2001<br/>Cargo: Web-Designer",
-            "description": "◦ Diagramação e produção de web-sites institucionais, hot-sites, web-marketing, suporte técnico, atualização, desenho técnico(AutoCad), alguns trabalhos gráficos e de multimídia.",
-            "link": ""
-            }]
-        },
-        "portifolio": {
-            "title": "Alguns trabalhos realizados",
-            "grid": [{
-                    "title": "AD BANNERS",
-                    "grid": [{
-                        "title": "entre 2020 e 2022",
-                        "description": "Criação de banners publicitários dinâmicos ou estáticos utilizando Adobe Creative Suite, HTML5, CSS3 e frameworks de animação JavaScript como GSAP, Adobe Animate, Milagro, Google Web Designer.",
-                        "thumb": "img/portifolio/thumbs/banners.png",
-                        "content": "videos/banners.mp4"
-                    }]
-                },{
-                    "title": "DIGITAL SIGNAGE",
-                    "grid": [{
-                        "title": "entre 2007 e 2015",
-                        "description": "Criação e desenvolvimento do software de digital signage, rádio virtual e TV corporativa para Elemidia Empresas e Atmo. A aplicação foi desenvolvida em .Net, Actionscript, Batch Script, Powershell e JavaScript totalmente parametrizada afim de agilizar a replicação do software em vários clientes e modular para que o software pudesse ser personalizado além de um watchdog (controle de falhas) construído para este ser executado de forma estável em hardware limitado.",
-                        "thumb": "img/portifolio/thumbs/digital_signage.png",
-                        "content": "videos/digital_signage.m4v"
-                    }]
-                },{
-                    "title": "WEB",
-                    "grid": [{
-                        "title": "2010 - Mantu",
-                        "description": "Web-site para casa de shows.<br/>Recursos utilizados: Site em PHP, XML e MySql com cadastro de usuários, acesso restrito ao albúm de fotos, Gerenciador de banners OpenX, integração com a API do Google Maps, Google Analytics, além de recursos avançados de CSS3 e JQuery.",
-                        "thumb": "img/portifolio/thumbs/mantu.png",
-                        "content": "img/portifolio/mantu.png"
-                    }, {
-                        "title": "2010 - Porto Velho Bar",
-                        "description": "Web-site casa de shows.<br/>Recursos utilizados: Animação do lay-out no flash, integração do flash com o XML a fim de facilitar a atualização do conteúdo. Carregamento do site otimizado afim de primeiro carregarmos primeiro o conteúdo de maior importância e por último as imagens e planos de fundo, esta página possui uma versão mobile que é acessada automaticamente quando o acesso não provenha de um desktop.",
-                        "thumb": "img/portifolio/thumbs/portovelho.png",
-                        "content": "img/portifolio/portovelho.png"
-                    }, {
-                        "title": "2007 - QuickSand",
-                        "description": "Web-site institucional para Fabricante de calçados.<br/>Recursos utilizados: Animação do lay - out no flash, tratamento de imagens, foto montagem.Com o uso do Photoshop o logotipo da empresa foi inserido em diversas montagens.O carro deste thumbnail por exemplo era preto e não tinha a pintura do fogo que foi inserida a partir da foto de uma fogueira.",
-                        "thumb": "img/portifolio/thumbs/quick.png",
-                        "content": "videos/quick.m4v"
-                    }, {
-                        "title": "2006 - Bunny's verão",
-                        "description": "Web-site institucional para rede de lojas de moda.<br/>Recursos utilizados: Animação do lay-out no flash, sonorização, tratamento de imagens, formulário de contato em asp.",
-                        "thumb": "img/portifolio/thumbs/bunnys3.png",
-                        "content": "videos/bunnys3.m4v"
-                    }, {
-                        "title": "2006 - Bunny's inverno",
-                        "description": "Web-site institucional para rede de lojas de moda.<br/>Recursos utilizados: Animação do lay-out no flash, sonorização, tratamento de imagens, formulário de contato em asp.",
-                        "thumb": "img/portifolio/thumbs/bunnys2.png",
-                        "content": "videos/bunnys2.m4v"
-                    }, {
-                        "title": "2005 - Bunny's verão",
-                        "description": "Web-site institucional para rede de lojas de moda.<br/>Recursos utilizados: Animação do lay-out no flash, sonorização, tratamento de imagens, formulário de contato em asp.",
-                        "thumb": "img/portifolio/thumbs/bunnys1.png",
-                        "content": "videos/bunnys1.m4v"
-                    }, {
-                        "title": "2005 - Club B!",
-                        "description": "Web-site institucional para rede de lojas de moda.<br/>Recursos utilizados: Animação do lay-out no flash, sonorização, tratamento de imagens, formulário de contato em asp.",
-                        "thumb": "img/portifolio/thumbs/clubb.png",
-                        "content": "videos/clubb.m4v"
-                    }, {
-                        "title": "2010 - Gigabyte",
-                        "description": "Email marketing.",
-                        "thumb": "img/portifolio/thumbs/gigabyte.png",
-                        "content": "img/portifolio/gigabyte.png"
-                    }]
-                },
-                {
-                    "title": "EDITORAÇÃO GRÁFICA",
-                    "grid": [{
-                        "title": "2003 - Manual Mochila WIDO",
-                        "description": "Manual de Instruções ilustrado.",
-                        "thumb": "img/portifolio/thumbs/mochila.png",
-                        "content": "img/portifolio/mochila.png"
-                    }, {
-                        "title": "2010 - Identidade Visual Gelo Nevada",
-                        "description": "Identidade Visual para a empresa Gelo Nevada.",
-                        "thumb": "img/portifolio/thumbs/gelonevada.png",
-                        "content": "img/portifolio/gelonevada.png"
-                    }, {
-                        "title": "2004 - Citibank Club",
-                        "description": "Catálogo para clube de vantagens do Citibank produzido no Adobe inDesign.",
-                        "thumb": "img/portifolio/thumbs/citi.png",
-                        "content": "pdf/citi.pdf"
-                    }, {
-                        "title": "2005 - Chora Brasil",
-                        "description": "Projeto gráfico e editorial para a revista Chora Brasil produzido no Adobe inDesign.",
-                        "thumb": "img/portifolio/thumbs/chora.png",
-                        "content": "pdf/chora.pdf"
-                    }]
-                }
-            ]
-        }
-    }
+   "name":"Adriano Caversan",
+   "title":"Computação Gráfica e Desenvolvimento de Aplicativos Multimídia",
+   "pdf":"docs/adriano-caversan-cv-ptbr.pdf",
+   "profile":{
+      "occupation":{
+         "title":"Ocupação",
+         "description":"Designer e Desenvolvedor de Aplicativos para Web, Iot, Games, Digital Signage e Multimídia."
+      },
+      "birth":{
+         "title":"Nascimento",
+         "description":"July 02, 1976"
+      },
+      "phone":{
+         "title":"Fone/Whatsapp",
+         "description":"+55 11 98091-0161"
+      },
+      "skype":{
+         "title":"Skype",
+         "description":"adrcaversan@hotmail.com"
+      },
+      "email":{
+         "title":"E-mail",
+         "description":"adriano.caversan@gmail.com"
+      },
+      "address":{
+         "title":"Endereço",
+         "description":"São Paulo - SP"
+      },
+      "nationality":{
+         "title":"Nacionalidade",
+         "description":"Brasileiro"
+      },
+      "matrialstatus":{
+         "title":"Estado civil",
+         "description":"Casado"
+      },
+      "children":{
+         "title":"Filhos",
+         "description":"Sim"
+      },
+      "driverlicense":{
+         "title":"Carteira de Motorista",
+         "description":"cat. B"
+      },
+      "car":{
+         "title":"Veículo Próprio",
+         "description":"Sim"
+      },
+      "travel":{
+         "title":"Disponibilidade para viagem",
+         "description":"Sim (para viagens curtas)"
+      },
+      "move":{
+         "title":"Disponibilidade para mudança",
+         "description":"Sim (com a família)"
+      }
+   },
+   "sections":{
+      "opportunity":{
+         "title":"Oportunidade desejada",
+         "description":"Trabalhar com design ou desenvolvimento de software para web, desktop, IoT, jogos, sinalização digital e multimídia."
+      },
+      "profile":{
+         "title":"Perfil profissional",
+         "description":"Profissional com perfil generalista e amplo conhecimento nas etapas de produção de projetos para web, jogos, multimídia e audiovisual. Atualmente, atuo como Designer e Programador, combinando habilidades em ambas as áreas, o que é uma habilidade rara no mercado. Além de possuir habilidades artísticas, tive contato direto com a computação desde a década de 1980, utilizando-a de forma profissional desde 1993. Em 1998, iniciei meus estudos em computação gráfica e, no final dos anos 1990, em programação, especialmente para Web e Multimídia. Desde 2007, venho trabalhando com Sinalização Digital, e, embora já tenha criado jogos anteriormente, foi em 2010 que aprofundei meus estudos nesta área para avançar meus conhecimentos em multimídia e programação."
+      },
+      "skills":{
+         "title":"Conhecimento técnico",
+         "grid":[
+            "<b>Programação:</b> Conhecimentos avançados em desenvolvimento frontend para web, multimídia e jogos usando a Coletânea Adobe, HTML5, Javascript, CSS3 bem como Frameworks Javascript. Conhecimento intermediário em backend, proporcionando um perfil fullstack usando React, Redux, NodeJS, Angular, Vue, bancos de dados NoSQL e SQL. Programação de dispositivos IoT utilizando Python, C e C++. Desenvolvimento de jogos em C#, Python, C++ e Javascript.",
+            "<b>Automatização:</b> Experiência avançada com scripts para automação de tarefas e processos em sistemas Linux e Windows, incluindo conversões de mídia, tarefas agendadas e rotinas automatizadas.",
+            "<b>Desenvolvimento Desktop:</b> Programação para aplicações Windows utilizando .NET (compatibilidade retroativa, sistemas embarcados e otimização para hardware limitado, IoT, multimídia).",
+            "<b>Indústria:</b> Experiência em Estúdios Criativos, Marketing Digital, Publicidade, Estúdios de Jogos e Estúdios Multimídia.",
+            "<b>Hardware:</b> Hardware para computação gráfica, arquitetura de computadores pessoais, sistemas embarcados e IoT, equipamentos de fotografia e estúdio audiovisuais, portas de comunicação IO, comunicação em rede cabeada e sem fio.",
+            "<b>Eletrônica:</b> Experiência com eletrônica incluindo soldagem, componentes eletrônicos, portas de comunicação IO, programação de firmware para CLP (Arduino, STM322 e ESP32), sensores IoT, equipamentos de medição (força, sinal e sensores).",
+            "<b>Multimídia:</b> Conhecimento de infraestrutura para streaming incluindo equipamentos para estúdio como câmeras e iluminação, cabeamento profissional para áudio e vídeo, mesas de produção, switchers, splitters, encoders etc. Vivência com captura de mídia, infraestrutura de rede e servidor, protocolos e codecs para streaming de mídia on demand, broadcast e transmissão ao vivo, transmissão de sinal via satélite, frontend para media player para web, software para media player para STB, IPTV e receptores satélite.",
+            "<b>Design:</b> specialista na suíte Adobe com conhecimento em fotografia, animação, produção audiovisual, efeitos especiais, ilustração, impressão, web-sites.",
+            "<b>Desenvolvimento de Jogos:</b> Experiência com as principais engines de jogos como Godot, Unreal e Unity. Desenvolvimento de Ad-Games, jogos de apostas e jogos casuais. Artista técnico para a produção de assets de acordo com o design proposto."
+         ]
+      },
+      "languages":{
+         "title":"Idiomas",
+         "grid":[
+            "Inglês (Avançado) - TOEFL(2015) 450 pontos",
+            "Espanhol (Leitura Técnica)",
+            "Português (Nativo)"
+         ]
+      },
+      "graduation":{
+         "title":"Escolaridade",
+         "grid":[
+            {
+               "title":"MBA - Engenharia de Software",
+               "description":"USP/Esalq - início Fev/2024 - previsão de graduação em Jan/2026"
+            },
+            {
+               "title":"Engenharia de Computação",
+               "description":"Univesp - início Ago/2021 - previsão de graduação em Jan/2026"
+            },
+            {
+               "title":"Bacharel em Tecnologia da Informação (IoT)",
+               "description":"Univesp - início Ago/2021 - formado em Ago/2024"
+            },
+            {
+               "title":"Tecnólogo em Análise de Sistemas (Ênfase em Jogos Digitais)",
+               "description":"FATEC - início Ago/2011 - formado em Jul/2015"
+            },
+            {
+               "title":"Bacharel em Publicidade e Propaganda",
+               "description":"FIZO - início Fev/2009 - curso trancado no 3º semestre."
+            },
+            {
+               "title":"Tecnólogo em Criação e Produção Gráfica Digital",
+               "description":"Unip - início Ago/2006 - curso trancado no 4º semestre."
+            },
+            {
+               "title":"Tecnólogo em Design de Multimídia",
+               "description":"SENAC/SP - início Fev/2001 - curso trancado no 4º semestre."
+            }
+         ]
+      },
+      "courses":{
+         "title":"Cursos e especializações",
+         "grid":[
+            {
+               "title":"Disciplina Paulista de Acessibilidade e Inclusão",
+               "description":"UNIVESP - 2025 (duração 80 horas)"
+            },
+            {
+               "title":"Neurociências no ensino superior: estratégias para um desenvolvimento acadêmico saudável",
+               "description":"USP - 2025 (duração 30 horas)"
+            },
+            {
+               "title":"Redux, React Redux & Redux Toolkit RTK Course",
+               "description":"Udemy - 2024 (duração 20 horas)"
+            },
+            {
+               "title":"Web Moderno Completo: HTML, CSS, Javascript, React, NodeJs e mais",
+               "description":"Udemy - 2020 (duração 88 horas)"
+            },
+            {
+               "title":"AngularJS",
+               "description":"Loiane.training – 2020 (duração 28 horas)"
+            },
+            {
+               "title":"Arduino",
+               "description":"Centro Paula Souza - Cetec - 2022 (duração 30 horas)"
+            },
+            {
+               "title":"Democracia Digital",
+               "description":"FGV e nic.br - 2022 (duração 5 horas)"
+            },
+            {
+               "title":"Introdução ao Javascript",
+               "description":"Fundação Bradesco - 2022 (duração 20 horas)"
+            },
+            {
+               "title":"Desvendando o 5G",
+               "description":"Senai - 2022 (duração 15 horas)"
+            },
+            {
+               "title":"Desvendando o Blockchain",
+               "description":"Senai - 2022 (duração 20 horas)"
+            },
+            {
+               "title":"HTML e CSS",
+               "description":"Fundação Bradesco - 2022 (duração 24 horas)"
+            },
+            {
+               "title":"Inovando com CSS",
+               "description":"Fundação Bradesco - 2022 (duração 26 horas)"
+            },
+            {
+               "title":"Introdução à Ciência de Dados",
+               "description":"FGV - 2022 (duração 60 horas)"
+            },
+            {
+               "title":"Proteção de Dados",
+               "description":"FGV e nic.br - 2022 (duração 5 horas)"
+            },
+            {
+               "title":"Segurança Digital",
+               "description":"FGV e nic.br - 2022 (duração 5 horas)"
+            },
+            {
+               "title":"Oficina de desenho",
+               "description":"Escola de Artes de Osasco - SP - 2006 (duração 60 horas)"
+            },
+            {
+               "title":"Filmagem e direção",
+               "description":"Senac - SP - 2003 (duração 20 horas)"
+            },
+            {
+               "title":"Oficina de games",
+               "description":"Senac - SP - 2002 (duração 1 ano)"
+            },
+            {
+               "title":"Lightwave 3D modelagem e animação",
+               "description":"Senac - SP - 2002 (duração 60 horas)"
+            },
+            {
+               "title":"Web Design",
+               "description":"Senac - SP - 2000 (duração 96 horas)"
+            },
+            {
+               "title":"Artes Gráficas e Ilustração",
+               "description":"Fundação Bradesco - 1992 (duração 960 horas)"
+            }
+         ]
+      },
+      "experience":{
+         "title":"Experiência profissional",
+         "grid":[
+            {
+               "title":"Eletromidia S/A - nov/2022 até o mar/2025<br/>Cargo: Desenvolvedor Fullstack Senior",
+               "description":"◦ Desenvolvimento de software para sinalização digital usando React, Redux, Electron e NodeJS. <br/> ◦ Conversão de código legado (Actionscript) para tecnologias web modernas. <br/> ◦ Animação multimídia utilizando frameworks de animação JavaScript como GSAP, Adobe Animate, Milagro, Google Web Designer. <br/> ◦ Projetos especiais de alto impacto para digital signage envolvendo video wall, led matrix e equipamento audiovisual profissional. <br/> ◦ Automação de conversão de mídia utilizando scripts FFMPEG. <br/>",
+               "link":"https://eletromidia.com.br/"
+            },
+            {
+               "title":"Hogarth Worldwide - jun/2021 até out/2022<br/>Cargo: Desenvolvedor Front-End Senior",
+               "description":"◦ Animação de banners publicitários dinâmicos ou estáticos utilizando Adobe Creative Suite, HTML5, CSS3 e frameworks de animação JavaScript como GSAP, Adobe Animate, Milagro, Google Web Designer. <br/> ◦ Entrega de milhares de variações de formatos em centenas de projetos para o Brasil e o mundo em companhias como Bayer, L'oreal, Coca-Cola, BMW, Amex, Jameson etc.",
+               "link":"https://hogarth.com/"
+            },
+            {
+               "title":"IGS International Solutions - set/2015 até nov/2019<br/>Cargo: Designer Sênior (Líder Artistas Técnicos)",
+               "description":"◦ Especialista Adobe em desenvolvimento de jogos digitais. <br/> ◦ Desenvolvimento de scripts para automatizar e otimizar a criação de conteúdo gráfico para jogos utilizando ffmpeg, imagemagick, javascript, batch e shell script. <br/> ◦ Prover as posições e características das animações feitas no after effects de forma automatizada por meio de xml, json motionscript e Adobe Extend Script que no final é importado pela engine de jogos. <br/> ◦ Suprir a engine de jogos com todo material gráfico e audiovisual. <br/> ◦ Participação no projeto de modernização tecnológica e remasterização visual de todo o portifólio de jogos da Ortiz Gaming tendo contato com a plataforma legada feita para MS-DOS e C em baixa resolução e tecnologias das décadas de 80 e 90. <br/> ◦ Coordenação da equipe de arte técnica, equipe encarregada de implementar conteúdo artístico no software de jogo.",
+               "link":"https://ortizgaming.com/"
+            },
+            {
+               "title":"Atmo Mídia Digital Corporativa - set/2013 até set/2015<br/>Cargo: Programador Flash",
+               "description":"◦ Análise e desenvolvimento de sistemas para Digital Signage, totens e multimídia além de sistemas para streaming de vídeo como vídeo sob demanda ou ao vivo além de sua transmissão via web ou via satélite pelo sistema de TV Digital. <br/> ◦ Configuração e otimização de ambientes baseados em windows, linux, android e java. <br/> ◦ Pesquisa, desenvolvimento e homologação de ambientes de hardware baseados nas arquiteturas ARM e x86 para decoders de vídeo e thin clients para digital signage, totens e multimídia. <br/> ◦ Coordenação da equipe de implantação e manutenção de hardware e software. <br/> ◦ Negociação técnica de itens de hardware e software com fornecedores e prestadores de serviços no Brasil e no exterior.",
+               "link":"https://atmodigital.com.br/"
+            },
+            {
+               "title":"Unidas Rent a Car - jun/2013 até set/2013<br/>Cargo: Analista de Marketing Digital",
+               "description":"◦ Coordenação de projetos para mídia on-line. <br/> ◦ Análise de métricas do portal Unidas. <br/> ◦ Análise de sistemas web. <br/> ◦ Manutenção de conteúdo do portal Unidas. <br/> ◦ Layouts para mídia on-line e impressa. <br/> ◦ Edição e tratamento de vídeo. <br/> ◦ Produção de e-mail Marketing.",
+               "link":"https://unidas.com.br"
+            },
+            {
+               "title":"Elemidia Empresas - ago/2007 até mai/2013<br/>Cargo: Programador",
+               "description":"◦ Programação Actionscript 2 para a manutenção e desenvolvimento de novas funcionalidades para software de Digital Signage e Tv Corporativa da Elemidia Empresas. <br/> ◦ Layouts para o softwares de TV Corporativa baseadas na identidade visual do cliente. <br/> ◦ Animações e vinhetas em 2D. <br/> ◦ Edição e tratamento de vídeo. <br/> ◦ Cases de grandes empresas nacionais e multinacionais. Participação em mais de 300 projetos.",
+               "link":"https://eletromidia.com.br/"
+            },
+            {
+               "title":"Edições Paulinas - nov/2006 até mar/2007<br/>Cargo: Web-Designer",
+               "description":"◦ Atualização do conteúdo do Portal Paulinas envolvendo banners e aplicações em flash, aplicações em ASP, conteúdo audiovisual, suporte ao internauta, html, css, imagens.",
+               "link":"https://paulinas.org.br/"
+            },
+            {
+               "title":"LC2 (parceria com a TCPcom) - set/2005 até nov/2006<br/>Cargo: Web-Developer Pleno",
+               "description":"◦ Diagramação e produção de web-sites institucionais, hot-sites, web-sites dinâmicos, banco de dados, web-marketing, suporte técnico, revenda de hospedagem, cPanel, atualização, alguns trabalhos gráficos e de multimídia.",
+               "link":""
+            },
+            {
+               "title":"Bit-Click Photo Digital - dez/2004 até ago/2005<br/>Cargo: Operador de Vídeo",
+               "description":"◦ Cobertura de foto e vídeo em feiras, eventos e festas, edição de vídeo, efeitos especiais, vinhetas.",
+               "link":""
+            },
+            {
+               "title":"Yazz Design - nov/2002 até dez/2004<br/>Cargo: Diretor de arte - Multimídia",
+               "description":"◦ Gerência de projetos e análise de custos para web e multimídia, produção em web multimídia, artes gráficas, ilustração, diagramação, coordenação de equipe para foto e vídeo, suporte ao cliente.",
+               "link":"https://yazz.com.br"
+            },
+            {
+               "title":"Dialeto Comunicação - abr/2002 até out/2002<br/>Cargo: Web-Designer",
+               "description":"◦ Diagramação e produção de web-sites institucionais, hot-sites, web-marketing, suporte técnico, atualização, desenho técnico(AutoCad), alguns trabalhos gráficos e de multimídia.",
+               "link":""
+            },
+            {
+               "title":"TCPcom Ltda - nov/2000 até dez/2001<br/>Cargo: Web-Designer",
+               "description":"◦ Diagramação e produção de web-sites institucionais, hot-sites, web-marketing, suporte técnico, atualização, desenho técnico(AutoCad), alguns trabalhos gráficos e de multimídia.",
+               "link":""
+            }
+         ]
+      },
+      "portifolio":{
+         "title":"Alguns trabalhos realizados",
+         "grid":[
+            {
+               "title":"AD BANNERS",
+               "grid":[
+                  {
+                     "title":"entre 2020 e 2022",
+                     "description":"Criação de banners publicitários dinâmicos ou estáticos utilizando Adobe Creative Suite, HTML5, CSS3 e frameworks de animação JavaScript como GSAP, Adobe Animate, Milagro, Google Web Designer.",
+                     "thumb":"img/portifolio/thumbs/banners.png",
+                     "content":"videos/banners.mp4"
+                  }
+               ]
+            },
+            {
+               "title":"DIGITAL SIGNAGE",
+               "grid":[
+                  {
+                     "title":"entre 2007 e 2015",
+                     "description":"Criação e desenvolvimento do software de digital signage, rádio virtual e TV corporativa para Elemidia Empresas e Atmo. A aplicação foi desenvolvida em .Net, Actionscript, Batch Script, Powershell e JavaScript totalmente parametrizada afim de agilizar a replicação do software em vários clientes e modular para que o software pudesse ser personalizado além de um watchdog (controle de falhas) construído para este ser executado de forma estável em hardware limitado.",
+                     "thumb":"img/portifolio/thumbs/digital_signage.png",
+                     "content":"videos/digital_signage.m4v"
+                  }
+               ]
+            },
+            {
+               "title":"WEB",
+               "grid":[
+                  {
+                     "title":"2010 - Mantu",
+                     "description":"Web-site para casa de shows.<br/>Recursos utilizados: Site em PHP, XML e MySql com cadastro de usuários, acesso restrito ao albúm de fotos, Gerenciador de banners OpenX, integração com a API do Google Maps, Google Analytics, além de recursos avançados de CSS3 e JQuery.",
+                     "thumb":"img/portifolio/thumbs/mantu.png",
+                     "content":"img/portifolio/mantu.png"
+                  },
+                  {
+                     "title":"2010 - Porto Velho Bar",
+                     "description":"Web-site casa de shows.<br/>Recursos utilizados: Animação do lay-out no flash, integração do flash com o XML a fim de facilitar a atualização do conteúdo. Carregamento do site otimizado afim de primeiro carregarmos primeiro o conteúdo de maior importância e por último as imagens e planos de fundo, esta página possui uma versão mobile que é acessada automaticamente quando o acesso não provenha de um desktop.",
+                     "thumb":"img/portifolio/thumbs/portovelho.png",
+                     "content":"img/portifolio/portovelho.png"
+                  },
+                  {
+                     "title":"2007 - QuickSand",
+                     "description":"Web-site institucional para Fabricante de calçados.<br/>Recursos utilizados: Animação do lay - out no flash, tratamento de imagens, foto montagem.Com o uso do Photoshop o logotipo da empresa foi inserido em diversas montagens.O carro deste thumbnail por exemplo era preto e não tinha a pintura do fogo que foi inserida a partir da foto de uma fogueira.",
+                     "thumb":"img/portifolio/thumbs/quick.png",
+                     "content":"videos/quick.m4v"
+                  },
+                  {
+                     "title":"2006 - Bunny's verão",
+                     "description":"Web-site institucional para rede de lojas de moda.<br/>Recursos utilizados: Animação do lay-out no flash, sonorização, tratamento de imagens, formulário de contato em asp.",
+                     "thumb":"img/portifolio/thumbs/bunnys3.png",
+                     "content":"videos/bunnys3.m4v"
+                  },
+                  {
+                     "title":"2006 - Bunny's inverno",
+                     "description":"Web-site institucional para rede de lojas de moda.<br/>Recursos utilizados: Animação do lay-out no flash, sonorização, tratamento de imagens, formulário de contato em asp.",
+                     "thumb":"img/portifolio/thumbs/bunnys2.png",
+                     "content":"videos/bunnys2.m4v"
+                  },
+                  {
+                     "title":"2005 - Bunny's verão",
+                     "description":"Web-site institucional para rede de lojas de moda.<br/>Recursos utilizados: Animação do lay-out no flash, sonorização, tratamento de imagens, formulário de contato em asp.",
+                     "thumb":"img/portifolio/thumbs/bunnys1.png",
+                     "content":"videos/bunnys1.m4v"
+                  },
+                  {
+                     "title":"2005 - Club B!",
+                     "description":"Web-site institucional para rede de lojas de moda.<br/>Recursos utilizados: Animação do lay-out no flash, sonorização, tratamento de imagens, formulário de contato em asp.",
+                     "thumb":"img/portifolio/thumbs/clubb.png",
+                     "content":"videos/clubb.m4v"
+                  },
+                  {
+                     "title":"2010 - Gigabyte",
+                     "description":"Email marketing.",
+                     "thumb":"img/portifolio/thumbs/gigabyte.png",
+                     "content":"img/portifolio/gigabyte.png"
+                  }
+               ]
+            },
+            {
+               "title":"EDITORAÇÃO GRÁFICA",
+               "grid":[
+                  {
+                     "title":"2003 - Manual Mochila WIDO",
+                     "description":"Manual de Instruções ilustrado.",
+                     "thumb":"img/portifolio/thumbs/mochila.png",
+                     "content":"img/portifolio/mochila.png"
+                  },
+                  {
+                     "title":"2010 - Identidade Visual Gelo Nevada",
+                     "description":"Identidade Visual para a empresa Gelo Nevada.",
+                     "thumb":"img/portifolio/thumbs/gelonevada.png",
+                     "content":"img/portifolio/gelonevada.png"
+                  },
+                  {
+                     "title":"2004 - Citibank Club",
+                     "description":"Catálogo para clube de vantagens do Citibank produzido no Adobe inDesign.",
+                     "thumb":"img/portifolio/thumbs/citi.png",
+                     "content":"pdf/citi.pdf"
+                  },
+                  {
+                     "title":"2005 - Chora Brasil",
+                     "description":"Projeto gráfico e editorial para a revista Chora Brasil produzido no Adobe inDesign.",
+                     "thumb":"img/portifolio/thumbs/chora.png",
+                     "content":"pdf/chora.pdf"
+                  }
+               ]
+            }
+         ]
+      }
+   }
 }
