@@ -15,6 +15,10 @@
          "title":"Fone/Whatsapp",
          "description":"+55 11 98091-0161"
       },
+      "email":{
+         "title":"E-mail",
+         "description":"adriano.caversan@gmail.com"
+      },
       "github":{
          "title":"GitHub",
          "description":"https://github.com/caversan"
@@ -22,10 +26,6 @@
       "linkedin":{
          "title":"LinkedIn",
          "description":"https://www.linkedin.com/in/adriano-caversan/"
-      },
-      "email":{
-         "title":"E-mail",
-         "description":"adriano.caversan@gmail.com"
       },
       "address":{
          "title":"Endereço",
