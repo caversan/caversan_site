@@ -19,6 +19,10 @@
          "title":"GitHub",
          "description":"https://github.com/caversan"
       },
+      "linkedin":{
+         "title":"LinkedIn",
+         "description":"https://www.linkedin.com/in/adriano-caversan/"
+      },
       "email":{
          "title":"E-mail",
          "description":"adriano.caversan@gmail.com"
@@ -68,10 +72,10 @@
       "skills":{
          "title":"<b>Skills</b>",
          "grid":[
-            "<b>Software Development:</b> HTML5, Javascript, Typescript, CSS3, Python, PHP, C, C++, C#, .NET Framework, PHP, MQTT, AMQP, RabbitMQ, Kafka, Clean Code, SOLID, DRY, KISS, Algorithms, Paradigms, Powershell, Shell, Batch, Adobe Extended Script, Git, SVN, Wordpress, Drupal, Git Copilot, AI. Intermediate Knowledge: React, Redux, Vue, Angular, Electron, Microservices, Microfrontend, NodeJS, Node-RED, Docker, Kubernetes, API REST, SOAP, gRCP, GraphQL, Design Patterns, GoF, NoSQL and SQL Databases, LGPD, data analysis, AI algorithms (Machine Learning, Deep Learning, image visualization, genetic algorithms and neural networks). Basic Knowledge: DevOps e CI/CD, Github Actions, automatic tests (TDD). Cloud (AWS, Lambda, GCP and OCI), (IaaS, PaaS, SaaS), Docker and Kubernetes, Infrastructure as a Code (IaC), cybersecurity, cryptography, JWT, Auth0, Observability and Monitoring (Datadog, Grafana), Clean Architecture.",
-            "<b>Design and Web Marketing:</b> Photoshop, Krita, GIMP, Corel Draw, Illustrator, Inkscape, InDesign, XD, Figma, UX/UI, accessibility, web, Bridge, Google Analytics, ad-banners, programmatic media, social media, DCO, landing pages, SEO metrics, web funnel, consumer journey, retail media.",
-            "<b>Project Metodologies:</b> DDD, Event Storming, Brainstorming, Design Thinking, Kanban, Agile, SCRUM, Jira, Trello, Slack, Project, PMI, Waterfall, Six Sigma, Lean, Toyota.",
-            "<b>Eletronics and Computer Engineering:</b> IoT, Industry 4.0, Smart Cities, Mechatronics, Motors, Generators, Batteries, Strength and Mechanics of Materials, Optics, Quantum Physics, Electromagnetism, Technological Chemistry, Welding, Microchips, Electronic Components, IO Communication Ports, Communication Protocols, Signal Analysis, Firmware, PLC (Arduino, STM32 and ESP32), Sensors, Actuators, Metrology.",
+            "<b>Software Development:</b> HTML5, Javascript, Typescript, CSS3, Python, PHP, C, C++, C#, .NET Framework, PHP, MQTT, AMQP, RabbitMQ, Kafka, Clean Code, SOLID, DRY, KISS, Algorithms, Paradigms, Powershell, Shell, Batch, Adobe Extended Script, Git, SVN, Wordpress, Drupal, Git Copilot, AI. Intermediate Knowledge: React, Redux, Vue, Angular, Electron, Microservices, Microfrontend, NodeJS, Node-RED, Docker, Kubernetes, API REST, SOAP, gRCP, GraphQL, Design Patterns, GoF, NoSQL and SQL Databases, LGPD, data analysis, AI algorithms (Machine Learning, Deep Learning, image visualization, genetic algorithms and neural networks). Basic Knowledge: DevOps e CI/CD, Github Actions, automatic tests (TDD). Cloud (AWS, Lambda, GCP and OCI), (IaaS, PaaS, SaaS), Docker and Kubernetes, Infrastructure as a Code (IaC), cybersecurity, cryptography, JWT, Auth0, Observability and Monitoring (Datadog, Grafana), Clean Architecture.<br/><br/>",
+            "<b>Design and Web Marketing:</b> Photoshop, Krita, GIMP, Corel Draw, Illustrator, Inkscape, InDesign, XD, Figma, UX/UI, accessibility, web, Bridge, Google Analytics, ad-banners, programmatic media, social media, DCO, landing pages, SEO metrics, web funnel, consumer journey, retail media.<br/><br/>",
+            "<b>Project Metodologies:</b> DDD, Event Storming, Brainstorming, Design Thinking, Kanban, Agile, SCRUM, Jira, Trello, Slack, Project, PMI, Waterfall, Six Sigma, Lean, Toyota.<br/><br/>",
+            "<b>Eletronics and Computer Engineering:</b> IoT, Industry 4.0, Smart Cities, Mechatronics, Motors, Generators, Batteries, Strength and Mechanics of Materials, Optics, Quantum Physics, Electromagnetism, Technological Chemistry, Welding, Microchips, Electronic Components, IO Communication Ports, Communication Protocols, Signal Analysis, Firmware, PLC (Arduino, STM32 and ESP32), Sensors, Actuators, Metrology.<br/><br/>",
             "<b>Animation, Games and Audiovisual Production:</b> After Effects, DaVinci Resolve, Motionscript, GSAP, Google Web Designer (GWD), Adobe Animate, Milagro, Actionscript, 2D and 3D games, characters and environments, Unity, Godot, Pygame, Technical Art, Level Design, GDD, 3D Modeling, Textures, Special Effects, Blender, Spine, Première, Media Encoder, OBS, Audition, Sound Forge, Audacity, Kdenlive, audiovisual studio, cameras, lighting, cabling, linear and non-linear editing consoles, switchers, splitters, video encoders, protocols and codecs for streaming on demand, broadcast and live transmission, satellite transmission, software development for media players for web, STB, IPTV, and satellite receivers."
          ]
       },

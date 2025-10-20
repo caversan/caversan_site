@@ -19,12 +19,21 @@ body img {
 section h1 {
     color: #ffa;
     line-height: .8;
+    padding: 0 2vw;
 }
 
 section h2 {
     background-color: #666;
-    padding-left: 5px;
+    padding: .7vh;
     color: #fff;
+}
+
+section article {
+    padding: 0 2vw;
+}
+
+section ul {
+    padding-right: 2vw;
 }
 
 .containerPrincipal {
@@ -54,6 +63,7 @@ section h2 {
     color: #fff;
     padding: 4px;
     text-align: center;
+    align-content: center;
 }
 
 .more {

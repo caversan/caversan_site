@@ -48,16 +48,17 @@ try {
         document.querySelector(".phone").innerHTML = `${loadedJson.profile.phone.title}: <a href="tel:${loadedJson.profile.phone.description}">${loadedJson.profile.phone.description}</a>`;
         document.querySelector(".email").innerHTML = `${loadedJson.profile.email.title}: <a href="mailto:${loadedJson.profile.email.description}">${loadedJson.profile.email.description}</a>`;
         document.querySelector(".github").innerHTML = `${loadedJson.profile.github.title}: <a href="${loadedJson.profile.github.description}" target="_blank">${loadedJson.profile.github.description}</a>`;
+        document.querySelector(".linkedin").innerHTML = `${loadedJson.profile.linkedin.title}: <a href="${loadedJson.profile.linkedin.description}" target="_blank">${loadedJson.profile.linkedin.description}</a>`;
         document.querySelector(".address").innerHTML = `${loadedJson.profile.address.title}: ${loadedJson.profile.address.description}`;
         document.querySelector(".nationality").innerHTML = `${loadedJson.profile.nationality.title}: ${loadedJson.profile.nationality.description}`;
-        document.querySelector(".matrialstatus").innerHTML = `${loadedJson.profile.matrialstatus.title}: ${loadedJson.profile.matrialstatus.description}`;
-        document.querySelector(".children").innerHTML = `${loadedJson.profile.children.title}: ${loadedJson.profile.children.description}`;
-        document.querySelector(".driverlicense").innerHTML = `${loadedJson.profile.driverlicense.title}: ${loadedJson.profile.driverlicense.description}`;
-        document.querySelector(".car").innerHTML = `${loadedJson.profile.car.title}: ${loadedJson.profile.car.description}`;
-        document.querySelector(".travel").innerHTML = `${loadedJson.profile.travel.title}: ${loadedJson.profile.travel.description}`;
-        document.querySelector(".move").innerHTML = `${loadedJson.profile.move.title}: ${loadedJson.profile.move.description}`;
+        //document.querySelector(".matrialstatus").innerHTML = `${loadedJson.profile.matrialstatus.title}: ${loadedJson.profile.matrialstatus.description}`;
+        //document.querySelector(".children").innerHTML = `${loadedJson.profile.children.title}: ${loadedJson.profile.children.description}`;
+        //document.querySelector(".driverlicense").innerHTML = `${loadedJson.profile.driverlicense.title}: ${loadedJson.profile.driverlicense.description}`;
+        //document.querySelector(".car").innerHTML = `${loadedJson.profile.car.title}: ${loadedJson.profile.car.description}`;
+        //document.querySelector(".travel").innerHTML = `${loadedJson.profile.travel.title}: ${loadedJson.profile.travel.description}`;
+        //document.querySelector(".move").innerHTML = `${loadedJson.profile.move.title}: ${loadedJson.profile.move.description}`;
 
-        document.querySelector(".opportunity").innerHTML = `<h2>${loadedJson.sections.opportunity.title}:</h2><article>${loadedJson.sections.opportunity.description}</article>`;
+        //document.querySelector(".opportunity").innerHTML = `<h2>${loadedJson.sections.opportunity.title}:</h2><article>${loadedJson.sections.opportunity.description}</article>`;
         document.querySelector(".profile").innerHTML = `<h2>${loadedJson.sections.profile.title}:</h2><article>${loadedJson.sections.profile.description}</article>`;
         document.querySelector(".skills").innerHTML = `<h2>${loadedJson.sections.skills.title}:</h2><ul class="skillsList">${loadedJson.sections.skills.grid.map(skill => `<li>${skill}</li>`).join('')}</ul>`;
         document.querySelector(".languages").innerHTML = `<h2>${loadedJson.sections.languages.title}:</h2><ul class="languagesList">${loadedJson.sections.languages.grid.map(language => `<li>${language}</li>`).join('')}</ul>`;
