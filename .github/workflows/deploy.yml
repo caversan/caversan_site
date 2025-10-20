@@ -1,0 +1,77 @@
+﻿name: Deploy Portfolio to FTP
+
+on:
+  push:
+    branches: [ master, main ]
+    paths-ignore:
+      - 'README.md'
+      - 'DEPLOY.md' 
+      - '.gitignore'
+      - 'docs/**'
+  workflow_dispatch:
+
+jobs:
+  deploy:
+    name: Deploy to Production
+    runs-on: ubuntu-latest
+    
+    steps:
+    - name: Checkout code
+      uses: actions/checkout@v4
+      
+    - name: Setup Node.js
+      uses: actions/setup-node@v4
+      with:
+        node-version: '18'
+        cache: 'npm'
+        
+    - name: Install dependencies
+      run: npm ci
+      
+    - name: Run tests
+      run: npm test
+      
+    - name: Validate files
+      run: |
+        echo "Validating HTML files..."
+        npm run lint:html
+        echo "Validating CSS files..."
+        npm run lint:css
+        echo "Validating JS files..."
+        npm run lint:js
+        
+    - name: Check file sizes
+      run: |
+        echo "Checking file sizes..."
+        find . -name "*.html" -o -name "*.css" -o -name "*.js" -o -name "*.jpg" -o -name "*.png" -o -name "*.gif" | head -20 | xargs ls -lh
+        
+    - name: Deploy to FTP
+      uses: SamKirkland/FTP-Deploy-Action@v4.3.4
+      with:
+        server: ${{ secrets.FTP_HOST }}
+        username: ${{ secrets.FTP_USERNAME }}
+        password: ${{ secrets.FTP_PASSWORD }}
+        server-dir: ${{ secrets.FTP_SERVER_DIR }}
+        exclude: |
+          **/.git*
+          **/.git*/**
+          **/node_modules/**
+          **/package*.json
+          **/.github/**
+          **/DEPLOY.md
+          **/README.md
+          **/validate.*
+          **/*.log
+          **/.env*
+          
+    - name: Deployment Success
+      run: |
+        echo "Deployment completed successfully!"
+        echo "Deployed at: $(date)"
+        echo "Site should be live at your domain"
+        
+    - name: Cleanup
+      if: always()
+      run: |
+        echo "Cleaning up temporary files..."
+        rm -rf node_modules/.cache || true
