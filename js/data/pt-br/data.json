@@ -62,27 +62,23 @@
          "description":"Trabalhar com design ou desenvolvimento de software para web, desktop, IoT, jogos, sinalização digital e multimídia."
       },
       "profile":{
-         "title":"Perfil profissional",
-         "description":"Profissional com perfil generalista e amplo conhecimento nas etapas de produção de projetos para web, jogos, multimídia e audiovisual. Atualmente, atuo como Designer e Programador, combinando habilidades em ambas as áreas, o que é uma habilidade rara no mercado. Além de possuir habilidades artísticas, tive contato direto com a computação desde a década de 1980, utilizando-a de forma profissional desde 1993. Em 1998, iniciei meus estudos em computação gráfica e, no final dos anos 1990, em programação, especialmente para Web e Multimídia. Desde 2007, venho trabalhando com Sinalização Digital, e, embora já tenha criado jogos anteriormente, foi em 2010 que aprofundei meus estudos nesta área para avançar meus conhecimentos em multimídia e programação."
+         "title":"Resuno Profissional",
+         "description":"Sou um profissional de TI e Design com perfil generalista e mais de 25 anos de carreira, atuando principalmente em escritórios de desenvolvimento web, estúdios de jogos, produções audiovisuais e multimídia, agências de publicidade, sinalização digital, digital out of home (DOOH) e varejo online. Possuo profundo conhecimento nas etapas de desenvolvimento de software, com destaque para minha atuação como Desenvolvedor Frontend para web, jogos e multimídia. Também atuo como Designer, com foco em interfaces, UX/UI e animação 2D. Essa combinação entre TI e Design é uma trilha pouco explorada por profissionais de ambas as áreas, o que confere aos meus projetos grande fidelidade visual aliada à alta qualidade de código. Esse conhecimento integrado também me auxilia na criação de scripts para jogos e animações, essenciais para garantir maior fluidez e qualidade visual, além de acelerar significativamente o processo de entrega. Outro diferencial importante da minha carreira foi a oportunidade de atuar como integrador entre as equipes de Design e TI, elaborando especificações técnicas para arquivos de design, automatizando fluxos de entrega e gerando código automaticamente para a equipe de desenvolvimento. Essa integração aumentou substancialmente o volume de entregas, reduziu falhas e trouxe previsibilidade, qualidade e consistência a todo o processo de produção."
       },
       "skills":{
          "title":"Conhecimento técnico",
          "grid":[
-            "<b>Programação:</b> Conhecimentos avançados em desenvolvimento frontend para web, multimídia e jogos usando a Coletânea Adobe, HTML5, Javascript, CSS3 bem como Frameworks Javascript. Conhecimento intermediário em backend, proporcionando um perfil fullstack usando React, Redux, NodeJS, Angular, Vue, bancos de dados NoSQL e SQL. Programação de dispositivos IoT utilizando Python, C e C++. Desenvolvimento de jogos em C#, Python, C++ e Javascript.",
-            "<b>Automatização:</b> Experiência avançada com scripts para automação de tarefas e processos em sistemas Linux e Windows, incluindo conversões de mídia, tarefas agendadas e rotinas automatizadas.",
-            "<b>Desenvolvimento Desktop:</b> Programação para aplicações Windows utilizando .NET (compatibilidade retroativa, sistemas embarcados e otimização para hardware limitado, IoT, multimídia).",
-            "<b>Indústria:</b> Experiência em Estúdios Criativos, Marketing Digital, Publicidade, Estúdios de Jogos e Estúdios Multimídia.",
-            "<b>Hardware:</b> Hardware para computação gráfica, arquitetura de computadores pessoais, sistemas embarcados e IoT, equipamentos de fotografia e estúdio audiovisuais, portas de comunicação IO, comunicação em rede cabeada e sem fio.",
-            "<b>Eletrônica:</b> Experiência com eletrônica incluindo soldagem, componentes eletrônicos, portas de comunicação IO, programação de firmware para CLP (Arduino, STM322 e ESP32), sensores IoT, equipamentos de medição (força, sinal e sensores).",
-            "<b>Multimídia:</b> Conhecimento de infraestrutura para streaming incluindo equipamentos para estúdio como câmeras e iluminação, cabeamento profissional para áudio e vídeo, mesas de produção, switchers, splitters, encoders etc. Vivência com captura de mídia, infraestrutura de rede e servidor, protocolos e codecs para streaming de mídia on demand, broadcast e transmissão ao vivo, transmissão de sinal via satélite, frontend para media player para web, software para media player para STB, IPTV e receptores satélite.",
-            "<b>Design:</b> specialista na suíte Adobe com conhecimento em fotografia, animação, produção audiovisual, efeitos especiais, ilustração, impressão, web-sites.",
-            "<b>Desenvolvimento de Jogos:</b> Experiência com as principais engines de jogos como Godot, Unreal e Unity. Desenvolvimento de Ad-Games, jogos de apostas e jogos casuais. Artista técnico para a produção de assets de acordo com o design proposto."
+            "<b>Desenvolvimento de Softwares:</b> Conhecimentos avançados: HTML5, Javascript, Typescript, CSS3, Python, PHP, C, C++, C#, .NET Framework, PHP, MQTT, AMQP, RabbitMQ, Kafka, Clean Code, SOLID, DRY, KISS, Algoritmos, Paradigmas, Powershell, Shell, Batch, Adobe Extended Script, Git, SVN, Wordpress, Drupal, Git Copilot, IA. Conhecimentos intermediários: React, Redux, Vue, Angular, Electron, Microsserviços, Microfrontend, NodeJS, Node-RED, Docker, Kubernetes, API REST, SOAP, gRCP, GraphQL, Design Patterns, GoF, Bancos de dados NoSQL e SQL, LGPD, análise de dados, algoritmos para Inteligência Artificial (Machine Learning, Deep Learning, análise visual, algoritmos genéticos, redes neurais). Conhecimentos básicos: DevOps e CI/CD, Github Actions, testes automatizados (TDD). Cloud (AWS, Lambda, GCP e OCI), (IaaS, PaaS, SaaS), Docker e Kubernetes, Infra as a Code (IaC), Segurança da informação, criptografia, JWT, Auth0, Observabilidade e Monitoramento (Datadog, Grafana), Arquitetura Limpa.",
+            "<b>Design e Web Marketing:</b> Photoshop, Krita, GIMP, Corel Draw, Illustrator, Inkscape, InDesign, XD, Figma, UX/UI, acessibilidade, padrões web, Bridge, Google Analytics, banners para web (ad-banners), mídia programática, campanhas em redes sociais, DCO, landing pages, métricas SEO, funis, jornada do consumidor, retail media.",
+            "<b>Metodologias de Projetos:</b> DDD, Event Storming, Brainstorming, Design Thinking, Kanban, Agile, SCRUM, Jira, Trello, Slack, Project, PMI, Waterfall, Six Sigma, Lean, Toyota.",
+            "<b>Engenharia de Computação e Eletrônica:</b> IoT, Industria 4.0, Cidades Inteligentes, mecatrônica, motores, geradores, baterias, resistência e mecânica dos materiais, ótica, física quântica, eletromagnetismo, química tecnológica, soldagem, microchips, componentes eletrônicos, portas de comunicação IO, protocolos de comunicação, análise de sinais, Firmware, CLP (Arduino, STM322 e ESP32), sensores, atuadores, metrologia.",
+            "<b>Animação, Jogos e Produção Audiovisual:</b> After Effects, DaVinci Resolve, Motionscript, GSAP, Google Web Designer (GWD), Adobe Animate, Milagro, Actionscript, jogos 2D e 3D, personagens e cenários, Unity, Godot, Pygame, Arte técnica, Level Design, GDD, Modelagem 3D, Texturas, Efeitos especiais, Blender, Spine, Première, Media Encoder, OBS, Audition, Sound Forge, Audacity, Kdenlive, estúdio audiovisual, câmeras, iluminação, cabeamento, mesas de edição linear e não linear, switchers, splitters, encoders de video, protocolos e codecs para transmissão via streaming on demand, broadcast e ao vivo, transmissão via satélite, desenvolvimento de software para mídia player para web, STB, IPTV e receptores satélite."
          ]
       },
       "languages":{
          "title":"Idiomas",
          "grid":[
-            "Inglês (Avançado) - TOEFL(2015) 450 pontos",
+            "Inglês (Avançado) B1 - TOEFL(2015) 450 pontos",
             "Espanhol (Leitura Técnica)",
             "Português (Nativo)"
          ]
@@ -92,11 +88,11 @@
          "grid":[
             {
                "title":"MBA - Engenharia de Software",
-               "description":"USP/Esalq - início Fev/2024 - previsão de graduação em Jan/2026"
+               "description":"USP/Esalq - início Fev/2024 - previsão de graduação em Dez/2025"
             },
             {
                "title":"Engenharia de Computação",
-               "description":"Univesp - início Ago/2021 - previsão de graduação em Jan/2026"
+               "description":"Univesp - início Ago/2021 - previsão de graduação em Dez/2025"
             },
             {
                "title":"Bacharel em Tecnologia da Informação (IoT)",
@@ -213,63 +209,38 @@
          "title":"Experiência profissional",
          "grid":[
             {
-               "title":"Eletromidia S/A - nov/2022 até o mar/2025<br/>Cargo: Desenvolvedor Fullstack Senior",
-               "description":"◦ Desenvolvimento de software para sinalização digital usando React, Redux, Electron e NodeJS. <br/> ◦ Conversão de código legado (Actionscript) para tecnologias web modernas. <br/> ◦ Animação multimídia utilizando frameworks de animação JavaScript como GSAP, Adobe Animate, Milagro, Google Web Designer. <br/> ◦ Projetos especiais de alto impacto para digital signage envolvendo video wall, led matrix e equipamento audiovisual profissional. <br/> ◦ Automação de conversão de mídia utilizando scripts FFMPEG. <br/>",
+               "title":"Eletromidia S/A - nov/2022 até o mar/2025<br/>Cargo: Desenvolvedor Frontend Senior",
+               "description":"Coordenação e mentoria de estagiários e trainees; referência técnica no desenvolvimento de frontend para animação e rich media; levantamento de requisitos técnicos para o desenvolvimento de frontend e animações HTML5; desenvolvimento de software para sinalização digital usando React, Redux, Electron e NodeJS; conversão de código legado em Flash Actionscript para tecnologias web modernas; animação utilizando HTML5, CSS3, JavaScript, GSAP, Adobe Animate, Milagro, Google Web Designer; projetos especiais de alto impacto para digital signage envolvendo video wall, led matrix e equipamento audiovisual profissional; integração do frontend com APIs de dados para consumo dinâmico de texto, imagem e vídeo; manipulação de material gráfico utilizando Adobe Photoshop, Adobe After Effects e Adobe Illustrator; renderização avançada de vídeo utilizando FFMPEG e Adobe Media Encoder; automação de conversão de mídia utilizando scripts FFMPEG e Python.",
                "link":"https://eletromidia.com.br/"
             },
             {
-               "title":"Hogarth Worldwide - jun/2021 até out/2022<br/>Cargo: Desenvolvedor Front-End Senior",
-               "description":"◦ Animação de banners publicitários dinâmicos ou estáticos utilizando Adobe Creative Suite, HTML5, CSS3 e frameworks de animação JavaScript como GSAP, Adobe Animate, Milagro, Google Web Designer. <br/> ◦ Entrega de milhares de variações de formatos em centenas de projetos para o Brasil e o mundo em companhias como Bayer, L'oreal, Coca-Cola, BMW, Amex, Jameson etc.",
+               "title":"Hogarth Worldwide - jun/2021 até out/2022<br/>Cargo: Desenvolvedor Frontend Senior",
+               "description":"Animação de banners publicitários dinâmicos ou estáticos utilizando, HTML5, CSS3 e frameworks de animação JavaScript como GSAP, Adobe Animate, Milagro, Google Web Designer; manipulação de material gráfico utilizando Adobe Bridge, Adobe Photoshop, Adobe After Effects e Adobe Illustrator; variação de formatos de banners garantindo alta vazão e consistência gráfica entre as peças; automatização de processos de otimização de imagens para web; entrega alto volume de banners publicitários em mais de 150 projetos e suas variações de formato para empresas como Bayer, L'Oréal, Coca-Cola, BMW, Amex, Jameson, entre outras.",
                "link":"https://hogarth.com/"
             },
             {
                "title":"IGS International Solutions - set/2015 até nov/2019<br/>Cargo: Designer Sênior (Líder Artistas Técnicos)",
-               "description":"◦ Especialista Adobe em desenvolvimento de jogos digitais. <br/> ◦ Desenvolvimento de scripts para automatizar e otimizar a criação de conteúdo gráfico para jogos utilizando ffmpeg, imagemagick, javascript, batch e shell script. <br/> ◦ Prover as posições e características das animações feitas no after effects de forma automatizada por meio de xml, json motionscript e Adobe Extend Script que no final é importado pela engine de jogos. <br/> ◦ Suprir a engine de jogos com todo material gráfico e audiovisual. <br/> ◦ Participação no projeto de modernização tecnológica e remasterização visual de todo o portifólio de jogos da Ortiz Gaming tendo contato com a plataforma legada feita para MS-DOS e C em baixa resolução e tecnologias das décadas de 80 e 90. <br/> ◦ Coordenação da equipe de arte técnica, equipe encarregada de implementar conteúdo artístico no software de jogo.",
+               "description":"Especialista em projetos de jogos de cassino utilizando Adobe Extended Script, Adobe After Effects, Adobe Animate e Adobe Photoshop e Adobe Illustrator, Adobe Audition, C, C++, Godot, Spine; desenvolvimento de scripts para automação e otimização da criação de multimídia utilizando Adobe Extended Script, Javascript, Python, Batch Script, Powershell, Shell, Visual Basic, FFMPEG, ImageMagick e PNG Gauntlet; atualização tecnológica e remasterização de jogos legados dos anos 80 e 90, com base em tecnologias legadas como MS-DOS, Windows XP, C e C++ bem como formatos legados de som, vídeo e imagem; efeitos especiais para gabinetes de jogos utilizando controladores IoT para interação em tempo real do jogo com fitas de led e efeitos sonoros; animação personagens e elementos gráficos do jogo; liderança da equipe de Tech Artists, fornecendo todo o conteúdo criativo para a plataforma de jogos.",
                "link":"https://ortizgaming.com/"
             },
             {
                "title":"Atmo Mídia Digital Corporativa - set/2013 até set/2015<br/>Cargo: Programador Flash",
-               "description":"◦ Análise e desenvolvimento de sistemas para Digital Signage, totens e multimídia além de sistemas para streaming de vídeo como vídeo sob demanda ou ao vivo além de sua transmissão via web ou via satélite pelo sistema de TV Digital. <br/> ◦ Configuração e otimização de ambientes baseados em windows, linux, android e java. <br/> ◦ Pesquisa, desenvolvimento e homologação de ambientes de hardware baseados nas arquiteturas ARM e x86 para decoders de vídeo e thin clients para digital signage, totens e multimídia. <br/> ◦ Coordenação da equipe de implantação e manutenção de hardware e software. <br/> ◦ Negociação técnica de itens de hardware e software com fornecedores e prestadores de serviços no Brasil e no exterior.",
+               "description":"Análise e desenvolvimento de sistemas para Digital Signage, totens e multimídia, sistemas para streaming de vídeo sob demanda ou ao vivo, transmissão via web ou via satélite pelo sistema de TV Digital usando FFMPEG, OBS e Adobe Media Encoder; configuração e otimização de sistemas operacionais para Windows, Linux e Android; projetos especiais de alto impacto para digital signage envolvendo video wall, led matrix, equipamento audiovisual profissional; testes e levantamento de requisitos e manutenção preventiva de hardware; programação para sistemas embarcados e dispositivos de sinalização digital usando, Actionscript 3, .Net Framework, C# e C++, utilização de portas seriais para comunicação IO, atualizações de Firmware. Integração do frontend com APIs de dados para consumo dinâmico de texto, imagem e vídeo; manipulação de material gráfico utilizando Adobe Photoshop, Adobe After Effects e Adobe Illustrator; cases de grandes empresas nacionais como Magalu, Habib’s, Cacau Show, Polícia Militar do Estado de São Paulo, KPMG, Casas Bahia, Ri Happy, Bodytech, DASA, Natura, Bayer.",
                "link":"https://atmodigital.com.br/"
             },
             {
                "title":"Unidas Rent a Car - jun/2013 até set/2013<br/>Cargo: Analista de Marketing Digital",
-               "description":"◦ Coordenação de projetos para mídia on-line. <br/> ◦ Análise de métricas do portal Unidas. <br/> ◦ Análise de sistemas web. <br/> ◦ Manutenção de conteúdo do portal Unidas. <br/> ◦ Layouts para mídia on-line e impressa. <br/> ◦ Edição e tratamento de vídeo. <br/> ◦ Produção de e-mail Marketing.",
+               "description":"Coordenação de projetos para mídia on-line; construção e manutenção dos portais corporativos em HTML, CSS e Javascript, Wordpress e Adobe Flash; integração com APIs de serviços de redes sociais; criação de animações para banners e landing pages utilizando Adobe Flash, Actionscript e gif; monitoramento, análise de métricas e otimização SEO; produção de email marketing; realização de testes A/B.",
                "link":"https://unidas.com.br"
             },
             {
                "title":"Elemidia Empresas - ago/2007 até mai/2013<br/>Cargo: Programador",
-               "description":"◦ Programação Actionscript 2 para a manutenção e desenvolvimento de novas funcionalidades para software de Digital Signage e Tv Corporativa da Elemidia Empresas. <br/> ◦ Layouts para o softwares de TV Corporativa baseadas na identidade visual do cliente. <br/> ◦ Animações e vinhetas em 2D. <br/> ◦ Edição e tratamento de vídeo. <br/> ◦ Cases de grandes empresas nacionais e multinacionais. Participação em mais de 300 projetos.",
+               "description":"Programação Actionscript 2 para a manutenção e desenvolvimento de novas funcionalidades para software de Digital Signage e Tv Corporativa da Elemidia Empresas; layouts para as interfaces de TV Corporativa baseadas na identidade visual do cliente; animações e vinhetas em 2D, tratamento e edição de vídeo utilizando Adobe Flash,  After Effects e FFMPEG; integração do frontend com APIs de dados para consumo dinâmico de texto, imagem e vídeo; manipulação de material gráfico utilizando Adobe Photoshop, Adobe After Effects e Adobe Illustrator; cases de grandes empresas nacionais e multinacionais com participação em mais de 300 projetos como Nokia, Abril, Unilever, Volkswagen, Philips, Abbott, Syngenta entre outros.",
                "link":"https://eletromidia.com.br/"
             },
             {
-               "title":"Edições Paulinas - nov/2006 até mar/2007<br/>Cargo: Web-Designer",
-               "description":"◦ Atualização do conteúdo do Portal Paulinas envolvendo banners e aplicações em flash, aplicações em ASP, conteúdo audiovisual, suporte ao internauta, html, css, imagens.",
-               "link":"https://paulinas.org.br/"
-            },
-            {
-               "title":"LC2 (parceria com a TCPcom) - set/2005 até nov/2006<br/>Cargo: Web-Developer Pleno",
-               "description":"◦ Diagramação e produção de web-sites institucionais, hot-sites, web-sites dinâmicos, banco de dados, web-marketing, suporte técnico, revenda de hospedagem, cPanel, atualização, alguns trabalhos gráficos e de multimídia.",
-               "link":""
-            },
-            {
-               "title":"Bit-Click Photo Digital - dez/2004 até ago/2005<br/>Cargo: Operador de Vídeo",
-               "description":"◦ Cobertura de foto e vídeo em feiras, eventos e festas, edição de vídeo, efeitos especiais, vinhetas.",
-               "link":""
-            },
-            {
-               "title":"Yazz Design - nov/2002 até dez/2004<br/>Cargo: Diretor de arte - Multimídia",
-               "description":"◦ Gerência de projetos e análise de custos para web e multimídia, produção em web multimídia, artes gráficas, ilustração, diagramação, coordenação de equipe para foto e vídeo, suporte ao cliente.",
-               "link":"https://yazz.com.br"
-            },
-            {
-               "title":"Dialeto Comunicação - abr/2002 até out/2002<br/>Cargo: Web-Designer",
-               "description":"◦ Diagramação e produção de web-sites institucionais, hot-sites, web-marketing, suporte técnico, atualização, desenho técnico(AutoCad), alguns trabalhos gráficos e de multimídia.",
-               "link":""
-            },
-            {
-               "title":"TCPcom Ltda - nov/2000 até dez/2001<br/>Cargo: Web-Designer",
-               "description":"◦ Diagramação e produção de web-sites institucionais, hot-sites, web-marketing, suporte técnico, atualização, desenho técnico(AutoCad), alguns trabalhos gráficos e de multimídia.",
+               "title":"<i>Experiências Anteriores - jan/2000 até dez/2007<br/>Empresas: Editoras Gráficas, Agências de Publicidade e Projetos Freelancer como Web Designer, Designer de Multimídia e Desenvolvedor Frontend.</i>",
+               "description":"<i>Gestão de projetos, análise de custos para web e multimídia; cobertura jornalística de foto e vídeo para feiras, eventos sociais e corporativos; montagem de equipamentos audiovisual, montagem de ilumunação; contratação de profissionais e equipamentos para projetos de fotografia e audiovisual; direção de estúdio de foto e vídeo analógico e digital; design, desenvolvimento e manutenção de sites estáticos e dinâmicos; criação de backend para conteúdo e serviços dinâmicos como fórum, enquetes, salas de chat, formulário de contato, álbum de imagens; integração com APIs de notícias; controle e manutenção de hospedagem utilizando o CPanel e Linux; criação de animações para banners e landing pages e materiais corporativos; animação 3D; edição de imagens, áudio e vídeo;  produção e envio de email marketing; monitoramento, análise de métricas e otimização SEO; realização de testes A/B; suporte ao usuário.</i>",
                "link":""
             }
          ]
