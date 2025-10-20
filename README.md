@@ -55,8 +55,6 @@ caversan_site/
 ├── 🖼️ img/                   # Imagens e ícones
 │   └── portifolio/
 │       └── thumbs/          # Miniaturas do portfolio
-├── 🎮 games/
-│   └── mines/               # Jogo Campo Minado integrado
 ├── 📁 pdf/                  # Documentos e currículos
 ├── 🎬 videos/               # Vídeos do portfolio
 ├── 📚 docs/                 # Documentação adicional
@@ -169,33 +167,19 @@ Para personalizar o conteúdo:
 3. **Imagens**: Substitua arquivos em `img/`
 4. **Portfolio**: Adicione projetos nos JSONs e imagens correspondentes
 
-## 🎮 Funcionalidades Extras
-
-### Campo Minado
-Portfolio inclui um jogo de Campo Minado desenvolvido em JavaScript vanilla:
-- Acesse em: `/games/mines/`
-- Três níveis de dificuldade
-- Interface responsiva
-- Contador de tempo e minas
-
 ## 🌟 Portfolio Highlights
 
 ### 💼 Experiência Profissional
 - **Eletromidia S/A** - Desenvolvedor Fullstack Senior (2022-atual)
 - **Hogarth Worldwide** - Desenvolvedor Front-End Senior (2021-2022)
-- **IGS International Solutions** - Designer Sênior (2015-2019)
+- **Ortiz Gaming** - Designer Sênior (2015-2019)
 - **15+ anos** em desenvolvimento web e multimídia
 
 ### 🎓 Formação
-- **Engenharia de Computação** - Univesp (2021-2026)
+- **Engenharia de Computação** - Univesp (2021-2025)
+- **Tecnologia da Informação (IoT)** - Univesp (2021-2024)
 - **Análise de Sistemas (Jogos Digitais)** - FATEC (2011-2015)
-- **Cursos especializados** em AngularJS, Web Moderno, 3D, etc.
-
-### 🛠️ Tecnologias
-- **Frontend**: React, Redux, Angular, Vue, HTML5, CSS3, JavaScript
-- **Backend**: Node.js, .NET, PHP, MySQL, NoSQL
-- **Ferramentas**: Adobe Creative Suite, Unity, Git, Docker
-- **Automação**: Scripts, FFMPEG, ImageMagick
+- **Cursos especializados** em Web, Jogos, Audiovisual e Multimídia.
 
 ## 📈 Analytics e Performance
 
@@ -221,7 +205,7 @@ Este projeto é de uso pessoal. Todo o conteúdo e código são de propriedade d
 
 ## 📞 Contato
 
-- **Website**: [Portfolio Online](https://caversan.com.br)
+- **Portifólio**: [(https://caversan.com.br](https://caversan.com.br)
 - **Email**: [adriano.caversan@gmail.com](mailto:adriano.caversan@gmail.com)
 - **LinkedIn**: [Adriano Caversan](https://www.linkedin.com/in/adriano-caversan/)
 - **Telefone**: +55 11 98091-0161
