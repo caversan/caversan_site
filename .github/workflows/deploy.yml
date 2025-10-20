@@ -36,26 +36,30 @@ jobs:
     - name: Check FTP secrets
       run: |
         echo "Checking required FTP secrets..."
-        if [ -z "${{ secrets.FTP_HOST }}" ]; then
-          echo "❌ ERROR: FTP_HOST secret is not configured!"
+        if [ -z "${{ secrets.FTP_SERVER }}" ]; then
+          echo "❌ ERROR: FTP secrets are not configured!"
           echo "Please configure the following secrets in your GitHub repository:"
-          echo "  - FTP_HOST (your FTP server address)"
+          echo "  - FTP_SERVER (your FTP server address)"
           echo "  - FTP_USERNAME (your FTP username)"
           echo "  - FTP_PASSWORD (your FTP password)"
-          echo "  - FTP_SERVER_DIR (target directory, e.g., /public_html)"
+          echo "  - FTP_REMOTE_DIR (target directory, e.g., /public_html)"
+          echo "  - SITE_URL (your website URL for verification)"
           echo ""
           echo "Go to: Settings > Secrets and variables > Actions > New repository secret"
           exit 1
         fi
         echo "✅ FTP secrets are configured"
+        echo "🌐 Target server: ${{ secrets.FTP_SERVER }}"
+        echo "📁 Target directory: ${{ secrets.FTP_REMOTE_DIR }}"
+        echo "🔗 Site URL: ${{ secrets.SITE_URL }}"
         
     - name: Deploy to FTP
       uses: SamKirkland/FTP-Deploy-Action@v4.3.4
       with:
-        server: ${{ secrets.FTP_HOST }}
+        server: ${{ secrets.FTP_SERVER }}
         username: ${{ secrets.FTP_USERNAME }}
         password: ${{ secrets.FTP_PASSWORD }}
-        server-dir: ${{ secrets.FTP_SERVER_DIR }}
+        server-dir: ${{ secrets.FTP_REMOTE_DIR }}
         exclude: |
           **/.git*
           **/.git*/**
@@ -72,4 +76,5 @@ jobs:
       run: |
         echo "🎉 Deployment completed successfully!"
         echo "📅 Deployed at: $(date)"
-        echo "🔗 Site should be live at your domain"
+        echo "🔗 Site should be live at: ${{ secrets.SITE_URL }}"
+        echo "🚀 Check your website to confirm deployment"
