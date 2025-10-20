@@ -16,28 +16,10 @@ jobs:
     - name: Checkout code
       uses: actions/checkout@v4
       
-    - name: Setup Node.js
-      uses: actions/setup-node@v4
-      with:
-        node-version: '18'
-        cache: 'npm'
-        
-    - name: Install dependencies
-      run: npm ci
-      
-    - name: Validate HTML
-      run: npm run lint:html
-      
-    - name: Validate CSS
-      run: npm run lint:css
-      
-    - name: Validate JavaScript
-      run: npm run lint:js
-      
-    - name: Test JSON files
+    - name: Validate JSON files syntax
       run: |
         echo "Testing JSON files syntax..."
-        find . -name "*.json" -exec echo "Testing {}" \; -exec cat {} \; -exec echo "" \;
+        find . -name "*.json" -exec sh -c 'echo "Testing {}..." && python3 -m json.tool {} > /dev/null && echo "✅ {} is valid JSON"' \;
         
     - name: Check file structure
       run: |

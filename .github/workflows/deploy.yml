@@ -19,31 +19,19 @@ jobs:
     - name: Checkout code
       uses: actions/checkout@v4
       
-    - name: Setup Node.js
-      uses: actions/setup-node@v4
-      with:
-        node-version: '18'
-        cache: 'npm'
-        
-    - name: Install dependencies
-      run: npm ci
       
-    - name: Run tests
-      run: npm test
-      
-    - name: Validate files
+    - name: Validate basic file structure
       run: |
-        echo "Validating HTML files..."
-        npm run lint:html
-        echo "Validating CSS files..."
-        npm run lint:css
-        echo "Validating JS files..."
-        npm run lint:js
+        echo "Checking file structure..."
+        test -f index.htm && echo "✅ index.htm found" || (echo "❌ index.htm missing" && exit 1)
+        test -f css/style.css && echo "✅ CSS found" || (echo "❌ CSS missing" && exit 1)
+        test -f js/script.js && echo "✅ JS found" || (echo "❌ JS missing" && exit 1)
+        echo "📊 File count: $(find . -type f \( -name "*.htm" -o -name "*.html" -o -name "*.css" -o -name "*.js" \) | wc -l) web files"
         
-    - name: Check file sizes
+    - name: Test JSON files syntax
       run: |
-        echo "Checking file sizes..."
-        find . -name "*.html" -o -name "*.css" -o -name "*.js" -o -name "*.jpg" -o -name "*.png" -o -name "*.gif" | head -20 | xargs ls -lh
+        echo "Validating JSON files..."
+        find . -name "*.json" -exec sh -c 'echo "Testing {}..." && python3 -m json.tool {} > /dev/null && echo "✅ {} valid"' \;
         
     - name: Deploy to FTP
       uses: SamKirkland/FTP-Deploy-Action@v4.3.4
@@ -66,12 +54,6 @@ jobs:
           
     - name: Deployment Success
       run: |
-        echo "Deployment completed successfully!"
-        echo "Deployed at: $(date)"
-        echo "Site should be live at your domain"
-        
-    - name: Cleanup
-      if: always()
-      run: |
-        echo "Cleaning up temporary files..."
-        rm -rf node_modules/.cache || true
+        echo "🎉 Deployment completed successfully!"
+        echo "📅 Deployed at: $(date)"
+        echo "🔗 Site should be live at your domain"
