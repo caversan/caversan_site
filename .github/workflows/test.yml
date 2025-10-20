@@ -1,0 +1,29 @@
+name: Test Workflow
+
+on:
+  push:
+    branches: [ master, main ]
+  workflow_dispatch:
+
+jobs:
+  test:
+    runs-on: ubuntu-latest
+    steps:
+    - name: Checkout
+      uses: actions/checkout@v4
+      
+    - name: Hello World
+      run: |
+        echo "🚀 GitHub Actions está funcionando!"
+        echo "📅 Data: $(date)"
+        echo "👤 Usuário: ${{ github.actor }}"
+        echo "📝 Commit: ${{ github.sha }}"
+        echo "🌿 Branch: ${{ github.ref_name }}"
+        
+    - name: List Repository Files
+      run: |
+        echo "📁 Conteúdo do repositório:"
+        ls -la
+        echo ""
+        echo "🗂️ Estrutura de pastas:"
+        tree -L 2 || find . -type d -maxdepth 2

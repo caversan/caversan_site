@@ -1,0 +1,60 @@
+name: Deploy Portfolio to FTP
+
+on:
+  push:
+    branches: [ master, main ]
+  workflow_dispatch:
+
+jobs:
+  deploy:
+    name: Deploy to FTP Server
+    runs-on: ubuntu-latest
+    
+    steps:
+    - name: Checkout Repository
+      uses: actions/checkout@v4
+
+    - name: List Files
+      run: |
+        echo "📁 Arquivos no repositório:"
+        ls -la
+        echo ""
+        echo "📄 Estrutura de diretórios:"
+        find . -type f -name "*.htm" -o -name "*.html" -o -name "*.css" -o -name "*.js" | head -10
+
+    - name: Validate JSON Files
+      run: |
+        echo "🔍 Validando arquivos JSON..."
+        for file in js/data/*/*.json; do
+          if [ -f "$file" ]; then
+            echo "Validando: $file"
+            python3 -m json.tool "$file" > /dev/null
+            echo "✅ $file válido"
+          fi
+        done
+
+    - name: Deploy via FTP
+      uses: SamKirkland/FTP-Deploy-Action@v4.3.4
+      with:
+        server: ${{ secrets.FTP_SERVER }}
+        username: ${{ secrets.FTP_USERNAME }}
+        password: ${{ secrets.FTP_PASSWORD }}
+        server-dir: ${{ secrets.FTP_REMOTE_DIR || '/' }}
+        exclude: |
+          **/.git*
+          **/.git*/**
+          **/node_modules/**
+          **/.DS_Store
+          **/.vscode/**
+          **/README.md
+          **/.github/**
+          **/DEPLOY.md
+          **/validate.*
+
+    - name: Success Message
+      if: success()
+      run: |
+        echo "🎉 Deploy realizado com sucesso!"
+        echo "📅 $(date)"
+        echo "📝 Commit: ${{ github.sha }}"
+        echo "👤 Por: ${{ github.actor }}"
