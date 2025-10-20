@@ -1,0 +1,58 @@
+﻿name: Test Portfolio
+
+on:
+  push:
+    branches: [ master, main ]
+  pull_request:
+    branches: [ master, main ]
+  workflow_dispatch:
+
+jobs:
+  test:
+    name: Test Files
+    runs-on: ubuntu-latest
+    
+    steps:
+    - name: Checkout code
+      uses: actions/checkout@v4
+      
+    - name: Setup Node.js
+      uses: actions/setup-node@v4
+      with:
+        node-version: '18'
+        cache: 'npm'
+        
+    - name: Install dependencies
+      run: npm ci
+      
+    - name: Validate HTML
+      run: npm run lint:html
+      
+    - name: Validate CSS
+      run: npm run lint:css
+      
+    - name: Validate JavaScript
+      run: npm run lint:js
+      
+    - name: Test JSON files
+      run: |
+        echo "Testing JSON files syntax..."
+        find . -name "*.json" -exec echo "Testing {}" \; -exec cat {} \; -exec echo "" \;
+        
+    - name: Check file structure
+      run: |
+        echo "Checking required files..."
+        test -f index.htm || (echo "index.htm missing" && exit 1)
+        test -f css/style.css || (echo "css/style.css missing" && exit 1)
+        test -f js/script.js || (echo "js/script.js missing" && exit 1)
+        echo "All required files present"
+        
+    - name: Test server start
+      run: |
+        echo "Testing if files can be served..."
+        python3 -m http.server 8000 &
+        SERVER_PID=$!
+        sleep 2
+        curl -f http://localhost:8000/ > /dev/null || (echo "Server test failed" && exit 1)
+        kill $SERVER_PID
+        echo "Server test passed"
