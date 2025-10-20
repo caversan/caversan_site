@@ -34,6 +34,8 @@ jobs:
         done
 
     - name: Deploy via FTP
+      # Descomente as linhas abaixo após configurar os secrets FTP
+      if: false  # Mude para true após configurar FTP_SERVER, FTP_USERNAME, FTP_PASSWORD
       uses: SamKirkland/FTP-Deploy-Action@v4.3.4
       with:
         server: ${{ secrets.FTP_SERVER }}
@@ -50,6 +52,17 @@ jobs:
           **/.github/**
           **/DEPLOY.md
           **/validate.*
+
+    - name: Deploy Status
+      run: |
+        if [ "${{ secrets.FTP_SERVER }}" = "" ]; then
+          echo "⚠️  Deploy desabilitado - Configure os secrets FTP:"
+          echo "   1. Vá em: Settings → Secrets and variables → Actions"
+          echo "   2. Adicione: FTP_SERVER, FTP_USERNAME, FTP_PASSWORD"
+          echo "   3. Edite o workflow para habilitar deploy (mude 'if: false' para 'if: true')"
+        else
+          echo "✅ Secrets FTP configurados - deploy pronto!"
+        fi
 
     - name: Success Message
       if: success()

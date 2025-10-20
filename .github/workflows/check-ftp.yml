@@ -1,0 +1,54 @@
+name: Check FTP Configuration
+
+on:
+  workflow_dispatch:
+
+jobs:
+  check-secrets:
+    runs-on: ubuntu-latest
+    steps:
+    - name: Check FTP Secrets
+      run: |
+        echo "🔍 Verificando configuração dos secrets FTP..."
+        echo ""
+        
+        if [ -z "${{ secrets.FTP_SERVER }}" ]; then
+          echo "❌ FTP_SERVER não configurado"
+        else
+          echo "✅ FTP_SERVER configurado"
+        fi
+        
+        if [ -z "${{ secrets.FTP_USERNAME }}" ]; then
+          echo "❌ FTP_USERNAME não configurado"
+        else
+          echo "✅ FTP_USERNAME configurado"
+        fi
+        
+        if [ -z "${{ secrets.FTP_PASSWORD }}" ]; then
+          echo "❌ FTP_PASSWORD não configurado"
+        else
+          echo "✅ FTP_PASSWORD configurado"
+        fi
+        
+        if [ -z "${{ secrets.FTP_REMOTE_DIR }}" ]; then
+          echo "⚠️  FTP_REMOTE_DIR não configurado (opcional, padrão: /)"
+        else
+          echo "✅ FTP_REMOTE_DIR configurado"
+        fi
+        
+        echo ""
+        echo "📋 Para configurar os secrets:"
+        echo "1. Acesse: https://github.com/${{ github.repository }}/settings/secrets/actions"
+        echo "2. Clique em 'New repository secret'"
+        echo "3. Adicione cada secret necessário"
+        
+        # Verificar se todos os secrets obrigatórios estão configurados
+        if [ -n "${{ secrets.FTP_SERVER }}" ] && [ -n "${{ secrets.FTP_USERNAME }}" ] && [ -n "${{ secrets.FTP_PASSWORD }}" ]; then
+          echo ""
+          echo "🎉 Todos os secrets obrigatórios estão configurados!"
+          echo "   Você pode habilitar o deploy editando deploy-simple.yml"
+          echo "   Mude 'if: false' para 'if: true' no step de deploy"
+        else
+          echo ""
+          echo "⚠️  Configure os secrets antes de habilitar o deploy"
+        fi
