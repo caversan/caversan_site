@@ -223,7 +223,7 @@ Este projeto é de uso pessoal. Todo o conteúdo e código são de propriedade d
 
 - **Website**: [Portfolio Online](https://seudominio.com)
 - **Email**: [adriano.caversan@gmail.com](mailto:adriano.caversan@gmail.com)
-- **LinkedIn**: [Adriano Caversan](https://www.linkedin.com/in/adriano-caversan-2082a920/)
+- **LinkedIn**: [Adriano Caversan](https://www.linkedin.com/in/adriano-caversan/)
 - **Telefone**: +55 11 98091-0161
 - **Localização**: São Paulo - SP, Brasil
 
