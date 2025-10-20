@@ -1,0 +1,178 @@
+name: Deploy Portfolio to FTP
+
+on:
+  push:
+    branches: [ master, main ]
+    paths-ignore:
+      - 'README.md'
+      - '.gitignore'
+      - 'docs/**'
+      - '*.md'
+  workflow_dispatch:
+    inputs:
+      force_deploy:
+        description: 'Forçar deploy mesmo sem mudanças'
+        required: false
+        default: 'false'
+        type: boolean
+
+jobs:
+  deploy:
+    name: Deploy to FTP Server
+    runs-on: ubuntu-latest
+    
+    steps:
+    - name: Checkout Repository
+      uses: actions/checkout@v4
+
+    - name: Validate Files Before Deploy
+      run: |
+        echo "🔍 Validando arquivos antes do deploy..."
+        
+        # Validar JSONs
+        echo "Validando arquivos JSON..."
+        for file in js/data/*/*.json; do
+          if [ -f "$file" ]; then
+            echo "Validando: $file"
+            if ! python3 -m json.tool "$file" > /dev/null 2>&1; then
+              echo "❌ Erro no arquivo JSON: $file"
+              exit 1
+            fi
+          fi
+        done
+        echo "✅ Arquivos JSON válidos"
+        
+        # Validar HTML básico
+        if [ -f "index.htm" ]; then
+          if grep -q "<!DOCTYPE" index.htm && grep -q "</html>" index.htm; then
+            echo "✅ Estrutura HTML válida"
+          else
+            echo "❌ Estrutura HTML inválida"
+            exit 1
+          fi
+        fi
+
+    - name: Prepare Files for Deploy
+      run: |
+        echo "📦 Preparando arquivos para deploy..."
+        
+        # Listar arquivos que serão enviados
+        echo "Arquivos principais:"
+        ls -la *.htm *.php 2>/dev/null || echo "Nenhum arquivo HTML/PHP na raiz"
+        
+        echo "Pastas que serão enviadas:"
+        ls -la | grep "^d" | awk '{print $9}' | grep -v "^\.$\|^\.\.$\|^\.git$\|^\.github$" || echo "Nenhuma pasta adicional"
+        
+        # Criar arquivo de informações do deploy
+        echo "Criando arquivo de informações do deploy..."
+        cat > deploy-info.txt << EOF
+        Portfolio Deploy Information
+        ============================
+        Deploy Date: $(date)
+        Commit SHA: ${{ github.sha }}
+        Branch: ${{ github.ref_name }}
+        Deployed by: ${{ github.actor }}
+        Workflow Run: ${{ github.run_id }}
+        Repository: ${{ github.repository }}
+        EOF
+
+    - name: Check FTP Secrets
+      run: |
+        echo "🔐 Verificando configuração dos secrets FTP..."
+        
+        if [ -z "${{ secrets.FTP_SERVER }}" ]; then
+          echo "❌ FTP_SERVER não configurado"
+          echo "Configure em: Settings → Secrets and variables → Actions"
+          exit 1
+        else
+          echo "✅ FTP_SERVER configurado"
+        fi
+        
+        if [ -z "${{ secrets.FTP_USERNAME }}" ]; then
+          echo "❌ FTP_USERNAME não configurado"
+          exit 1
+        else
+          echo "✅ FTP_USERNAME configurado"
+        fi
+        
+        if [ -z "${{ secrets.FTP_PASSWORD }}" ]; then
+          echo "❌ FTP_PASSWORD não configurado"
+          exit 1
+        else
+          echo "✅ FTP_PASSWORD configurado"
+        fi
+        
+        echo "🎉 Todos os secrets FTP estão configurados!"
+
+    - name: Deploy to FTP Server
+      uses: SamKirkland/FTP-Deploy-Action@v4.3.4
+      with:
+        server: ${{ secrets.FTP_SERVER }}
+        username: ${{ secrets.FTP_USERNAME }}
+        password: ${{ secrets.FTP_PASSWORD }}
+        port: ${{ secrets.FTP_PORT || 21 }}
+        protocol: ${{ secrets.FTP_PROTOCOL || 'ftp' }}
+        local-dir: ./
+        server-dir: ${{ secrets.FTP_REMOTE_DIR || '/' }}
+        exclude: |
+          **/.git*
+          **/.git*/**
+          **/node_modules/**
+          **/.DS_Store
+          **/.vscode/**
+          **/README.md
+          **/.github/**
+          **/DEPLOY.md
+          **/validate.*
+          **/*.log
+          **/package*.json
+        dangerous-clean-slate: false
+        dry-run: false
+
+    - name: Post Deploy Verification
+      if: success()
+      run: |
+        echo "🔍 Verificando deploy..."
+        
+        # Se houver URL configurada, testar conectividade
+        if [ -n "${{ secrets.SITE_URL }}" ]; then
+          echo "Testando conectividade com: ${{ secrets.SITE_URL }}"
+          sleep 5  # Aguardar propagação
+          
+          if curl -f -s -o /dev/null "${{ secrets.SITE_URL }}"; then
+            echo "✅ Site está acessível"
+          else
+            echo "⚠️ Site pode não estar acessível ainda (normal logo após deploy)"
+          fi
+        else
+          echo "ℹ️ SITE_URL não configurado - pulando teste de conectividade"
+        fi
+
+    - name: Deploy Success Notification
+      if: success()
+      run: |
+        echo "🎉 Deploy realizado com sucesso!"
+        echo "=========================================="
+        echo "📅 Data: $(date)"
+        echo "🌐 Site: ${{ secrets.SITE_URL || 'Configure SITE_URL nos secrets' }}"
+        echo "📝 Commit: ${{ github.sha }}"
+        echo "👤 Deploy por: ${{ github.actor }}"
+        echo "🔗 Workflow: https://github.com/${{ github.repository }}/actions/runs/${{ github.run_id }}"
+        echo "=========================================="
+
+    - name: Deploy Failure Notification
+      if: failure()
+      run: |
+        echo "❌ Deploy falhou!"
+        echo "=========================================="
+        echo "🔍 Verifique os logs acima para detalhes"
+        echo "📝 Commit que falhou: ${{ github.sha }}"
+        echo "👤 Tentativa por: ${{ github.actor }}"
+        echo "🔗 Logs detalhados: https://github.com/${{ github.repository }}/actions/runs/${{ github.run_id }}"
+        echo "=========================================="
+        echo ""
+        echo "💡 Possíveis soluções:"
+        echo "1. Verifique se todos os secrets FTP estão corretos"
+        echo "2. Confirme se o servidor FTP está acessível"
+        echo "3. Verifique se o diretório de destino existe"
+        echo "4. Valide os arquivos JSON localmente"

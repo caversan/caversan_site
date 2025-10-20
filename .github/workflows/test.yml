@@ -1,0 +1,79 @@
+name: Test Portfolio
+
+on:
+  push:
+    branches: [ master, main ]
+  pull_request:
+    branches: [ master, main ]
+  workflow_dispatch:
+
+jobs:
+  test:
+    name: Test and Validate
+    runs-on: ubuntu-latest
+    
+    steps:
+    - name: Checkout Repository
+      uses: actions/checkout@v4
+
+    - name: Test Basic Setup
+      run: |
+        echo "🚀 GitHub Actions está funcionando!"
+        echo "📅 Data: $(date)"
+        echo "👤 Usuário: ${{ github.actor }}"
+        echo "📝 Commit: ${{ github.sha }}"
+        echo "🌿 Branch: ${{ github.ref_name }}"
+        echo "📁 Repositório: ${{ github.repository }}"
+
+    - name: List Repository Files
+      run: |
+        echo "📁 Conteúdo do repositório:"
+        ls -la
+        echo ""
+        echo "🗂️ Estrutura principal:"
+        find . -maxdepth 2 -type f -name "*.htm" -o -name "*.html" -o -name "*.css" -o -name "*.js" | head -10
+
+    - name: Validate JSON Files
+      run: |
+        echo "🔍 Validando arquivos JSON..."
+        json_valid=true
+        
+        for file in js/data/*/*.json; do
+          if [ -f "$file" ]; then
+            echo "Validando: $file"
+            if python3 -m json.tool "$file" > /dev/null 2>&1; then
+              echo "✅ $file válido"
+            else
+              echo "❌ $file inválido"
+              json_valid=false
+            fi
+          fi
+        done
+        
+        if [ "$json_valid" = true ]; then
+          echo "🎉 Todos os arquivos JSON são válidos!"
+        else
+          echo "⚠️ Há arquivos JSON com problemas"
+          exit 1
+        fi
+
+    - name: Check HTML Structure
+      run: |
+        echo "🔍 Verificando estrutura HTML..."
+        
+        if [ -f "index.htm" ]; then
+          if grep -q "<!DOCTYPE" index.htm && grep -q "</html>" index.htm; then
+            echo "✅ Estrutura HTML válida"
+          else
+            echo "❌ Estrutura HTML inválida"
+            exit 1
+          fi
+        else
+          echo "❌ Arquivo index.htm não encontrado"
+          exit 1
+        fi
+
+    - name: Test Complete
+      run: |
+        echo "🎉 Todos os testes passaram!"
+        echo "✅ Repositório está pronto para deploy"
