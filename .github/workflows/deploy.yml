@@ -33,6 +33,22 @@ jobs:
         echo "Validating JSON files..."
         find . -name "*.json" -exec sh -c 'echo "Testing {}..." && python3 -m json.tool {} > /dev/null && echo "✅ {} valid"' \;
         
+    - name: Check FTP secrets
+      run: |
+        echo "Checking required FTP secrets..."
+        if [ -z "${{ secrets.FTP_HOST }}" ]; then
+          echo "❌ ERROR: FTP_HOST secret is not configured!"
+          echo "Please configure the following secrets in your GitHub repository:"
+          echo "  - FTP_HOST (your FTP server address)"
+          echo "  - FTP_USERNAME (your FTP username)"
+          echo "  - FTP_PASSWORD (your FTP password)"
+          echo "  - FTP_SERVER_DIR (target directory, e.g., /public_html)"
+          echo ""
+          echo "Go to: Settings > Secrets and variables > Actions > New repository secret"
+          exit 1
+        fi
+        echo "✅ FTP secrets are configured"
+        
     - name: Deploy to FTP
       uses: SamKirkland/FTP-Deploy-Action@v4.3.4
       with:
