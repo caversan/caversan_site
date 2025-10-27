@@ -1,4 +1,5 @@
 try {
+    //
     let language = "";
     const flags = document.getElementsByClassName('flag');
     const data = new Date();
