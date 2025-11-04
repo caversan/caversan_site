@@ -45,7 +45,7 @@ try {
         const birthFormatted = language === "en" ? `${months[birth.getMonth()]}/0${birth.getDate()}/${birth.getFullYear()}` : `0${birth.getDate()}/0${birth.getMonth() + 1}/${birth.getFullYear()}`;
         document.querySelector(".birth").innerHTML = `${loadedJson.profile.birth.title}: ${birthFormatted}`;
 
-        document.querySelector(".phone").innerHTML = `${loadedJson.profile.phone.title}: <a href="tel:${loadedJson.profile.phone.description}">${loadedJson.profile.phone.description}</a>`;
+        document.querySelector(".phone").innerHTML = `${loadedJson.profile.phone.title}: <a href="tel:+${loadedJson.profile.phone.description.replace(/\D/g, '')}">${loadedJson.profile.phone.description}</a>`;
         document.querySelector(".email").innerHTML = `${loadedJson.profile.email.title}: <a href="mailto:${loadedJson.profile.email.description}">${loadedJson.profile.email.description}</a>`;
         document.querySelector(".github").innerHTML = `${loadedJson.profile.github.title}: <a href="${loadedJson.profile.github.description}" target="_blank">${loadedJson.profile.github.description}</a>`;
         document.querySelector(".linkedin").innerHTML = `${loadedJson.profile.linkedin.title}: <a href="${loadedJson.profile.linkedin.description}" target="_blank">${loadedJson.profile.linkedin.description}</a>`;
