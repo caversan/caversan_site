@@ -136,14 +136,6 @@
                "description":"Udemy - 2024 (duração 20 horas)"
             },
             {
-               "title":"Web Moderno Completo: HTML, CSS, Javascript, React, NodeJs e mais",
-               "description":"Udemy - 2020 (duração 88 horas)"
-            },
-            {
-               "title":"AngularJS",
-               "description":"Loiane.training – 2020 (duração 28 horas)"
-            },
-            {
                "title":"Arduino",
                "description":"Centro Paula Souza - Cetec - 2022 (duração 30 horas)"
             },
@@ -184,6 +176,14 @@
                "description":"FGV e nic.br - 2022 (duração 5 horas)"
             },
             {
+               "title":"Web Moderno Completo: HTML, CSS, Javascript, React, NodeJs e mais",
+               "description":"Udemy - 2020 (duração 88 horas)"
+            },
+            {
+               "title":"AngularJS",
+               "description":"Loiane.training – 2020 (duração 28 horas)"
+            },
+            {
                "title":"Oficina de desenho",
                "description":"Escola de Artes de Osasco - SP - 2006 (duração 60 horas)"
             },
@@ -213,17 +213,17 @@
          "title":"Experiência profissional",
          "grid":[
             {
-               "title":"Eletromidia S/A - nov/2022 até o mar/2025<br/>Cargo: Desenvolvedor Frontend Senior",
+               "title":"Eletromidia S/A (Rede Globo) - nov/2022 até o mar/2025<br/>Cargo: Desenvolvedor Frontend Senior",
                "description":"<b>Atribuições: </b>Coordenação e mentoria de estagiários e trainees; referência técnica no desenvolvimento de frontend para animação e rich media; levantamento de requisitos técnicos para o desenvolvimento de frontend e animações HTML5; desenvolvimento de software para sinalização digital usando React, Redux, Electron e NodeJS; conversão de código legado em Flash Actionscript para tecnologias web modernas; animação utilizando HTML5, CSS3, JavaScript, GSAP, Adobe Animate, Milagro, Google Web Designer; projetos especiais de alto impacto para digital signage envolvendo video wall, led matrix e equipamento audiovisual profissional; integração do frontend com APIs de dados para consumo dinâmico de texto, imagem e vídeo; manipulação de material gráfico utilizando Adobe Photoshop, Adobe After Effects e Adobe Illustrator; renderização avançada de vídeo utilizando FFMPEG e Adobe Media Encoder; automação de conversão de mídia utilizando scripts FFMPEG e Python.",
                "link":"https://eletromidia.com.br/"
             },
             {
-               "title":"Hogarth Worldwide - jun/2021 até out/2022<br/>Cargo: Desenvolvedor Frontend Senior",
+               "title":"Hogarth Worldwide (WPP Group) - jun/2021 até out/2022<br/>Cargo: Desenvolvedor Frontend Senior",
                "description":"<b>Atribuições: </b>Animação de banners publicitários dinâmicos ou estáticos utilizando, HTML5, CSS3 e frameworks de animação JavaScript como GSAP, Adobe Animate, Milagro, Google Web Designer; manipulação de material gráfico utilizando Adobe Bridge, Adobe Photoshop, Adobe After Effects e Adobe Illustrator; variação de formatos de banners garantindo alta vazão e consistência gráfica entre as peças; automatização de processos de otimização de imagens para web; entrega alto volume de banners publicitários em mais de 150 projetos e suas variações de formato para empresas como Bayer, L'Oréal, Coca-Cola, BMW, Amex, Jameson, entre outras.",
                "link":"https://hogarth.com/"
             },
             {
-               "title":"IGS International Solutions - set/2015 até nov/2019<br/>Cargo: Designer Sênior (Líder Artistas Técnicos)",
+               "title":"IGS International Solutions (Ortiz Gaming)- set/2015 até nov/2019<br/>Cargo: Designer Sênior (Líder Artistas Técnicos)",
                "description":"<b>Atribuições: </b>Especialista em projetos de jogos de cassino utilizando Adobe Extended Script, Adobe After Effects, Adobe Animate e Adobe Photoshop e Adobe Illustrator, Adobe Audition, C, C++, Godot, Spine; desenvolvimento de scripts para automação e otimização da criação de multimídia utilizando Adobe Extended Script, Javascript, Python, Batch Script, Powershell, Shell, Visual Basic, FFMPEG, ImageMagick e PNG Gauntlet; atualização tecnológica e remasterização de jogos legados dos anos 80 e 90, com base em tecnologias legadas como MS-DOS, Windows XP, C e C++ bem como formatos legados de som, vídeo e imagem; efeitos especiais para gabinetes de jogos utilizando controladores IoT para interação em tempo real do jogo com fitas de led e efeitos sonoros; animação personagens e elementos gráficos do jogo; liderança da equipe de Tech Artists, fornecendo todo o conteúdo criativo para a plataforma de jogos.",
                "link":"https://ortizgaming.com/"
             },
@@ -238,7 +238,7 @@
                "link":"https://unidas.com.br"
             },
             {
-               "title":"Elemidia Empresas - ago/2007 até mai/2013<br/>Cargo: Programador",
+               "title":"Elemidia Empresas (Grupo Abril) - ago/2007 até mai/2013<br/>Cargo: Programador",
                "description":"<b>Atribuições: </b>Programação Actionscript 2 para a manutenção e desenvolvimento de novas funcionalidades para software de Digital Signage e Tv Corporativa da Elemidia Empresas; layouts para as interfaces de TV Corporativa baseadas na identidade visual do cliente; animações e vinhetas em 2D, tratamento e edição de vídeo utilizando Adobe Flash,  After Effects e FFMPEG; integração do frontend com APIs de dados para consumo dinâmico de texto, imagem e vídeo; manipulação de material gráfico utilizando Adobe Photoshop, Adobe After Effects e Adobe Illustrator; cases de grandes empresas nacionais e multinacionais com participação em mais de 300 projetos como Nokia, Abril, Unilever, Volkswagen, Philips, Abbott, Syngenta entre outros.",
                "link":"https://eletromidia.com.br/"
             },

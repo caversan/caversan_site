@@ -67,7 +67,7 @@
       },
       "profile":{
          "title":"Summary",
-         "description":"With over 25 years of experience, I’m a multidisciplinary IT and Design professional with a generalist profile, having worked across web development studios, game studios, audiovisual and multimedia productions, advertising agencies, digital signage, digital out-of-home (DOOH), and online retail. I have deep expertise in software development processes, with a strong focus on Frontend development for web, games, and multimedia. I also work as a Designer, specializing in interfaces, UX/UI, and 2D animation. This rare blend of IT and Design allows me to deliver visually faithful projects with high-quality code, an intersection that few professionals explore. My integrated knowledge also supports the creation of scripts for games and animations, enhancing visual fluidity and significantly accelerating delivery timelines. Another key differentiator in my career has been acting as a bridge between Design and IT teams, developing technical specifications for design files, automating delivery workflows, and generating code directly for development teams. This integration has substantially increased output, reduced errors, and brought predictability, quality, and consistency to the entire production process."
+         "description":"With over 25 years of experience, I'm a multidisciplinary IT and Design professional with a generalist profile, having worked across web development studios, game studios, audiovisual and multimedia productions, advertising agencies, digital signage, digital out-of-home (DOOH), and online retail. I have deep expertise in software development processes, with a strong focus on Frontend development for web, games, and multimedia. I also work as a Designer, specializing in interfaces, UX/UI, and 2D animation. This rare blend of IT and Design allows me to deliver visually faithful projects with high-quality code, an intersection that few professionals explore. My integrated knowledge also supports the creation of scripts for games and animations, enhancing visual fluidity and significantly accelerating delivery timelines. Another key differentiator in my career has been acting as a bridge between Design and IT teams, developing technical specifications for design files, automating delivery workflows, and generating code directly for development teams. This integration has substantially increased output, reduced errors, and brought predictability, quality, and consistency to the entire production process."
       },
       "skills":{
          "title":"<b>Skills</b>",
@@ -137,14 +137,6 @@
                   "description":"Udemy - 2024 (duration 20 hours)"
                },
                {
-                  "title":"Modern Web Development with HTML, CSS, Javascript, React, NodeJs and more",
-                  "description":"Udemy - 2020 (duration 88 hours)"
-               },
-               {
-                  "title":"AngularJS",
-                  "description":"Loiane.training – 2020 (duration 28 hours)"
-               },
-               {
                   "title":"Arduino",
                   "description":"Centro Paula Souza - Cetec - 2022 (duration 30 hours)"
                },
@@ -185,6 +177,14 @@
                   "description":"FGV and nic.br - 2022 (duration 5 hours)"
                },
                {
+                  "title":"Modern Web Development with HTML, CSS, Javascript, React, NodeJs and more",
+                  "description":"Udemy - 2020 (duration 88 hours)"
+               },
+               {
+                  "title":"AngularJS",
+                  "description":"Loiane.training – 2020 (duration 28 hours)"
+               },
+               {
                   "title":"Drawing Workshop",
                   "description":"Osasco Art School - SP - 2006 (duration 60 hours)"
                },
@@ -215,17 +215,17 @@
          "title":"Professional Experience",
          "grid":[
             {
-               "title":"Eletromidia S/A - nov/2022 to mar/2025<br/>Position: Senior Frontend Developer",
+               "title":"Eletromidia S/A (Rede Globo) - nov/2022 to mar/2025<br/>Position: Senior Frontend Developer",
                "description":"<b>Responsibilities: </b>Coordination and mentoring of interns and trainees; technical reference in frontend development for animation and rich media; gathering technical requirements for frontend and HTML5 animations; software development for digital signage using React, Redux, Electron, and NodeJS; conversion of legacy Flash Actionscript code to modern web technologies; animation using HTML5, CSS3, JavaScript, GSAP, Adobe Animate, Milagro, Google Web Designer; high-impact special projects for digital signage involving video walls, LED matrix, and professional audiovisual equipment; frontend integration with data APIs for dynamic consumption of text, image, and video; graphic material handling using Adobe Photoshop, Adobe After Effects, and Adobe Illustrator; advanced video rendering using FFMPEG and Adobe Media Encoder; media conversion automation using FFMPEG and Python scripts.",
                "link":"https://eletromidia.com.br/"
             },
             {
-               "title":"Hogarth Worldwide - jun/2021 to oct/2022<br/>Position: Senior Frontend Developer",
+               "title":"Hogarth Worldwide (WPP Group) - jun/2021 to oct/2022<br/>Position: Senior Frontend Developer",
                "description":"<b>Responsibilities: </b>Animation of dynamic and static advertising banners using HTML5, CSS3, and JavaScript animation frameworks such as GSAP, Adobe Animate, Milagro, Google Web Designer; graphic material handling using Adobe Bridge, Adobe Photoshop, Adobe After Effects, and Adobe Illustrator; variation of banner formats ensuring high throughput and graphic consistency; automation of image optimization processes for the web; delivery of a high volume of advertising banners across more than 150 projects and format variations for companies such as Bayer, L'Oréal, Coca-Cola, BMW, Amex, Jameson and more.",
                "link":"https://hogarth.com/"
             },
             {
-               "title":"IGS International Solutions - sep/2015 to nov/2019<br/>Position: Senior Designer (Lead Technical Artists)",
+               "title":"IGS International Solutions (Ortiz Gaming) - sep/2015 to nov/2019<br/>Position: Senior Designer (Lead Technical Artists)",
                "description":"<b>Responsibilities: </b>Specialist in casino game projects using Adobe Extended Script, Adobe After Effects, Adobe Animate, Adobe Photoshop, Adobe Illustrator, Adobe Audition, C, C++, Godot, Spine; script development for automation and optimization of multimedia creation using Adobe Extended Script, JavaScript, Python, Batch Script, PowerShell, Shell, Visual Basic, FFMPEG, ImageMagick, and PNG Gauntlet; technological update and remastering of legacy games from the 80s and 90s based on legacy technologies such as MS-DOS, Windows XP, C and C++, as well as legacy formats for sound, video, and image; special effects for game cabinets using IoT controllers for real-time interaction with LED strips and sound effects; animation of characters and graphic elements of the game; leadership of the Tech Artists team, providing all creative content for the gaming platform.",
                "link":"https://ortizgaming.com/"
             },
@@ -240,7 +240,7 @@
                "link":"https://unidas.com.br"
             },
             {
-               "title":"Elemidia Empresas - aug/2007 to may/2013<br/>Position: Programmer",
+               "title":"Elemidia Empresas (Grupo Abril) - aug/2007 to may/2013<br/>Position: Programmer",
                "description":"<b>Responsibilities: </b>Actionscript 2 programming for maintenance and development of new features for Digital Signage and Corporate TV software at Elemidia Empresas; layouts for Corporate TV interfaces based on client visual identity; 2D animations and stingers; video editing and processing using Adobe Flash, After Effects, and FFMPEG; frontend integration with data APIs for dynamic consumption of text, image, and video; graphic material handling using Adobe Photoshop, Adobe After Effects, and Adobe Illustrator; major national and multinational company cases with participation in over 300 projects including Nokia, Abril, Unilever, Volkswagen, Philips, Abbott, Syngenta and more.",
                "link":"https://eletromidia.com.br/"
             },
