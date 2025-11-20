@@ -27,6 +27,10 @@
          "title":"LinkedIn",
          "description":"https://www.linkedin.com/in/adriano-caversan/"
       },
+      "lattes":{
+         "title":"Lattes - CNPQ",
+         "description":"https://lattes.cnpq.br/3152582220289760"
+      },
       "address":{
          "title":"Location",
          "description":"São Paulo, Brazil"

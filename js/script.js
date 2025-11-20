@@ -50,6 +50,7 @@ try {
         document.querySelector(".email").innerHTML = `${loadedJson.profile.email.title}: <a href="mailto:${loadedJson.profile.email.description}">${loadedJson.profile.email.description}</a>`;
         document.querySelector(".github").innerHTML = `${loadedJson.profile.github.title}: <a href="${loadedJson.profile.github.description}" target="_blank">${loadedJson.profile.github.description}</a>`;
         document.querySelector(".linkedin").innerHTML = `${loadedJson.profile.linkedin.title}: <a href="${loadedJson.profile.linkedin.description}" target="_blank">${loadedJson.profile.linkedin.description}</a>`;
+        document.querySelector(".lattes").innerHTML = `${loadedJson.profile.lattes.title}: <a href="${loadedJson.profile.lattes.description}" target="_blank">${loadedJson.profile.lattes.description}</a>`;
         document.querySelector(".address").innerHTML = `${loadedJson.profile.address.title}: ${loadedJson.profile.address.description}`;
         document.querySelector(".nationality").innerHTML = `${loadedJson.profile.nationality.title}: ${loadedJson.profile.nationality.description}`;
         //document.querySelector(".matrialstatus").innerHTML = `${loadedJson.profile.matrialstatus.title}: ${loadedJson.profile.matrialstatus.description}`;
