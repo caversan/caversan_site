@@ -7,7 +7,6 @@ on:
       - 'README.md'
       - 'DEPLOY.md' 
       - '.gitignore'
-      - 'docs/**'
   workflow_dispatch:
 
 jobs:
