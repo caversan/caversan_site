@@ -88,7 +88,7 @@
       "skills":{
          "title":"Conhecimento técnico",
          "grid":[
-            "<b>Web:</b>  Desenvolvimento fullstack com maior foco em frontend: HTML5, CSS3, Javascript e seus Frameworks (React, Redux), microsserviços, protocolos de autenticação, gerenciamento de filas e mensageria, Cloud (AWS, GCP e OCI), containers e kubernetes, IaC, NodeJS, Python, PHP, NoSQL e SQL, DevOps, CI/CD, Github Actions e testes automatizados.",
+            "<b>Web:</b> Desenvolvimento fullstack com maior foco em frontend: HTML5, CSS3, Javascript e seus Frameworks (React, Redux), microsserviços, protocolos de autenticação, gerenciamento de filas e mensageria, Cloud (AWS, GCP e OCI), containers e kubernetes, IaC, NodeJS, Python, PHP, NoSQL e SQL, DevOps, CI/CD, Github Actions e testes automatizados.",
             "<b>Automatização:</b> Scripts para automatização de tarefas, pipelines e processos em sistemas Linux e Windows.",
             "<b>Aplicativos:</b> Aplicações .Net, Electron para desktop e sistemas embarcados, C, C++, C# e Python.",
             "<b>Indústria:</b> Experiência profissional em Marketing Digital, Publicidade, Jogos, IoT, DOOH e Multimídia. ",
