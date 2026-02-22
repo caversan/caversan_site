@@ -1,10 +1,10 @@
 {
    "name":"Adriano Caversan",
-   "title":"Graphic Computing and Multimedia Software Development",
+   "title":"Computer Engineer, Full-Stack Developer, Motion Designer.",
    "pdf":"docs/adriano-caversan-fullstack-en.pdf",
    "profile":{
       "occupation":{
-         "title":"Occupation",
+         "title":"Main Role",
          "description":"Designer and Developer for Web, IoT, Games, Digital Signage and Multimedia."
       },
       "birth":{
@@ -67,7 +67,11 @@
    "sections":{
       "opportunity":{
          "title":"Desired Opportunity",
-         "description":"Work with design and development for web, desktop, IoT, audiovisual, games and multimedia."
+         "grid":[
+            "<b>Computer Engineer:</b>  Develop automation and control solutions for IoT, smart cities, or Industry 4.0.<br/>",
+            "<b>Software Engineer:</b> Design and develop cross‑platform applications for web or desktop, including institutional websites, e‑commerce, or digital signage (DOOH) and multimedia systems.<br/>",
+            "<b>Multimedia Designer:</b> Design and develop games or animations for web and audiovisual media<br/>"
+         ]
       },
       "profile":{
          "title":"Summary",
@@ -76,11 +80,15 @@
       "skills":{
          "title":"<b>Skills</b>",
          "grid":[
-            "<b>Software Development:</b> HTML5, Javascript, Typescript, CSS3, Python, PHP, C, C++, C#, .NET Framework, MQTT, AMQP, RabbitMQ, Kafka, Clean Code, SOLID, DRY, KISS, Algorithms, Paradigms, Powershell, Shell, Batch, Adobe Extended Script, Git, SVN, Wordpress, Drupal, Git Copilot, AI. Intermediate Knowledge: React, Redux, Vue, Angular, Electron, Microservices, Microfrontend, NodeJS, Node-RED, Docker, Kubernetes, API REST, SOAP, gRCP, GraphQL, Design Patterns, GoF, NoSQL and SQL Databases, LGPD, data analysis, AI algorithms (Machine Learning, Deep Learning, image visualization, genetic algorithms and neural networks). Basic Knowledge: DevOps e CI/CD, Github Actions, automatic tests (TDD). Cloud (AWS, Lambda, GCP and OCI), (IaaS, PaaS, SaaS), Docker and Kubernetes, Infrastructure as a Code (IaC), cybersecurity, cryptography, JWT, Auth0, Observability and Monitoring (Datadog, Grafana), Clean Architecture.<br/><br/>",
-            "<b>Design and Web Marketing:</b> Photoshop, Krita, GIMP, Corel Draw, Illustrator, Inkscape, InDesign, XD, Figma, UX/UI, accessibility, web, Bridge, Google Analytics, ad-banners, programmatic media, social media, DCO, landing pages, SEO metrics, web funnel, consumer journey, retail media.<br/><br/>",
-            "<b>Project Metodologies:</b> DDD, Event Storming, Brainstorming, Design Thinking, Kanban, Agile, SCRUM, Jira, Trello, Slack, Project, PMI, Waterfall, Six Sigma, Lean, Toyota.<br/><br/>",
-            "<b>Eletronics and Computer Engineering:</b> IoT, Industry 4.0, Smart Cities, Mechatronics, Motors, Generators, Batteries, Strength and Mechanics of Materials, Optics, Quantum Physics, Electromagnetism, Technological Chemistry, Welding, Microchips, Electronic Components, IO Communication Ports, Communication Protocols, Signal Analysis, Firmware, PLC (Arduino, STM32 and ESP32), Sensors, Actuators, Metrology.<br/><br/>",
-            "<b>Animation, Games and Audiovisual Production:</b> After Effects, DaVinci Resolve, Motionscript, GSAP, Google Web Designer (GWD), Adobe Animate, Milagro, Actionscript, 2D and 3D games, characters and environments, Unity, Godot, Pygame, Technical Art, Level Design, GDD, 3D Modeling, Textures, Special Effects, Blender, Spine, Première, Media Encoder, OBS, Audition, Sound Forge, Audacity, Kdenlive, audiovisual studio, cameras, lighting, cabling, linear and non-linear editing consoles, switchers, splitters, video encoders, protocols and codecs for streaming on demand, broadcast and live transmission, satellite transmission, software development for media players for web, STB, IPTV, and satellite receivers."
+            "<b>Web:</b> Full‑stack development with strong focus on frontend, HTML5, CSS3, JavaScript and frameworks (React, Redux), microservices, authentication protocols, queue and messaging management, Cloud (AWS, GCP, OCI), containers and Kubernetes, IaC, NodeJS, Python, PHP, NoSQL and SQL, DevOps, CI/CD, GitHub Actions, automated testing.", 
+            "<b>Automation:</b> Scripting for task automation, pipelines, and processes on Linux and Windows systems.",
+            "<b>Applications:</b> Aplicações .Net, Electron para desktop e sistemas embarcados, C, C++, C# e Python.",
+            "<b>Industry:</b> Digital Marketing, Advertising, Gaming, IoT, DOOH, Multimedia.",
+            "<b>Hardware:</b> Computer architecture, embedded systems, photographic and audiovisual equipment.",
+            "<b>Electronics & IoT:</b> Soldering, electronic components, serial ports, PLC firmware (Arduino, STM32, ESP32), sensors and actuators, measurement equipment.", 
+            "<b>Multimedia:</b> Audiovisual capture, network and server infrastructure, streaming protocols and codecs, satellite signal transmission, media player software for web, STB, IPTV, and satellite receivers.", 
+            "<b>Design:</b> Expert in Photoshop, Animate, Illustrator, After Effects, Audition, Premiere, Blender, Spine, 3D Studio Max, InDesign, XD, Figma, among others.",
+            "<b>Games:</b> Technical Artist for Godot, Unreal, and Unity. Development of ad-games, casino games, and casual games."
          ]
       },
       "languages":{
