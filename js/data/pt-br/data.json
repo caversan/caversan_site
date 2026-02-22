@@ -88,10 +88,10 @@
       "skills":{
          "title":"Conhecimento técnico",
          "grid":[
-            "<b>Web:</b>  Desenvolvimento fullstack com maior foco em frontend: HTML5, CSS3, Javascript e seus Frameworks (React, Redux), microsserviços, protocolos de autenticação, gerenciamento de filas e mensageria, Cloud (AWS, GCP e OCI), containers e kubernetes, IaC, NodeJS, Python, PHP, NoSQL e SQL, DevOps, CI/CD, Github Actions e testes automatizados. <br/><br/>",
-            "<b>Automatização:</b> Scripts para automatização de tarefas, pipelines e processos em sistemas Linux e Windows.<br/><br/>",
-            "<b>Aplicativos:</b> Aplicações .Net, Electron para desktop e sistemas embarcados, C, C++, C# e Python.<br/><br/>",
-            "<b>Indústria:</b> Experiência profissional em Marketing Digital, Publicidade, Jogos, IoT, DOOH e Multimídia. <br/><br/>",
+            "<b>Web:</b>  Desenvolvimento fullstack com maior foco em frontend: HTML5, CSS3, Javascript e seus Frameworks (React, Redux), microsserviços, protocolos de autenticação, gerenciamento de filas e mensageria, Cloud (AWS, GCP e OCI), containers e kubernetes, IaC, NodeJS, Python, PHP, NoSQL e SQL, DevOps, CI/CD, Github Actions e testes automatizados.",
+            "<b>Automatização:</b> Scripts para automatização de tarefas, pipelines e processos em sistemas Linux e Windows.",
+            "<b>Aplicativos:</b> Aplicações .Net, Electron para desktop e sistemas embarcados, C, C++, C# e Python.",
+            "<b>Indústria:</b> Experiência profissional em Marketing Digital, Publicidade, Jogos, IoT, DOOH e Multimídia. ",
             "<b>Hardware:</b> Arquitetura de computadores, sistemas embarcados, equipamentos fotográficos e audiovisuais.",
             "<b>Eletrônica e IoT:</b> Soldagem, componentes eletrônicos, portas seriais, firmware para CLP (Arduino, STM322 e ESP32), sensores e atuadores, equipamentos de medição.",
             "<b>Multimídia:</b> Captura audiovisual, infraestrutura de rede e servidor, protocolos e codecs para streaming, transmissão de sinal via satélite, software para media player para web, STB, IPTV e receptores satélite.",
