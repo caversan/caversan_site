@@ -7,6 +7,14 @@
          "title":"Ocupação",
          "description":" Engenheiro de Computação, Desenvolvedor Fullstack, Motion Designer."
       },
+      "graduation":{
+         "title":"Graduação",
+         "description":" Engenheiro com Especialização MBA."
+      },
+      "crea":{
+         "title":"CREA-SP",
+         "description":"ativo"
+      },     
       "birth":{
          "title":"Nascimento",
          "description":"July 02, 1976"

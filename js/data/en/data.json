@@ -5,8 +5,17 @@
    "profile":{
       "occupation":{
          "title":"Main Role",
-         "description":"Designer and Developer for Web, IoT, Games, Digital Signage and Multimedia."
+         "description":"Computer Engineer, Full-Stack Developer, Motion Designer."
       },
+      "graduation":{
+         "title":"Graduation",
+         "description":"Engineering Degree with MBA Specialization."
+      },
+      "crea":{
+         "title":"CREA-SP",
+         "description":"active"
+      },
+      
       "birth":{
          "title":"Birth",
          "description":"July 02, 1976"

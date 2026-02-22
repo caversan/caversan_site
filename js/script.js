@@ -41,6 +41,8 @@ try {
         document.querySelector(".topBarTitle").innerHTML = `${loadedJson.name} - ${loadedJson.title} - ${data.getFullYear()}`;
         document.querySelector(".nome").innerHTML = loadedJson.name;
         document.querySelector(".occupation").innerHTML = `${loadedJson.profile.occupation.title}: <span class="txtAmarelo">${loadedJson.profile.occupation.description}</span>`;
+        document.querySelector(".graduation").innerHTML = `${loadedJson.profile.graduation.title}: <span class="txtAmarelo">${loadedJson.profile.graduation.description}</span>`;
+        document.querySelector(".crea").innerHTML = `${loadedJson.profile.crea.title}: <span class="txtAmarelo">${loadedJson.profile.crea.description}</span>`;
         
         const birth = new Date(loadedJson.profile.birth.description);
         const birthFormatted = language === "en" ? `${months[birth.getMonth()]}/0${birth.getDate()}/${birth.getFullYear()}` : `0${birth.getDate()}/0${birth.getMonth() + 1}/${birth.getFullYear()}`;
