@@ -60,7 +60,7 @@ try {
         //document.querySelector(".travel").innerHTML = `${loadedJson.profile.travel.title}: ${loadedJson.profile.travel.description}`;
         //document.querySelector(".move").innerHTML = `${loadedJson.profile.move.title}: ${loadedJson.profile.move.description}`;
 
-        document.querySelector(".opportunity").innerHTML = `<h2>${loadedJson.sections.opportunity.title}:</h2><article>${loadedJson.sections.opportunity.description}</article>`;
+        document.querySelector(".opportunity").innerHTML = `<h2>${loadedJson.sections.opportunity.title}:</h2><ul class="opportunitiesList">${loadedJson.sections.opportunity.grid.map(opportunity => `<li>${opportunity}</li>`).join('')}</ul>`;
         document.querySelector(".profile").innerHTML = `<h2>${loadedJson.sections.profile.title}:</h2><article>${loadedJson.sections.profile.description}</article>`;
         document.querySelector(".skills").innerHTML = `<h2>${loadedJson.sections.skills.title}:</h2><ul class="skillsList">${loadedJson.sections.skills.grid.map(skill => `<li>${skill}</li>`).join('')}</ul>`;
         document.querySelector(".languages").innerHTML = `<h2>${loadedJson.sections.languages.title}:</h2><ul class="languagesList">${loadedJson.sections.languages.grid.map(language => `<li>${language}</li>`).join('')}</ul>`;
