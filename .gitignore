@@ -1,0 +1,28 @@
+# Arquivos de Sistema Windows
+Thumbs.db
+Thumbs.db:encryptable
+ehthumbs.db
+Desktop.ini
+$RECYCLE.BIN/
+
+# Arquivos temporários e de rede
+*.tmp
+*.bak
+*.swp
+*~
+.DS_Store
+
+# Visual Studio / VS Code
+.vs/
+.vscode/
+*.user
+*.suo
+bin/
+obj/
+*.db
+*.sln.docstates
+
+# Dependências (exemplo para node/python, ajuste conforme o projeto)
+node_modules/
+venv/
+__pycache__/
