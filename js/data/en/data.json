@@ -1,7 +1,7 @@
 {
    "name":"Adriano Caversan",
    "title":"Computer Engineer, Full-Stack Developer, Multimedia Designer.",
-   "pdf":"docs/adriano-caversan-fullstack-en.pdf",
+   "pdf":"docs/adriano-caversan-engineer-en.pdf",
    "profile":{
       "occupation":{
          "title":"Main Role",
@@ -111,7 +111,7 @@
          "title":"Education",
          "grid":[
             {
-               "title":"Postgraduate - Measurement, Analysis, Prediction and Modeling of Sea Level - Chemical and Physical Oceanography",
+               "title":"Postgraduation - Measurement, Analysis, Prediction and Modeling of Sea Level - Chemical and Physical Oceanography",
                "description":"USP/IOUSP - started Mar/2026 - graduation in Dez/2027"
             },
             {
