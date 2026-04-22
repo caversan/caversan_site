@@ -84,7 +84,6 @@ try {
                     const content = this.getAttribute("content");
                     const contentType = content.split(".")[1];
                     switch (contentType) {
-                        case "m4v":
                         case "mp4":
                             videoOpen(content, document.querySelector('.contentView'));
                             break;
