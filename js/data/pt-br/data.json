@@ -237,12 +237,17 @@
          "title":"Experiência profissional",
          "grid":[
             {
-               "title":"Whirlpool S.A. - dez/2025 até o momento<br/>Cargo: Analyst, Information System",
+               "title":"In-Haus Industrial - Grupo GPS - mar/2026 até o momento<br/>Cargo: Especialista em Sistemas",
+               "description":"<b>Atribuições: </b> Desenvolvimento fullstack de soluções para facilities.",
+               "link":"https://gpssa.com.br/"
+            },
+            {
+               "title":"Whirlpool S.A. - dez/2025 até mar/2026<br/>Cargo: Analyst, Information System",
                "description":"<b>Atribuições: </b> Desenvolvimento de loja virtual VTEX para as marcas Consul, Brastemp, KitchenAid e Compra Certa",
                "link":"https://whirlpool.com.br/"
             },
             {
-               "title":"Eletromidia S/A (Rede Globo) - nov/2022 até o mar/2025<br/>Cargo: Desenvolvedor Frontend Senior",
+               "title":"Eletromidia S/A (Rede Globo) - nov/2022 até mar/2025<br/>Cargo: Desenvolvedor Frontend Senior",
                "description":"<b>Atribuições: </b>Coordenação e mentoria de estagiários e trainees; referência técnica no desenvolvimento de frontend para animação e rich media; levantamento de requisitos técnicos para o desenvolvimento de frontend e animações HTML5; desenvolvimento de software para sinalização digital usando React, Redux, Electron e NodeJS; conversão de código legado em Flash Actionscript para tecnologias web modernas; animação utilizando HTML5, CSS3, JavaScript, GSAP, Adobe Animate, Milagro, Google Web Designer; projetos especiais de alto impacto para digital signage envolvendo video wall, led matrix e equipamento audiovisual profissional; integração do frontend com APIs de dados para consumo dinâmico de texto, imagem e vídeo; manipulação de material gráfico utilizando Adobe Photoshop, Adobe After Effects e Adobe Illustrator; renderização avançada de vídeo utilizando FFMPEG e Adobe Media Encoder; automação de conversão de mídia utilizando scripts FFMPEG e Python.",
                "link":"https://eletromidia.com.br/"
             },
