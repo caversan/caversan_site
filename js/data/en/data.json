@@ -119,11 +119,11 @@
                "description":"USP/ESALQ - started Feb/2024 - graduated in Dez/2025"
             },
             {
-               "title":"Bachelor Computer Engineering",
+               "title":"Bachelor Computer Engineering (Industrial Automation, Computer Electronics and Internet of Things)",
                "description":"Univesp - started Aug/2021 - graduated in Dez/2025"
             },
             {
-               "title":"Bachelor in Information Technology (IoT)",
+               "title":"Bachelor in Information Technology (Internet of Things)",
                "description":"Univesp - started Aug/2021 - graduated in Aug/2024"
             },
             {
@@ -131,7 +131,7 @@
                "description":"FATEC - started Aug/2011 - graduated in Jul/2015"
             },
             {
-               "title":"Bachelor in Advertising and Propaganda",
+               "title":"Bachelor in Maketing and Advertising",
                "description":"FIZO - started Feb/2009 - course interrupted in the 3rd semester."
             },
             {
@@ -146,94 +146,93 @@
       },
       "courses":{
          "title":"Courses and Specializations",
-         "grid":[
-            [
-               {
-                  "title":"Paulista Discipline of Accessibility and Inclusion",
-                  "description":"UNIVESP - 2025 (duration 80 hours)"
-               },
-               {
-                  "title":"Neurosciences in Higher Education: Strategies for Healthy Academic Development",
-                  "description":"USP - 2025 (duration 30 hours)"
-               },
-               {
-                  "title":"Redux, React Redux & Redux Toolkit RTK Course",
-                  "description":"Udemy - 2024 (duration 20 hours)"
-               },
-               {
-                  "title":"Arduino",
-                  "description":"Centro Paula Souza - Cetec - 2022 (duration 30 hours)"
-               },
-               {
-                  "title":"Digital Democracy",
-                  "description":"FGV and nic.br - 2022 (duration 5 hours)"
-               },
-               {
-                  "title":"Introduction to Javascript",
-                  "description":"Bradesco Foundation - 2022 (duration 20 hours)"
-               },
-               {
-                  "title":"Unveiling 5G",
-                  "description":"Senai - 2022 (duration 15 hours)"
-               },
-               {
-                  "title":"Unveiling Blockchain",
-                  "description":"Senai - 2022 (duration 20 hours)"
-               },
-               {
-                  "title":"HTML and CSS",
-                  "description":"Bradesco Foundation - 2022 (duration 24 hours)"
-               },
-               {
-                  "title":"Innovating with CSS",
-                  "description":"Bradesco Foundation - 2022 (duration 26 hours)"
-               },
-               {
-                  "title":"Introduction to Data Science",
-                  "description":"FGV - 2022 (duration 60 hours)"
-               },
-               {
-                  "title":"Data Protection",
-                  "description":"FGV and nic.br - 2022 (duration 5 hours)"
-               },
-               {
-                  "title":"Digital Security",
-                  "description":"FGV and nic.br - 2022 (duration 5 hours)"
-               },
-               {
-                  "title":"Modern Web Development with HTML, CSS, Javascript, React, NodeJs and more",
-                  "description":"Udemy - 2020 (duration 88 hours)"
-               },
-               {
-                  "title":"AngularJS",
-                  "description":"Loiane.training – 2020 (duration 28 hours)"
-               },
-               {
-                  "title":"Drawing Workshop",
-                  "description":"Osasco Art School - SP - 2006 (duration 60 hours)"
-               },
-               {
-                  "title":"Filming and Direction",
-                  "description":"Senac - SP - 2003 (duration 20 hours)"
-               },
-               {
-                  "title":"Game Workshop",
-                  "description":"Senac - SP - 2002 (duration 1 year)"
-               },
-               {
-                  "title":"Lightwave 3D Modeling and Animation",
-                  "description":"Senac - SP - 2002 (duration 60 hours)"
-               },
-               {
-                  "title":"Web Design",
-                  "description":"Senac - SP - 2000 (duration 96 hours)"
-               },
-               {
-                  "title":"Graphic Arts and Illustration",
-                  "description":"Bradesco Foundation - 1992 (duration 960 hours)"
-               }
-            ]
-         ]
+         "grid":
+         [         
+            {
+               "title":"Paulista Discipline of Accessibility and Inclusion",
+               "description":"UNIVESP - 2025 (duration 80 hours)"
+            },
+            {
+               "title":"Neurosciences in Higher Education: Strategies for Healthy Academic Development",
+               "description":"USP - 2025 (duration 30 hours)"
+            },
+            {
+               "title":"Redux, React Redux & Redux Toolkit RTK Course",
+               "description":"Udemy - 2024 (duration 20 hours)"
+            },
+            {
+               "title":"Arduino",
+               "description":"Centro Paula Souza - Cetec - 2022 (duration 30 hours)"
+            },
+            {
+               "title":"Digital Democracy",
+               "description":"FGV and nic.br - 2022 (duration 5 hours)"
+            },
+            {
+               "title":"Introduction to Javascript",
+               "description":"Bradesco Foundation - 2022 (duration 20 hours)"
+            },
+            {
+               "title":"Unveiling 5G",
+               "description":"Senai - 2022 (duration 15 hours)"
+            },
+            {
+               "title":"Unveiling Blockchain",
+               "description":"Senai - 2022 (duration 20 hours)"
+            },
+            {
+               "title":"HTML and CSS",
+               "description":"Bradesco Foundation - 2022 (duration 24 hours)"
+            },
+            {
+               "title":"Innovating with CSS",
+               "description":"Bradesco Foundation - 2022 (duration 26 hours)"
+            },
+            {
+               "title":"Introduction to Data Science",
+               "description":"FGV - 2022 (duration 60 hours)"
+            },
+            {
+               "title":"Data Protection",
+               "description":"FGV and nic.br - 2022 (duration 5 hours)"
+            },
+            {
+               "title":"Digital Security",
+               "description":"FGV and nic.br - 2022 (duration 5 hours)"
+            },
+            {
+               "title":"Modern Web Development with HTML, CSS, Javascript, React, NodeJs and more",
+               "description":"Udemy - 2020 (duration 88 hours)"
+            },
+            {
+               "title":"AngularJS",
+               "description":"Loiane.training – 2020 (duration 28 hours)"
+            },
+            {
+               "title":"Drawing Workshop",
+               "description":"Osasco Art School - SP - 2006 (duration 60 hours)"
+            },
+            {
+               "title":"Filming and Direction",
+               "description":"Senac - SP - 2003 (duration 20 hours)"
+            },
+            {
+               "title":"Game Workshop",
+               "description":"Senac - SP - 2002 (duration 1 year)"
+            },
+            {
+               "title":"Lightwave 3D Modeling and Animation",
+               "description":"Senac - SP - 2002 (duration 60 hours)"
+            },
+            {
+               "title":"Web Design",
+               "description":"Senac - SP - 2000 (duration 96 hours)"
+            },
+            {
+               "title":"Graphic Arts and Illustration",
+               "description":"Bradesco Foundation - 1992 (duration 960 hours)"
+            }
+         ]         
       },
       "experience":{
          "title":"Professional Experience",
