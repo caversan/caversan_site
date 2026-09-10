@@ -93,10 +93,11 @@
             "<b>Applications:</b> Aplicações .Net, Electron para desktop e sistemas embarcados, C, C++, C# e Python.",
             "<b>Industry:</b> Digital Marketing, Advertising, Gaming, IoT, DOOH, Multimedia.",
             "<b>Hardware:</b> Computer architecture, embedded systems, photographic and audiovisual equipment.",
-            "<b>Electronics & IoT:</b> Soldering, electronic components, serial ports, PLC firmware (Arduino, STM32, ESP32), sensors and actuators, measurement equipment.", 
+            "<b>Electronics & IoT:</b> Soldering, electronic components, serial ports, PLC firmware (Arduino, STM32, ESP32), sensors and actuators, measurement equipment.",
+            "<b>Forensics:</b> Fully Registered and certified Professional Expert Witness at the São Paulo State Court of Justice (TJSP) and Federal Regional Court of the 3rd Region (TRF3) as a Court-Appointed Expert in Computer Engineering and Software Engineering.", 
             "<b>Multimedia:</b> Audiovisual capture, network and server infrastructure, streaming protocols and codecs, satellite signal transmission, media player software for web, STB, IPTV, and satellite receivers.", 
             "<b>Design:</b> Expert in Photoshop, Animate, Illustrator, After Effects, Audition, Premiere, Blender, Spine, 3D Studio Max, InDesign, XD, Figma, among others.",
-            "<b>Games:</b> Technical Artist for Godot, Unreal, and Unity. Development of ad-games, casino games, and casual games."
+            "<b>Games:</b> Technical Artist for Godot, Unreal, and Unity. Development of ad-games, casino games, and casual games."            
          ]
       },
       "languages":{
