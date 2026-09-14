@@ -148,7 +148,19 @@
       "courses":{
          "title":"Courses and Specializations",
          "grid":
-         [         
+         [   
+                        {
+               "title":"Growth Intelligence: Strategy for Growth with Data, AI and Experimentation",
+               "description":"USP - 2026 (duration 10 hours)"
+            },
+            {
+               "title":"Cybersecurity: Information Security and Cyber Attacks",
+               "description":"USP - 2026 (duration 10 hours)"
+            },
+            {
+               "title":"Transition from 4.0 to 5.0 industry: Strategic, Technological and Organizational Implications",
+               "description":"USP/Poli - 2026 (duration 10 hours)"
+            },      
             {
                "title":"Paulista Discipline of Accessibility and Inclusion",
                "description":"UNIVESP - 2025 (duration 80 hours)"
