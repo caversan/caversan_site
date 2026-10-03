@@ -251,13 +251,13 @@
          "title":"Experiência profissional",
          "grid":[
             {
-               "title":"In-Haus Industrial - Grupo GPS - mar/2026 até o momento<br/>Cargo: Especialista em Sistemas",
-               "description":"<b>Atribuições: </b> Desenvolvimento fullstack de soluções para facilities.",
+               "title":"In-Haus Industrial - Grupo GPS - mar/2026 até out/2026<br/>Cargo: Especialista em Sistemas",
+               "description":"<b>Atribuições: </b> Desenvolvimento fullstack de soluções para facilities. O principal projeto foi um sistema para kanban de controle, apontamento de produção da cozinha e cardápio digital para restaurantes industriais em React, Tauri (Rust), NodeJS, SSE, Azure com suporte para Windows, Linux, Android TV, Android APK e Raspberry.",
                "link":"https://gpssa.com.br/"
             },
             {
                "title":"Whirlpool S.A. - dez/2025 até mar/2026<br/>Cargo: Analyst, Information System",
-               "description":"<b>Atribuições: </b> Desenvolvimento de loja virtual VTEX para as marcas Consul, Brastemp, KitchenAid e Compra Certa",
+               "description":"<b>Atribuições: </b> Desenvolvimento de loja virtual VTEX, React, NodeJS, AWS para as marcas Consul, Brastemp, KitchenAid e Compra Certa",
                "link":"https://whirlpool.com.br/"
             },
             {
