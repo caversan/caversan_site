@@ -252,7 +252,7 @@
          "grid":[
             {
                "title":"In-Haus Industrial - Grupo GPS - mar/2026 to out/2026<br/>Position: Systems Specialist",
-               "description":"<b>Responsibilities: </b> Fullstack development for facilities solutions. The main project was a application for kanban control, production appointment and electronic menu for industrial kitchens in React, Tauri (Rust), NodeJS, SSE, Azure with support for Windows, Linux, Android TV, Android APK and Raspberry.",
+               "description":"<b>Responsibilities: </b> Fullstack development for facilities solutions. The main project was an application for kanban control, production appointment and electronic menu for industrial kitchens in React, Tauri (Rust), NodeJS, SSE, Azure with support for Windows, Linux, Android TV, Android APK and Raspberry.",
                "link":"https://gpssa.com.br/"
             },
             {
