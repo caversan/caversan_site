@@ -17,6 +17,7 @@ function mediaLink(item, image = true) {
 }
 function experience(item) { return `<article class="experience-row"><h3>${item.title}</h3><details><summary>${copy[currentLanguage].details}</summary><p>${item.description}</p>${item.link ? `<a href="${escapeText(item.link)}" target="_blank" rel="noopener">${escapeText(item.link)} ↗</a>` : ''}</details></article>`; }
 function render(data, lang) {
+ const languageChanged = lang !== currentLanguage;
  currentLanguage = lang;
  const en = lang === "en", t = copy[lang];
  document.documentElement.lang = en ? "en" : "pt-BR";
@@ -51,6 +52,7 @@ function render(data, lang) {
  $("publications-intro").textContent = publications.description;
  $("publication-cards").innerHTML = publications.grid.map(item => `<article class="publication-card"><p class="eyebrow">${escapeText(item.source)}</p><p class="publication-type">${escapeText(item.type)}</p><h3>${escapeText(item.title)}</h3><p>${escapeText(item.description)}</p><a class="button primary" href="${escapeText(item.link)}" target="_blank" rel="noopener noreferrer">${escapeText(item.action)}</a></article>`).join("");
  $("load-status").textContent = "";
+ if (languageChanged) document.dispatchEvent(new Event("portfolio:language-changed"));
 }
 async function loadLanguage(lang) {
  const token = ++request;

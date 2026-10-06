@@ -1,0 +1,73 @@
+/* Scroll entrances are activated by JavaScript only. */
+.motion-reveal {
+ opacity: 1;
+ transform: translateY(0);
+}
+.motion-pending { opacity: 0; transform: translateY(20px); }
+.motion-visible {
+ animation: content-enter 650ms cubic-bezier(.22, 1, .36, 1) var(--reveal-delay, 0ms) both;
+}
+@keyframes content-enter {
+ from { opacity: 0; transform: translateY(var(--reveal-distance, 24px)); }
+ to { opacity: 1; transform: translateY(0); }
+}
+
+@media (prefers-reduced-motion: no-preference) {
+ .project .media-link img.motion-parallax {
+  scale: 1.28;
+  translate: 0 var(--parallax-y, 0px);
+ }
+ .hero-note.motion-parallax { translate: 0 var(--parallax-y, 0px); }
+}
+
+@media (min-width: 0px) {
+ .motion-preview .project .media-link img.motion-parallax {
+  scale: 1.28;
+  translate: 0 var(--parallax-y, 0px);
+ }
+ .motion-preview .hero-note.motion-parallax { translate: 0 var(--parallax-y, 0px); }
+}
+
+@media (max-width: 900px) {
+ .motion-pending { transform: translateY(12px); }
+ .motion-reveal { --reveal-distance: 12px; }
+ .motion-visible { animation-duration: 450ms; }
+}
+
+/* Continuous scroll movement uses individual transforms, leaving entrances intact. */
+html.motion-preview .motion-scroll,
+html.motion-preview .hero-note.motion-parallax { --scroll-enabled: 1; }
+@media (prefers-reduced-motion: no-preference) {
+ .motion-scroll { --scroll-enabled: 1; }
+}
+@media (min-width: 0px) {
+ .text-art strong.motion-scroll {
+  translate: 0 calc(var(--scroll-y, 0px) * var(--scroll-enabled, 0));
+ }
+}
+main > section.motion-scroll {
+ background-image: radial-gradient(ellipse 85% 280px at 85% var(--scroll-light, 50%),
+  rgb(255 255 255 / calc(.11 * var(--scroll-enabled, 0))), transparent 75%);
+}
+.text-art { overflow: hidden; }
+.project .media-viewport { display: block; overflow: hidden; }
+.header::after {
+ content: "";
+ position: absolute;
+ inset: auto 0 -1px;
+ height: 3px;
+ background: linear-gradient(90deg, #87cefa, #8adbc6, #c4a8ed);
+ transform-origin: left;
+ transform: scaleX(var(--page-progress, 0));
+ pointer-events: none;
+}
+
+@media (prefers-reduced-motion: reduce) {
+ html:not(.motion-preview) .motion-reveal, html:not(.motion-preview) .motion-pending {
+  opacity: 1;
+  transform: none;
+  transition: none;
+  animation: none;
+ }
+ html:not(.motion-preview) .motion-parallax { translate: none; scale: none; }
+}
