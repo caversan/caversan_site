@@ -170,7 +170,7 @@ Os arquivos de GitHub Actions estão arquivados em `.github/_BKP_workflows/`, po
 ## Contato
 
 - **Site:** [caversan.com.br](https://caversan.com.br)
-- **Email:** [adriano.caversan@gmail.com](mailto:adriano.caversan@gmail.com)
+- **Email:** [adriano@caversan.com.br](mailto:adriano@caversan.com.br)
 - **LinkedIn:** [Adriano Caversan](https://www.linkedin.com/in/adriano-caversan/)
 - **GitHub:** [caversan](https://github.com/caversan)
 - **Lattes:** [Currículo Lattes](https://lattes.cnpq.br/3152582220289760)

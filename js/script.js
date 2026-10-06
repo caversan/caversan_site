@@ -1,135 +1,73 @@
-try {
-    //
-    let language = "";
-    const flags = document.getElementsByClassName('flag');
-    const data = new Date();
-    const months = ["Jan", "Feb", "Mar", "Apr", "May", "Jun", "Jul", "Aug", "Sep", "Oct", "Nov", "Dec"];
-
-    const jsonEN = new XMLHttpRequest();
-    jsonEN.open('GET', 'js/data/en/data.json', true);
-    jsonEN.send();
-
-    const jsonPTBR = new XMLHttpRequest();
-    jsonPTBR.open('GET', `js/data/pt-br/data.json?${Math.floor(Math.random() * 1000000)}`, true);
-
-    jsonPTBR.onreadystatechange = function() {
-        if (this.readyState === 4 && this.status >= 200 && this.status < 400) {
-            language = "pt-br";
-            fillHtml(JSON.parse(this.responseText));
-        }
-    };
-
-    jsonPTBR.send();
-
-    flags[0].onclick = function() {
-        if (language !== "pt-br" && jsonPTBR.readyState === 4 && jsonPTBR.status >= 200 && jsonPTBR.status < 400) {
-            language = "pt-br";
-            fillHtml(JSON.parse(jsonPTBR.responseText));
-        }
-    };
-
-    flags[1].onclick = function() {
-        if (language !== "en" && jsonEN.readyState === 4 && jsonEN.status >= 200 && jsonEN.status < 400) {
-            language = "en";
-            fillHtml(JSON.parse(jsonEN.responseText));
-        }
-    };
-
-    function fillHtml(loadedJson) {
-        document.title = loadedJson.name;
-        document.querySelector(".icoMore.pdf").parentElement.setAttribute("href", loadedJson.pdf);
-        document.querySelector(".topBarTitle").innerHTML = `${loadedJson.name} - ${loadedJson.title} - ${data.getFullYear()}`;
-        document.querySelector(".nome").innerHTML = loadedJson.name;
-        document.querySelector(".occupation").innerHTML = `${loadedJson.profile.occupation.title}: <span class="txtAmarelo">${loadedJson.profile.occupation.description}</span>`;
-        document.querySelector(".generalgraduation").innerHTML = `${loadedJson.profile.generalgraduation.title}: <span class="txtAmarelo">${loadedJson.profile.generalgraduation.description}</span>`;
-        document.querySelector(".crea").innerHTML = `${loadedJson.profile.crea.title}: <span class="txtAmarelo">${loadedJson.profile.crea.description}</span>`;
-        
-        const birth = new Date(loadedJson.profile.birth.description);
-        const birthFormatted = language === "en" ? `${months[birth.getMonth()]}/0${birth.getDate()}/${birth.getFullYear()}` : `0${birth.getDate()}/0${birth.getMonth() + 1}/${birth.getFullYear()}`;
-        document.querySelector(".birth").innerHTML = `${loadedJson.profile.birth.title}: ${birthFormatted}`;
-
-        document.querySelector(".phone").innerHTML = `${loadedJson.profile.phone.title}: <a href="tel:+${loadedJson.profile.phone.description.replace(/\D/g, '')}">${loadedJson.profile.phone.description}</a>`;
-        document.querySelector(".email").innerHTML = `${loadedJson.profile.email.title}: <a href="mailto:${loadedJson.profile.email.description}">${loadedJson.profile.email.description}</a>`;
-        document.querySelector(".github").innerHTML = `${loadedJson.profile.github.title}: <a href="${loadedJson.profile.github.description}" target="_blank">${loadedJson.profile.github.description}</a>`;
-        document.querySelector(".linkedin").innerHTML = `${loadedJson.profile.linkedin.title}: <a href="${loadedJson.profile.linkedin.description}" target="_blank">${loadedJson.profile.linkedin.description}</a>`;
-        document.querySelector(".lattes").innerHTML = `${loadedJson.profile.lattes.title}: <a href="${loadedJson.profile.lattes.description}" target="_blank">${loadedJson.profile.lattes.description}</a>`;
-        document.querySelector(".address").innerHTML = `${loadedJson.profile.address.title}: ${loadedJson.profile.address.description}`;
-        document.querySelector(".nationality").innerHTML = `${loadedJson.profile.nationality.title}: ${loadedJson.profile.nationality.description}`;
-        //document.querySelector(".matrialstatus").innerHTML = `${loadedJson.profile.matrialstatus.title}: ${loadedJson.profile.matrialstatus.description}`;
-        //document.querySelector(".children").innerHTML = `${loadedJson.profile.children.title}: ${loadedJson.profile.children.description}`;
-        //document.querySelector(".driverlicense").innerHTML = `${loadedJson.profile.driverlicense.title}: ${loadedJson.profile.driverlicense.description}`;
-        //document.querySelector(".car").innerHTML = `${loadedJson.profile.car.title}: ${loadedJson.profile.car.description}`;
-        //document.querySelector(".travel").innerHTML = `${loadedJson.profile.travel.title}: ${loadedJson.profile.travel.description}`;
-        //document.querySelector(".move").innerHTML = `${loadedJson.profile.move.title}: ${loadedJson.profile.move.description}`;
-
-        document.querySelector(".opportunity").innerHTML = `<h2>${loadedJson.sections.opportunity.title}:</h2><ul class="opportunitiesList">${loadedJson.sections.opportunity.grid.map(opportunity => `<li>${opportunity}</li>`).join('')}</ul>`;
-        document.querySelector(".profile").innerHTML = `<h2>${loadedJson.sections.profile.title}:</h2><article>${loadedJson.sections.profile.description}</article>`;
-        document.querySelector(".skills").innerHTML = `<h2>${loadedJson.sections.skills.title}:</h2><ul class="skillsList">${loadedJson.sections.skills.grid.map(skill => `<li>${skill}</li>`).join('')}</ul>`;
-        document.querySelector(".languages").innerHTML = `<h2>${loadedJson.sections.languages.title}:</h2><ul class="languagesList">${loadedJson.sections.languages.grid.map(language => `<li>${language}</li>`).join('')}</ul>`;
-        document.querySelector(".graduation").innerHTML = `<h2>${loadedJson.sections.graduation.title}:</h2><ul class="graduationList">${loadedJson.sections.graduation.grid.map(grad => `<li><b>${grad.title}</b> - ${grad.description}</li>`).join('')}</ul>`;
-        document.querySelector(".courses").innerHTML = `<h2>${loadedJson.sections.courses.title}:</h2><ul class="coursesList">${loadedJson.sections.courses.grid.map(course => `<li><b>${course.title}</b> - ${course.description}</li>`).join('')}</ul>`;
-        document.querySelector(".experience").innerHTML = `<h2>${loadedJson.sections.experience.title}:</h2><ul class="experienceList">${loadedJson.sections.experience.grid.map(exp => `<li><b>${exp.title}</b><br/>${exp.description}<br/>${exp.link ? `<a href="${exp.link}" target="_blank">${exp.link}</a>` : ''}</li><br/><br/>`).join('')}</ul>`;
-        document.querySelector(".portifolio").innerHTML = `<h2>${loadedJson.sections.portifolio.title}</h2><div class="portifolioList">${loadedJson.sections.portifolio.grid.map(port => `<div class="portifolioListTitle">${port.title}</div>${port.grid.map(item => `<div class="portifolioListItem"><div class="portifolioListItemThumb"><a href="javascript:void(null)" class="btnContent" content="${item.content}"><img src="${item.thumb}" /></a></div><div class="portifolioListItemDescription">${item.title}<br/><br/>${item.description}</div></div>`).join('')}`).join('')}</div>`;
-
-        const btnContent = document.getElementsByClassName('btnContent');
-        const imageModalFrame = document.querySelector('.imageModalFrame');
-        window.onclick = function(event) {
-            if (event.target === imageModalFrame) {
-                closeModal();
-            }
-        };
-        for (let i = 0; i < btnContent.length; i++) {
-            btnContent[i].onclick = function() {
-                if (this.getAttribute("content")) {
-                    const content = this.getAttribute("content");
-                    const contentType = content.split(".")[1];
-                    switch (contentType) {
-                        case "mp4":
-                            videoOpen(content, document.querySelector('.contentView'));
-                            break;
-                        case "jpg":
-                        case "png":
-                            imageOpen(content, document.querySelector('.contentView'));
-                            break;
-                        case "pdf":
-                            pdfOpen(content);
-                            break;
-                        default:
-                            console.log("web");
-                            break;
-                    }
-                } else {
-                    console.log("vazio");
-                }
-            };
-        }
-
-        function imageOpen(img, target) {
-            target.innerHTML = `<div class="imageModalFrameClose"><div class="btnClose">[X]</div></div><img src="${img}" />`;
-            showModal();
-        }
-
-        function pdfOpen(pdf) {
-            window.open(pdf);
-        }
-
-        function videoOpen(video, target) {
-            target.innerHTML = `<div class="imageModalFrameClose"><div class="btnClose">[X]</div></div><video autoplay controls><source src="${video}" type="video/mp4"></video>`;
-            showModal();
-        }
-
-        function showModal() {
-            document.querySelector('.btnClose').onclick = function() {
-                closeModal();
-            };
-            imageModalFrame.style.display = imageModalFrame.style.display === "flex" ? "none" : "flex";
-        }
-
-        function closeModal() {
-            imageModalFrame.style.display = "none";
-            document.querySelector('.contentView').innerHTML = "";
-        }
-    }
-} catch (err) {
-    alert(err);
+"use strict";
+const copy = {
+ "pt-br": {projects:"Projetos",about:"Sobre",contact:"Contato",eyebrow:"ENGENHARIA • DESENVOLVIMENTO • DESIGN",headline:"Engenharia de software.",headline2:"Experiência em design.",intro:"Sou Adriano Caversan. Há mais de 25 anos, conecto tecnologia e criação para desenvolver aplicações, experiências digitais e sistemas que fazem parte do mundo real.",explore:"Explorar projetos ↗",cv:"Currículo PDF ↓",note:"Do código à experiência.<br>Da ideia à aplicação.",selected:"TRABALHOS SELECIONADOS",projectsHeading:"Tecnologia em prática.",projectsIntro:"Software, interfaces e comunicação visual. Diferentes meios, a mesma atenção aos detalhes.",gallery:"Explorar a galeria de trabalhos",skillsLabel:"COMPETÊNCIAS",skillsHeading:"Tecnologia + criação.",allSkills:"Ver conhecimentos técnicos completos",aboutLabel:"SOBRE MIM",aboutHeading:"Um olhar amplo.<br>Uma base técnica.",crea:"CREA-SP ativo",opportunities:"Áreas de interesse e idiomas",path:"TRAJETÓRIA",experienceHeading:"Experiência que se conecta.",allExperience:"Ver trajetória completa",educationLabel:"FORMAÇÃO",educationHeading:"Aprendizado em movimento.",allEducation:"Ver formação e cursos complementares",talk:"Vamos conversar?",footer:"Engenharia, código e criação.",open:"Ver trabalho ↗",details:"Ver contribuições",error:"Não foi possível carregar o conteúdo. Verifique sua conexão e tente trocar o idioma novamente."},
+ en:{projects:"Projects",about:"About",contact:"Contact",eyebrow:"ENGINEERING • DEVELOPMENT • DESIGN",headline:"Software engineering.",headline2:"A background in design.",intro:"I'm Adriano Caversan. For over 25 years, I've connected technology and creativity to build applications, digital experiences and systems for the real world.",explore:"Explore projects ↗",cv:"Résumé PDF ↓",note:"From code to experience.<br>From idea to application.",selected:"SELECTED WORK",projectsHeading:"Technology in practice.",projectsIntro:"Software, interfaces and visual communication. Different media, the same attention to detail.",gallery:"Explore the work gallery",skillsLabel:"EXPERTISE",skillsHeading:"Technology + creativity.",allSkills:"View full technical skills",aboutLabel:"ABOUT ME",aboutHeading:"A broad perspective.<br>A technical foundation.",crea:"Active CREA-SP registration",opportunities:"Areas of interest and languages",path:"CAREER",experienceHeading:"Experience that connects.",allExperience:"View full career",educationLabel:"EDUCATION",educationHeading:"Always learning.",allEducation:"View education and additional courses",talk:"Let's talk.",footer:"Engineering, code and creativity.",open:"View work ↗",details:"View contributions",error:"Unable to load content. Check your connection and try selecting the language again."}
+};
+const $ = id => document.getElementById(id);
+const escapeText = value => String(value).replace(/[&<>"']/g, c => ({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;","'":"&#39;"}[c]));
+const cache = {};
+let request = 0, currentLanguage = "pt-br";
+const modal = $("media-modal");
+function mediaLink(item, image = true) {
+ const pdf = /\.pdf$/i.test(item.content);
+ const video = /\.mp4$/i.test(item.content);
+ const en = currentLanguage === "en";
+ const action = pdf ? (en ? "Open PDF ↗" : "Abrir PDF ↗") : video ? (en ? "Watch video ▶" : "Assistir ao vídeo ▶") : (en ? "Enlarge image ⤢" : "Ampliar imagem ⤢");
+ return `<a class="media-link" href="${escapeText(item.content)}" ${pdf ? 'target="_blank" rel="noopener"' : 'data-media="true"'} data-title="${escapeText(item.title)}">${image ? `<img loading="lazy" src="${escapeText(item.thumb)}" alt="${escapeText(item.title)}">` : ''}<span class="open-label">${action}</span></a>`;
 }
+function experience(item) { return `<article class="experience-row"><h3>${item.title}</h3><details><summary>${copy[currentLanguage].details}</summary><p>${item.description}</p>${item.link ? `<a href="${escapeText(item.link)}" target="_blank" rel="noopener">${escapeText(item.link)} ↗</a>` : ''}</details></article>`; }
+function render(data, lang) {
+ currentLanguage = lang;
+ const en = lang === "en", t = copy[lang];
+ document.documentElement.lang = en ? "en" : "pt-BR";
+ document.title = `${data.name} | ${en ? "Engineering & Design" : "Engenharia & Design"}`;
+ document.querySelectorAll("[data-copy]").forEach(el => { el.innerHTML = t[el.dataset.copy]; });
+ document.querySelectorAll("[data-lang]").forEach(el => el.setAttribute("aria-pressed", String(el.dataset.lang === lang)));
+ document.querySelectorAll(".cv").forEach(el => { el.href = data.pdf; });
+ const groups = data.sections.portifolio.grid;
+ const signage = groups[1].grid[0], banners = groups[0].grid[0];
+ const cards = [
+ {label:"IN-HAUS INDUSTRIAL / GRUPO GPS",title:en?"Systems for facilities":"Sistemas para facilities",description:en?"Fullstack development of production tracking, kitchen kanban and digital menus for industrial restaurants, across desktop and embedded devices.":"Desenvolvimento fullstack de apontamento de produção, kanban de cozinha e cardápios digitais para restaurantes industriais, em desktop e dispositivos embarcados.",art:"Facilities",tags:"React · Tauri / Rust · Node.js · SSE · Azure"},
+ {label:"ELEMIDIA / ATMO",title:"Digital signage",description:signage.description,item:signage,tags:".NET · ActionScript · JavaScript · Multimídia"},
+ {label:"WHIRLPOOL",title:"E-commerce",description:en?"Development of VTEX stores for Consul, Brastemp, KitchenAid and Compra Certa, combining frontend development and cloud services.":"Desenvolvimento de lojas VTEX para Consul, Brastemp, KitchenAid e Compra Certa, conectando interfaces web e serviços em nuvem.",art:"Commerce",tags:"VTEX · React · Node.js · AWS"},
+ {label:en?"DESIGN / MULTIMEDIA":"DESIGN / MULTIMÍDIA",title:en?"Visual experiences":"Experiências visuais",description:banners.description,item:banners,tags:"HTML5 · CSS3 · GSAP · Adobe Animate"}
+ ];
+ $("featured").innerHTML = cards.map(c => `<article class="project">${c.item ? mediaLink(c.item) : `<div class="text-art ${c.art === 'Commerce' ? 'commerce' : ''}"><span>${c.label}</span><strong>${c.art}</strong><span>${en?'SOFTWARE DEVELOPMENT':'DESENVOLVIMENTO DE SOFTWARE'}</span></div>`}<div class="project-copy"><p class="eyebrow">${c.label}</p><h3>${c.title}</h3><p>${c.description}</p><div class="tags">${c.tags}</div></div></article>`).join("");
+ $("gallery").innerHTML = groups.map(g => `<div class="gallery-group"><h3>${g.title}</h3><div class="gallery-grid">${g.grid.map(i => `<article class="gallery-item">${mediaLink(i)}<h4>${i.title}</h4><p>${i.description}</p></article>`).join('')}</div></div>`).join('');
+ const skills = en ? [["Web & software","Fullstack applications with React, Node.js, Python and SQL / NoSQL databases. Cloud, automation and CI/CD."],["IoT & automation","Embedded systems, electronics, firmware, sensors and control systems. Connecting software and hardware."],["Design & multimedia","Interfaces, motion design, digital signage and games. Adobe tools, Figma, Blender, Godot, Unreal and Unity."]] : [["Web e software","Aplicações fullstack com React, Node.js, Python e bancos SQL / NoSQL. Cloud, automação e CI/CD."],["IoT e automação","Sistemas embarcados, eletrônica, firmware, sensores e controle. Conectando software e hardware."],["Design e multimídia","Interfaces, motion design, sinalização digital e jogos. Ferramentas Adobe, Figma, Blender, Godot, Unreal e Unity."]];
+ $("skill-cards").innerHTML = skills.map(([title, text], i) => `<article class="skill-card"><span class="number">0${i+1}</span><h3>${title}</h3><p>${text}</p></article>`).join('');
+ for(const [id, section] of [["all-skills","skills"],["opportunities","opportunity"],["spoken","languages"]]) $(id).innerHTML = data.sections[section].grid.map(i => `<li>${i}</li>`).join('');
+ $("bio").innerHTML = data.sections.profile.description;
+ const jobs = data.sections.experience.grid;
+ $("recent-experience").innerHTML = jobs.slice(0,3).map(experience).join('');
+ $("past-experience").innerHTML = jobs.slice(3).map(experience).join('');
+ const degrees = data.sections.graduation.grid;
+ $("degrees").innerHTML = degrees.slice(0,3).map(i => `<article class="degree"><h3>${i.title}</h3><p>${i.description}</p></article>`).join('');
+ for(const [id, items] of [["other-degrees",degrees.slice(3)],["courses",data.sections.courses.grid]]) $(id).innerHTML = items.map(i => `<li><b>${i.title}</b><br>${i.description}</li>`).join('');
+ $("socials").innerHTML = ["linkedin","github","lattes"].map(k => `<a target="_blank" rel="noopener" href="${escapeText(data.profile[k].description)}">${escapeText(data.profile[k].title)} ↗</a>`).join('') + `<a href="tel:+${data.profile.phone.description.replace(/\D/g,'')}">${escapeText(data.profile.phone.description)}</a>`;
+ $("load-status").textContent = "";
+}
+async function loadLanguage(lang) {
+ const token = ++request;
+ try {
+  if(!cache[lang]) { const response = await fetch(`js/data/${lang}/data.json`); if(!response.ok) throw new Error(response.status); cache[lang] = await response.json(); }
+  if(token === request) render(cache[lang],lang);
+ } catch(error) { if(token === request) $("load-status").textContent = copy[lang].error; console.error("Portfolio:",error); }
+}
+document.querySelectorAll("[data-lang]").forEach(button => button.addEventListener("click", () => loadLanguage(button.dataset.lang)));
+document.addEventListener("click", event => {
+ const link = event.target.closest("a[data-media]");
+ if(!link || event.ctrlKey || event.metaKey || event.shiftKey || event.altKey) return;
+ event.preventDefault();
+ const video = /\.mp4$/i.test(link.getAttribute("href"));
+ const element = document.createElement(video ? "video" : "img");
+ element.src = link.getAttribute("href");
+ if(video) { element.controls = true; element.autoplay = true; element.playsInline = true; } else element.alt = link.dataset.title;
+ $("media-title").textContent = link.dataset.title;
+ $("media-content").replaceChildren(element); modal.showModal();
+});
+$("close-modal").addEventListener("click", () => modal.close());
+modal.addEventListener("click",event => { const rect = modal.getBoundingClientRect(); if(event.target === modal && (event.clientX < rect.left || event.clientX > rect.right || event.clientY < rect.top || event.clientY > rect.bottom)) modal.close(); });
+modal.addEventListener("close", () => { const video = modal.querySelector("video"); if(video) video.pause(); $("media-content").replaceChildren(); });
+$("year").textContent = new Date().getFullYear();
+loadLanguage("pt-br");
