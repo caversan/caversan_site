@@ -35,9 +35,6 @@ summary::after {
 summary:hover { background: #304250; border-color: #87cefa; }
 details[open] > summary { border-color: #87cefa; }
 details[open] > summary::after { background-size: 12px 2px, 0 0; }
-.archive > summary { background: #87cefa; color: #17191d; border-color: #87cefa; }
-.archive > summary::after { background-color: #17191d; color: #87cefa; }
-.archive > summary:hover { background: #b5e2ff; }
 .media-link { border-radius: 4px; overflow: hidden; }
 .open-label {
     display: flex;
@@ -146,19 +143,13 @@ main > section:not(.hero) details[open] > summary,
 main > section:not(.hero) .button:hover { border-color: var(--section-accent); }
 main > section:not(.hero) summary::after,
 main > section:not(.hero) .primary,
-main > section:not(.hero) .open-label,
-main > section:not(.hero) .archive > summary {
+main > section:not(.hero) .open-label {
     background-color: var(--section-accent);
     color: var(--section-bg);
     border-color: var(--section-accent);
 }
-main > section:not(.hero) .archive > summary::after {
-    background-color: var(--section-bg);
-    color: var(--section-accent);
-}
 main > section:not(.hero) .primary:hover,
-main > section:not(.hero) .media-link:hover .open-label,
-main > section:not(.hero) .archive > summary:hover { background-color: var(--section-hover); }
+main > section:not(.hero) .media-link:hover .open-label { background-color: var(--section-hover); }
 main > section:not(.hero) .socials a:hover,
 main > section:not(.hero) .experience-row a:hover,
 main > section:not(.hero) .email:hover { color: var(--section-hover); }
