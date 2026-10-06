@@ -328,7 +328,7 @@
                   {
                      "title":"between 2020 and 2022",
                      "description":"Web animation for dynamic or static Ad Banners using Adobe Tools, HTML5, CSS3 and Javascript animation frameworks like GSAP, Adobe Animate, Milagro and Google Web Designer.",
-                     "thumb":"img/portifolio/thumbs/banners.png",
+                     "thumb":"img/portifolio/thumbs/banners.webp",
                      "content":"videos/banners.mp4"
                   }
                ]
@@ -339,7 +339,7 @@
                   {
                      "title":"between 2007 and 2015",
                      "description":"Development of a Digital Signage Software for Atmo and Elemidia, virtual radio and corporate TV. Application programmed in .Net, Actionscript, Batch Script, Powershell and JavaScript fully parametrized for automate the software replication for many costumers and based in micro modules to permiting the software customization, watchdog (failure control) to bring stability in less resources hardware.",
-                     "thumb":"img/portifolio/thumbs/digital_signage.png",
+                     "thumb":"img/portifolio/thumbs/digital_signage.webp",
                      "content":"videos/digital_signage.mp4"
                   }
                ]
@@ -350,50 +350,50 @@
                   {
                      "title":"2010 - Mantu",
                      "description":"Web-site for show bar.<br/>Resources: Site in PHP, XML and MySql with user control, restrict access to a photo gallery, Banner manager OpenX, Google Maps, Google Analytics, CSS3 and JQuery.",
-                     "thumb":"img/portifolio/thumbs/mantu.png",
-                     "content":"img/portifolio/mantu.png"
+                     "thumb":"img/portifolio/thumbs/mantu.webp",
+                     "content":"img/portifolio/mantu.webp"
                   },
                   {
                      "title":"2010 - Porto Velho Bar",
                      "description":"Web-site for show bar.<br/>Resources: Site in PHP, XML and MySql with user control, restrict access to a photo gallery, Banner manager OpenX, Google Maps, Google Analytics, CSS3 and JQuery.",
-                     "thumb":"img/portifolio/thumbs/portovelho.png",
-                     "content":"img/portifolio/portovelho.png"
+                     "thumb":"img/portifolio/thumbs/portovelho.webp",
+                     "content":"img/portifolio/portovelho.webp"
                   },
                   {
                      "title":"2007 - QuickSand",
                      "description":"Institutional Web-site.<br/>Resources: Adobe Flash - Actionscript 2, Javascript, PHP, MySQL.",
-                     "thumb":"img/portifolio/thumbs/quick.png",
+                     "thumb":"img/portifolio/thumbs/quick.webp",
                      "content":"videos/quick.mp4"
                   },
                   {
                      "title":"2006 - Bunny's summer collection",
                      "description":"Institutional Web-site.<br/>Resources: Adobe Flash - Actionscript 2, Javascript, PHP, MySQL.",
-                     "thumb":"img/portifolio/thumbs/bunnys3.png",
+                     "thumb":"img/portifolio/thumbs/bunnys3.webp",
                      "content":"videos/bunnys3.mp4"
                   },
                   {
                      "title":"2006 - Bunny's winter collection",
                      "description":"Institutional Web-site.<br/>Resources: Adobe Flash - Actionscript 2, Javascript, PHP, MySQL.",
-                     "thumb":"img/portifolio/thumbs/bunnys2.png",
+                     "thumb":"img/portifolio/thumbs/bunnys2.webp",
                      "content":"videos/bunnys2.mp4"
                   },
                   {
                      "title":"2005 - Bunny's summer collection",
                      "description":"Institutional Web-site.<br/>Resources: Adobe Flash - Actionscript 2, Javascript, PHP, MySQL.",
-                     "thumb":"img/portifolio/thumbs/bunnys1.png",
+                     "thumb":"img/portifolio/thumbs/bunnys1.webp",
                      "content":"videos/bunnys1.mp4"
                   },
                   {
                      "title":"2005 - Club B!",
                      "description":"Institutional Web-site.<br/>Resources: Adobe Flash - Actionscript 2, Javascript, PHP, MySQL.",
-                     "thumb":"img/portifolio/thumbs/clubb.png",
+                     "thumb":"img/portifolio/thumbs/clubb.webp",
                      "content":"videos/clubb.mp4"
                   },
                   {
                      "title":"2010 - Gigabyte",
                      "description":"E-mail marketing.",
-                     "thumb":"img/portifolio/thumbs/gigabyte.png",
-                     "content":"img/portifolio/gigabyte.png"
+                     "thumb":"img/portifolio/thumbs/gigabyte.webp",
+                     "content":"img/portifolio/gigabyte.webp"
                   }
                ]
             },
@@ -403,25 +403,25 @@
                   {
                      "title":"2003 - WIDO's Back Pack Manual",
                      "description":"Illustred Back Pack Manual.",
-                     "thumb":"img/portifolio/thumbs/mochila.png",
-                     "content":"img/portifolio/mochila.png"
+                     "thumb":"img/portifolio/thumbs/mochila.webp",
+                     "content":"img/portifolio/mochila.webp"
                   },
                   {
                      "title":"2010 - Gelo Nevada's Brand Guideline ",
                      "description":"Brand Guideline for Gelo Nevada Company.",
-                     "thumb":"img/portifolio/thumbs/gelonevada.png",
-                     "content":"img/portifolio/gelonevada.png"
+                     "thumb":"img/portifolio/thumbs/gelonevada.webp",
+                     "content":"img/portifolio/gelonevada.webp"
                   },
                   {
                      "title":"2004 - Citibank Club",
                      "description":"Citibank Advantage Club made in Adobe inDesign.",
-                     "thumb":"img/portifolio/thumbs/citi.png",
+                     "thumb":"img/portifolio/thumbs/citi.webp",
                      "content":"pdf/citi.pdf"
                   },
                   {
                      "title":"2005 - Chora Brasil",
                      "description":"Graphic project for magazine Chora Brasil made in Adobe inDesign.",
-                     "thumb":"img/portifolio/thumbs/chora.png",
+                     "thumb":"img/portifolio/thumbs/chora.webp",
                      "content":"pdf/chora.pdf"
                   }
                ]

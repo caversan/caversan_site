@@ -328,7 +328,7 @@
                   {
                      "title":"entre 2020 e 2022",
                      "description":"Criação de banners publicitários dinâmicos ou estáticos utilizando Adobe Creative Suite, HTML5, CSS3 e frameworks de animação JavaScript como GSAP, Adobe Animate, Milagro, Google Web Designer.",
-                     "thumb":"img/portifolio/thumbs/banners.png",
+                     "thumb":"img/portifolio/thumbs/banners.webp",
                      "content":"videos/banners.mp4"
                   }
                ]
@@ -339,7 +339,7 @@
                   {
                      "title":"entre 2007 e 2015",
                      "description":"Criação e desenvolvimento do software de digital signage, rádio virtual e TV corporativa para Elemidia Empresas e Atmo. A aplicação foi desenvolvida em .Net, Actionscript, Batch Script, Powershell e JavaScript totalmente parametrizada afim de agilizar a replicação do software em vários clientes e modular para que o software pudesse ser personalizado.",
-                     "thumb":"img/portifolio/thumbs/digital_signage.png",
+                     "thumb":"img/portifolio/thumbs/digital_signage.webp",
                      "content":"videos/digital_signage.mp4"
                   }
                ]
@@ -350,50 +350,50 @@
                   {
                      "title":"2010 - Mantu",
                      "description":"Web-site para casa de shows.<br/>Recursos utilizados: Site em PHP, XML e MySql com cadastro de usuários, acesso restrito ao albúm de fotos, Gerenciador de banners OpenX, integração com a API do Google Maps, Google Analytics, além de recursos avançados de CSS3 e JQuery.",
-                     "thumb":"img/portifolio/thumbs/mantu.png",
-                     "content":"img/portifolio/mantu.png"
+                     "thumb":"img/portifolio/thumbs/mantu.webp",
+                     "content":"img/portifolio/mantu.webp"
                   },
                   {
                      "title":"2010 - Porto Velho Bar",
                      "description":"Web-site casa de shows.<br/>Recursos utilizados: Animação do lay-out no flash, integração do flash com o XML a fim de facilitar a atualização do conteúdo. Carregamento do site otimizado afim de primeiro carregarmos primeiro o conteúdo de maior importância e por último as imagens e planos de fundo, esta página possui uma versão mobile que é acessada automaticamente quando o acesso não provenha de um desktop.",
-                     "thumb":"img/portifolio/thumbs/portovelho.png",
-                     "content":"img/portifolio/portovelho.png"
+                     "thumb":"img/portifolio/thumbs/portovelho.webp",
+                     "content":"img/portifolio/portovelho.webp"
                   },
                   {
                      "title":"2007 - QuickSand",
                      "description":"Web-site institucional para Fabricante de calçados.<br/>Recursos utilizados: Animação do lay - out no flash, tratamento de imagens, foto montagem.Com o uso do Photoshop o logotipo da empresa foi inserido em diversas montagens.O carro deste thumbnail por exemplo era preto e não tinha a pintura do fogo que foi inserida a partir da foto de uma fogueira.",
-                     "thumb":"img/portifolio/thumbs/quick.png",
+                     "thumb":"img/portifolio/thumbs/quick.webp",
                      "content":"videos/quick.mp4"
                   },
                   {
                      "title":"2006 - Bunny's verão",
                      "description":"Web-site institucional para rede de lojas de moda.<br/>Recursos utilizados: Animação do lay-out no flash, sonorização, tratamento de imagens, formulário de contato em asp.",
-                     "thumb":"img/portifolio/thumbs/bunnys3.png",
+                     "thumb":"img/portifolio/thumbs/bunnys3.webp",
                      "content":"videos/bunnys3.mp4"
                   },
                   {
                      "title":"2006 - Bunny's inverno",
                      "description":"Web-site institucional para rede de lojas de moda.<br/>Recursos utilizados: Animação do lay-out no flash, sonorização, tratamento de imagens, formulário de contato em asp.",
-                     "thumb":"img/portifolio/thumbs/bunnys2.png",
+                     "thumb":"img/portifolio/thumbs/bunnys2.webp",
                      "content":"videos/bunnys2.mp4"
                   },
                   {
                      "title":"2005 - Bunny's verão",
                      "description":"Web-site institucional para rede de lojas de moda.<br/>Recursos utilizados: Animação do lay-out no flash, sonorização, tratamento de imagens, formulário de contato em asp.",
-                     "thumb":"img/portifolio/thumbs/bunnys1.png",
+                     "thumb":"img/portifolio/thumbs/bunnys1.webp",
                      "content":"videos/bunnys1.mp4"
                   },
                   {
                      "title":"2005 - Club B!",
                      "description":"Web-site institucional para rede de lojas de moda.<br/>Recursos utilizados: Animação do lay-out no flash, sonorização, tratamento de imagens, formulário de contato em asp.",
-                     "thumb":"img/portifolio/thumbs/clubb.png",
+                     "thumb":"img/portifolio/thumbs/clubb.webp",
                      "content":"videos/clubb.mp4"
                   },
                   {
                      "title":"2010 - Gigabyte",
                      "description":"Email marketing.",
-                     "thumb":"img/portifolio/thumbs/gigabyte.png",
-                     "content":"img/portifolio/gigabyte.png"
+                     "thumb":"img/portifolio/thumbs/gigabyte.webp",
+                     "content":"img/portifolio/gigabyte.webp"
                   }
                ]
             },
@@ -403,25 +403,25 @@
                   {
                      "title":"2003 - Manual Mochila WIDO",
                      "description":"Manual de Instruções ilustrado.",
-                     "thumb":"img/portifolio/thumbs/mochila.png",
-                     "content":"img/portifolio/mochila.png"
+                     "thumb":"img/portifolio/thumbs/mochila.webp",
+                     "content":"img/portifolio/mochila.webp"
                   },
                   {
                      "title":"2010 - Identidade Visual Gelo Nevada",
                      "description":"Identidade Visual para a empresa Gelo Nevada.",
-                     "thumb":"img/portifolio/thumbs/gelonevada.png",
-                     "content":"img/portifolio/gelonevada.png"
+                     "thumb":"img/portifolio/thumbs/gelonevada.webp",
+                     "content":"img/portifolio/gelonevada.webp"
                   },
                   {
                      "title":"2004 - Citibank Club",
                      "description":"Catálogo para clube de vantagens do Citibank produzido no Adobe inDesign.",
-                     "thumb":"img/portifolio/thumbs/citi.png",
+                     "thumb":"img/portifolio/thumbs/citi.webp",
                      "content":"pdf/citi.pdf"
                   },
                   {
                      "title":"2005 - Chora Brasil",
                      "description":"Projeto gráfico e editorial para a revista Chora Brasil produzido no Adobe inDesign.",
-                     "thumb":"img/portifolio/thumbs/chora.png",
+                     "thumb":"img/portifolio/thumbs/chora.webp",
                      "content":"pdf/chora.pdf"
                   }
                ]

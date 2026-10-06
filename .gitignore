@@ -26,3 +26,5 @@ obj/
 node_modules/
 venv/
 __pycache__/
+.image-tools/
+_backup/

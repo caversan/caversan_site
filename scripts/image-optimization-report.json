@@ -1,0 +1,192 @@
+[
+  {
+    "file": "img/logos/anhanguera.png",
+    "before": 3382,
+    "after": 2816
+  },
+  {
+    "file": "img/logos/atmo.png",
+    "before": 25839,
+    "after": 10040
+  },
+  {
+    "file": "img/logos/elemidia.png",
+    "before": 130863,
+    "after": 80714
+  },
+  {
+    "file": "img/logos/eletromidia.png",
+    "before": 1114,
+    "after": 704
+  },
+  {
+    "file": "img/logos/fatec.png",
+    "before": 9366,
+    "after": 3936
+  },
+  {
+    "file": "img/logos/hogart.png",
+    "before": 3416,
+    "after": 2698
+  },
+  {
+    "file": "img/logos/inhaus.jpg",
+    "before": 10307,
+    "after": 10307
+  },
+  {
+    "file": "img/logos/ortiz.jpg",
+    "before": 4515,
+    "after": 4515
+  },
+  {
+    "file": "img/logos/senac.png",
+    "before": 7199,
+    "after": 5744
+  },
+  {
+    "file": "img/logos/unidas.png",
+    "before": 23731,
+    "after": 7108
+  },
+  {
+    "file": "img/logos/unip.jpg",
+    "before": 16015,
+    "after": 16015
+  },
+  {
+    "file": "img/logos/univesp.png",
+    "before": 4065,
+    "after": 2910
+  },
+  {
+    "file": "img/logos/usp.png",
+    "before": 7773,
+    "after": 5520
+  },
+  {
+    "file": "img/logos/whirlpool.jpg",
+    "before": 5492,
+    "after": 5492
+  },
+  {
+    "file": "img/portifolio/brastemp.png",
+    "before": 197065,
+    "after": 92186
+  },
+  {
+    "file": "img/portifolio/dmeal.png",
+    "before": 878550,
+    "after": 416760
+  },
+  {
+    "file": "img/portifolio/gelonevada.png",
+    "before": 210660,
+    "after": 191772
+  },
+  {
+    "file": "img/portifolio/gigabyte.png",
+    "before": 230103,
+    "after": 225640
+  },
+  {
+    "file": "img/portifolio/mantu.png",
+    "before": 108242,
+    "after": 96160
+  },
+  {
+    "file": "img/portifolio/mochila.png",
+    "before": 72028,
+    "after": 71158
+  },
+  {
+    "file": "img/portifolio/portovelho.png",
+    "before": 361886,
+    "after": 342466
+  },
+  {
+    "file": "img/portifolio/thumbs/banners.png",
+    "before": 212086,
+    "after": 129436
+  },
+  {
+    "file": "img/portifolio/thumbs/bunnys1.png",
+    "before": 70874,
+    "after": 61058
+  },
+  {
+    "file": "img/portifolio/thumbs/bunnys2.png",
+    "before": 168413,
+    "after": 146022
+  },
+  {
+    "file": "img/portifolio/thumbs/bunnys3.png",
+    "before": 51071,
+    "after": 43600
+  },
+  {
+    "file": "img/portifolio/thumbs/chora.png",
+    "before": 54135,
+    "after": 45322
+  },
+  {
+    "file": "img/portifolio/thumbs/citi.png",
+    "before": 24539,
+    "after": 23210
+  },
+  {
+    "file": "img/portifolio/thumbs/clubb.png",
+    "before": 86504,
+    "after": 77602
+  },
+  {
+    "file": "img/portifolio/thumbs/digital_signage.png",
+    "before": 32189,
+    "after": 31114
+  },
+  {
+    "file": "img/portifolio/thumbs/gelonevada.png",
+    "before": 28231,
+    "after": 25314
+  },
+  {
+    "file": "img/portifolio/thumbs/gigabyte.png",
+    "before": 40459,
+    "after": 39122
+  },
+  {
+    "file": "img/portifolio/thumbs/mantu.png",
+    "before": 48277,
+    "after": 42886
+  },
+  {
+    "file": "img/portifolio/thumbs/mochila.png",
+    "before": 34356,
+    "after": 33262
+  },
+  {
+    "file": "img/portifolio/thumbs/portovelho.png",
+    "before": 100758,
+    "after": 92532
+  },
+  {
+    "file": "img/portifolio/thumbs/quick.png",
+    "before": 60646,
+    "after": 54502
+  },
+  {
+    "file": "img/skills/iot.png",
+    "before": 2009612,
+    "after": 1442134
+  },
+  {
+    "file": "img/skills/multimidia.png",
+    "before": 1959494,
+    "after": 1443272
+  },
+  {
+    "file": "img/skills/web.png",
+    "before": 1639124,
+    "after": 1165588
+  }
+]
