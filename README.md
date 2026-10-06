@@ -144,21 +144,24 @@ Reimplementação em HTML, CSS e JavaScript do antigo campo minado em Flash. O j
 | --- | --- | --- |
 | Fácil | 9 × 9 | 10 |
 | Médio | 16 × 16 | 40 |
-| Difícil | 16 × 30 | 99 |
+| Difícil | 30 × 16 | 99 |
 
-- Abra todas as casas seguras para vencer; o primeiro clique é seguro.
+- Abra todas as casas seguras para vencer; uma mina pode explodir já no primeiro clique.
 - Clique com o botão direito para marcar bandeiras. No celular, use o modo bandeira.
 - Use as setas para navegar, Enter ou Espaço para acionar a casa e F para marcar uma bandeira.
 - O cronômetro começa na primeira abertura; a pausa esconde o tabuleiro e interrompe a contagem.
-- Os dez melhores tempos por dificuldade ficam salvos neste navegador via `localStorage`, sem conta ou ranking on-line.
-- Em telas estreitas, os tabuleiros maiores podem usar rolagem para preservar o tamanho das casas.
+- Todas as partidas encerradas, vitórias e derrotas, ficam salvas neste navegador via `localStorage`, com ranking separado por dificuldade. Vitórias aparecem primeiro, pelo menor tempo; derrotas são ordenadas pelo número de casas seguras abertas e depois pelo menor tempo.
+- O jogo tem três cenas: configuração, partida e resultado com ranking.
+- O campo inteiro se ajusta à tela sem rolagem. As células são reorganizadas ao mudar a orientação para aproveitar melhor a área disponível.
+- Os controles da partida usam ícones. Tela cheia é opcional nos navegadores compatíveis.
+- O ranking desta versão fica separado dos tempos da antiga regra de primeiro clique seguro.
 
 O jogo requer JavaScript. Os antigos comandos secretos do Flash (`SHOW` e `CLEAR`) não estão implementados nesta versão.
 
 Para executar os testes das regras:
 
 ```bash
-node --test games/mines/js/mines.test.js
+node --test games/mines/js/mines.test.js games/mines/js/mines.ui.test.js
 ```
 
 ## Executar localmente
