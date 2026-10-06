@@ -167,3 +167,44 @@ main > section:not(.hero) .degree { border-color: var(--section-accent); }
 main > section:not(.hero) .text-art { background: var(--section-surface); color: var(--section-accent); }
 main > section:not(.hero) :is(a, button, summary):focus-visible { outline-color: var(--section-accent); }
 /* FIM TESTE: fundos por seção. */
+/* SVGs locais: os símbolos herdam a cor do link. */
+.icon { display: inline-block; width: 22px; height: 22px; flex: 0 0 22px; background-color: currentColor; -webkit-mask: var(--icon) center / contain no-repeat; mask: var(--icon) center / contain no-repeat; }
+.icon-linkedin { --icon: url('../img/icons/linkedin.svg'); }
+.icon-github { --icon: url('../img/icons/github.svg'); }
+.icon-lattes { --icon: url('../img/icons/lattes.svg'); }
+.icon-phone { --icon: url('../img/icons/phone.svg'); }
+.icon-mail { --icon: url('../img/icons/mail.svg'); }
+.icon-pdf { --icon: url('../img/icons/pdf.svg'); }
+.socials a, .email { display: inline-flex; align-items: center; gap: 10px; }
+.email span:last-child { min-width: 0; overflow-wrap: anywhere; }
+.header-cv { flex-shrink: 0; gap: 8px; padding: 9px 12px; color: #87cefa; font-size: 13px; white-space: nowrap; }
+@media (max-width:900px) {
+    .nav-wrap nav { width: auto; flex: 1 1 auto; align-items: center; gap: 18px; }
+    .header-cv { order: 4; margin-left: auto; font-size: 12px; padding: 9px; }
+    .nav-wrap .languages { margin-left: auto; }
+    .nav-wrap .brand { flex-basis: calc(100% - 70px); }
+}
+@media (max-width:380px) {
+    .nav-wrap nav { gap: 12px; font-size: 12px; }
+    .header-cv { font-size: 11px; gap: 5px; padding: 8px 6px; }
+}
+
+/* Contatos: centralização consistente entre texto e símbolo. */
+#contact .socials { align-items: center; gap: 16px 28px; }
+#contact .socials a { min-height: 44px; line-height: 1.25; gap: 10px; }
+#contact .socials .icon { display: block; width: 22px; height: 22px; flex-basis: 22px; }
+#contact .email { max-width: 100%; line-height: 1.25; gap: 12px; vertical-align: middle; }
+#contact .email .icon { display: block; width: 1em; height: 1em; flex: 0 0 1em; }
+#contact .socials a > span:last-child { display: block; }
+.actions .cv { gap: 10px; }
+
+/* Acessos ao currículo com fundo escuro e contorno claro. */
+.button.cv { background-color: #17191d; border-color: #422b2d; color: #ff655b; }
+.button.cv:hover { background-color: #241d20; border-color: #58383b; color: #ff8a82; }
+
+/* Ajuste óptico do envelope em relação às letras do email. */
+#contact .email .icon-mail { transform: translateY(0.1em); }
+
+/* Ícone PDF maior para tornar as letras legíveis. */
+.button.cv .icon-pdf { width: 30px; height: 30px; flex: 0 0 30px; }
+.button.cv:focus-visible { outline-color: #ff655b; }
