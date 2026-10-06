@@ -5,10 +5,9 @@
  const main = document.querySelector("main");
  if (!main || !("IntersectionObserver" in window)) return;
  const reducedMotion = window.matchMedia("(prefers-reduced-motion: reduce)");
- // Local development is an animation preview; production follows OS preferences.
+ // Use the same animation behavior locally and on the published site.
  const animationSetting = new URLSearchParams(window.location.search).get("animations");
- const localPreview = ["localhost", "127.0.0.1", "[::1]"].includes(window.location.hostname);
- const preview = animationSetting === "on" || (localPreview && animationSetting !== "off");
+ const preview = animationSetting !== "off";
  if (preview) document.documentElement.classList.add("motion-preview");
  const shouldReduce = () => reducedMotion.matches && !preview;
  const desktop = window.matchMedia("(min-width: 901px)");

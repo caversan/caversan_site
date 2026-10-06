@@ -14,10 +14,30 @@ button:focus-visible, input:focus-visible, select:focus-visible { outline: 3px s
 .primary, button[aria-pressed="true"] { background: #a9e46d; color: #15230b; border-color: #a9e46d; font-weight: 700; }
 .primary:hover { background: #c3ef94; }.toolbar { margin-top: 16px; align-items: center; }.hint { color: #9aabc1; font-size: 13px; }
 .stats { display: flex; gap: 24px; justify-content: space-between; }.stats span { display: block; font-size: 10px; letter-spacing: .09em; color: #a6b6cb; }.stats strong { display: block; margin-top: 8px; font: 600 26px ui-monospace, monospace; }
-#status { min-height: 26px; }.board-scroll { overflow: auto; padding: 5px; }
-#board { display: grid; grid-template-columns: repeat(var(--columns), minmax(0, 1fr)); gap: 3px; width: 100%; max-width: calc(var(--columns) * 35px - 3px); min-width: calc(var(--columns) * 27px - 3px); margin: auto; }
-.cell { width: 100%; min-width: 0; aspect-ratio: 1; padding: 0; border-radius: 5px; border: 1px solid #53637a; background: #34455b; font: 700 17px ui-monospace, monospace; touch-action: manipulation; }
+#status { min-height: 26px; }.board-scroll { padding: 5px; min-width: 0; }
+#board { display: grid; grid-template-columns: repeat(var(--columns), minmax(0, 1fr)); gap: 3px; width: 100%; max-width: calc(var(--columns) * 35px - 3px); min-width: 0; margin: auto; }
+.cell { width: 100%; min-width: 0; aspect-ratio: 1; padding: 0; border-radius: 5px; border: 1px solid #53637a; background: #34455b; font: 700 clamp(7px, calc(var(--cell-size, 32px) * .52), 17px) ui-monospace, monospace; touch-action: manipulation; }
 .cell:hover { background: #506882; }.cell.revealed { background: #111a25; border-color: #253347; }.cell.flagged { color: #f8cf71; }.cell.mine { background: #6f343c; color: #fff; }.cell.exploded { background: #c64350; }.cell.wrong { color: #ff8993; }
 .cell[data-count="1"] { color: #85baff; }.cell[data-count="2"] { color: #9ee19c; }.cell[data-count="3"] { color: #ff9999; }.cell[data-count="4"] { color: #c2a8ff; }.cell[data-count="5"], .cell[data-count="6"], .cell[data-count="7"], .cell[data-count="8"] { color: #ffcc8b; }
 .instructions { padding: 14px 4px; max-width: 800px; }.ranking-heading { align-items: center; justify-content: space-between; }.ranking-heading span, #storage-note { font-size: 12px; color: #9aabc1; }#ranking { padding-left: 24px; color: #cbd7e7; }#ranking li { padding: 7px; }footer { color: #8091a7; text-align: center; font-size: 12px; margin-top: 32px; }
 @media (max-width: 600px) { main { padding: 24px 12px; }.panel { padding: 16px; }.controls { align-items: stretch; }.controls label { flex-basis: 100%; }.primary { width: 100%; }.stats { gap: 8px; }.stats strong { font-size: 21px; }.stats span { font-size: 9px; } }
+
+/* On desktop, fit the board to the window instead of forcing scrollbars. */
+@media (min-width: 701px) {
+    main { padding-top: 20px; }
+    header { margin-bottom: 18px; }
+    header h1 { font-size: 42px; }
+    header > p:last-child { margin-bottom: 0; }
+    .panel { padding: 16px; margin: 14px 0; }
+    .controls label { min-width: 0; }
+    .controls input, .controls select { width: 100%; min-width: 0; }
+    .toolbar { margin-top: 12px; }
+    .stats strong { margin-top: 4px; font-size: 22px; }
+    #status { margin: 10px 0; }
+    #board {
+        width: calc(var(--columns) * (var(--cell-size, 32px) + 3px) - 3px);
+        min-width: 0;
+        max-width: 100%;
+    }
+    .cell { font-size: clamp(7px, calc(var(--cell-size, 32px) * .52), 17px); }
+}
