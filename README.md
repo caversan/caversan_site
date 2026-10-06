@@ -254,3 +254,12 @@ Publique o HTML atualizado, os recursos alterados, `robots.txt` e `sitemap.xml` 
 ---
 
 Última atualização deste README: outubro de 2026.
+
+
+## Google Analytics 4
+
+O portfólio e o Mines usam o ID `G-1816KJZ7KE`, configurado em `js/analytics.js`. A coleta é ativada apenas em `caversan.com.br` e `www.caversan.com.br`, sem registrar testes em localhost ou outros domínios de prévia.
+
+Publique `js/analytics.js`, `index.html` e `games/mines/index.html` juntos. O script carrega a tag do Google de forma assíncrona e configura o evento automático de visualização de página. O nome do jogador e o ranking do Mines não são enviados por eventos personalizados.
+
+Após publicar, confira a página no Tag Assistant e o relatório Em tempo real do GA4. A implementação local não confirma recebimento de dados na propriedade; bloqueadores de rastreamento podem impedir a coleta.
