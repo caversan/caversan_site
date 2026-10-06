@@ -80,7 +80,7 @@ Funcionalidades implementadas:
 - Modal para imagens e vídeos; abertura de PDFs em outra janela ou aba.
 - Links para currículos e perfis profissionais.
 
-O conteúdo principal depende de JavaScript e do carregamento dos JSONs por HTTP. Use um servidor local em vez de abrir o HTML diretamente pelo sistema de arquivos.
+O conteúdo principal em português já está no HTML. A troca de idioma e os modais usam JavaScript; os dados são carregados por HTTP. Use um servidor local para testar todas as interações.
 
 ## Estrutura do projeto
 
@@ -184,3 +184,18 @@ Projeto pessoal de Adriano Caversan. Este repositório não inclui uma licença 
 ---
 
 Última atualização deste README: outubro de 2026.
+
+
+## SEO e conteúdo estático
+
+O `index.html` inclui o conteúdo em português antes da execução do JavaScript, além de URL canônica, metadados de compartilhamento e dados estruturados de empresa, pessoa e site. O inglês continua disponível pelo seletor; ainda não possui URL independente para indexação.
+
+Após atualizar os JSONs ou o renderizador em `js/script.js`, atualize os blocos de conteúdo do HTML:
+
+```bash
+node scripts/build-seo.cjs
+```
+
+Esse comando utiliza o mesmo renderizador do navegador, preservando a ordem das listas. Não edite manualmente os blocos delimitados por `<!-- seo:... -->`. Alterações de identidade nos metadados e no JSON-LD devem ser atualizadas também no cabeçalho do HTML.
+
+Publique o HTML atualizado, os recursos alterados, `robots.txt` e `sitemap.xml` na raiz. O sitemap inclui somente a página principal do portfólio. Após a publicação, envie `https://caversan.com.br/sitemap.xml` pelo Google Search Console e inspecione a URL principal. A indexação depende também do acesso permitido pela hospedagem; respostas HTTP 403 precisam ser investigadas no servidor.
