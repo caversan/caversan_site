@@ -51,3 +51,10 @@ label{display:grid;gap:10px;font-size:13px;color:#bbc7d7;min-width:0}button,inpu
 .exit-modal h2{font-size:22px}
 .exit-modal>p{font-size:14px}
 @media(max-width:620px){#setup-scene>.breadcrumb{left:max(12px,env(safe-area-inset-left))}}
+
+/* Equal action boxes, including when labels wrap on small screens. */
+.result-actions{display:grid;grid-auto-flow:column;grid-auto-columns:minmax(0,1fr);align-items:stretch}
+.result-actions>button{min-width:0;min-height:42px;line-height:1.3;display:flex;align-items:center;justify-content:center;text-align:center}
+.game-actions{align-items:center}
+.game-actions>.icon-button{height:32px;max-width:34px;box-sizing:border-box;line-height:1;padding:0;align-self:center}
+.game-actions>.icon-button svg{display:block}

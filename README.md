@@ -86,6 +86,9 @@ Funcionalidades implementadas:
 
 - Alternância de conteúdo entre português e inglês.
 - Layout responsivo, fundo grafite e paletas escuras próprias para cada seção.
+- Ícones nos rótulos numerados das sete seções, acompanhando suas cores.
+- Animações de entrada e cascata de cards, repetidas ao trocar o idioma.
+- Paralaxe nas imagens e artes dos projetos, brilho nas seções e indicador de progresso da rolagem no cabeçalho.
 - Identidade da Caversan no cabeçalho, com logo PNG circular e favicon ICO.
 - Seções de perfil, conhecimentos, formação, experiência e cursos.
 - Trabalhos organizados por categoria.
@@ -103,9 +106,13 @@ O conteúdo principal em português já está no HTML. A troca de idioma e os mo
 ```text
 caversan_site/
 ├── index.html                 # Página principal
-├── css/style.css              # Estilos do portfólio
+├── css/
+│   ├── style.css              # Estilos do portfólio
+│   └── motion.css             # Entradas e efeitos de rolagem
 ├── js/
 │   ├── script.js              # Conteúdo, idiomas e modal
+│   ├── motion.js              # Controle das animações e paralaxe
+│   ├── analytics.js           # Google Analytics somente em produção
 │   └── data/
 │       ├── pt-br/data.json     # Conteúdo em português
 │       └── en/data.json        # Conteúdo em inglês
@@ -119,7 +126,8 @@ caversan_site/
 │   ├── css/mines.css          # Layout do jogo
 │   └── js/
 │       ├── mines.js           # Motor e interface
-│       └── mines.test.js      # Testes das regras
+│       ├── mines.test.js      # Testes das regras e ajuste do tabuleiro
+│       └── mines.ui.test.js   # Testes de cenas, modais, ranking e saída
 ├── scripts/build-seo.cjs      # Geração do conteúdo estático
 ├── robots.txt                # Orientação de rastreamento
 ├── sitemap.xml               # URL principal para indexação
@@ -146,19 +154,29 @@ Reimplementação em HTML, CSS e JavaScript do antigo campo minado em Flash. O j
 | Médio | 16 × 16 | 40 |
 | Difícil | 30 × 16 | 99 |
 
+As dimensões seguem **largura × altura**. O fluxo do jogo é:
+
+1. **Configuração:** tela inicial com nome, dificuldade e botão Novo jogo.
+2. **Partida:** breadcrumb no topo, contadores e controles compactos em uma única linha. O campo inteiro se ajusta à área disponível, sem rolagem interna; ao girar o dispositivo, a disposição das células muda quando isso permite casas maiores. Números e ícones permanecem na posição de leitura.
+3. **Resultado:** modal menor e semitransparente sobre a partida encerrada. O tabuleiro e o cabeçalho continuam visíveis por trás. O modal apresenta o resultado, o ranking e opções para jogar novamente, mudar a configuração ou ver o campo.
+
 - Abra todas as casas seguras para vencer; uma mina pode explodir já no primeiro clique.
 - Clique com o botão direito para marcar bandeiras. No celular, use o modo bandeira.
 - Use as setas para navegar, Enter ou Espaço para acionar a casa e F para marcar uma bandeira.
 - O cronômetro começa na primeira abertura; a pausa esconde o tabuleiro e interrompe a contagem.
 - Todas as partidas encerradas, vitórias e derrotas, ficam salvas neste navegador via `localStorage`, com ranking separado por dificuldade. Vitórias aparecem primeiro, pelo menor tempo; derrotas são ordenadas pelo número de casas seguras abertas e depois pelo menor tempo.
-- O jogo tem três cenas: configuração, partida e resultado com ranking.
-- O campo inteiro se ajusta à tela sem rolagem. As células são reorganizadas ao mudar a orientação para aproveitar melhor a área disponível.
-- Os controles da partida usam ícones. Tela cheia é opcional nos navegadores compatíveis.
+- Os ícones da partida permitem pausar/continuar, ativar bandeiras, reiniciar, voltar à configuração e entrar/sair de tela cheia quando o navegador permitir.
+- Ao escolher **Ver campo**, o ícone do troféu alterna suavemente entre cinza e verde para indicar o retorno ao modal de resultado. Ele aparece somente depois do fim da partida.
+- O modo bandeira ativo usa verde; o rollover dos botões é aplicado apenas em dispositivos com mouse para evitar destaque preso após um toque.
+- O link **CAVERSAN** abre um modal de confirmação antes de voltar ao site principal. A partida pausa durante a confirmação e retoma ao cancelar, se estava em andamento.
+- Tela cheia e bloqueio de orientação horizontal dependem do suporte do navegador. O ajuste visual do campo funciona também fora de tela cheia.
 - O ranking desta versão fica separado dos tempos da antiga regra de primeiro clique seguro.
+
+O ranking registra somente partidas encerradas com vitória ou derrota; reiniciar ou abandonar uma partida não cria uma entrada. Os registros ficam neste navegador, na chave `caversan.mines.ranking.v2`, sem limite de dez partidas. A lista do modal mostra apenas a dificuldade da partida atual.
 
 O jogo requer JavaScript. Os antigos comandos secretos do Flash (`SHOW` e `CLEAR`) não estão implementados nesta versão.
 
-Para executar os testes das regras:
+Para executar os testes das regras e da interface, com Node.js instalado:
 
 ```bash
 node --test games/mines/js/mines.test.js games/mines/js/mines.ui.test.js
@@ -179,6 +197,10 @@ python3 -m http.server 8000
 ```
 
 Acesse [http://localhost:8000](http://localhost:8000). Encerre o servidor com `Ctrl+C` no terminal.
+
+Não é necessário executar instalação ou build antes de iniciar o servidor. Para o jogo, abra [Mines local](http://localhost:8000/games/mines/index.html). Após alterações, use `Ctrl+F5` para recarregar os recursos.
+
+As animações do portfólio estão ativadas por padrão tanto no localhost quanto no domínio publicado, sem precisar de `?animations=on`. O parâmetro `?animations=off` faz o portfólio voltar a respeitar a preferência de movimento reduzido do sistema. Os efeitos do Mines usam seus próprios arquivos CSS e JavaScript.
 
 ## Validação local
 
@@ -204,7 +226,7 @@ Os scripts verificam arquivos obrigatórios, sintaxe dos JSONs, estrutura básic
 
 O código de saída é `0` quando não há erros e `1` quando uma verificação falha. Avisos são exibidos separadamente. As comparações com o upstream usam referências locais, sem executar `git fetch`.
 
-Essas verificações são estáticas e não substituem testes no navegador, auditorias de acessibilidade ou medições de desempenho. O campo minado não faz parte das verificações de JavaScript do portfólio. Seus testes de regras podem ser executados com `node --test games/mines/js/mines.test.js`.
+Essas verificações são estáticas e não substituem testes no navegador, auditorias de acessibilidade ou medições de desempenho. O campo minado não faz parte das verificações de JavaScript do portfólio. Execute suas duas suítes com `node --test games/mines/js/mines.test.js games/mines/js/mines.ui.test.js`. Os testes de interface simulam o DOM; avalie também a aparência e os controles em navegadores reais, nas orientações vertical e horizontal.
 
 ## Atualizar o conteúdo
 
@@ -216,13 +238,15 @@ Essas verificações são estáticas e não substituem testes no navegador, audi
 6. Gere o HTML atualizado com `node scripts/build-seo.cjs`.
 7. Execute o validador e confira a página, os dois idiomas, currículos, galeria e link do Mines no navegador.
 
-Os estilos ficam em `css/style.css`; o carregamento dos dados e as interações ficam em `js/script.js`. Este README é um resumo manual e deve acompanhar alterações relevantes do perfil.
+Os estilos do portfólio ficam em `css/style.css`; o carregamento dos dados e as interações ficam em `js/script.js`. As animações ficam em `css/motion.css` e `js/motion.js`. O Mines tem estilos, regras e interface independentes em `games/mines/`. Este README é um resumo manual e deve acompanhar alterações relevantes do perfil e do funcionamento do site.
 
 ## Publicação
 
 O site principal pode ser servido por uma hospedagem de arquivos estáticos, preservando a estrutura das pastas e usando `index.html` como página inicial.
 
 Publique juntos o HTML gerado, CSS, JavaScript, JSONs e recursos alterados. Inclua `img/icons/`, `games/mines/`, `favicon.ico`, `robots.txt` e `sitemap.xml`. Ao atualizar CSS, JavaScript ou JSONs, revise os parâmetros de versão (`?v=...`) nas referências correspondentes para evitar misturar arquivos novos com versões antigas em cache.
+
+Para mudanças nas animações, envie também `css/motion.css` e `js/motion.js`. Para mudanças no jogo, publique juntos `games/mines/index.html`, `games/mines/css/mines.css` e `games/mines/js/mines.js`.
 
 Os arquivos de GitHub Actions estão arquivados em `.github/_BKP_workflows/`, portanto não ativam deploy automático nessa configuração. Antes de reativá-los, é necessário revisar os workflows, corrigir as referências antigas a `index.htm` e configurar o destino e as credenciais de publicação. O arquivo `DEPLOY.md` contém instruções anteriores que também precisam dessa revisão.
 
@@ -256,7 +280,7 @@ Publique o HTML atualizado, os recursos alterados, `robots.txt` e `sitemap.xml` 
 
 ---
 
-Última atualização deste README: outubro de 2026.
+Última atualização deste README: 6 de outubro de 2026.
 
 
 ## Google Analytics 4
