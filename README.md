@@ -97,7 +97,7 @@ caversan_site/
 ├── videos/                    # Vídeos dos trabalhos
 ├── pdf/                       # PDFs de trabalhos gráficos
 ├── docs/                      # Currículos em PDF e ODT
-├── games/mines/               # Migração incompleta de jogo Flash para JS
+├── games/mines/               # Campo minado independente em HTML/CSS/JS
 ├── .github/_BKP_workflows/     # Workflows arquivados
 ├── .htaccess                  # Arquivo de configuração Apache
 ├── _default.php               # Arquivo PHP adicional
@@ -107,7 +107,7 @@ caversan_site/
 └── README.md
 ```
 
-O campo minado em `games/mines/` é um experimento legado de migração de Flash para JavaScript e ainda não é jogável no navegador.
+O campo minado em `games/mines/` foi reimplementado em HTML, CSS e JavaScript, com três níveis, bandeiras, pausa, cronômetro e ranking local. Ele permanece independente, sem link na página do portfólio.
 
 ## Executar localmente
 
@@ -149,7 +149,7 @@ Os scripts verificam arquivos obrigatórios, sintaxe dos JSONs, estrutura básic
 
 O código de saída é `0` quando não há erros e `1` quando uma verificação falha. Avisos são exibidos separadamente. As comparações com o upstream usam referências locais, sem executar `git fetch`.
 
-Essas verificações são estáticas e não substituem testes no navegador, auditorias de acessibilidade ou medições de desempenho. O campo minado não faz parte das verificações de JavaScript do portfólio.
+Essas verificações são estáticas e não substituem testes no navegador, auditorias de acessibilidade ou medições de desempenho. O campo minado não faz parte das verificações de JavaScript do portfólio. Seus testes de regras podem ser executados com `node --test games/mines/js/mines.test.js`.
 
 ## Atualizar o conteúdo
 
