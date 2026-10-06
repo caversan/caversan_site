@@ -91,7 +91,10 @@ Funcionalidades implementadas:
 - Paralaxe nas imagens e artes dos projetos, brilho nas seções e indicador de progresso da rolagem no cabeçalho.
 - Identidade da Caversan no cabeçalho, com logo PNG circular e favicon ICO.
 - Seções de perfil, conhecimentos, formação, experiência e cursos.
+- Sobre mim abre as seções numeradas, com biografia e áreas de interesse sempre visíveis em duas colunas de mesma largura; no celular, os blocos ficam empilhados.
+- Seção Tecnologia + criação com ilustrações próprias para web e software, IoT e automação, e design e multimídia, em `img/skills/`. Os cards preservam o enquadramento das imagens e usam carregamento sob demanda.
 - Trabalhos organizados por categoria.
+- Galeria com títulos de categoria em boxes discretos, categorias de um item lado a lado no desktop e distribuição dos cards sem colunas reservadas vazias.
 - Modal para imagens e vídeos; abertura de PDFs em outra janela ou aba.
 - Downloads de currículos no cabeçalho e na apresentação.
 - Ícones SVG locais para contatos, redes sociais e PDF.

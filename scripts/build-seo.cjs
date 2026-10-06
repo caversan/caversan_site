@@ -19,7 +19,7 @@ if (boundary < 0) throw new Error('Render boundary not found');
 vm.runInContext(source.slice(0, boundary), context);
 context.portfolioData = JSON.parse(read('js/data/pt-br/data.json'));
 vm.runInContext('render(portfolioData, "pt-br")', context);
-const ids = ['featured','gallery','skill-cards','all-skills','opportunities','spoken','bio','recent-experience','past-experience','degrees','courses','socials','publications-label','publications-title','publications-intro','publication-cards'];
+const ids = ['featured','gallery','skill-cards','all-skills','opportunities','bio','recent-experience','past-experience','degrees','courses','socials','publications-label','publications-title','publications-intro','publication-cards'];
 const escapeText = value => value.replace(/&/g, '&amp;').replace(/</g, '&lt;').replace(/>/g, '&gt;');
 for (const id of ids) {
  const node = nodes.get(id);
