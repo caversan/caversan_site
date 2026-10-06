@@ -4,8 +4,8 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>Campo minado — Adriano Caversan</title>
-  <link rel="stylesheet" href="css/mines.css?v=20261006-3">
-  <script defer src="js/mines.js?v=20261006-3"></script>
+  <link rel="stylesheet" href="css/mines.css?v=20261006-6">
+  <script defer src="js/mines.js?v=20261006-6"></script>
 <script defer src="../../js/analytics.js?v=20261006-1"></script>
 </head>
 <body>
@@ -14,15 +14,21 @@
   <section class="panel" aria-label="Controles do jogo">
     <div class="controls">
       <label>Seu nome<input id="player" maxlength="24" placeholder="Visitante" autocomplete="nickname"></label>
-      <label>Dificuldade<select id="difficulty"><option value="easy">Fácil · 9 × 9 · 10 minas</option><option value="medium">Médio · 16 × 16 · 40 minas</option><option value="hard">Difícil · 16 × 30 · 99 minas</option></select></label>
+      <label>Dificuldade<select id="difficulty"><option value="easy">Fácil · 9 × 9 · 10 minas</option><option value="medium">Médio · 16 × 16 · 40 minas</option><option value="hard">Difícil · 30 × 16 · 99 minas</option></select></label>
       <button id="new-game" class="primary">Novo jogo</button>
     </div>
-    <div class="toolbar"><button id="pause" disabled>Pausar</button><button id="flag-mode" aria-pressed="false">⚑ Modo bandeira</button><span class="hint">No celular, ative o modo bandeira para marcar.</span></div>
+
   </section>
   <section class="panel game" aria-label="Tabuleiro de campo minado">
+    <div class="game-hud">
+    <div class="toolbar"><button id="pause" disabled>Pausar</button><button id="flag-mode" aria-pressed="false">? Modo bandeira</button><button id="fullscreen" hidden>Jogar em tela cheia</button></div>
+    <p class="orientation-hint">? Vire o celular para jogar melhor.</p>
+    <p class="board-hint">Ative o modo bandeira para marcar minas.</p>
+    <p id="fullscreen-status" role="status" aria-live="polite"></p>
     <div class="stats"><div><span>MINAS − BANDEIRAS</span><strong id="remaining">10</strong></div><div><span>TEMPO</span><strong id="timer">00:00</strong></div><div><span>CASAS SEGURAS</span><strong id="safe">0 / 71</strong></div></div>
     <p id="status" role="status" aria-live="polite">Abra uma casa para começar. O primeiro clique é seguro.</p>
-    <div class="board-scroll"><div id="board" role="group" aria-label="Campo minado"></div></div>
+    </div>
+    <div class="board-area"><div id="board" role="group" aria-label="Campo minado"></div></div>
   </section>
   <section class="instructions"><h2>Como jogar</h2><p>Abra todas as casas sem minas. Os números indicam quantas minas estão nas oito casas vizinhas. Use o botão direito ou o modo bandeira para marcar uma suspeita.</p><p>No teclado, use as setas para navegar, Enter ou Espaço para abrir e F para colocar uma bandeira. O cronômetro começa na primeira casa aberta e para durante a pausa.</p></section>
   <section class="panel"><div class="ranking-heading"><h2>Melhores tempos</h2><span>Por dificuldade · neste navegador</span></div><ol id="ranking"></ol><p id="storage-note"></p></section>

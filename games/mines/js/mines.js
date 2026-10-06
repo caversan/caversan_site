@@ -125,26 +125,32 @@ if (typeof document !== "undefined") {
         game = new MinesGame(...levels[level]); elapsed = 0; startedAt = null; paused = false; flagMode = false; focusIndex = 0;
         $("player").disabled = false;
         board.style.setProperty("--columns", game.columns);
+        document.querySelector("main").style.setProperty("--columns", game.columns);
         buttons = game.cells.map((_, i) => { const button = document.createElement("button"); button.type = "button"; button.dataset.index = i; return button; });
-        board.replaceChildren(...buttons); render(); ranking(); fitBoard();
+        board.replaceChildren(...buttons); render(); ranking();
     }
-    function fitBoard() {
-        if (!game) return;
-        const desktop = window.matchMedia("(min-width: 701px)").matches;
-        const container = board.parentElement;
-        const top = container.getBoundingClientRect().top + window.scrollY;
-        const width = container.clientWidth - 10;
-        const height = Math.max(0, window.innerHeight - top - 24);
-        const gapsX = (game.columns - 1) * 3, gapsY = (game.rows - 1) * 3;
-        const widthSize = Math.max(1, Math.floor((width - gapsX) / game.columns));
-        // Keep the entire board visible on ordinary desktop screens.
-        // Short windows can still scroll rather than making cells illegible.
-        const heightSize = desktop ? Math.max(18, Math.floor((height - gapsY) / game.rows)) : 32;
-        const size = Math.min(32, widthSize, heightSize);
-        board.style.setProperty("--cell-size", `${size}px`);
-    }
-    new ResizeObserver(fitBoard).observe(board.parentElement);
-    window.addEventListener("resize", fitBoard, { passive: true });
+    const fullscreen = $("fullscreen");
+    fullscreen.hidden = !document.fullscreenEnabled || typeof document.documentElement.requestFullscreen !== "function";
+    fullscreen.addEventListener("click", async () => {
+        $("fullscreen-status").textContent = "";
+        try {
+            if (document.fullscreenElement) { await document.exitFullscreen(); return; }
+            await document.documentElement.requestFullscreen();
+            if (typeof screen.orientation?.lock === "function") {
+                try { await screen.orientation.lock("landscape"); }
+                catch { $("fullscreen-status").textContent = "Tela cheia ativada. Se necessário, vire o celular manualmente."; }
+            }
+        } catch {
+            $("fullscreen-status").textContent = "Este navegador não permitiu a tela cheia. Você pode continuar jogando normalmente.";
+        }
+    });
+    document.addEventListener("fullscreenchange", () => {
+        fullscreen.textContent = document.fullscreenElement ? "Sair da tela cheia" : "Jogar em tela cheia";
+        if (!document.fullscreenElement) {
+            $("fullscreen-status").textContent = "";
+            if (typeof screen.orientation?.unlock === "function") screen.orientation.unlock();
+        }
+    });
     board.addEventListener("click", event => { const button = event.target.closest("button[data-index]"); if (button) act(Number(button.dataset.index), flagMode); });
     board.addEventListener("contextmenu", event => { const button = event.target.closest("button[data-index]"); if (button) { event.preventDefault(); act(Number(button.dataset.index), true); } });
     board.addEventListener("focusin", event => { if (!event.target.matches("button[data-index]")) return; buttons[focusIndex].tabIndex = -1; focusIndex = Number(event.target.dataset.index); buttons[focusIndex].tabIndex = 0; });
