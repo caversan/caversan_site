@@ -1,9 +1,11 @@
-# Script de validação para Windows PowerShell
+﻿# Script de validação para Windows PowerShell
 # Execute: .\validate.ps1
 
 Write-Host "🔍 Validando projeto antes do deploy..." -ForegroundColor Blue
 Write-Host "==================================" -ForegroundColor Blue
 
+Push-Location -LiteralPath $PSScriptRoot
+try {
 $Errors = 0
 $Warnings = 0
 
@@ -29,7 +31,7 @@ function Write-Info($message) {
 Write-Host "`n1. Verificando estrutura de arquivos..." -ForegroundColor Blue
 
 $requiredFiles = @(
-    "index.htm",
+    "index.html",
     "css\style.css",
     "js\script.js",
     "js\data\pt-br\data.json",
@@ -51,7 +53,7 @@ $jsonFiles = Get-ChildItem -Path "js\data" -Recurse -Filter "*.json" -ErrorActio
 
 foreach ($jsonFile in $jsonFiles) {
     try {
-        $content = Get-Content $jsonFile.FullName -Raw | ConvertFrom-Json
+        $content = Get-Content $jsonFile.FullName -Raw -Encoding UTF8 | ConvertFrom-Json -ErrorAction Stop
         Write-Success "JSON válido: $($jsonFile.FullName)"
     }
     catch {
@@ -62,8 +64,8 @@ foreach ($jsonFile in $jsonFiles) {
 # 3. Verificar HTML básico
 Write-Host "`n3. Verificando estrutura HTML..." -ForegroundColor Blue
 
-if (Test-Path "index.htm") {
-    $htmlContent = Get-Content "index.htm" -Raw
+if (Test-Path "index.html") {
+    $htmlContent = Get-Content "index.html" -Raw -Encoding UTF8
     
     if ($htmlContent -match "<!DOCTYPE") {
         Write-Success "DOCTYPE encontrado"
@@ -101,7 +103,7 @@ if (Test-Path "css\style.css") {
         Write-Error "Arquivo CSS está vazio"
     }
     
-    $cssContent = Get-Content "css\style.css" -Raw
+    $cssContent = Get-Content "css\style.css" -Raw -Encoding UTF8
     if ($cssContent -match "body|html|\..*\{") {
         Write-Success "Regras CSS encontradas"
     } else {
@@ -120,12 +122,15 @@ if (Test-Path "js\script.js") {
         Write-Error "Arquivo JavaScript está vazio"
     }
     
-    # Verificar sintaxe básica (verificação simples)
-    $jsContent = Get-Content "js\script.js" -Raw
-    if ($jsContent -match "function|const|let|var|\{") {
-        Write-Success "Estrutura JavaScript encontrada"
+    if (Get-Command node -ErrorAction SilentlyContinue) {
+        node --check "js/script.js"
+        if ($LASTEXITCODE -eq 0) {
+            Write-Success "Sintaxe JavaScript válida"
+        } else {
+            Write-Error "Erro de sintaxe JavaScript"
+        }
     } else {
-        Write-Warning "Estrutura JavaScript básica não encontrada"
+        Write-Warning "Node.js não instalado - sintaxe JS não verificada"
     }
 }
 
@@ -183,17 +188,21 @@ try {
             Write-Host "  Execute: git add . && git commit -m 'suas alterações'" -ForegroundColor Yellow
         }
         
-        # Verificar commits pendentes
-        try {
-            $ahead = git rev-list --count HEAD @{u}..HEAD 2>$null
-            if ($LASTEXITCODE -eq 0 -and $ahead -eq "0") {
-                Write-Info "Repositório está sincronizado com origin"
+        # Referências locais; não consulta a rede.
+        $upstream = git rev-parse --abbrev-ref '@{u}' 2>$null
+        if ($LASTEXITCODE -eq 0) {
+            $ahead = git rev-list --count '@{u}..HEAD' 2>$null
+            $aheadExit = $LASTEXITCODE
+            $behind = git rev-list --count 'HEAD..@{u}' 2>$null
+            if ($aheadExit -ne 0 -or $LASTEXITCODE -ne 0) {
+                Write-Warning "Não foi possível comparar commits com o upstream"
+            } elseif ($ahead -eq "0" -and $behind -eq "0") {
+                Write-Info "Sem divergência de $upstream (referência local, sem fetch)"
             } else {
-                Write-Warning "Há commits locais não enviados para origin"
-                Write-Host "  Execute: git push" -ForegroundColor Yellow
+                Write-Warning "${upstream}: $ahead commits à frente, $behind atrás (sem fetch)"
             }
-        } catch {
-            Write-Info "Não foi possível verificar status do remote"
+        } else {
+            Write-Info "Branch sem upstream configurado"
         }
     } else {
         Write-Error "Não é um repositório Git"
@@ -207,9 +216,9 @@ Write-Host "`n📊 Relatório Final" -ForegroundColor Blue
 Write-Host "==================" -ForegroundColor Blue
 
 if ($Errors -eq 0 -and $Warnings -eq 0) {
-    Write-Host "🎉 Tudo perfeito! Projeto pronto para deploy." -ForegroundColor Green
+    Write-Host "Verificações concluídas sem erros ou avisos." -ForegroundColor Green
 } elseif ($Errors -eq 0) {
-    Write-Host "⚠️  $Warnings avisos encontrados, mas projeto pode ser deployado." -ForegroundColor Yellow
+    Write-Host "⚠️  $Warnings avisos encontrados; nenhum erro nas verificações executadas." -ForegroundColor Yellow
 } else {
     Write-Host "❌ $Errors erros encontrados! Corrija antes do deploy." -ForegroundColor Red
     if ($Warnings -gt 0) {
@@ -217,29 +226,9 @@ if ($Errors -eq 0 -and $Warnings -eq 0) {
     }
 }
 
-Write-Host "`n💡 Próximos passos:" -ForegroundColor Blue
-if ($Errors -eq 0) {
-    Write-Host "1. Execute: git add ." -ForegroundColor Cyan
-    Write-Host "2. Execute: git commit -m 'ready for deploy'" -ForegroundColor Cyan
-    Write-Host "3. Execute: git push origin master" -ForegroundColor Cyan
-    
-    try {
-        $repoUrl = git remote get-url origin 2>$null
-        if ($LASTEXITCODE -eq 0) {
-            $repoPath = $repoUrl -replace ".*github\.com[:/](.*)\.git", '$1'
-            Write-Host "4. Acompanhe o deploy em: https://github.com/$repoPath/actions" -ForegroundColor Cyan
-        }
-    } catch {
-        Write-Host "4. Acompanhe o deploy na aba Actions do GitHub" -ForegroundColor Cyan
-    }
-} else {
-    Write-Host "1. Corrija os erros listados acima" -ForegroundColor Cyan
-    Write-Host "2. Execute este script novamente" -ForegroundColor Cyan
-    Write-Host "3. Só então faça o commit e push" -ForegroundColor Cyan
+Write-Host "Validação estática básica; não testa o funcionamento no navegador."
+if ($Errors -gt 0) { exit 1 }
+exit 0
+} finally {
+    Pop-Location
 }
-
-# Pausar para leitura (opcional)
-Write-Host "`nPressione qualquer tecla para continuar..." -ForegroundColor Gray
-$null = $Host.UI.RawUI.ReadKey("NoEcho,IncludeKeyDown")
-
-exit $Errors

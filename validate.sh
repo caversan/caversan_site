@@ -6,6 +6,8 @@
 echo "🔍 Validando projeto antes do deploy..."
 echo "=================================="
 
+cd -- "$(dirname -- "${BASH_SOURCE[0]}")" || exit 1
+
 # Cores para output
 RED='\033[0;31m'
 GREEN='\033[0;32m'
@@ -40,7 +42,7 @@ print_info() {
 echo -e "\n${BLUE}1. Verificando estrutura de arquivos...${NC}"
 
 required_files=(
-    "index.htm"
+    "index.html"
     "css/style.css"
     "js/script.js"
     "js/data/pt-br/data.json"
@@ -58,9 +60,21 @@ done
 # 2. Validar arquivos JSON
 echo -e "\n${BLUE}2. Validando arquivos JSON...${NC}"
 
+json_python=""
+if command -v python3 >/dev/null 2>&1 && python3 --version >/dev/null 2>&1; then
+    json_python=python3
+elif command -v python >/dev/null 2>&1 && python --version >/dev/null 2>&1; then
+    json_python=python
+fi
+if [ -z "$json_python" ]; then
+    print_status 1 "Python não instalado - JSON não verificado"
+fi
 for json_file in js/data/*/*.json; do
     if [ -f "$json_file" ]; then
-        if python3 -m json.tool "$json_file" > /dev/null 2>&1; then
+        if [ -z "$json_python" ]; then
+            continue
+        fi
+        if "$json_python" -m json.tool "$json_file" > /dev/null 2>&1; then
             print_status 0 "JSON válido: $json_file"
         else
             print_status 1 "JSON inválido: $json_file"
@@ -71,26 +85,26 @@ done
 # 3. Verificar HTML básico
 echo -e "\n${BLUE}3. Verificando estrutura HTML...${NC}"
 
-if [ -f "index.htm" ]; then
-    if grep -q "<!DOCTYPE" index.htm; then
+if [ -f "index.html" ]; then
+    if grep -q "<!DOCTYPE" index.html; then
         print_status 0 "DOCTYPE encontrado"
     else
         print_status 1 "DOCTYPE não encontrado"
     fi
     
-    if grep -q "</html>" index.htm; then
+    if grep -q "</html>" index.html; then
         print_status 0 "Tag de fechamento HTML encontrada"
     else
         print_status 1 "Tag de fechamento HTML não encontrada"
     fi
     
-    if grep -q "<meta charset" index.htm; then
+    if grep -q "<meta charset" index.html; then
         print_status 0 "Charset definido"
     else
         print_warning "Charset não definido explicitamente"
     fi
     
-    if grep -q "viewport" index.htm; then
+    if grep -q "viewport" index.html; then
         print_status 0 "Viewport configurado"
     else
         print_warning "Viewport não configurado"
@@ -101,7 +115,7 @@ fi
 echo -e "\n${BLUE}4. Verificando CSS...${NC}"
 
 if [ -f "css/style.css" ]; then
-    css_size=$(stat -f%z "css/style.css" 2>/dev/null || stat -c%s "css/style.css" 2>/dev/null)
+    css_size=$(wc -c < "css/style.css")
     if [ "$css_size" -gt 0 ]; then
         print_status 0 "Arquivo CSS não está vazio (${css_size} bytes)"
     else
@@ -120,7 +134,7 @@ fi
 echo -e "\n${BLUE}5. Verificando JavaScript...${NC}"
 
 if [ -f "js/script.js" ]; then
-    js_size=$(stat -f%z "js/script.js" 2>/dev/null || stat -c%s "js/script.js" 2>/dev/null)
+    js_size=$(wc -c < "js/script.js")
     if [ "$js_size" -gt 0 ]; then
         print_status 0 "Arquivo JavaScript não está vazio (${js_size} bytes)"
     else
@@ -151,7 +165,7 @@ if [ "$img_count" -gt 0 ]; then
     if [ -n "$large_images" ]; then
         print_warning "Imagens grandes encontradas (>1MB):"
         echo "$large_images" | while read -r img; do
-            size=$(stat -f%z "$img" 2>/dev/null || stat -c%s "$img" 2>/dev/null)
+            size=$(wc -c < "$img")
             size_mb=$((size / 1024 / 1024))
             echo "  - $img (${size_mb}MB)"
         done
@@ -181,20 +195,28 @@ echo -e "\n${BLUE}8. Verificando status Git...${NC}"
 if git rev-parse --git-dir > /dev/null 2>&1; then
     print_status 0 "Repositório Git inicializado"
     
-    # Verificar se há mudanças não commitadas
-    if git diff-index --quiet HEAD -- 2>/dev/null; then
-        print_status 0 "Não há mudanças não commitadas"
+    if git_status=$(git status --porcelain 2>/dev/null); then
+        if [ -z "$git_status" ]; then
+            print_status 0 "Não há mudanças não commitadas"
+        else
+            print_warning "Há mudanças não commitadas"
+        fi
     else
-        print_warning "Há mudanças não commitadas"
-        echo "  Execute: git add . && git commit -m 'suas alterações'"
+        print_warning "Não foi possível verificar mudanças locais"
     fi
-    
-    # Verificar se há commits para push
-    if git diff --quiet HEAD @{u} 2>/dev/null; then
-        print_info "Repositório está sincronizado com origin"
+
+    if upstream=$(git rev-parse --abbrev-ref '@{u}' 2>/dev/null); then
+        if ahead=$(git rev-list --count '@{u}..HEAD' 2>/dev/null) && behind=$(git rev-list --count 'HEAD..@{u}' 2>/dev/null); then
+            if [ "$ahead" -eq 0 ] && [ "$behind" -eq 0 ]; then
+                print_info "Sem divergência de $upstream (referência local, sem fetch)"
+            else
+                print_warning "$upstream: $ahead commits à frente, $behind atrás (sem fetch)"
+            fi
+        else
+            print_warning "Não foi possível comparar commits com o upstream"
+        fi
     else
-        print_warning "Há commits locais não enviados para origin"
-        echo "  Execute: git push"
+        print_info "Branch sem upstream configurado"
     fi
 else
     print_status 1 "Não é um repositório Git"
@@ -205,9 +227,9 @@ echo -e "\n${BLUE}📊 Relatório Final${NC}"
 echo "=================="
 
 if [ $ERRORS -eq 0 ] && [ $WARNINGS -eq 0 ]; then
-    echo -e "${GREEN}🎉 Tudo perfeito! Projeto pronto para deploy.${NC}"
+    echo -e "${GREEN}Verificações concluídas sem erros ou avisos.${NC}"
 elif [ $ERRORS -eq 0 ]; then
-    echo -e "${YELLOW}⚠️  $WARNINGS avisos encontrados, mas projeto pode ser deployado.${NC}"
+    echo -e "${YELLOW}⚠️  $WARNINGS avisos encontrados; nenhum erro nas verificações executadas.${NC}"
 else
     echo -e "${RED}❌ $ERRORS erros encontrados! Corrija antes do deploy.${NC}"
     if [ $WARNINGS -gt 0 ]; then
@@ -215,17 +237,8 @@ else
     fi
 fi
 
-echo -e "\n${BLUE}💡 Próximos passos:${NC}"
-if [ $ERRORS -eq 0 ]; then
-    echo "1. Execute: git add ."
-    echo "2. Execute: git commit -m 'ready for deploy'"
-    echo "3. Execute: git push origin master"
-    echo "4. Acompanhe o deploy em: https://github.com/$(git remote get-url origin | sed 's/.*github.com[:/]\(.*\)\.git/\1/')/actions"
-else
-    echo "1. Corrija os erros listados acima"
-    echo "2. Execute este script novamente"
-    echo "3. Só então faça o commit e push"
+echo "Validação estática básica; não testa o funcionamento no navegador."
+if [ "$ERRORS" -gt 0 ]; then
+    exit 1
 fi
-
-# Código de saída
-exit $ERRORS
+exit 0
