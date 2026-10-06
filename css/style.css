@@ -70,3 +70,11 @@ details[open] > summary::after { background-size: 12px 2px, 0 0; }
     .brand .brand-description { font-size: 8px; letter-spacing: 0; max-width: 155px; }
     .nav-wrap { column-gap: 10px; }
 }
+
+.publication-grid { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 24px; }
+.publication-card { display: flex; flex-direction: column; padding: 28px; border: 1px solid #425b6d; background: #202328; min-width: 0; }
+.publication-card .eyebrow { margin-bottom: 8px; }
+.publication-card .publication-type { font-size: 13px; margin-bottom: 22px; }
+.publication-card h3 { font-size: 26px; line-height: 1.25; }
+.publication-card .button { margin-top: auto; }
+@media (max-width:760px) { .publication-grid { grid-template-columns: 1fr; } .publication-card { padding: 24px; } }

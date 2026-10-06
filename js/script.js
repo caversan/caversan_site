@@ -45,6 +45,11 @@ function render(data, lang) {
  $("degrees").innerHTML = degrees.slice(0,3).map(i => `<article class="degree"><h3>${i.title}</h3><p>${i.description}</p></article>`).join('');
  for(const [id, items] of [["other-degrees",degrees.slice(3)],["courses",data.sections.courses.grid]]) $(id).innerHTML = items.map(i => `<li><b>${i.title}</b><br>${i.description}</li>`).join('');
  $("socials").innerHTML = ["linkedin","github","lattes"].map(k => `<a target="_blank" rel="noopener" href="${escapeText(data.profile[k].description)}">${escapeText(data.profile[k].title)} ↗</a>`).join('') + `<a href="tel:+${data.profile.phone.description.replace(/\D/g,'')}">${escapeText(data.profile.phone.description)}</a>`;
+ const publications = data.sections.publications;
+ $("publications-label").textContent = en ? "PUBLICATIONS" : "PUBLICAÇÕES";
+ $("publications-title").textContent = publications.title;
+ $("publications-intro").textContent = publications.description;
+ $("publication-cards").innerHTML = publications.grid.map(item => `<article class="publication-card"><p class="eyebrow">${escapeText(item.source)}</p><p class="publication-type">${escapeText(item.type)}</p><h3>${escapeText(item.title)}</h3><p>${escapeText(item.description)}</p><a class="button primary" href="${escapeText(item.link)}" target="_blank" rel="noopener noreferrer">${escapeText(item.action)}</a></article>`).join("");
  $("load-status").textContent = "";
 }
 async function loadLanguage(lang) {

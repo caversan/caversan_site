@@ -73,6 +73,28 @@
       }
    },
    "sections":{
+      "publications":{
+   "title": "Publicações e destaque na mídia",
+   "description": "Pesquisa aplicada e projetos colaborativos além do portfólio.",
+   "grid": [
+      {
+         "source": "Revista E&S · Pecege",
+         "type": "Resumo executivo · 23 de março de 2026",
+         "title": "Eficiência energética em iluminação via IoT e sensores",
+         "description": "Resumo executivo do TCC do MBA USP/Esalq em Engenharia de Software, de Adriano Caversan e Diogo Alfieri Palma. O estudo explora a automação da iluminação com sensores de presença e luminosidade.",
+         "link": "https://revistaes.com.br/resumo-executivo/eficiencia-energetica-em-iluminacao-via-iot-e-sensores",
+         "action": "Ler resumo executivo ↗"
+      },
+      {
+         "source": "Univesp",
+         "type": "Notícia institucional",
+         "title": "Agenda Pet: tecnologia para cuidar dos pets",
+         "description": "Reportagem da Univesp sobre o projeto desenvolvido por Adriano Caversan e colegas do polo de Osasco. A aplicação web ajuda tutores a organizar cuidados e lembretes dos pets, com React, Node.js e PostgreSQL.",
+         "link": "https://univesp.br/estudantes-criam-aplicativo-para-auxiliar-nos-cuidados-com-pets/",
+         "action": "Ler reportagem na Univesp ↗"
+      }
+   ]
+},
       "opportunity":{
          "title":"Oportunidade desejada",
          "grid":[

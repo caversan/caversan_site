@@ -73,6 +73,28 @@
       }
    },
    "sections":{
+      "publications":{
+   "title": "Publications & media coverage",
+   "description": "Research and collaborative projects beyond the portfolio.",
+   "grid": [
+      {
+         "source": "Revista E&S · Pecege",
+         "type": "Executive summary · 23 March 2026",
+         "title": "Energy-efficient lighting with IoT and sensors",
+         "description": "Executive summary of the MBA USP/Esalq Software Engineering final project, by Adriano Caversan and Diogo Alfieri Palma. The study explores automated lighting using presence and ambient light sensors.",
+         "link": "https://revistaes.com.br/resumo-executivo/eficiencia-energetica-em-iluminacao-via-iot-e-sensores",
+         "action": "Read executive summary (Portuguese) ↗"
+      },
+      {
+         "source": "Univesp",
+         "type": "University news",
+         "title": "Agenda Pet: technology for pet care",
+         "description": "Univesp coverage of a collaborative project developed by Adriano Caversan and fellow students in Osasco. The web application helps pet owners organize care routines and reminders, using React, Node.js and PostgreSQL.",
+         "link": "https://univesp.br/estudantes-criam-aplicativo-para-auxiliar-nos-cuidados-com-pets/",
+         "action": "Read Univesp story (Portuguese) ↗"
+      }
+   ]
+},
       "opportunity":{
          "title":"Desired Opportunity",
          "grid":[
