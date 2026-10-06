@@ -1,8 +1,10 @@
-# Portfólio — Adriano Caversan
+# Caversan Desenvolvimento de Softwares Ltda
+
+## Portfólio — Adriano Caversan
 
 Portfólio profissional de **Adriano Caversan — Engenheiro de Computação, Desenvolvedor Fullstack e Designer Multimídia**, desenvolvido com HTML, CSS e JavaScript, com conteúdo em português e inglês.
 
-[Visite o portfólio](https://caversan.com.br) · [LinkedIn](https://www.linkedin.com/in/adriano-caversan/) · [GitHub](https://github.com/caversan) · [Currículo Lattes](https://lattes.cnpq.br/3152582220289760)
+[Visite o portfólio](https://caversan.com.br) · [Jogue Mines / Play Mines](https://caversan.com.br/games/mines/index.html) · [LinkedIn](https://www.linkedin.com/in/adriano-caversan/) · [GitHub](https://github.com/caversan) · [Currículo Lattes](https://lattes.cnpq.br/3152582220289760)
 
 ## Sobre
 
@@ -39,7 +41,7 @@ Experiências anteriores, entre 2000 e 2007, em editoras gráficas, agências de
 
 Entre os projetos recentes estão soluções de kanban, apontamento de produção e cardápio digital para restaurantes industriais no Grupo GPS, com React, Tauri (Rust), Node.js, SSE e Azure; e desenvolvimento de lojas VTEX para Consul, Brastemp, KitchenAid e Compra Certa na Whirlpool.
 
-## Formação
+## Formação universitária
 
 | Formação | Instituição | Período / situação |
 | --- | --- | --- |
@@ -49,7 +51,11 @@ Entre os projetos recentes estão soluções de kanban, apontamento de produçã
 | Bacharelado em Tecnologia da Informação — Internet das Coisas | Univesp | ago/2021–ago/2024, concluído |
 | Tecnologia em Análise de Sistemas — ênfase em Jogos Digitais | FATEC | ago/2011–jul/2015, concluído |
 
-O portfólio também apresenta cursos complementares em desenvolvimento, acessibilidade, dados, IA, cibersegurança, indústria, design e audiovisual, além do histórico de outras graduações não concluídas.
+O histórico universitário completo, incluindo graduações não concluídas, está disponível no site. A formação universitária e os cursos complementares são apresentados em blocos separados, do mais recente para o mais antigo.
+
+### Cursos complementares
+
+Cursos em desenvolvimento, acessibilidade, dados, IA, cibersegurança, indústria, design e audiovisual, com instituições, anos e cargas horárias informados nos JSONs.
 
 ## Trabalhos apresentados
 
@@ -60,25 +66,35 @@ O portfólio também apresenta cursos complementares em desenvolvimento, acessib
 
 Os trabalhos são apresentados por meio de imagens, vídeos e PDFs.
 
+## Publicações e destaque na mídia
+
+- [Eficiência energética em iluminação via IoT e sensores — Revista E&S / Pecege](https://revistaes.com.br/resumo-executivo/eficiencia-energetica-em-iluminacao-via-iot-e-sensores): resumo executivo do TCC do MBA USP/Esalq, de Adriano Caversan e Diogo Alfieri Palma.
+- [Agenda Pet — reportagem da Univesp](https://univesp.br/estudantes-criam-aplicativo-para-auxiliar-nos-cuidados-com-pets/): projeto colaborativo de aplicativo para organização dos cuidados com pets.
+
 ## Currículos
 
 - [Currículo em português — PDF](docs/adriano-caversan-engineer-ptbr.pdf)
 - [Currículo em inglês — PDF](docs/adriano-caversan-engineer-en.pdf)
 
-As versões editáveis em ODT estão na pasta `docs/`.
+Os botões de download aparecem no cabeçalho e na apresentação inicial, com ícone de PDF e arquivo correspondente ao idioma selecionado. As versões editáveis em ODT estão na pasta `docs/`.
 
 ## O site
 
-O portfólio usa **HTML5, CSS3 e JavaScript sem frameworks**, com dados carregados de arquivos JSON. Não há etapa de build ou instalação de dependências para servir a página principal.
+O portfólio usa **HTML5, CSS3 e JavaScript sem frameworks**, com dados carregados de arquivos JSON. Não é necessário instalar dependências para servir os arquivos prontos. Ao alterar os dados ou o renderizador, execute o gerador de HTML estático descrito na seção de SEO.
 
 Funcionalidades implementadas:
 
 - Alternância de conteúdo entre português e inglês.
-- Layout adaptado a diferentes tamanhos de tela.
+- Layout responsivo, fundo grafite e paletas escuras próprias para cada seção.
+- Identidade da Caversan no cabeçalho, com logo PNG circular e favicon ICO.
 - Seções de perfil, conhecimentos, formação, experiência e cursos.
 - Trabalhos organizados por categoria.
 - Modal para imagens e vídeos; abertura de PDFs em outra janela ou aba.
-- Links para currículos e perfis profissionais.
+- Downloads de currículos no cabeçalho e na apresentação.
+- Ícones SVG locais para contatos, redes sociais e PDF.
+- Contato com email, telefone, localização e link para o CREA-SP.
+- Publicações e notícias com links para as fontes.
+- Link “Jogue Mines” / “Play Mines” no rodapé, abrindo o jogo em nova aba.
 
 O conteúdo principal em português já está no HTML. A troca de idioma e os modais usam JavaScript; os dados são carregados por HTTP. Use um servidor local para testar todas as interações.
 
@@ -93,11 +109,22 @@ caversan_site/
 │   └── data/
 │       ├── pt-br/data.json     # Conteúdo em português
 │       └── en/data.json        # Conteúdo em inglês
-├── img/                       # Ícones, imagens e miniaturas
+├── img/                       # Logo, imagens e miniaturas
+│   └── icons/                 # SVGs locais e registros de origem
 ├── videos/                    # Vídeos dos trabalhos
 ├── pdf/                       # PDFs de trabalhos gráficos
 ├── docs/                      # Currículos em PDF e ODT
-├── games/mines/               # Campo minado independente em HTML/CSS/JS
+├── games/mines/
+│   ├── index.html             # Página do campo minado
+│   ├── css/mines.css          # Layout do jogo
+│   └── js/
+│       ├── mines.js           # Motor e interface
+│       └── mines.test.js      # Testes das regras
+├── scripts/build-seo.cjs      # Geração do conteúdo estático
+├── robots.txt                # Orientação de rastreamento
+├── sitemap.xml               # URL principal para indexação
+├── favicon.ico               # Ícone do navegador
+├── favicon.png               # Logo utilizado no cabeçalho
 ├── .github/_BKP_workflows/     # Workflows arquivados
 ├── .htaccess                  # Arquivo de configuração Apache
 ├── _default.php               # Arquivo PHP adicional
@@ -107,7 +134,32 @@ caversan_site/
 └── README.md
 ```
 
-O campo minado em `games/mines/` foi reimplementado em HTML, CSS e JavaScript, com três níveis, bandeiras, pausa, cronômetro e ranking local. Ele permanece independente, sem link na página do portfólio.
+## Jogue Mines / Play Mines
+
+[Jogar online](https://caversan.com.br/games/mines/index.html) · [Jogar localmente](http://localhost:8000/games/mines/index.html)
+
+Reimplementação em HTML, CSS e JavaScript do antigo campo minado em Flash. O jogo tem página própria e é acessado pelo link com ícone de joystick no rodapé do portfólio, aberto em uma nova aba.
+
+| Dificuldade | Tabuleiro | Minas |
+| --- | --- | --- |
+| Fácil | 9 × 9 | 10 |
+| Médio | 16 × 16 | 40 |
+| Difícil | 16 × 30 | 99 |
+
+- Abra todas as casas seguras para vencer; o primeiro clique é seguro.
+- Clique com o botão direito para marcar bandeiras. No celular, use o modo bandeira.
+- Use as setas para navegar, Enter ou Espaço para acionar a casa e F para marcar uma bandeira.
+- O cronômetro começa na primeira abertura; a pausa esconde o tabuleiro e interrompe a contagem.
+- Os dez melhores tempos por dificuldade ficam salvos neste navegador via `localStorage`, sem conta ou ranking on-line.
+- Em telas estreitas, os tabuleiros maiores podem usar rolagem para preservar o tamanho das casas.
+
+O jogo requer JavaScript. Os antigos comandos secretos do Flash (`SHOW` e `CLEAR`) não estão implementados nesta versão.
+
+Para executar os testes das regras:
+
+```bash
+node --test games/mines/js/mines.test.js
+```
 
 ## Executar localmente
 
@@ -157,13 +209,17 @@ Essas verificações são estáticas e não substituem testes no navegador, audi
 2. Para trabalhos, atualize `sections.portifolio.grid`, incluindo título, descrição, miniatura (`thumb`) e arquivo de conteúdo (`content`).
 3. Coloque os arquivos correspondentes em `img/`, `videos/` ou `pdf/`.
 4. Para atualizar currículos, substitua os PDFs em `docs/` e confira o campo `pdf` de cada JSON.
-5. Execute o validador e confira a página, os dois idiomas e a abertura dos trabalhos no navegador.
+5. Para publicações, edite `sections.publications` em ambos os idiomas.
+6. Gere o HTML atualizado com `node scripts/build-seo.cjs`.
+7. Execute o validador e confira a página, os dois idiomas, currículos, galeria e link do Mines no navegador.
 
 Os estilos ficam em `css/style.css`; o carregamento dos dados e as interações ficam em `js/script.js`. Este README é um resumo manual e deve acompanhar alterações relevantes do perfil.
 
 ## Publicação
 
 O site principal pode ser servido por uma hospedagem de arquivos estáticos, preservando a estrutura das pastas e usando `index.html` como página inicial.
+
+Publique juntos o HTML gerado, CSS, JavaScript, JSONs e recursos alterados. Inclua `img/icons/`, `games/mines/`, `favicon.ico`, `robots.txt` e `sitemap.xml`. Ao atualizar CSS, JavaScript ou JSONs, revise os parâmetros de versão (`?v=...`) nas referências correspondentes para evitar misturar arquivos novos com versões antigas em cache.
 
 Os arquivos de GitHub Actions estão arquivados em `.github/_BKP_workflows/`, portanto não ativam deploy automático nessa configuração. Antes de reativá-los, é necessário revisar os workflows, corrigir as referências antigas a `index.htm` e configurar o destino e as credenciais de publicação. O arquivo `DEPLOY.md` contém instruções anteriores que também precisam dessa revisão.
 
@@ -181,11 +237,6 @@ Os arquivos de GitHub Actions estão arquivados em `.github/_BKP_workflows/`, po
 
 Projeto pessoal de Adriano Caversan. Este repositório não inclui uma licença de software livre.
 
----
-
-Última atualização deste README: outubro de 2026.
-
-
 ## SEO e conteúdo estático
 
 O `index.html` inclui o conteúdo em português antes da execução do JavaScript, além de URL canônica, metadados de compartilhamento e dados estruturados de empresa, pessoa e site. O inglês continua disponível pelo seletor; ainda não possui URL independente para indexação.
@@ -199,3 +250,7 @@ node scripts/build-seo.cjs
 Esse comando utiliza o mesmo renderizador do navegador, preservando a ordem das listas. Não edite manualmente os blocos delimitados por `<!-- seo:... -->`. Alterações de identidade nos metadados e no JSON-LD devem ser atualizadas também no cabeçalho do HTML.
 
 Publique o HTML atualizado, os recursos alterados, `robots.txt` e `sitemap.xml` na raiz. O sitemap inclui somente a página principal do portfólio. Após a publicação, envie `https://caversan.com.br/sitemap.xml` pelo Google Search Console e inspecione a URL principal. A indexação depende também do acesso permitido pela hospedagem; respostas HTTP 403 precisam ser investigadas no servidor.
+
+---
+
+Última atualização deste README: outubro de 2026.
