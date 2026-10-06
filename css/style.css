@@ -94,7 +94,6 @@ main > section:not(.hero) {
     --section-edge: #304657;
     background: var(--section-bg);
     border: 1px solid var(--section-edge);
-    border-top: 3px solid var(--section-edge);
     border-radius: 14px;
     padding: 56px 36px;
     margin: 28px 0;
